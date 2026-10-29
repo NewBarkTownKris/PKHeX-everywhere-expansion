@@ -423,3 +423,9 @@ plugins/
 *.expmon
 *.pk[0-9]
 *.ek[0-9]
+
+# Assistant-specific local instructions
+.claude/
+.gemini/
+CLAUDE.md
+GEMINI.md
