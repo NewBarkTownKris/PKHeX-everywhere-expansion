@@ -10,6 +10,16 @@ export const romHacksNewsDate = '2026-10-20'
 
 export const news: NewsEntry[] = [
   {
+    date: '2026-10-28',
+    headline: 'PKHeX Expansion Web preview: versioned expansion save profiles.',
+    items: [
+      'Added separate profiles for stock pokeemerald-expansion 1.17.1, Rocket Hoenn, Heart & Soul 2.0.6 and Soulgold 1.2.1.',
+      'Rocket Hoenn has completed-save and game verification. The other profiles have source-derived layouts and synthetic checks; real-save testing is still needed.',
+      'Use the profile that matches your game build. Other expansion versions or save-changing configurations need their own profile.',
+      'Export a collection archive with portable Pokémon files, native records and original metadata.',
+    ],
+  },
+  {
     date: romHacksNewsDate,
     headline:
       'PKHeX.Web now opens Heart & Soul and Emerald Legacy saves, along with Unbound, Radical Red and Emerald Imperium.',

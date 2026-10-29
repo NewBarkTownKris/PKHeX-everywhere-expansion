@@ -1,11 +1,15 @@
 import { useRef, useState, type ChangeEvent } from 'react'
-import { Modal, Select } from 'antd'
+import { App, Button, Modal, Select, Typography } from 'antd'
 import { useQuery } from '@pkhex-everywhere/react'
+import { registerNativeProfile } from '../../nativeProfiles'
 import { SaveFileDrop } from './SaveFileDrop'
 import { useLoadSave } from './useLoadSave'
 
 export function LoadRomHackModal({ onClose }: { onClose: () => void }) {
   const formats = useQuery('game.formats')
+  const [custom, setCustom] = useState<{id:string;name:string}[]>([])
+  const { notification } = App.useApp()
+  const profileInput = useRef<HTMLInputElement>(null)
   const { openFile } = useLoadSave()
   const [formatId, setFormatId] = useState<string>()
   const fileInput = useRef<HTMLInputElement>(null)
@@ -34,11 +38,27 @@ export function LoadRomHackModal({ onClose }: { onClose: () => void }) {
         showSearch={{ optionFilterProp: 'label' }}
         placeholder="Search ROM hacks"
         aria-label="ROM hack"
-        options={formats.map((format) => ({ value: format.id, label: format.name }))}
+        options={[...formats, ...custom].map((format) => ({ value: format.id, label: format.name }))}
         value={formatId}
         onChange={setFormatId}
         style={{ width: '100%' }}
       />
+      <Typography.Paragraph style={{ marginTop: 16 }}>
+        Expansion saves need a profile for the matching game and version. A profile supplies the save layout and the game's location names.
+      </Typography.Paragraph>
+      <Button onClick={() => profileInput.current?.click()}>Import source profile</Button>
+      <input ref={profileInput} type="file" accept=".json" hidden onChange={async event => {
+        const file = event.target.files?.[0]
+        event.target.value = ''
+        if (!file) return
+        try {
+          if (file.size > 8_000_000) throw new Error('Profile exceeds 8 MB')
+          const json = JSON.parse(await file.text()) as { name:string }
+          const id = await registerNativeProfile(file)
+          setCustom(current => [...current, { id, name:json.name }])
+          setFormatId(id)
+        } catch (error) { notification.error({ title:'Could not load profile', description:String(error) }) }
+      }} />
       <input ref={fileInput} type="file" hidden onChange={loadFile} />
     </Modal>
   )

@@ -725,3 +725,7 @@ virtual PKHeX.Facade.Pokemons.ExperienceRange.EqualityContract.get -> System.Typ
 virtual PKHeX.Facade.Pokemons.ExperienceRange.Equals(PKHeX.Facade.Pokemons.ExperienceRange? other) -> bool
 virtual PKHeX.Facade.Pokemons.ExperienceRange.PrintMembers(System.Text.StringBuilder! builder) -> bool
 PKHeX.Facade.Pokemons.ExperienceRange.ExperienceRange(PKHeX.Facade.Pokemons.ExperienceRange! original) -> void
+PKHeX.Facade.Abstractions.IPortablePokemon
+PKHeX.Facade.Abstractions.IPortablePokemon.ToPortable() -> PKHeX.Core.PKM!
+PKHeX.Facade.Abstractions.IShinyState
+PKHeX.Facade.Abstractions.IShinyState.SetShinyState(bool shiny) -> void

@@ -413,3 +413,13 @@ plugins/
 # Agent Auto-Pilot runtime state & worktrees
 .autopilot/*
 *.tsbuildinfo
+
+# Local tool caches and private game data
+.local/
+*.sav
+*.gba
+*.elf
+*.map
+*.expmon
+*.pk[0-9]
+*.ek[0-9]

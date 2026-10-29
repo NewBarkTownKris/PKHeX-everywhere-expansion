@@ -61,7 +61,7 @@ export function MainLayout() {
         collapsedWidth={64}
         style={{ position: 'sticky', top: 0, height: '100vh', overflow: 'auto' }}
       >
-        <div style={{ color: 'white', marginTop: 10, padding: 16, textAlign: 'center' }}>PKHeX.Web</div>
+        <div style={{ color: 'white', marginTop: 10, padding: 16, textAlign: 'center' }}>PKHeX Expansion Web</div>
         <Suspense fallback={null}>
           <SideMenu />
         </Suspense>

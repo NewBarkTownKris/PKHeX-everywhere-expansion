@@ -1,8 +1,9 @@
-import { Suspense, useRef, useState, type ChangeEvent, type CSSProperties } from 'react'
+import { Suspense, useEffect, useRef, useState, type ChangeEvent, type CSSProperties } from 'react'
 import { EllipsisOutlined, ExportOutlined, FolderOpenOutlined } from '@ant-design/icons'
-import { Badge, Button, Descriptions, Dropdown, Flex, Space, type ButtonProps } from 'antd'
+import { App, Badge, Button, Descriptions, Dropdown, Flex, Space, type ButtonProps } from 'antd'
 import type { SaveSummary } from '@pkhex-everywhere/engine'
 import { useEngine, useLoadedGame, useQuery } from '@pkhex-everywhere/react'
+import { exportNativeCollection, hasNativeSave } from '../../nativeProfiles'
 import { gameName } from '../../capabilities'
 import { AdSlot } from '../../components/AdSlot'
 import { downloadFile, useNavigate } from '../../host'
@@ -53,6 +54,10 @@ export default function LoadPage() {
 function LoadedGame({ game, onOpen }: { game: SaveSummary; onOpen: () => void }) {
   const engine = useEngine()
   const [exported, setExported] = useState(false)
+  const [native, setNative] = useState(false)
+  const [exporting, setExporting] = useState(false)
+  const { notification } = App.useApp()
+  useEffect(() => { void hasNativeSave().then(setNative) }, [game.format?.id])
 
   const exportSave = async () => {
     const { bytes, fileName } = await engine.game.export()
@@ -76,6 +81,16 @@ function LoadedGame({ game, onOpen }: { game: SaveSummary; onOpen: () => void })
         <Button type="primary" icon={<ExportOutlined aria-hidden />} onClick={exportSave}>
           Export
         </Button>
+        {native && <Button loading={exporting} onClick={async () => {
+          setExporting(true)
+          try {
+            downloadFile(await exportNativeCollection(), 'Pokemon Collection.zip')
+            notification.success({ title:'Collection archive ready', description:'Includes portable Pokémon files, native records, and encounter details.' })
+          } catch (error) { notification.error({ title:'Could not export collection', description:String(error) }) }
+          finally { setExporting(false) }
+        }}>
+          Export Pokémon collection
+        </Button>}
         {exported && <PkhemuCard generation={cardGeneration(game)} onClose={() => setExported(false)} />}
         <OpenButton label="Open new..." onOpen={onOpen} />
       </Flex>

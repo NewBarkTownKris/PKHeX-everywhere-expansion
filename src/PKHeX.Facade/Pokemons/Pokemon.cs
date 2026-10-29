@@ -226,6 +226,13 @@ public partial class Pokemon(PKM pokemon, Game game)
 
     public File ToFile(bool encrypted = false)
     {
+        if (Pkm is IPortablePokemon portable)
+        {
+            var exported = portable.ToPortable();
+            var stored = new byte[exported.SIZE_STORED];
+            exported.WriteDecryptedDataStored(stored);
+            return new File { Name = exported.FileName, Bytes = stored };
+        }
         var bytes = new byte[Pkm.SIZE_PARTY];
         if (encrypted)
         {

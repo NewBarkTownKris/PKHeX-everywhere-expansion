@@ -1,0 +1,14 @@
+[
+  {
+    "path": "PKHeX",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "02c9ec108fe3c96735f6c2397eaebc10e29a049f"
+  },
+  {
+    "path": "PKHeX-Plugins",
+    "mode": "160000",
+    "type": "commit",
+    "sha": "f5e128ffb9388adaf3e78e090a299f813cac1d37"
+  }
+]

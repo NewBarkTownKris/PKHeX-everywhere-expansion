@@ -1,4 +1,5 @@
 using PKHeX.Core;
+using PKHeX.Facade.Abstractions;
 
 namespace PKHeX.Facade.Extensions;
 
@@ -33,6 +34,11 @@ internal static class PkmEdits
 
     public static void SetShinyKeepingGender(this PKM pkm, bool shiny)
     {
+        if (pkm is IShinyState native)
+        {
+            native.SetShinyState(shiny);
+            return;
+        }
         if (pkm.Format <= 2 || !PidHoldsGender(pkm))
         {
             pkm.SetIsShiny(shiny);

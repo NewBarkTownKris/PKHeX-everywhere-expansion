@@ -1,9 +1,10 @@
-import { createEngine } from '@pkhex-everywhere/engine'
+import { createEngine, wasmHost } from '@pkhex-everywhere/engine'
 import { readEnabledFormats } from './enabledFormats'
 import { createPlugIns } from './plugins/plugIns'
 import { createPlugInStore } from './plugins/store'
 
-export const engine = createEngine()
+export const engineHost = wasmHost()
+export const engine = createEngine({ host: engineHost })
 
 export const plugIns = createPlugIns(engine, createPlugInStore())
 

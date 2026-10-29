@@ -399,7 +399,7 @@ public static class PokemonMapping
     public static ExportedPokemon ToExported(this Pokemon pokemon)
     {
         var file = pokemon.ToFile();
-        return new ExportedPokemon(file.Bytes, file.Name, pokemon.Pkm.Format);
+        return new ExportedPokemon(file.Bytes, file.Name, pokemon.Pkm is PKHeX.Facade.Abstractions.IPortablePokemon portable ? portable.ToPortable().Format : pokemon.Pkm.Format);
     }
 
     public static PokemonOverview ToOverview(this Pokemon pokemon) =>

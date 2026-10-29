@@ -1,52 +1,81 @@
-# PKHeX Everywhere
+# PKHeX Expansion Web
 
-This repository offers 2 different ways of accessing PKHex features in any operating system: a web-based version and a terminal-based version compiled to all major operating systems (macOS, Linux and Windows).
+A working fork of PKHeX Everywhere 0.31.0 for versioned expansion save profiles.
 
-## Supported games
-PKHeX.Web and the CLI open every save [PKHeX](https://github.com/kwsch/PKHeX) supports, from Red and Blue to Scarlet and Violet.
+Stock pokeemerald-expansion 1.17.1 (untouched release defaults) has a separate
+source-derived profile and synthetic save checks. Other expansion versions or
+save-changing configuration options require matching profiles; this is not
+universal compatibility with every expansion-based build. Native species balance
+for stock/HnS/Soulgold currently falls back to PKHeX data and is marked approximate.
 
-PKHeX.Web also opens saves from these ROM hacks:
-- Pokémon Unbound
-- Pokémon Radical Red
-- Emerald Imperium
-- Pokémon Emerald Legacy
-- Pokémon Heart & Soul
+Rocket Hoenn has completed-save and actual-game verification. Heart & Soul 2.0.6
+and Soulgold 1.2.1 have source-derived adapters and synthetic tests; real-save
+validation is still required. This is a prototype, not a universal hack detector.
 
-ROM hack support is experimental. Keep a backup of your save.
+Hosted preview: https://newbarktownkris.github.io
 
-## PKHeX.Web
-The PKHeX Web version ([pkhex-web.github.io](https://pkhex-web.github.io)) provides a user-friendly interface accessible via any web browser.
+## Try the built site
 
-![](./docs/pkhex-web-demo.gif)
+```bash
+python3 tools/serve.py
+```
 
-This version allows you to manage your party, pokemon box, items, and custom actions through plug-ins, like auto-legality mode, helpers for nuzlocking or live running your save file in a browser-based emulator fully integrated with the app. To learn more check the [wiki](https://github.com/arleypadua/PKHeX.Everywhere/wiki).
+Open http://127.0.0.1:8765. Open your save and select its matching profile. The
+Save page downloads edited saves and collection archives. Imported profiles are
+session-local. Keep the original save separately.
 
-The app is a React app ([src/PKHeX.Web.React](./src/PKHeX.Web.React)) over a .NET WebAssembly engine ([src/PKHeX.Everywhere.Engine.Host](./src/PKHeX.Everywhere.Engine.Host)). Run `npm run dev` in `src/PKHeX.Web.React` to start it locally, and `npm run build` to write the site to `dist`.
+## Build
 
-## npm packages
-The engine that powers PKHeX.Web is published to npm, so you can build your own browser tools on PKHeX. Read the [documentation](https://docs.pkhex-everywhere.fyi):
+Install .NET 10, Node 22+, npm and Python 3.12+, then run:
 
-- [`@pkhex-everywhere/engine`](./src/PKHeX.Everywhere.Engine.Sdk/packages/engine/README.md): load, read, edit and export saves in the browser.
-- [`@pkhex-everywhere/react`](./src/PKHeX.Everywhere.Engine.Sdk/packages/react/README.md): React hooks for the engine.
-- [`@pkhex-everywhere/plugin-sdk`](./src/PKHeX.Everywhere.Engine.Sdk/packages/plugin-sdk/README.md): types for plug-in page modules.
+```bash
+./tools/build-web.sh
+```
 
-## PKHeX.CLI
-The PKHeX Command Line Interface (CLI) version allows users to interact with PKHeX via the terminal. It provides a streamlined way to use PKHeX features directly from the command line.
+The static site is in `src/PKHeX.Web.React/dist/`. It requires no backend. Serve
+`.wasm` files as `application/wasm` and use an index.html fallback for app routes.
+The first hosting target is an account Pages site or a custom domain at `/`.
 
-![](./docs/pkhex-cli-demo.gif)
+## Generate a profile
 
-### Installation Methods:
-1. **Curl Script**:
-   ```sh
-   curl -sL https://raw.githubusercontent.com/arleypadua/PKHeX.Everywhere/main/install.sh | sudo bash
-   ```
-2. **Homebrew**:
-   ```sh
-   brew tap arleypadua/homebrew-pkhex-cli
-   brew install pkhex-cli
-   ```
-3. For more information, refer to the documentation [here](./src/PKHeX.CLI).
+With the game's source and ARM toolchain installed:
 
-## License
+```bash
+python3 tools/generate_profiles.py --repo /path/to/hack --id my-hack-v1 --name "My Hack v1"
+```
 
-GPL-3.0-or-later, matching [PKHeX.Core](https://github.com/kwsch/PKHeX), which this project links against. Code contributed before this change was released under MIT; see git history.
+For HnS builds also pass `--game-define POKEMON_HNS`. Import the resulting JSON
+from `profiles/` through Load ROM Hack → Import source profile. A compatible
+layout family is required; compact Soulgold BX21 has its own codec. Regeneration
+requires the same build configuration as the ROM. The built-in Rocket profile
+also reads numeric personal data from its matching local ROM/ELF when generated.
+
+## Checks
+
+```bash
+./tools/dotnet.sh build src/PKHeX.Everywhere.ProfileChecks -c Release -m:1 -p:DisableTransitiveFrameworkReferenceDownloads=true
+./tools/dotnet.sh run --no-build --project src/PKHeX.Everywhere.ProfileChecks -c Release -- --synthetic-only
+npm --prefix src/PKHeX.Web.React test
+```
+
+Private completed-save checks take a separate save path and use the earlier
+native extraction outside this repository. No user save or ROM is included in
+the static build. `.local/` contains ignored tool caches and private QA output.
+
+## Origin locations
+
+Native place names are shown from the game profile. PK6 can store HG/SS as the
+origin, but its normal met-location namespace does not retain HG/SS city IDs.
+The collection archive preserves the exact native IDs/names and raw records.
+Portable files may need an unknown location or a shiny PID adjustment, recorded
+in the metadata. PK4 can name Cherrygrove for an explicit HG/SS-style conversion
+when its species/moves fit Gen 4; the default does not rewrite origin history.
+
+## Credits and license
+
+Based on [PKHeX Everywhere](https://github.com/arleypadua/PKHeX.Everywhere),
+[PKHeX](https://github.com/kwsch/PKHeX), and the supplied game sources.
+[PKForge](https://github.com/sofianeelhor/PKForge) was an adapter/conversion design
+reference. Preserve upstream credits and GPL-3.0-or-later licensing. Dependency
+commits are pinned in `UPSTREAM-SUBMODULES.json`; originals are in `external/`.
+See `UPSTREAM-README.md` and `LICENSE`.

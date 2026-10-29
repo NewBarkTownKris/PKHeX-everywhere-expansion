@@ -9,6 +9,7 @@ using PKHeX.Everywhere.RomHacks.Expansion.HeartAndSoul;
 using PKHeX.Everywhere.RomHacks.Expansion.Imperium;
 using PKHeX.Everywhere.RomHacks.Legacy;
 using PKHeX.Facade;
+using PKHeX.Everywhere.RomHacks.Expansion;
 
 [assembly: SupportedOSPlatform("browser")]
 
@@ -19,7 +20,7 @@ SaveFormats.Register(new UnboundFormat());
 SaveFormats.Register(new RadicalRedFormat());
 SaveFormats.Register(new ImperiumFormat());
 SaveFormats.Register(new EmeraldLegacyFormat());
-SaveFormats.Register(new HeartAndSoulFormat());
+foreach(var profile in SourceProfile.All) SaveFormats.Register(new NativeFormat(profile));
 
 _ = new PlugInHost(Session.Current);
 

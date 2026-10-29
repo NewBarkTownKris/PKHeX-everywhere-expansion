@@ -15,4 +15,7 @@
         <ProjectReference Include="..\PKHeX.Facade\PKHeX.Facade.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <EmbeddedResource Include="../../profiles/*.json" LogicalName="profiles.%(Filename)%(Extension)" />
+    </ItemGroup>
 </Project>
