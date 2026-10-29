@@ -77,6 +77,9 @@ Experience is adjusted to the retained level, PP is estimated for box records,
 and met levels are approximations. It selects a low-level Scarlet/Violet wild
 location for the same species and form, preferring Paldea; when none exists the
 location is left unknown. These locations are suggestions, not actual encounters.
+The Quetzal export screen offers individual PK9 files and a ZIP containing all
+supported Pokémon, a metadata report, and notes. Unsupported records are listed
+in the metadata with an error rather than silently omitted.
 Radiant Pokémon export as normal shinies; their custom palettes cannot be retained
 in PK9. Metadata identifies each converted Radiant Pokémon. Quetzal-only and unmapped balls become Great Balls; metadata records the original
 ball ID. Some unusual held items can confuse automatic

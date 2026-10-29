@@ -28,6 +28,18 @@ export function QuetzalModal({ onClose }: { onClose: () => void }) {
     finally { setBusy(false) }
   }
 
+  async function downloadAll() {
+    if (!records) return
+    setError(undefined)
+    try {
+      const exports = await engineHost.getAssemblyExports('PKHeX.Everywhere.Engine.Host.dll') as unknown as {
+        PKHeX: { Everywhere: { Engine: { Host: { QuetzalExports: { Archive: (json: string) => string } } } } }
+      }
+      const encoded = exports.PKHeX.Everywhere.Engine.Host.QuetzalExports.Archive(JSON.stringify(records))
+      downloadFile(Uint8Array.from(atob(encoded), c => c.charCodeAt(0)), 'Quetzal Pokemon - PK9 exports.zip')
+    } catch (e) { setError(e instanceof Error ? e.message : String(e)) }
+  }
+
   async function open(event: ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0]
     event.target.value = ''
@@ -54,6 +66,7 @@ export function QuetzalModal({ onClose }: { onClose: () => void }) {
       {error && <Alert type="error" title="Could not read this save" description={error} />}
       {records && <>
         <Typography.Text>{records.filter(r => r.file).length} of {records.length} Pokémon can be exported.</Typography.Text>
+        <Button onClick={() => void downloadAll()} disabled={!records.some(r => r.file && r.bytes)}>Download all PK9 files (ZIP)</Button>
         <Button onClick={() => downloadFile(new TextEncoder().encode(JSON.stringify(records.map(({ bytes: _bytes, ...metadata }) => metadata), null, 2)), 'Quetzal export metadata.json')}>Download metadata</Button>
         <List size="small" style={{ maxHeight: 420, overflowY: 'auto' }} dataSource={records} renderItem={record => <List.Item actions={record.file && record.bytes ? [<Button key="download" onClick={() => downloadFile(Uint8Array.from(atob(record.bytes!), c => c.charCodeAt(0)), record.file!)}>Download PK9</Button>] : []}>
           <List.Item.Meta title={`${record.position} — ${record.nickname || 'Unsupported Pokémon'}`} description={record.error ?? [record.location ? `Suggested location: ${record.location}` : 'No matching Scarlet/Violet wild location', record.trainerApproximate ? 'Trainer and PID approximated' : '', record.ballApproximate ? 'Great Ball replaces original custom ball' : '', record.radiantConvertedToShiny ? 'Radiant converted to shiny' : '', record.formatHintRequired ? 'Choose PK9 format when importing' : ''].filter(Boolean).join(' · ')} />

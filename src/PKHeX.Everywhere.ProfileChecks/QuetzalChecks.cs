@@ -2,6 +2,7 @@ using PKHeX.Core;
 using PKHeX.Everywhere.RomHacks.Quetzal;
 using System.Buffers.Binary;
 using System.Text.Json;
+using System.IO.Compression;
 
 static class QuetzalChecks
 {
@@ -16,6 +17,16 @@ static class QuetzalChecks
         if(entry.GetProperty("error").ValueKind!=JsonValueKind.Null)throw new Exception("Quetzal conversion failed: "+entry.GetProperty("error"));
         var pk=new PK9(Convert.FromBase64String(entry.GetProperty("bytes").GetString()!));
         if(!pk.ChecksumValid||pk.Species!=4||pk.Move1!=33||pk.Version!=GameVersion.SL||pk.OriginalTrainerName!="TESTER")throw new Exception("Quetzal PK9 conversion mismatch.");
+        var unsupported = new { position="Box 01 Slot 01", file=(string?)null, bytes=(string?)null, error="Unsupported species" };
+        string archiveInput="["+entry.GetRawText()+","+JsonSerializer.Serialize(unsupported)+"]";
+        using(var zip=new ZipArchive(new MemoryStream(QuetzalArchive.Create(archiveInput)),ZipArchiveMode.Read)){
+            string filename=entry.GetProperty("file").GetString()!;
+            if(zip.Entries.Count!=3||zip.GetEntry(filename)==null||zip.GetEntry("READ ME.txt")==null)throw new Exception("Quetzal ZIP entries mismatch.");
+            using var pkFile=new MemoryStream();using(var z=zip.GetEntry(filename)!.Open())z.CopyTo(pkFile);
+            if(!pkFile.ToArray().SequenceEqual(Convert.FromBase64String(entry.GetProperty("bytes").GetString()!)))throw new Exception("Quetzal ZIP PK9 mismatch.");
+            using var metadata=JsonDocument.Parse(zip.GetEntry("Metadata.json")!.Open());
+            if(metadata.RootElement.GetArrayLength()!=2||metadata.RootElement[0].TryGetProperty("bytes",out _)||metadata.RootElement[1].GetProperty("error").GetString()!="Unsupported species")throw new Exception("Quetzal ZIP metadata mismatch.");
+        }
         foreach(var (native,expected,approximate) in new[]{(1,Ball.Poke,false),(2,Ball.Great,false),(25,Ball.Great,true),(63,Ball.Great,true),(0,Ball.Strange,false)}){
             raw[0x32]=(byte)native;
             var checkFixture=new {trainerNameRaw=Convert.ToHexString(raw.AsSpan(20,7)),trainerGender=0,trainerId=0x11223344,party=new[]{new{slot=1,nativeSpecies=4,level=5,moves=new[]{33,0,0,0},raw=Convert.ToHexString(raw)}},pc=Array.Empty<object>()};
@@ -45,6 +56,8 @@ static class QuetzalChecks
         string original=File.ReadAllText(file);using var source=JsonDocument.Parse(original);
         using var result=JsonDocument.Parse(QuetzalExporter.Export(original));
         if(result.RootElement.GetArrayLength()!=54)throw new Exception("Expected 54 Quetzal records.");
+        using(var zip=new ZipArchive(new MemoryStream(QuetzalArchive.Create(result.RootElement.GetRawText())),ZipArchiveMode.Read))
+            if(zip.Entries.Count(e=>e.FullName.EndsWith(".pk9",StringComparison.Ordinal))!=54||zip.GetEntry("Metadata.json")==null)throw new Exception("Quetzal sample ZIP is incomplete.");
         int boxed=0,hints=0,approximatedBalls=0,radiants=0;
         string output="../quetzal-work/final-output";
         if(writeExports)Directory.CreateDirectory(output);

@@ -9,4 +9,7 @@ public static partial class QuetzalExports
 {
     [JSExport]
     public static string Export(string inspection) => QuetzalExporter.Export(inspection);
+
+    [JSExport]
+    public static string Archive(string results) => Convert.ToBase64String(QuetzalArchive.Create(results));
 }
