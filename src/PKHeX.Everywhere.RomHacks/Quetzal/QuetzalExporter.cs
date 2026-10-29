@@ -21,7 +21,7 @@ var ballNames = Enum.GetValues<Ball>().Distinct().ToDictionary(x=>Key(x.ToString
 string TrainerName() => StringConverter3.GetString(Convert.FromHexString(root.GetProperty("trainerNameRaw").GetString()!),false);
 int N(JsonElement e,string key) => e.GetProperty(key).GetInt32();
 int MapName(JsonElement table,int id,Dictionary<string,int> map,string kind){if(id==0)return 0;if(id<0||id>=table.GetArrayLength())throw new InvalidOperationException($"Unknown {kind} #{id}");string name=table[id].GetString()??"";if(!map.TryGetValue(Key(name),out int value))throw new InvalidOperationException($"Unsupported {kind}: {name} (#{id})");return value;}
-byte MapBall(int id){string[] names={"Strange","Poke","Great","Ultra","Master","Premier","Heal","Net","Nest","Dive","Dusk","Timer","Quick","Repeat","Luxury","Level","Lure","Moon","Friend","Love","Fast","Heavy","Dream","Safari","Sport","","Beast","Cherish"};return id>=0&&id<names.Length&&ballNames.TryGetValue(Key(names[id]),out var ball)?ball:(byte)0;}
+(byte Value, bool Approximate) MapBall(int id){string[] names={"Strange","Poke","Great","Ultra","Master","Premier","Heal","Net","Nest","Dive","Dusk","Timer","Quick","Repeat","Luxury","Level","Lure","Moon","Friend","Love","Fast","Heavy","Dream","Safari","Sport","","Beast","Cherish"};return id>=0&&id<names.Length&&ballNames.TryGetValue(Key(names[id]),out var ball)?(ball,false):((byte)Ball.Great,true);}
 byte Form(int native,ushort national){
  if(native<=898)return 0;
  var row=species[native];var stats=row.GetProperty("stats").EnumerateArray().Select(x=>x.GetInt32()).ToArray();var types=row.GetProperty("types").EnumerateArray().Select(x=>x.GetInt32()>=10?x.GetInt32()-1:x.GetInt32()).ToArray();
@@ -54,12 +54,13 @@ foreach(var (record,party) in root.GetProperty("party").EnumerateArray().Select(
   int ability=MapName(abilities,abilityNative,abilityNames,"ability");
   int item=party?BinaryPrimitives.ReadUInt16LittleEndian(raw.AsSpan(0x2a)):N(record,"nativeItem");
   int ball=party?raw[0x32]:N(record,"nativeBall");
+  var mappedBall=MapBall(ball);
   uint nativePid=party?BinaryPrimitives.ReadUInt32LittleEndian(raw):BinaryPrimitives.ReadUInt32LittleEndian(SHA256.HashData(raw));
   uint trainer=party?BinaryPrimitives.ReadUInt32LittleEndian(raw.AsSpan(4)):root.GetProperty("trainerId").GetUInt32();
   int nature=party?(int)((nativePid&255)%25):N(record,"nature");bool shiny=party?(raw[0x13]&8)!=0:record.GetProperty("shiny").GetBoolean();
   string nickname=StringConverter3.GetString(raw.AsSpan(party?8:21,10),false);string ot=party?StringConverter3.GetString(raw.AsSpan(20,7),false):TrainerName();
   bool otGenderKnown=trainer==root.GetProperty("trainerId").GetUInt32();
-  var mon=new PK9{Species=dex,Form=form,Version=GameVersion.SL,Language=2,Nickname=nickname,OriginalTrainerName=ot,ID32=trainer,OriginalTrainerGender=otGenderKnown?(byte)N(root,"trainerGender"):(byte)0,PID=nativePid,EncryptionConstant=nativePid,Nature=(Nature)nature,StatAlignment=(Nature)nature,Ability=ability,AbilityNumber=1<<slot,HeldItem=MapName(items,item,itemNames,"item"),Ball=MapBall(ball)};
+  var mon=new PK9{Species=dex,Form=form,Version=GameVersion.SL,Language=2,Nickname=nickname,OriginalTrainerName=ot,ID32=trainer,OriginalTrainerGender=otGenderKnown?(byte)N(root,"trainerGender"):(byte)0,PID=nativePid,EncryptionConstant=nativePid,Nature=(Nature)nature,StatAlignment=(Nature)nature,Ability=ability,AbilityNumber=1<<slot,HeldItem=MapName(items,item,itemNames,"item"),Ball=mappedBall.Value};
   mon.OriginalTrainerFriendship=party?raw[0x31]:mon.PersonalInfo.BaseFriendship;
   mon.IsNicknamed=!nickname.Equals(SpeciesName.GetSpeciesNameGeneration(dex,2,9),StringComparison.OrdinalIgnoreCase);
   uint low=mon.PID&65535;uint xor=(mon.PID>>16)^low^mon.TID16^mon.SID16;
@@ -72,18 +73,18 @@ foreach(var (record,party) in root.GetProperty("party").EnumerateArray().Select(
   int level=party?N(record,"level"):LevelFromExp(N(record,"experienceApproximate"));mon.CurrentLevel=(byte)level;mon.ObedienceLevel=(byte)level;mon.MetLevel=(byte)level;mon.MetLocation=Location(mon);mon.Gender=Gender(mon,sp,party,nativePid,record);
   mon.ResetPartyStats();mon.RefreshChecksum();byte[] output=new byte[mon.SIZE_STORED];mon.WriteDecryptedDataStored(output);string filename=position+" - "+string.Concat(nickname.Where(char.IsLetterOrDigit))+".pk9";
   bool needsFormatHint=EntityFormat.GetFromBytes(output.ToArray(),EntityContext.Gen9) is not PK9;
-  report.Add(new Result(position,nickname,filename,Convert.ToBase64String(output),null,native,dex,form,mon.MetLocation==0?null:GameInfo.GetLocationName(false,mon.MetLocation,mon.Format,mon.Generation,mon.Version),ball!=0&&mon.Ball==0,!party,!otGenderKnown,!party,mon.PID!=nativePid,!party,needsFormatHint,record));
- }catch(Exception e){report.Add(new Result(position,"",null,null,e.Message,0,0,0,null,false,!party,false,!party,false,!party,false,record));}
+  report.Add(new Result(position,nickname,filename,Convert.ToBase64String(output),null,native,dex,form,mon.MetLocation==0?null:GameInfo.GetLocationName(false,mon.MetLocation,mon.Format,mon.Generation,mon.Version),ball,mappedBall.Approximate,!party,!otGenderKnown,!party,mon.PID!=nativePid,!party,needsFormatHint,record));
+ }catch(Exception e){report.Add(new Result(position,"",null,null,e.Message,0,0,0,null,null,false,!party,false,!party,false,!party,false,record));}
 }
 using var outputStream = new MemoryStream();
 using(var writer=new Utf8JsonWriter(outputStream)){
  writer.WriteStartArray();foreach(var r in report){writer.WriteStartObject();writer.WriteString("position",r.Position);writer.WriteString("nickname",r.Nickname);
- writer.WriteString("file",r.File);writer.WriteString("bytes",r.Bytes);writer.WriteString("error",r.Error);writer.WriteNumber("sourceSpecies",r.SourceSpecies);writer.WriteNumber("national",r.National);writer.WriteNumber("form",r.Form);writer.WriteString("location",r.Location);writer.WriteBoolean("locationApproximate",true);writer.WriteBoolean("ballApproximate",r.BallApproximate);writer.WriteBoolean("trainerApproximate",r.TrainerApproximate);writer.WriteBoolean("trainerGenderApproximate",r.TrainerGenderApproximate);writer.WriteBoolean("pidApproximate",r.PidApproximate);writer.WriteBoolean("pidAdjusted",r.PidAdjusted);writer.WriteBoolean("experienceApproximate",true);writer.WriteBoolean("friendshipApproximate",r.TrainerApproximate);writer.WriteBoolean("metLevelApproximate",true);writer.WriteBoolean("ppApproximate",r.PpApproximate);writer.WriteBoolean("formatHintRequired",r.FormatHintRequired);writer.WritePropertyName("source");r.Source.WriteTo(writer);writer.WriteEndObject();}writer.WriteEndArray();}
+ writer.WriteString("file",r.File);writer.WriteString("bytes",r.Bytes);writer.WriteString("error",r.Error);writer.WriteNumber("sourceSpecies",r.SourceSpecies);writer.WriteNumber("national",r.National);writer.WriteNumber("form",r.Form);writer.WriteString("location",r.Location);writer.WriteBoolean("locationApproximate",true);if(r.NativeBall is int nativeBall)writer.WriteNumber("nativeBallId",nativeBall);else writer.WriteNull("nativeBallId");writer.WriteBoolean("ballApproximate",r.BallApproximate);writer.WriteBoolean("trainerApproximate",r.TrainerApproximate);writer.WriteBoolean("trainerGenderApproximate",r.TrainerGenderApproximate);writer.WriteBoolean("pidApproximate",r.PidApproximate);writer.WriteBoolean("pidAdjusted",r.PidAdjusted);writer.WriteBoolean("experienceApproximate",true);writer.WriteBoolean("friendshipApproximate",r.TrainerApproximate);writer.WriteBoolean("metLevelApproximate",true);writer.WriteBoolean("ppApproximate",r.PpApproximate);writer.WriteBoolean("formatHintRequired",r.FormatHintRequired);writer.WritePropertyName("source");r.Source.WriteTo(writer);writer.WriteEndObject();}writer.WriteEndArray();}
 return System.Text.Encoding.UTF8.GetString(outputStream.ToArray());
 }
 
 static int LevelFromExp(int exp){int result=1;for(int n=2;n<=100;n++){int value=6*n*n*n/5-15*n*n+100*n-140;if(value>exp)break;result=n;}return result;}
 static byte Gender(PK9 mon,JsonElement info,bool party,uint pid,JsonElement record){int ratio=info.GetProperty("gender").GetInt32();if(ratio==255)return 2;if(ratio==254)return 1;if(ratio==0)return 0;return party?(byte)((pid&255)<ratio?1:0):(byte)record.GetProperty("femaleBit").GetInt32();}
 
-private sealed record Result(string Position,string Nickname,string? File,string? Bytes,string? Error,int SourceSpecies,int National,int Form,string? Location,bool BallApproximate,bool TrainerApproximate,bool TrainerGenderApproximate,bool PidApproximate,bool PidAdjusted,bool PpApproximate,bool FormatHintRequired,JsonElement Source);
+private sealed record Result(string Position,string Nickname,string? File,string? Bytes,string? Error,int SourceSpecies,int National,int Form,string? Location,int? NativeBall,bool BallApproximate,bool TrainerApproximate,bool TrainerGenderApproximate,bool PidApproximate,bool PidAdjusted,bool PpApproximate,bool FormatHintRequired,JsonElement Source);
 }

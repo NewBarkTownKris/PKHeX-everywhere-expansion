@@ -16,6 +16,13 @@ static class QuetzalChecks
         if(entry.GetProperty("error").ValueKind!=JsonValueKind.Null)throw new Exception("Quetzal conversion failed: "+entry.GetProperty("error"));
         var pk=new PK9(Convert.FromBase64String(entry.GetProperty("bytes").GetString()!));
         if(!pk.ChecksumValid||pk.Species!=4||pk.Move1!=33||pk.Version!=GameVersion.SL||pk.OriginalTrainerName!="TESTER")throw new Exception("Quetzal PK9 conversion mismatch.");
+        foreach(var (native,expected,approximate) in new[]{(1,Ball.Poke,false),(2,Ball.Great,false),(25,Ball.Great,true),(63,Ball.Great,true),(0,Ball.Strange,false)}){
+            raw[0x32]=(byte)native;
+            var checkFixture=new {trainerNameRaw=Convert.ToHexString(raw.AsSpan(20,7)),trainerGender=0,trainerId=0x11223344,party=new[]{new{slot=1,nativeSpecies=4,level=5,moves=new[]{33,0,0,0},raw=Convert.ToHexString(raw)}},pc=Array.Empty<object>()};
+            using var check=JsonDocument.Parse(QuetzalExporter.Export(JsonSerializer.Serialize(checkFixture)));var converted=check.RootElement[0];
+            var mon=new PK9(Convert.FromBase64String(converted.GetProperty("bytes").GetString()!));
+            if(mon.Ball!=(byte)expected||converted.GetProperty("ballApproximate").GetBoolean()!=approximate||converted.GetProperty("nativeBallId").GetInt32()!=native)throw new Exception("Quetzal ball mapping mismatch for "+native);
+        }
         Console.WriteLine("PASS Quetzal synthetic party converts to PK9");
     }
 
@@ -24,7 +31,7 @@ static class QuetzalChecks
         string original=File.ReadAllText(file);using var source=JsonDocument.Parse(original);
         using var result=JsonDocument.Parse(QuetzalExporter.Export(original));
         if(result.RootElement.GetArrayLength()!=54)throw new Exception("Expected 54 Quetzal records.");
-        int boxed=0,hints=0;
+        int boxed=0,hints=0,approximatedBalls=0;
         string output="../quetzal-work/final-output";
         if(writeExports)Directory.CreateDirectory(output);
         foreach(var entry in result.RootElement.EnumerateArray()){
@@ -35,10 +42,11 @@ static class QuetzalChecks
             if(entry.GetProperty("trainerApproximate").GetBoolean()!=box)throw new Exception("Quetzal trainer approximation was not labelled.");
             if(box){boxed++;if(mon.ID32!=source.RootElement.GetProperty("trainerId").GetUInt32())throw new Exception("Box trainer approximation mismatch.");}
             if(entry.GetProperty("formatHintRequired").GetBoolean())hints++;
+            if(entry.GetProperty("ballApproximate").GetBoolean()){approximatedBalls++;if(mon.Ball!=(byte)Ball.Great)throw new Exception("Custom ball was not mapped to a Great Ball.");}
             if(writeExports)File.WriteAllBytes(Path.Combine(output,entry.GetProperty("file").GetString()!),Convert.FromBase64String(entry.GetProperty("bytes").GetString()!));
         }
-        if(boxed!=49||hints!=4)throw new Exception("Unexpected Quetzal box or format-warning count.");
-        Console.WriteLine("PASS 54 Quetzal PK9 records, 49 labelled trainer approximations and four format warnings");
+        if(boxed!=49||hints!=4||approximatedBalls!=9)throw new Exception("Unexpected Quetzal box, ball or format-warning count.");
+        Console.WriteLine("PASS 54 Quetzal PK9 records, nine Great Ball substitutions, 49 labelled trainer approximations and four format warnings");
         if(writeExports){using var stream=new MemoryStream();using(var writer=new Utf8JsonWriter(stream,new JsonWriterOptions{Indented=true})){
             writer.WriteStartArray();foreach(var entry in result.RootElement.EnumerateArray()){writer.WriteStartObject();foreach(var prop in entry.EnumerateObject()){if(prop.Name=="bytes")continue;prop.WriteTo(writer);}writer.WriteEndObject();}writer.WriteEndArray();}
             File.WriteAllBytes(Path.Combine(output,"metadata.json"),stream.ToArray());}
