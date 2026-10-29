@@ -1,0 +1,11 @@
+# Pokémon Genesis Fixed Beta 3 — experimental read-only recovery
+
+The supplied ROM has SHA-256 `8f75ee288d7499b70dc73848fef57799f7dc37e442f5e8a0b28d68f89578cc44` and mGBA CRC `C9B11249`. This local, revision-specific reader exports recognized real party/PC Pokémon from a selected FireRed-layout battery save or a CRC-identified mGBA version 7 state. A shared FireRed header cannot identify a particular hack: users must choose the correct revision for battery saves. VBA state support and save editing are not implemented for this profile.
+
+An Eevee fixture was **seeded from a different hack**, then displayed by this ROM's party screen, re-saved in mGBA and reopened. Battery and mGBA native party bytes, nickname, OT, ID and portable PK6 moves/checksum agreed. This is evidence for a single cross-game test record, not a Pokémon caught or obtained in this game. PC records and pointer bounds have synthetic tests only; real occupied boxes, independently obtained Pokémon and additional species, forms, mechanics and ball/shiny behavior remain unverified.
+
+The exact ROM's candidate species table at `2383584` yielded 383 official-name/original-Gen-3-ID matches. Its candidate move/item tables yielded 345 and 226 exact-name matches. These comparisons identify candidates, not identical in-game effects, forms or ability behavior. Unknown/custom species are skipped; eggs and unsupported move/item/ball combinations are not converted. PK6 uses the candidate tables, standard ability/PID-derived shiny assumptions, only the standard Poké Ball, and an unknown met location. Native bytes, OT, PID and original met information are retained in metadata. No retail legality is implied.
+
+Implementation: `Historic/VbaParty.cs`, `Historic/vba-genesis-beta-3*.json`, and [synthetic profile checks](../../src/PKHeX.Everywhere.ProfileChecks/VbaChecks.cs). Player party is at EWRAM `0x02024284`, party count at `0x02024029`, trainer and PC pointers at IWRAM `0x0300500C` and `0x03005010`. Browser upload and download have not been tested end-to-end. Private ROMs, saves, states and extracted records remain outside this repository.
+
+The move and item names use title case in this revision; the original uppercase-only anchor search missed them. The candidate tables were subsequently located at `0x247094` and `0x3DB028` and decoded case-insensitively.

@@ -1,6 +1,6 @@
 import { Suspense, useEffect, useRef, useState, type ChangeEvent, type CSSProperties } from 'react'
 import { EllipsisOutlined, ExportOutlined, FolderOpenOutlined } from '@ant-design/icons'
-import { App, Badge, Button, Descriptions, Dropdown, Flex, Space, Typography, type ButtonProps } from 'antd'
+import { App, Badge, Button, Descriptions, Dropdown, Flex, Modal, Space, Typography, type ButtonProps } from 'antd'
 import type { SaveSummary } from '@pkhex-everywhere/engine'
 import { useEngine, useLoadedGame, useQuery } from '@pkhex-everywhere/react'
 import { exportNativeCollection, hasNativeSave } from '../../nativeProfiles'
@@ -12,6 +12,8 @@ import { routes } from '../../routes'
 import { FormatPickerModal } from './FormatPickerModal'
 import { LoadRomHackModal } from './LoadRomHackModal'
 import { QuetzalModal } from './QuetzalModal'
+import { StateModal } from './StateModal'
+import { VbaPartyModal } from './VbaPartyModal'
 import { PkhemuCard } from './PkhemuCard'
 import { SaveFileDrop } from './SaveFileDrop'
 import { cardGeneration } from './pkhemuInvite'
@@ -98,7 +100,7 @@ function LoadedGame({ game, onOpen }: { game: SaveSummary; onOpen: () => void })
           The archive records the original details and includes modern alternatives for PK4 files.
         </Typography.Paragraph>}
         {exported && <PkhemuCard generation={cardGeneration(game)} onClose={() => setExported(false)} />}
-        <OpenButton label="Open new..." onOpen={onOpen} />
+        <OpenButton label="Open another save file" onOpen={onOpen} />
       </Flex>
     </>
   )
@@ -118,7 +120,7 @@ function NoGame({ onOpen, onDemo }: { onOpen: () => void; onDemo: () => void }) 
       <Button style={{ minWidth: 150 }} onClick={goHome}>
         Home
       </Button>
-      <OpenButton label="Open" type="primary" style={{ minWidth: 150 }} onOpen={onOpen} />
+      <OpenButton label="Open save file" type="primary" style={{ minWidth: 210 }} onOpen={onOpen} />
       <Space.Compact style={{ minWidth: 150 }}>
         <Button style={{ flexGrow: 1 }} onClick={() => engine.game.loadBlank(swordVersionId)}>
           Empty
@@ -151,9 +153,13 @@ interface OpenButtonProps {
 function OpenButton({ label, type, style, onOpen }: OpenButtonProps) {
   const [loadingRomHack, setLoadingRomHack] = useState(false)
   const [loadingQuetzal, setLoadingQuetzal] = useState(false)
+  const [choosingState, setChoosingState] = useState(false)
+  const [loadingState, setLoadingState] = useState(false)
+  const [loadingVba, setLoadingVba] = useState(false)
+  const [loadingClassicSave, setLoadingClassicSave] = useState(false)
 
   const buttons = (
-    <Space.Compact style={style}>
+    <Space.Compact style={{ width: '100%' }}>
       <Button type={type} icon={<FolderOpenOutlined aria-hidden />} style={{ flexGrow: 1 }} onClick={onOpen}>
         {label}
       </Button>
@@ -163,9 +169,9 @@ function OpenButton({ label, type, style, onOpen }: OpenButtonProps) {
           items: [
             { key: 'open', label: 'Open save file' },
             { key: 'romHack', label: 'Load ROM Hack' },
-            { key: 'quetzal', label: 'Export Quetzal Pokémon' },
+            { key: 'classic', label: 'Export Pokémon from a classic hack save' },
           ],
-          onClick: ({ key }) => key === 'romHack' ? setLoadingRomHack(true) : key === 'quetzal' ? setLoadingQuetzal(true) : onOpen(),
+          onClick: ({ key }) => key === 'romHack' ? setLoadingRomHack(true) : key === 'classic' ? setLoadingClassicSave(true) : onOpen(),
         }}
       >
         <Button type={type} icon={<EllipsisOutlined />} aria-label="More ways to open" />
@@ -175,28 +181,43 @@ function OpenButton({ label, type, style, onOpen }: OpenButtonProps) {
 
   return (
     <>
-      {showRomHacksBadge(new Date()) ? (
-        <Badge
-          count="New"
-          size="small"
-          color="yellow"
-          // antd sets the badge to width: fit-content, and Space.Compact items to z-index 2-4.
-          styles={{
-            root: { display: 'flex', flexDirection: 'column', width: 'auto' },
-            indicator: { zIndex: 5, color: 'rgba(0, 0, 0, 0.88)' },
-          }}
-        >
-          {buttons}
-        </Badge>
-      ) : (
-        buttons
-      )}
+      <Flex vertical gap={8} style={style}>
+        {showRomHacksBadge(new Date()) ? (
+          <Badge
+            count="New"
+            size="small"
+            color="yellow"
+            // antd sets the badge to width: fit-content, and Space.Compact items to z-index 2-4.
+            styles={{
+              root: { display: 'flex', flexDirection: 'column', width: 'auto' },
+              indicator: { zIndex: 5, color: 'rgba(0, 0, 0, 0.88)' },
+            }}
+          >
+            {buttons}
+          </Badge>
+        ) : (
+          buttons
+        )}
+        <Button onClick={() => setLoadingQuetzal(true)}>Export Quetzal Pokémon</Button>
+        <Button onClick={() => setChoosingState(true)}>Open save state</Button>
+      </Flex>
+      <Modal open={choosingState} title="Open a save state" onCancel={() => setChoosingState(false)} footer={<Button onClick={() => setChoosingState(false)}>Close</Button>}>
+        <Space direction="vertical" style={{ width: '100%' }}>
+          <Typography.Paragraph>Choose the emulator that created your save state. Supported games and exports differ by format.</Typography.Paragraph>
+          <Button block onClick={() => { setChoosingState(false); setLoadingState(true) }}>mGBA save state</Button>
+          <Button block onClick={() => { setChoosingState(false); setLoadingVba(true) }}>VisualBoyAdvance save state</Button>
+          <Typography.Text type="secondary">Save states are read-only. mGBA supports selected game builds; VBA recovery provides portable Pokémon where mappings are available for selected hacks.</Typography.Text>
+        </Space>
+      </Modal>
       {loadingRomHack && (
         <Suspense fallback={null}>
           <LoadRomHackModal onClose={() => setLoadingRomHack(false)} />
         </Suspense>
       )}
       {loadingQuetzal && <QuetzalModal onClose={() => setLoadingQuetzal(false)} />}
+      {loadingState && <StateModal onClose={() => setLoadingState(false)} />}
+      {loadingVba && <VbaPartyModal onClose={() => setLoadingVba(false)} />}
+      {loadingClassicSave && <VbaPartyModal kind="save" onClose={() => setLoadingClassicSave(false)} />}
     </>
   )
 }

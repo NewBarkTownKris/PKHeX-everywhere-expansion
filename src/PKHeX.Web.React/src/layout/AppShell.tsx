@@ -10,6 +10,7 @@ import { PlugInsProvider } from '../plugins/PlugInsContext'
 import AnalyticsPage from '../pages/analytics/AnalyticsPage'
 import BoxPage from '../pages/box/BoxPage'
 import CreditsPage from '../pages/static/CreditsPage'
+import SupportedFormatsPage from '../pages/static/SupportedFormatsPage'
 import EncountersPage from '../pages/encounters/EncountersPage'
 import EventsPage from '../pages/events/EventsPage'
 import HomePage from '../pages/home/HomePage'
@@ -139,6 +140,7 @@ function AppRoutes({ autoLoad }: { autoLoad: boolean }) {
         <Route path="save" element={<Page title="Save"><LoadPage /></Page>} />
         <Route path="settings" element={<Page title="Settings"><SettingsPage /></Page>} />
         <Route path="credits" element={<Page title="Credits"><CreditsPage /></Page>} />
+        <Route path="supported-formats" element={<Page title="Supported formats"><SupportedFormatsPage /></Page>} />
         <Route path="privacy-policy" element={<Page title="Privacy Policy"><PrivacyPolicyPage /></Page>} />
         <Route path="terms-of-use" element={<Page title="Terms of Use"><TermsOfUsePage /></Page>} />
         <Route path="release-notes" element={<Page title="Release Notes"><ReleaseNotesRoute /></Page>} />

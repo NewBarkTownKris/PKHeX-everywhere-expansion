@@ -1,0 +1,5 @@
+# PK4 Pokémon files
+
+**Status:** portable output for qualifying expansion-profile Pokémon. [NativePortable.cs](../../src/PKHeX.Everywhere.RomHacks/Expansion/NativePortable.cs) tests representability, including target species, moves, held item, ball, ability, names and target personal data. Newer-only fields or values require a later format; do not truncate them to force PK4.
+
+For a uniquely matched Johto or Kanto name, [NativeLocations.cs](../../src/PKHeX.Everywhere.RomHacks/Expansion/NativeLocations.cs) can assign the corresponding HG/SS location and an HG or SS origin; it maps source names and explicit region metadata, not arbitrary source numeric IDs. Where necessary the exporter searches for a PID consistent with Gen 4 shiny, gender, nature and ability constraints, recording changes. Native and portable records should both be retained. Exact mapped locations communicate a geographical correspondence, not the real source game or legal encounter. See [conversion](conversion.md) and the individual hack's verified scope.

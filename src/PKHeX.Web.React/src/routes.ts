@@ -10,6 +10,7 @@ export const routes = {
   save: '/save',
   settings: '/settings',
   credits: '/credits',
+  supportedFormats: '/supported-formats',
   privacyPolicy: '/privacy-policy',
   termsOfUse: '/terms-of-use',
   plugInErrors: '/plugins/errors',

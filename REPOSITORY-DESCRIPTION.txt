@@ -1,0 +1,1 @@
+PKHeX Everywhere fork with experimental expansion, Rocket Hoenn, Heart & Soul, SoulGold, Quetzal, Petalburg Dynasty, Lazarus, Recharged Yellow, Polished Crystal and classic-hack Pokémon recovery. Supports selected saves and emulator states; see the compatibility list.

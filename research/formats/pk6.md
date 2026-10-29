@@ -1,0 +1,5 @@
+# PK6 Pokémon files
+
+**Status:** portable expansion-profile output where a newer format is required and the data fits. This is distinct from reading a Gen 6 game save. [NativePortable.cs](../../src/PKHeX.Everywhere.RomHacks/Expansion/NativePortable.cs) maps source IDs through the profile and PKHeX data; it must preserve supported shiny/nature/ability properties and may change PID where the target demands it.
+
+For source Johto/Kanto places, the location policy uses the corresponding regional label in the newer context. Hoenn names can map to matching OR/AS locations; otherwise an appropriate regional label is used when known. These are portability approximations with the exported origin deliberately adjusted; they do not mean a Pokémon was captured in retail HG/SS or OR/AS. Unknown source locations are not invented. Ball mappings are profile-specific, and an unsupported custom ball must be handled explicitly. See [conversion](conversion.md) and [location checks](../../src/PKHeX.Everywhere.ProfileChecks/LocationChecks.cs).

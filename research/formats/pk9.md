@@ -1,0 +1,5 @@
+# PK9 Pokémon files
+
+**Status:** portable output for Quetzal and appropriate newer expansion-profile records. These are individual Pokémon files, not full Scarlet/Violet save compatibility. [QuetzalExporter.cs](../../src/PKHeX.Everywhere.RomHacks/Quetzal/QuetzalExporter.cs) uses a Scarlet target and documented approximations, including candidate encounter locations, when projecting hack data into standard Gen 9. Boxed Quetzal records lack an individual OT in the observed compact layout; the save's trainer is an explicitly labeled approximation.
+
+Quetzal's separate Radiant and shiny flags both become a standard shiny; its Radiant Ball and other unmapped ball IDs fall back to Great Ball with metadata recording the native ID and approximation. A ball does not establish Radiant status. Expansion-profile exports instead use their own [mapping policy](conversion.md). PID and location changes, original raw data and approximations are recorded where the exporter supplies them. Inspect files as PK9 in an external tool if format detection is ambiguous; successful import does not prove retail legality. See the detailed [Quetzal note](../romhacks/quetzal.md).

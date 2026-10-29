@@ -1,0 +1,5 @@
+# Native .expmon records
+
+**Status:** native expansion-profile export, intended to preserve source data alongside a portable Pokémon. These are project-specific records, not an official universal Pokémon format and not a substitute for the source save and profile. [NativeCollectionArchive.cs](../../src/PKHeX.Everywhere.RomHacks/Expansion/NativeCollectionArchive.cs) writes source records; [NativePokemon.cs](../../src/PKHeX.Everywhere.RomHacks/Expansion/NativePokemon.cs) and the source profile define their interpretation. Save-derived records use the native stored-record encoding; live state export takes its data from RAM, whose encoding must be handled by that path.
+
+Record size and bit layout can differ even among expansion derivatives (for example 80-byte standard versus 68-byte SoulGold compact storage). Do not decode, import or migrate a record under an unrelated profile just because the suffix matches. Original native ball IDs, shiny modifiers, source location IDs and other details can be retained even when a [portable export](conversion.md) needs an approximation; consult the archive metadata and original save.

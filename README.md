@@ -1,6 +1,38 @@
 # PKHeX Expansion Web
 
-A working fork of PKHeX Everywhere 0.31.0 for versioned expansion save profiles.
+A browser-based Pokémon save editor and ROM-hack compatibility project, forked
+from [PKHeX Everywhere](https://github.com/arleypadua/PKHeX.Everywhere) by
+Arley Padua and its contributors. It builds on [PKHeX](https://github.com/kwsch/PKHeX)
+by Kurt and contributors. This fork adds versioned expansion profiles and
+ROM-hack export tools; see [Credits and license](#credits-and-license).
+
+The detailed [compatibility and file-format list](SUPPORTED_FORMATS.md) identifies
+supported games, versions, export-only features, experimental adapters, and the
+local save-state work awaiting release. The website also has a Supported formats
+page. Update both whenever supported games, formats, restrictions or validation
+status change; see the maintenance checklist in that document.
+
+The opening screen has separate **Open save file** and **Open save state** buttons;
+the latter offers the mGBA and VisualBoyAdvance readers. **Export Quetzal Pokémon**
+is directly below the regular save button and opens the dedicated Quetzal exporter.
+
+The local next build also offers limited VBA 8/9 **party recovery and conditional PK6 export**
+for selected Rijon Adventures, Pokémon My Ass and Liquid Ocean revisions. It
+skips species that do not match the source ROM allowlist. PK6 exports use
+name-based mappings, standard ability/shiny assumptions, and unknown met
+locations; original records and metadata are retained. See the compatibility
+list for exact scope. The local next build also supports read-only battery and
+exact-build mGBA export for Thunder Emblem Beta 1, Shiny Gold Beta 5 X, Lightning Yellow Demo and Gary Edition Beta 1,
+live-party PK1 export for the supplied Shin Pokémon Red mGBA build, and
+selected-save and exact-build mGBA live-party PK2 export for Cobalt Blue US. Cobalt Blue
+held items are removed from portable files and preserved in native records.
+Shiny Gold New Bark and Lightning Yellow/Gary Edition Pallet encounters use Johto/Kanto regional approximations; most historic
+locations remain unknown. PC support is synthetic-only for the first two and
+not available in Shin Red state export.
+
+Developer-facing [compatibility research](research/README.md) documents each
+ROM hack and file format, source layouts, mapping decisions, evidence and
+limitations. Update the relevant notes alongside every compatibility change.
 
 Stock pokeemerald-expansion 1.17.1 (untouched release defaults) has a separate
 source-derived profile and synthetic save checks. Other expansion versions or
@@ -113,9 +145,19 @@ These exports are not a claim that a hack encounter is legal in a retail game.
 
 ## Credits and license
 
-Based on [PKHeX Everywhere](https://github.com/arleypadua/PKHeX.Everywhere),
-[PKHeX](https://github.com/kwsch/PKHeX), and the supplied game sources.
-[PKForge](https://github.com/sofianeelhor/PKForge) was an adapter/conversion design
-reference. Preserve upstream credits and GPL-3.0-or-later licensing. Dependency
-commits are pinned in `UPSTREAM-SUBMODULES.json`; originals are in `external/`.
-See `UPSTREAM-README.md` and `LICENSE`.
+PKHeX Everywhere by [Arley Padua and contributors](https://github.com/arleypadua/PKHeX.Everywhere)
+provides the original application, interface, engine, and inherited ROM-hack
+adapters. [PKHeX and PKHeX.Core](https://github.com/kwsch/PKHeX), maintained by
+Kurt and contributors, provide the core Pokémon save and file support.
+
+The existing credits page also acknowledges the PKHeX-Plugins maintainers,
+OpenHome, PokeAPI/sprites, the PKMN RBYGSC font, and PokeDaisy. The expansion
+profiles use matching [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion)
+and other game sources; [PKForge](https://github.com/sofianeelhor/PKForge) was
+an adapter and conversion design reference. The Polished Crystal reader uses the published [Polished Crystal](https://github.com/Rangi42/polishedcrystal) 3.2.3 source and release symbols; PokeDaisy research informed additional game tables and memory layouts. See the in-app Credits page for
+links and individual acknowledgments.
+
+The combined project is GPL-3.0-or-later. Preserve upstream copyright notices,
+license files and attribution. Dependency commits are pinned in
+`UPSTREAM-SUBMODULES.json`; the preserved upstream project description is in
+`UPSTREAM-README.md`. See `LICENSE` for the full license.

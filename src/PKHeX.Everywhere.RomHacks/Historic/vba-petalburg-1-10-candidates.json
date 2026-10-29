@@ -1,0 +1,9726 @@
+{
+  "species": [
+    {
+      "id": 1,
+      "national": 1,
+      "name": "Bulbasaur"
+    },
+    {
+      "id": 2,
+      "national": 2,
+      "name": "Ivysaur"
+    },
+    {
+      "id": 3,
+      "national": 3,
+      "name": "Venusaur"
+    },
+    {
+      "id": 4,
+      "national": 4,
+      "name": "Charmander"
+    },
+    {
+      "id": 5,
+      "national": 5,
+      "name": "Charmeleon"
+    },
+    {
+      "id": 6,
+      "national": 6,
+      "name": "Charizard"
+    },
+    {
+      "id": 7,
+      "national": 7,
+      "name": "Squirtle"
+    },
+    {
+      "id": 8,
+      "national": 8,
+      "name": "Wartortle"
+    },
+    {
+      "id": 9,
+      "national": 9,
+      "name": "Blastoise"
+    },
+    {
+      "id": 10,
+      "national": 10,
+      "name": "Caterpie"
+    },
+    {
+      "id": 11,
+      "national": 11,
+      "name": "Metapod"
+    },
+    {
+      "id": 12,
+      "national": 12,
+      "name": "Butterfree"
+    },
+    {
+      "id": 13,
+      "national": 13,
+      "name": "Weedle"
+    },
+    {
+      "id": 14,
+      "national": 14,
+      "name": "Kakuna"
+    },
+    {
+      "id": 15,
+      "national": 15,
+      "name": "Beedrill"
+    },
+    {
+      "id": 16,
+      "national": 16,
+      "name": "Pidgey"
+    },
+    {
+      "id": 17,
+      "national": 17,
+      "name": "Pidgeotto"
+    },
+    {
+      "id": 18,
+      "national": 18,
+      "name": "Pidgeot"
+    },
+    {
+      "id": 19,
+      "national": 19,
+      "name": "Rattata"
+    },
+    {
+      "id": 20,
+      "national": 20,
+      "name": "Raticate"
+    },
+    {
+      "id": 21,
+      "national": 21,
+      "name": "Spearow"
+    },
+    {
+      "id": 22,
+      "national": 22,
+      "name": "Fearow"
+    },
+    {
+      "id": 23,
+      "national": 23,
+      "name": "Ekans"
+    },
+    {
+      "id": 24,
+      "national": 24,
+      "name": "Arbok"
+    },
+    {
+      "id": 25,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 26,
+      "national": 26,
+      "name": "Raichu"
+    },
+    {
+      "id": 27,
+      "national": 27,
+      "name": "Sandshrew"
+    },
+    {
+      "id": 28,
+      "national": 28,
+      "name": "Sandslash"
+    },
+    {
+      "id": 29,
+      "national": 29,
+      "name": "Nidoran\u2640"
+    },
+    {
+      "id": 30,
+      "national": 30,
+      "name": "Nidorina"
+    },
+    {
+      "id": 31,
+      "national": 31,
+      "name": "Nidoqueen"
+    },
+    {
+      "id": 32,
+      "national": 32,
+      "name": "Nidoran\u2642"
+    },
+    {
+      "id": 33,
+      "national": 33,
+      "name": "Nidorino"
+    },
+    {
+      "id": 34,
+      "national": 34,
+      "name": "Nidoking"
+    },
+    {
+      "id": 35,
+      "national": 35,
+      "name": "Clefairy"
+    },
+    {
+      "id": 36,
+      "national": 36,
+      "name": "Clefable"
+    },
+    {
+      "id": 37,
+      "national": 37,
+      "name": "Vulpix"
+    },
+    {
+      "id": 38,
+      "national": 38,
+      "name": "Ninetales"
+    },
+    {
+      "id": 39,
+      "national": 39,
+      "name": "Jigglypuff"
+    },
+    {
+      "id": 40,
+      "national": 40,
+      "name": "Wigglytuff"
+    },
+    {
+      "id": 41,
+      "national": 41,
+      "name": "Zubat"
+    },
+    {
+      "id": 42,
+      "national": 42,
+      "name": "Golbat"
+    },
+    {
+      "id": 43,
+      "national": 43,
+      "name": "Oddish"
+    },
+    {
+      "id": 44,
+      "national": 44,
+      "name": "Gloom"
+    },
+    {
+      "id": 45,
+      "national": 45,
+      "name": "Vileplume"
+    },
+    {
+      "id": 46,
+      "national": 46,
+      "name": "Paras"
+    },
+    {
+      "id": 47,
+      "national": 47,
+      "name": "Parasect"
+    },
+    {
+      "id": 48,
+      "national": 48,
+      "name": "Venonat"
+    },
+    {
+      "id": 49,
+      "national": 49,
+      "name": "Venomoth"
+    },
+    {
+      "id": 50,
+      "national": 50,
+      "name": "Diglett"
+    },
+    {
+      "id": 51,
+      "national": 51,
+      "name": "Dugtrio"
+    },
+    {
+      "id": 52,
+      "national": 52,
+      "name": "Meowth"
+    },
+    {
+      "id": 53,
+      "national": 53,
+      "name": "Persian"
+    },
+    {
+      "id": 54,
+      "national": 54,
+      "name": "Psyduck"
+    },
+    {
+      "id": 55,
+      "national": 55,
+      "name": "Golduck"
+    },
+    {
+      "id": 56,
+      "national": 56,
+      "name": "Mankey"
+    },
+    {
+      "id": 57,
+      "national": 57,
+      "name": "Primeape"
+    },
+    {
+      "id": 58,
+      "national": 58,
+      "name": "Growlithe"
+    },
+    {
+      "id": 59,
+      "national": 59,
+      "name": "Arcanine"
+    },
+    {
+      "id": 60,
+      "national": 60,
+      "name": "Poliwag"
+    },
+    {
+      "id": 61,
+      "national": 61,
+      "name": "Poliwhirl"
+    },
+    {
+      "id": 62,
+      "national": 62,
+      "name": "Poliwrath"
+    },
+    {
+      "id": 63,
+      "national": 63,
+      "name": "Abra"
+    },
+    {
+      "id": 64,
+      "national": 64,
+      "name": "Kadabra"
+    },
+    {
+      "id": 65,
+      "national": 65,
+      "name": "Alakazam"
+    },
+    {
+      "id": 66,
+      "national": 66,
+      "name": "Machop"
+    },
+    {
+      "id": 67,
+      "national": 67,
+      "name": "Machoke"
+    },
+    {
+      "id": 68,
+      "national": 68,
+      "name": "Machamp"
+    },
+    {
+      "id": 69,
+      "national": 69,
+      "name": "Bellsprout"
+    },
+    {
+      "id": 70,
+      "national": 70,
+      "name": "Weepinbell"
+    },
+    {
+      "id": 71,
+      "national": 71,
+      "name": "Victreebel"
+    },
+    {
+      "id": 72,
+      "national": 72,
+      "name": "Tentacool"
+    },
+    {
+      "id": 73,
+      "national": 73,
+      "name": "Tentacruel"
+    },
+    {
+      "id": 74,
+      "national": 74,
+      "name": "Geodude"
+    },
+    {
+      "id": 75,
+      "national": 75,
+      "name": "Graveler"
+    },
+    {
+      "id": 76,
+      "national": 76,
+      "name": "Golem"
+    },
+    {
+      "id": 77,
+      "national": 77,
+      "name": "Ponyta"
+    },
+    {
+      "id": 78,
+      "national": 78,
+      "name": "Rapidash"
+    },
+    {
+      "id": 79,
+      "national": 79,
+      "name": "Slowpoke"
+    },
+    {
+      "id": 80,
+      "national": 80,
+      "name": "Slowbro"
+    },
+    {
+      "id": 81,
+      "national": 81,
+      "name": "Magnemite"
+    },
+    {
+      "id": 82,
+      "national": 82,
+      "name": "Magneton"
+    },
+    {
+      "id": 83,
+      "national": 83,
+      "name": "Farfetch\u0027d"
+    },
+    {
+      "id": 84,
+      "national": 84,
+      "name": "Doduo"
+    },
+    {
+      "id": 85,
+      "national": 85,
+      "name": "Dodrio"
+    },
+    {
+      "id": 86,
+      "national": 86,
+      "name": "Seel"
+    },
+    {
+      "id": 87,
+      "national": 87,
+      "name": "Dewgong"
+    },
+    {
+      "id": 88,
+      "national": 88,
+      "name": "Grimer"
+    },
+    {
+      "id": 89,
+      "national": 89,
+      "name": "Muk"
+    },
+    {
+      "id": 90,
+      "national": 90,
+      "name": "Shellder"
+    },
+    {
+      "id": 91,
+      "national": 91,
+      "name": "Cloyster"
+    },
+    {
+      "id": 92,
+      "national": 92,
+      "name": "Gastly"
+    },
+    {
+      "id": 93,
+      "national": 93,
+      "name": "Haunter"
+    },
+    {
+      "id": 94,
+      "national": 94,
+      "name": "Gengar"
+    },
+    {
+      "id": 95,
+      "national": 95,
+      "name": "Onix"
+    },
+    {
+      "id": 96,
+      "national": 96,
+      "name": "Drowzee"
+    },
+    {
+      "id": 97,
+      "national": 97,
+      "name": "Hypno"
+    },
+    {
+      "id": 98,
+      "national": 98,
+      "name": "Krabby"
+    },
+    {
+      "id": 99,
+      "national": 99,
+      "name": "Kingler"
+    },
+    {
+      "id": 100,
+      "national": 100,
+      "name": "Voltorb"
+    },
+    {
+      "id": 101,
+      "national": 101,
+      "name": "Electrode"
+    },
+    {
+      "id": 102,
+      "national": 102,
+      "name": "Exeggcute"
+    },
+    {
+      "id": 103,
+      "national": 103,
+      "name": "Exeggutor"
+    },
+    {
+      "id": 104,
+      "national": 104,
+      "name": "Cubone"
+    },
+    {
+      "id": 105,
+      "national": 105,
+      "name": "Marowak"
+    },
+    {
+      "id": 106,
+      "national": 106,
+      "name": "Hitmonlee"
+    },
+    {
+      "id": 107,
+      "national": 107,
+      "name": "Hitmonchan"
+    },
+    {
+      "id": 108,
+      "national": 108,
+      "name": "Lickitung"
+    },
+    {
+      "id": 109,
+      "national": 109,
+      "name": "Koffing"
+    },
+    {
+      "id": 110,
+      "national": 110,
+      "name": "Weezing"
+    },
+    {
+      "id": 111,
+      "national": 111,
+      "name": "Rhyhorn"
+    },
+    {
+      "id": 112,
+      "national": 112,
+      "name": "Rhydon"
+    },
+    {
+      "id": 113,
+      "national": 113,
+      "name": "Chansey"
+    },
+    {
+      "id": 114,
+      "national": 114,
+      "name": "Tangela"
+    },
+    {
+      "id": 115,
+      "national": 115,
+      "name": "Kangaskhan"
+    },
+    {
+      "id": 116,
+      "national": 116,
+      "name": "Horsea"
+    },
+    {
+      "id": 117,
+      "national": 117,
+      "name": "Seadra"
+    },
+    {
+      "id": 118,
+      "national": 118,
+      "name": "Goldeen"
+    },
+    {
+      "id": 119,
+      "national": 119,
+      "name": "Seaking"
+    },
+    {
+      "id": 120,
+      "national": 120,
+      "name": "Staryu"
+    },
+    {
+      "id": 121,
+      "national": 121,
+      "name": "Starmie"
+    },
+    {
+      "id": 122,
+      "national": 122,
+      "name": "Mr. Mime"
+    },
+    {
+      "id": 123,
+      "national": 123,
+      "name": "Scyther"
+    },
+    {
+      "id": 124,
+      "national": 124,
+      "name": "Jynx"
+    },
+    {
+      "id": 125,
+      "national": 125,
+      "name": "Electabuzz"
+    },
+    {
+      "id": 126,
+      "national": 126,
+      "name": "Magmar"
+    },
+    {
+      "id": 127,
+      "national": 127,
+      "name": "Pinsir"
+    },
+    {
+      "id": 128,
+      "national": 128,
+      "name": "Tauros"
+    },
+    {
+      "id": 129,
+      "national": 129,
+      "name": "Magikarp"
+    },
+    {
+      "id": 130,
+      "national": 130,
+      "name": "Gyarados"
+    },
+    {
+      "id": 131,
+      "national": 131,
+      "name": "Lapras"
+    },
+    {
+      "id": 132,
+      "national": 132,
+      "name": "Ditto"
+    },
+    {
+      "id": 133,
+      "national": 133,
+      "name": "Eevee"
+    },
+    {
+      "id": 134,
+      "national": 134,
+      "name": "Vaporeon"
+    },
+    {
+      "id": 135,
+      "national": 135,
+      "name": "Jolteon"
+    },
+    {
+      "id": 136,
+      "national": 136,
+      "name": "Flareon"
+    },
+    {
+      "id": 137,
+      "national": 137,
+      "name": "Porygon"
+    },
+    {
+      "id": 138,
+      "national": 138,
+      "name": "Omanyte"
+    },
+    {
+      "id": 139,
+      "national": 139,
+      "name": "Omastar"
+    },
+    {
+      "id": 140,
+      "national": 140,
+      "name": "Kabuto"
+    },
+    {
+      "id": 141,
+      "national": 141,
+      "name": "Kabutops"
+    },
+    {
+      "id": 142,
+      "national": 142,
+      "name": "Aerodactyl"
+    },
+    {
+      "id": 143,
+      "national": 143,
+      "name": "Snorlax"
+    },
+    {
+      "id": 144,
+      "national": 144,
+      "name": "Articuno"
+    },
+    {
+      "id": 145,
+      "national": 145,
+      "name": "Zapdos"
+    },
+    {
+      "id": 146,
+      "national": 146,
+      "name": "Moltres"
+    },
+    {
+      "id": 147,
+      "national": 147,
+      "name": "Dratini"
+    },
+    {
+      "id": 148,
+      "national": 148,
+      "name": "Dragonair"
+    },
+    {
+      "id": 149,
+      "national": 149,
+      "name": "Dragonite"
+    },
+    {
+      "id": 150,
+      "national": 150,
+      "name": "Mewtwo"
+    },
+    {
+      "id": 151,
+      "national": 151,
+      "name": "Mew"
+    },
+    {
+      "id": 152,
+      "national": 152,
+      "name": "Chikorita"
+    },
+    {
+      "id": 153,
+      "national": 153,
+      "name": "Bayleef"
+    },
+    {
+      "id": 154,
+      "national": 154,
+      "name": "Meganium"
+    },
+    {
+      "id": 155,
+      "national": 155,
+      "name": "Cyndaquil"
+    },
+    {
+      "id": 156,
+      "national": 156,
+      "name": "Quilava"
+    },
+    {
+      "id": 157,
+      "national": 157,
+      "name": "Typhlosion"
+    },
+    {
+      "id": 158,
+      "national": 158,
+      "name": "Totodile"
+    },
+    {
+      "id": 159,
+      "national": 159,
+      "name": "Croconaw"
+    },
+    {
+      "id": 160,
+      "national": 160,
+      "name": "Feraligatr"
+    },
+    {
+      "id": 161,
+      "national": 161,
+      "name": "Sentret"
+    },
+    {
+      "id": 162,
+      "national": 162,
+      "name": "Furret"
+    },
+    {
+      "id": 163,
+      "national": 163,
+      "name": "Hoothoot"
+    },
+    {
+      "id": 164,
+      "national": 164,
+      "name": "Noctowl"
+    },
+    {
+      "id": 165,
+      "national": 165,
+      "name": "Ledyba"
+    },
+    {
+      "id": 166,
+      "national": 166,
+      "name": "Ledian"
+    },
+    {
+      "id": 167,
+      "national": 167,
+      "name": "Spinarak"
+    },
+    {
+      "id": 168,
+      "national": 168,
+      "name": "Ariados"
+    },
+    {
+      "id": 169,
+      "national": 169,
+      "name": "Crobat"
+    },
+    {
+      "id": 170,
+      "national": 170,
+      "name": "Chinchou"
+    },
+    {
+      "id": 171,
+      "national": 171,
+      "name": "Lanturn"
+    },
+    {
+      "id": 172,
+      "national": 172,
+      "name": "Pichu"
+    },
+    {
+      "id": 173,
+      "national": 173,
+      "name": "Cleffa"
+    },
+    {
+      "id": 174,
+      "national": 174,
+      "name": "Igglybuff"
+    },
+    {
+      "id": 175,
+      "national": 175,
+      "name": "Togepi"
+    },
+    {
+      "id": 176,
+      "national": 176,
+      "name": "Togetic"
+    },
+    {
+      "id": 177,
+      "national": 177,
+      "name": "Natu"
+    },
+    {
+      "id": 178,
+      "national": 178,
+      "name": "Xatu"
+    },
+    {
+      "id": 179,
+      "national": 179,
+      "name": "Mareep"
+    },
+    {
+      "id": 180,
+      "national": 180,
+      "name": "Flaaffy"
+    },
+    {
+      "id": 181,
+      "national": 181,
+      "name": "Ampharos"
+    },
+    {
+      "id": 182,
+      "national": 182,
+      "name": "Bellossom"
+    },
+    {
+      "id": 183,
+      "national": 183,
+      "name": "Marill"
+    },
+    {
+      "id": 184,
+      "national": 184,
+      "name": "Azumarill"
+    },
+    {
+      "id": 185,
+      "national": 185,
+      "name": "Sudowoodo"
+    },
+    {
+      "id": 186,
+      "national": 186,
+      "name": "Politoed"
+    },
+    {
+      "id": 187,
+      "national": 187,
+      "name": "Hoppip"
+    },
+    {
+      "id": 188,
+      "national": 188,
+      "name": "Skiploom"
+    },
+    {
+      "id": 189,
+      "national": 189,
+      "name": "Jumpluff"
+    },
+    {
+      "id": 190,
+      "national": 190,
+      "name": "Aipom"
+    },
+    {
+      "id": 191,
+      "national": 191,
+      "name": "Sunkern"
+    },
+    {
+      "id": 192,
+      "national": 192,
+      "name": "Sunflora"
+    },
+    {
+      "id": 193,
+      "national": 193,
+      "name": "Yanma"
+    },
+    {
+      "id": 194,
+      "national": 194,
+      "name": "Wooper"
+    },
+    {
+      "id": 195,
+      "national": 195,
+      "name": "Quagsire"
+    },
+    {
+      "id": 196,
+      "national": 196,
+      "name": "Espeon"
+    },
+    {
+      "id": 197,
+      "national": 197,
+      "name": "Umbreon"
+    },
+    {
+      "id": 198,
+      "national": 198,
+      "name": "Murkrow"
+    },
+    {
+      "id": 199,
+      "national": 199,
+      "name": "Slowking"
+    },
+    {
+      "id": 200,
+      "national": 200,
+      "name": "Misdreavus"
+    },
+    {
+      "id": 201,
+      "national": 201,
+      "name": "Unown"
+    },
+    {
+      "id": 202,
+      "national": 202,
+      "name": "Wobbuffet"
+    },
+    {
+      "id": 203,
+      "national": 203,
+      "name": "Girafarig"
+    },
+    {
+      "id": 204,
+      "national": 204,
+      "name": "Pineco"
+    },
+    {
+      "id": 205,
+      "national": 205,
+      "name": "Forretress"
+    },
+    {
+      "id": 206,
+      "national": 206,
+      "name": "Dunsparce"
+    },
+    {
+      "id": 207,
+      "national": 207,
+      "name": "Gligar"
+    },
+    {
+      "id": 208,
+      "national": 208,
+      "name": "Steelix"
+    },
+    {
+      "id": 209,
+      "national": 209,
+      "name": "Snubbull"
+    },
+    {
+      "id": 210,
+      "national": 210,
+      "name": "Granbull"
+    },
+    {
+      "id": 211,
+      "national": 211,
+      "name": "Qwilfish"
+    },
+    {
+      "id": 212,
+      "national": 212,
+      "name": "Scizor"
+    },
+    {
+      "id": 213,
+      "national": 213,
+      "name": "Shuckle"
+    },
+    {
+      "id": 214,
+      "national": 214,
+      "name": "Heracross"
+    },
+    {
+      "id": 215,
+      "national": 215,
+      "name": "Sneasel"
+    },
+    {
+      "id": 216,
+      "national": 216,
+      "name": "Teddiursa"
+    },
+    {
+      "id": 217,
+      "national": 217,
+      "name": "Ursaring"
+    },
+    {
+      "id": 218,
+      "national": 218,
+      "name": "Slugma"
+    },
+    {
+      "id": 219,
+      "national": 219,
+      "name": "Magcargo"
+    },
+    {
+      "id": 220,
+      "national": 220,
+      "name": "Swinub"
+    },
+    {
+      "id": 221,
+      "national": 221,
+      "name": "Piloswine"
+    },
+    {
+      "id": 222,
+      "national": 222,
+      "name": "Corsola"
+    },
+    {
+      "id": 223,
+      "national": 223,
+      "name": "Remoraid"
+    },
+    {
+      "id": 224,
+      "national": 224,
+      "name": "Octillery"
+    },
+    {
+      "id": 225,
+      "national": 225,
+      "name": "Delibird"
+    },
+    {
+      "id": 226,
+      "national": 226,
+      "name": "Mantine"
+    },
+    {
+      "id": 227,
+      "national": 227,
+      "name": "Skarmory"
+    },
+    {
+      "id": 228,
+      "national": 228,
+      "name": "Houndour"
+    },
+    {
+      "id": 229,
+      "national": 229,
+      "name": "Houndoom"
+    },
+    {
+      "id": 230,
+      "national": 230,
+      "name": "Kingdra"
+    },
+    {
+      "id": 231,
+      "national": 231,
+      "name": "Phanpy"
+    },
+    {
+      "id": 232,
+      "national": 232,
+      "name": "Donphan"
+    },
+    {
+      "id": 233,
+      "national": 233,
+      "name": "Porygon2"
+    },
+    {
+      "id": 234,
+      "national": 234,
+      "name": "Stantler"
+    },
+    {
+      "id": 235,
+      "national": 235,
+      "name": "Smeargle"
+    },
+    {
+      "id": 236,
+      "national": 236,
+      "name": "Tyrogue"
+    },
+    {
+      "id": 237,
+      "national": 237,
+      "name": "Hitmontop"
+    },
+    {
+      "id": 238,
+      "national": 238,
+      "name": "Smoochum"
+    },
+    {
+      "id": 239,
+      "national": 239,
+      "name": "Elekid"
+    },
+    {
+      "id": 240,
+      "national": 240,
+      "name": "Magby"
+    },
+    {
+      "id": 241,
+      "national": 241,
+      "name": "Miltank"
+    },
+    {
+      "id": 242,
+      "national": 242,
+      "name": "Blissey"
+    },
+    {
+      "id": 243,
+      "national": 243,
+      "name": "Raikou"
+    },
+    {
+      "id": 244,
+      "national": 244,
+      "name": "Entei"
+    },
+    {
+      "id": 245,
+      "national": 245,
+      "name": "Suicune"
+    },
+    {
+      "id": 246,
+      "national": 246,
+      "name": "Larvitar"
+    },
+    {
+      "id": 247,
+      "national": 247,
+      "name": "Pupitar"
+    },
+    {
+      "id": 248,
+      "national": 248,
+      "name": "Tyranitar"
+    },
+    {
+      "id": 249,
+      "national": 249,
+      "name": "Lugia"
+    },
+    {
+      "id": 250,
+      "national": 250,
+      "name": "Ho-Oh"
+    },
+    {
+      "id": 251,
+      "national": 251,
+      "name": "Celebi"
+    },
+    {
+      "id": 252,
+      "national": 252,
+      "name": "Treecko"
+    },
+    {
+      "id": 253,
+      "national": 253,
+      "name": "Grovyle"
+    },
+    {
+      "id": 254,
+      "national": 254,
+      "name": "Sceptile"
+    },
+    {
+      "id": 255,
+      "national": 255,
+      "name": "Torchic"
+    },
+    {
+      "id": 256,
+      "national": 256,
+      "name": "Combusken"
+    },
+    {
+      "id": 257,
+      "national": 257,
+      "name": "Blaziken"
+    },
+    {
+      "id": 258,
+      "national": 258,
+      "name": "Mudkip"
+    },
+    {
+      "id": 259,
+      "national": 259,
+      "name": "Marshtomp"
+    },
+    {
+      "id": 260,
+      "national": 260,
+      "name": "Swampert"
+    },
+    {
+      "id": 261,
+      "national": 261,
+      "name": "Poochyena"
+    },
+    {
+      "id": 262,
+      "national": 262,
+      "name": "Mightyena"
+    },
+    {
+      "id": 263,
+      "national": 263,
+      "name": "Zigzagoon"
+    },
+    {
+      "id": 264,
+      "national": 264,
+      "name": "Linoone"
+    },
+    {
+      "id": 265,
+      "national": 265,
+      "name": "Wurmple"
+    },
+    {
+      "id": 266,
+      "national": 266,
+      "name": "Silcoon"
+    },
+    {
+      "id": 267,
+      "national": 267,
+      "name": "Beautifly"
+    },
+    {
+      "id": 268,
+      "national": 268,
+      "name": "Cascoon"
+    },
+    {
+      "id": 269,
+      "national": 269,
+      "name": "Dustox"
+    },
+    {
+      "id": 270,
+      "national": 270,
+      "name": "Lotad"
+    },
+    {
+      "id": 271,
+      "national": 271,
+      "name": "Lombre"
+    },
+    {
+      "id": 272,
+      "national": 272,
+      "name": "Ludicolo"
+    },
+    {
+      "id": 273,
+      "national": 273,
+      "name": "Seedot"
+    },
+    {
+      "id": 274,
+      "national": 274,
+      "name": "Nuzleaf"
+    },
+    {
+      "id": 275,
+      "national": 275,
+      "name": "Shiftry"
+    },
+    {
+      "id": 276,
+      "national": 276,
+      "name": "Taillow"
+    },
+    {
+      "id": 277,
+      "national": 277,
+      "name": "Swellow"
+    },
+    {
+      "id": 278,
+      "national": 278,
+      "name": "Wingull"
+    },
+    {
+      "id": 279,
+      "national": 279,
+      "name": "Pelipper"
+    },
+    {
+      "id": 280,
+      "national": 280,
+      "name": "Ralts"
+    },
+    {
+      "id": 281,
+      "national": 281,
+      "name": "Kirlia"
+    },
+    {
+      "id": 282,
+      "national": 282,
+      "name": "Gardevoir"
+    },
+    {
+      "id": 283,
+      "national": 283,
+      "name": "Surskit"
+    },
+    {
+      "id": 284,
+      "national": 284,
+      "name": "Masquerain"
+    },
+    {
+      "id": 285,
+      "national": 285,
+      "name": "Shroomish"
+    },
+    {
+      "id": 286,
+      "national": 286,
+      "name": "Breloom"
+    },
+    {
+      "id": 287,
+      "national": 287,
+      "name": "Slakoth"
+    },
+    {
+      "id": 288,
+      "national": 288,
+      "name": "Vigoroth"
+    },
+    {
+      "id": 289,
+      "national": 289,
+      "name": "Slaking"
+    },
+    {
+      "id": 290,
+      "national": 290,
+      "name": "Nincada"
+    },
+    {
+      "id": 291,
+      "national": 291,
+      "name": "Ninjask"
+    },
+    {
+      "id": 292,
+      "national": 292,
+      "name": "Shedinja"
+    },
+    {
+      "id": 293,
+      "national": 293,
+      "name": "Whismur"
+    },
+    {
+      "id": 294,
+      "national": 294,
+      "name": "Loudred"
+    },
+    {
+      "id": 295,
+      "national": 295,
+      "name": "Exploud"
+    },
+    {
+      "id": 296,
+      "national": 296,
+      "name": "Makuhita"
+    },
+    {
+      "id": 297,
+      "national": 297,
+      "name": "Hariyama"
+    },
+    {
+      "id": 298,
+      "national": 298,
+      "name": "Azurill"
+    },
+    {
+      "id": 299,
+      "national": 299,
+      "name": "Nosepass"
+    },
+    {
+      "id": 300,
+      "national": 300,
+      "name": "Skitty"
+    },
+    {
+      "id": 301,
+      "national": 301,
+      "name": "Delcatty"
+    },
+    {
+      "id": 302,
+      "national": 302,
+      "name": "Sableye"
+    },
+    {
+      "id": 303,
+      "national": 303,
+      "name": "Mawile"
+    },
+    {
+      "id": 304,
+      "national": 304,
+      "name": "Aron"
+    },
+    {
+      "id": 305,
+      "national": 305,
+      "name": "Lairon"
+    },
+    {
+      "id": 306,
+      "national": 306,
+      "name": "Aggron"
+    },
+    {
+      "id": 307,
+      "national": 307,
+      "name": "Meditite"
+    },
+    {
+      "id": 308,
+      "national": 308,
+      "name": "Medicham"
+    },
+    {
+      "id": 309,
+      "national": 309,
+      "name": "Electrike"
+    },
+    {
+      "id": 310,
+      "national": 310,
+      "name": "Manectric"
+    },
+    {
+      "id": 311,
+      "national": 311,
+      "name": "Plusle"
+    },
+    {
+      "id": 312,
+      "national": 312,
+      "name": "Minun"
+    },
+    {
+      "id": 313,
+      "national": 313,
+      "name": "Volbeat"
+    },
+    {
+      "id": 314,
+      "national": 314,
+      "name": "Illumise"
+    },
+    {
+      "id": 315,
+      "national": 315,
+      "name": "Roselia"
+    },
+    {
+      "id": 316,
+      "national": 316,
+      "name": "Gulpin"
+    },
+    {
+      "id": 317,
+      "national": 317,
+      "name": "Swalot"
+    },
+    {
+      "id": 318,
+      "national": 318,
+      "name": "Carvanha"
+    },
+    {
+      "id": 319,
+      "national": 319,
+      "name": "Sharpedo"
+    },
+    {
+      "id": 320,
+      "national": 320,
+      "name": "Wailmer"
+    },
+    {
+      "id": 321,
+      "national": 321,
+      "name": "Wailord"
+    },
+    {
+      "id": 322,
+      "national": 322,
+      "name": "Numel"
+    },
+    {
+      "id": 323,
+      "national": 323,
+      "name": "Camerupt"
+    },
+    {
+      "id": 324,
+      "national": 324,
+      "name": "Torkoal"
+    },
+    {
+      "id": 325,
+      "national": 325,
+      "name": "Spoink"
+    },
+    {
+      "id": 326,
+      "national": 326,
+      "name": "Grumpig"
+    },
+    {
+      "id": 327,
+      "national": 327,
+      "name": "Spinda"
+    },
+    {
+      "id": 328,
+      "national": 328,
+      "name": "Trapinch"
+    },
+    {
+      "id": 329,
+      "national": 329,
+      "name": "Vibrava"
+    },
+    {
+      "id": 330,
+      "national": 330,
+      "name": "Flygon"
+    },
+    {
+      "id": 331,
+      "national": 331,
+      "name": "Cacnea"
+    },
+    {
+      "id": 332,
+      "national": 332,
+      "name": "Cacturne"
+    },
+    {
+      "id": 333,
+      "national": 333,
+      "name": "Swablu"
+    },
+    {
+      "id": 334,
+      "national": 334,
+      "name": "Altaria"
+    },
+    {
+      "id": 335,
+      "national": 335,
+      "name": "Zangoose"
+    },
+    {
+      "id": 336,
+      "national": 336,
+      "name": "Seviper"
+    },
+    {
+      "id": 337,
+      "national": 337,
+      "name": "Lunatone"
+    },
+    {
+      "id": 338,
+      "national": 338,
+      "name": "Solrock"
+    },
+    {
+      "id": 339,
+      "national": 339,
+      "name": "Barboach"
+    },
+    {
+      "id": 340,
+      "national": 340,
+      "name": "Whiscash"
+    },
+    {
+      "id": 341,
+      "national": 341,
+      "name": "Corphish"
+    },
+    {
+      "id": 342,
+      "national": 342,
+      "name": "Crawdaunt"
+    },
+    {
+      "id": 343,
+      "national": 343,
+      "name": "Baltoy"
+    },
+    {
+      "id": 344,
+      "national": 344,
+      "name": "Claydol"
+    },
+    {
+      "id": 345,
+      "national": 345,
+      "name": "Lileep"
+    },
+    {
+      "id": 346,
+      "national": 346,
+      "name": "Cradily"
+    },
+    {
+      "id": 347,
+      "national": 347,
+      "name": "Anorith"
+    },
+    {
+      "id": 348,
+      "national": 348,
+      "name": "Armaldo"
+    },
+    {
+      "id": 349,
+      "national": 349,
+      "name": "Feebas"
+    },
+    {
+      "id": 350,
+      "national": 350,
+      "name": "Milotic"
+    },
+    {
+      "id": 351,
+      "national": 351,
+      "name": "Castform"
+    },
+    {
+      "id": 352,
+      "national": 352,
+      "name": "Kecleon"
+    },
+    {
+      "id": 353,
+      "national": 353,
+      "name": "Shuppet"
+    },
+    {
+      "id": 354,
+      "national": 354,
+      "name": "Banette"
+    },
+    {
+      "id": 355,
+      "national": 355,
+      "name": "Duskull"
+    },
+    {
+      "id": 356,
+      "national": 356,
+      "name": "Dusclops"
+    },
+    {
+      "id": 357,
+      "national": 357,
+      "name": "Tropius"
+    },
+    {
+      "id": 358,
+      "national": 358,
+      "name": "Chimecho"
+    },
+    {
+      "id": 359,
+      "national": 359,
+      "name": "Absol"
+    },
+    {
+      "id": 360,
+      "national": 360,
+      "name": "Wynaut"
+    },
+    {
+      "id": 361,
+      "national": 361,
+      "name": "Snorunt"
+    },
+    {
+      "id": 362,
+      "national": 362,
+      "name": "Glalie"
+    },
+    {
+      "id": 363,
+      "national": 363,
+      "name": "Spheal"
+    },
+    {
+      "id": 364,
+      "national": 364,
+      "name": "Sealeo"
+    },
+    {
+      "id": 365,
+      "national": 365,
+      "name": "Walrein"
+    },
+    {
+      "id": 366,
+      "national": 366,
+      "name": "Clamperl"
+    },
+    {
+      "id": 367,
+      "national": 367,
+      "name": "Huntail"
+    },
+    {
+      "id": 368,
+      "national": 368,
+      "name": "Gorebyss"
+    },
+    {
+      "id": 369,
+      "national": 369,
+      "name": "Relicanth"
+    },
+    {
+      "id": 370,
+      "national": 370,
+      "name": "Luvdisc"
+    },
+    {
+      "id": 371,
+      "national": 371,
+      "name": "Bagon"
+    },
+    {
+      "id": 372,
+      "national": 372,
+      "name": "Shelgon"
+    },
+    {
+      "id": 373,
+      "national": 373,
+      "name": "Salamence"
+    },
+    {
+      "id": 374,
+      "national": 374,
+      "name": "Beldum"
+    },
+    {
+      "id": 375,
+      "national": 375,
+      "name": "Metang"
+    },
+    {
+      "id": 376,
+      "national": 376,
+      "name": "Metagross"
+    },
+    {
+      "id": 377,
+      "national": 377,
+      "name": "Regirock"
+    },
+    {
+      "id": 378,
+      "national": 378,
+      "name": "Regice"
+    },
+    {
+      "id": 379,
+      "national": 379,
+      "name": "Registeel"
+    },
+    {
+      "id": 380,
+      "national": 380,
+      "name": "Latias"
+    },
+    {
+      "id": 381,
+      "national": 381,
+      "name": "Latios"
+    },
+    {
+      "id": 382,
+      "national": 382,
+      "name": "Kyogre"
+    },
+    {
+      "id": 383,
+      "national": 383,
+      "name": "Groudon"
+    },
+    {
+      "id": 384,
+      "national": 384,
+      "name": "Rayquaza"
+    },
+    {
+      "id": 385,
+      "national": 385,
+      "name": "Jirachi"
+    },
+    {
+      "id": 386,
+      "national": 386,
+      "name": "Deoxys"
+    },
+    {
+      "id": 387,
+      "national": 387,
+      "name": "Turtwig"
+    },
+    {
+      "id": 388,
+      "national": 388,
+      "name": "Grotle"
+    },
+    {
+      "id": 389,
+      "national": 389,
+      "name": "Torterra"
+    },
+    {
+      "id": 390,
+      "national": 390,
+      "name": "Chimchar"
+    },
+    {
+      "id": 391,
+      "national": 391,
+      "name": "Monferno"
+    },
+    {
+      "id": 392,
+      "national": 392,
+      "name": "Infernape"
+    },
+    {
+      "id": 393,
+      "national": 393,
+      "name": "Piplup"
+    },
+    {
+      "id": 394,
+      "national": 394,
+      "name": "Prinplup"
+    },
+    {
+      "id": 395,
+      "national": 395,
+      "name": "Empoleon"
+    },
+    {
+      "id": 396,
+      "national": 396,
+      "name": "Starly"
+    },
+    {
+      "id": 397,
+      "national": 397,
+      "name": "Staravia"
+    },
+    {
+      "id": 398,
+      "national": 398,
+      "name": "Staraptor"
+    },
+    {
+      "id": 399,
+      "national": 399,
+      "name": "Bidoof"
+    },
+    {
+      "id": 400,
+      "national": 400,
+      "name": "Bibarel"
+    },
+    {
+      "id": 401,
+      "national": 401,
+      "name": "Kricketot"
+    },
+    {
+      "id": 402,
+      "national": 402,
+      "name": "Kricketune"
+    },
+    {
+      "id": 403,
+      "national": 403,
+      "name": "Shinx"
+    },
+    {
+      "id": 404,
+      "national": 404,
+      "name": "Luxio"
+    },
+    {
+      "id": 405,
+      "national": 405,
+      "name": "Luxray"
+    },
+    {
+      "id": 406,
+      "national": 406,
+      "name": "Budew"
+    },
+    {
+      "id": 407,
+      "national": 407,
+      "name": "Roserade"
+    },
+    {
+      "id": 408,
+      "national": 408,
+      "name": "Cranidos"
+    },
+    {
+      "id": 409,
+      "national": 409,
+      "name": "Rampardos"
+    },
+    {
+      "id": 410,
+      "national": 410,
+      "name": "Shieldon"
+    },
+    {
+      "id": 411,
+      "national": 411,
+      "name": "Bastiodon"
+    },
+    {
+      "id": 412,
+      "national": 412,
+      "name": "Burmy"
+    },
+    {
+      "id": 413,
+      "national": 413,
+      "name": "Wormadam"
+    },
+    {
+      "id": 414,
+      "national": 414,
+      "name": "Mothim"
+    },
+    {
+      "id": 415,
+      "national": 415,
+      "name": "Combee"
+    },
+    {
+      "id": 416,
+      "national": 416,
+      "name": "Vespiquen"
+    },
+    {
+      "id": 417,
+      "national": 417,
+      "name": "Pachirisu"
+    },
+    {
+      "id": 418,
+      "national": 418,
+      "name": "Buizel"
+    },
+    {
+      "id": 419,
+      "national": 419,
+      "name": "Floatzel"
+    },
+    {
+      "id": 420,
+      "national": 420,
+      "name": "Cherubi"
+    },
+    {
+      "id": 421,
+      "national": 421,
+      "name": "Cherrim"
+    },
+    {
+      "id": 422,
+      "national": 422,
+      "name": "Shellos"
+    },
+    {
+      "id": 423,
+      "national": 423,
+      "name": "Gastrodon"
+    },
+    {
+      "id": 424,
+      "national": 424,
+      "name": "Ambipom"
+    },
+    {
+      "id": 425,
+      "national": 425,
+      "name": "Drifloon"
+    },
+    {
+      "id": 426,
+      "national": 426,
+      "name": "Drifblim"
+    },
+    {
+      "id": 427,
+      "national": 427,
+      "name": "Buneary"
+    },
+    {
+      "id": 428,
+      "national": 428,
+      "name": "Lopunny"
+    },
+    {
+      "id": 429,
+      "national": 429,
+      "name": "Mismagius"
+    },
+    {
+      "id": 430,
+      "national": 430,
+      "name": "Honchkrow"
+    },
+    {
+      "id": 431,
+      "national": 431,
+      "name": "Glameow"
+    },
+    {
+      "id": 432,
+      "national": 432,
+      "name": "Purugly"
+    },
+    {
+      "id": 433,
+      "national": 433,
+      "name": "Chingling"
+    },
+    {
+      "id": 434,
+      "national": 434,
+      "name": "Stunky"
+    },
+    {
+      "id": 435,
+      "national": 435,
+      "name": "Skuntank"
+    },
+    {
+      "id": 436,
+      "national": 436,
+      "name": "Bronzor"
+    },
+    {
+      "id": 437,
+      "national": 437,
+      "name": "Bronzong"
+    },
+    {
+      "id": 438,
+      "national": 438,
+      "name": "Bonsly"
+    },
+    {
+      "id": 439,
+      "national": 439,
+      "name": "Mime Jr."
+    },
+    {
+      "id": 440,
+      "national": 440,
+      "name": "Happiny"
+    },
+    {
+      "id": 441,
+      "national": 441,
+      "name": "Chatot"
+    },
+    {
+      "id": 442,
+      "national": 442,
+      "name": "Spiritomb"
+    },
+    {
+      "id": 443,
+      "national": 443,
+      "name": "Gible"
+    },
+    {
+      "id": 444,
+      "national": 444,
+      "name": "Gabite"
+    },
+    {
+      "id": 445,
+      "national": 445,
+      "name": "Garchomp"
+    },
+    {
+      "id": 446,
+      "national": 446,
+      "name": "Munchlax"
+    },
+    {
+      "id": 447,
+      "national": 447,
+      "name": "Riolu"
+    },
+    {
+      "id": 448,
+      "national": 448,
+      "name": "Lucario"
+    },
+    {
+      "id": 449,
+      "national": 449,
+      "name": "Hippopotas"
+    },
+    {
+      "id": 450,
+      "national": 450,
+      "name": "Hippowdon"
+    },
+    {
+      "id": 451,
+      "national": 451,
+      "name": "Skorupi"
+    },
+    {
+      "id": 452,
+      "national": 452,
+      "name": "Drapion"
+    },
+    {
+      "id": 453,
+      "national": 453,
+      "name": "Croagunk"
+    },
+    {
+      "id": 454,
+      "national": 454,
+      "name": "Toxicroak"
+    },
+    {
+      "id": 455,
+      "national": 455,
+      "name": "Carnivine"
+    },
+    {
+      "id": 456,
+      "national": 456,
+      "name": "Finneon"
+    },
+    {
+      "id": 457,
+      "national": 457,
+      "name": "Lumineon"
+    },
+    {
+      "id": 458,
+      "national": 458,
+      "name": "Mantyke"
+    },
+    {
+      "id": 459,
+      "national": 459,
+      "name": "Snover"
+    },
+    {
+      "id": 460,
+      "national": 460,
+      "name": "Abomasnow"
+    },
+    {
+      "id": 461,
+      "national": 461,
+      "name": "Weavile"
+    },
+    {
+      "id": 462,
+      "national": 462,
+      "name": "Magnezone"
+    },
+    {
+      "id": 463,
+      "national": 463,
+      "name": "Lickilicky"
+    },
+    {
+      "id": 464,
+      "national": 464,
+      "name": "Rhyperior"
+    },
+    {
+      "id": 465,
+      "national": 465,
+      "name": "Tangrowth"
+    },
+    {
+      "id": 466,
+      "national": 466,
+      "name": "Electivire"
+    },
+    {
+      "id": 467,
+      "national": 467,
+      "name": "Magmortar"
+    },
+    {
+      "id": 468,
+      "national": 468,
+      "name": "Togekiss"
+    },
+    {
+      "id": 469,
+      "national": 469,
+      "name": "Yanmega"
+    },
+    {
+      "id": 470,
+      "national": 470,
+      "name": "Leafeon"
+    },
+    {
+      "id": 471,
+      "national": 471,
+      "name": "Glaceon"
+    },
+    {
+      "id": 472,
+      "national": 472,
+      "name": "Gliscor"
+    },
+    {
+      "id": 473,
+      "national": 473,
+      "name": "Mamoswine"
+    },
+    {
+      "id": 474,
+      "national": 474,
+      "name": "Porygon-Z"
+    },
+    {
+      "id": 475,
+      "national": 475,
+      "name": "Gallade"
+    },
+    {
+      "id": 476,
+      "national": 476,
+      "name": "Probopass"
+    },
+    {
+      "id": 477,
+      "national": 477,
+      "name": "Dusknoir"
+    },
+    {
+      "id": 478,
+      "national": 478,
+      "name": "Froslass"
+    },
+    {
+      "id": 479,
+      "national": 479,
+      "name": "Rotom"
+    },
+    {
+      "id": 480,
+      "national": 480,
+      "name": "Uxie"
+    },
+    {
+      "id": 481,
+      "national": 481,
+      "name": "Mesprit"
+    },
+    {
+      "id": 482,
+      "national": 482,
+      "name": "Azelf"
+    },
+    {
+      "id": 483,
+      "national": 483,
+      "name": "Dialga"
+    },
+    {
+      "id": 484,
+      "national": 484,
+      "name": "Palkia"
+    },
+    {
+      "id": 485,
+      "national": 485,
+      "name": "Heatran"
+    },
+    {
+      "id": 486,
+      "national": 486,
+      "name": "Regigigas"
+    },
+    {
+      "id": 487,
+      "national": 487,
+      "name": "Giratina"
+    },
+    {
+      "id": 488,
+      "national": 488,
+      "name": "Cresselia"
+    },
+    {
+      "id": 489,
+      "national": 489,
+      "name": "Phione"
+    },
+    {
+      "id": 490,
+      "national": 490,
+      "name": "Manaphy"
+    },
+    {
+      "id": 491,
+      "national": 491,
+      "name": "Darkrai"
+    },
+    {
+      "id": 492,
+      "national": 492,
+      "name": "Shaymin"
+    },
+    {
+      "id": 493,
+      "national": 493,
+      "name": "Arceus"
+    },
+    {
+      "id": 494,
+      "national": 494,
+      "name": "Victini"
+    },
+    {
+      "id": 495,
+      "national": 495,
+      "name": "Snivy"
+    },
+    {
+      "id": 496,
+      "national": 496,
+      "name": "Servine"
+    },
+    {
+      "id": 497,
+      "national": 497,
+      "name": "Serperior"
+    },
+    {
+      "id": 498,
+      "national": 498,
+      "name": "Tepig"
+    },
+    {
+      "id": 499,
+      "national": 499,
+      "name": "Pignite"
+    },
+    {
+      "id": 500,
+      "national": 500,
+      "name": "Emboar"
+    },
+    {
+      "id": 501,
+      "national": 501,
+      "name": "Oshawott"
+    },
+    {
+      "id": 502,
+      "national": 502,
+      "name": "Dewott"
+    },
+    {
+      "id": 503,
+      "national": 503,
+      "name": "Samurott"
+    },
+    {
+      "id": 504,
+      "national": 504,
+      "name": "Patrat"
+    },
+    {
+      "id": 505,
+      "national": 505,
+      "name": "Watchog"
+    },
+    {
+      "id": 506,
+      "national": 506,
+      "name": "Lillipup"
+    },
+    {
+      "id": 507,
+      "national": 507,
+      "name": "Herdier"
+    },
+    {
+      "id": 508,
+      "national": 508,
+      "name": "Stoutland"
+    },
+    {
+      "id": 509,
+      "national": 509,
+      "name": "Purrloin"
+    },
+    {
+      "id": 510,
+      "national": 510,
+      "name": "Liepard"
+    },
+    {
+      "id": 511,
+      "national": 511,
+      "name": "Pansage"
+    },
+    {
+      "id": 512,
+      "national": 512,
+      "name": "Simisage"
+    },
+    {
+      "id": 513,
+      "national": 513,
+      "name": "Pansear"
+    },
+    {
+      "id": 514,
+      "national": 514,
+      "name": "Simisear"
+    },
+    {
+      "id": 515,
+      "national": 515,
+      "name": "Panpour"
+    },
+    {
+      "id": 516,
+      "national": 516,
+      "name": "Simipour"
+    },
+    {
+      "id": 517,
+      "national": 517,
+      "name": "Munna"
+    },
+    {
+      "id": 518,
+      "national": 518,
+      "name": "Musharna"
+    },
+    {
+      "id": 519,
+      "national": 519,
+      "name": "Pidove"
+    },
+    {
+      "id": 520,
+      "national": 520,
+      "name": "Tranquill"
+    },
+    {
+      "id": 521,
+      "national": 521,
+      "name": "Unfezant"
+    },
+    {
+      "id": 522,
+      "national": 522,
+      "name": "Blitzle"
+    },
+    {
+      "id": 523,
+      "national": 523,
+      "name": "Zebstrika"
+    },
+    {
+      "id": 524,
+      "national": 524,
+      "name": "Roggenrola"
+    },
+    {
+      "id": 525,
+      "national": 525,
+      "name": "Boldore"
+    },
+    {
+      "id": 526,
+      "national": 526,
+      "name": "Gigalith"
+    },
+    {
+      "id": 527,
+      "national": 527,
+      "name": "Woobat"
+    },
+    {
+      "id": 528,
+      "national": 528,
+      "name": "Swoobat"
+    },
+    {
+      "id": 529,
+      "national": 529,
+      "name": "Drilbur"
+    },
+    {
+      "id": 530,
+      "national": 530,
+      "name": "Excadrill"
+    },
+    {
+      "id": 531,
+      "national": 531,
+      "name": "Audino"
+    },
+    {
+      "id": 532,
+      "national": 532,
+      "name": "Timburr"
+    },
+    {
+      "id": 533,
+      "national": 533,
+      "name": "Gurdurr"
+    },
+    {
+      "id": 534,
+      "national": 534,
+      "name": "Conkeldurr"
+    },
+    {
+      "id": 535,
+      "national": 535,
+      "name": "Tympole"
+    },
+    {
+      "id": 536,
+      "national": 536,
+      "name": "Palpitoad"
+    },
+    {
+      "id": 537,
+      "national": 537,
+      "name": "Seismitoad"
+    },
+    {
+      "id": 538,
+      "national": 538,
+      "name": "Throh"
+    },
+    {
+      "id": 539,
+      "national": 539,
+      "name": "Sawk"
+    },
+    {
+      "id": 540,
+      "national": 540,
+      "name": "Sewaddle"
+    },
+    {
+      "id": 541,
+      "national": 541,
+      "name": "Swadloon"
+    },
+    {
+      "id": 542,
+      "national": 542,
+      "name": "Leavanny"
+    },
+    {
+      "id": 543,
+      "national": 543,
+      "name": "Venipede"
+    },
+    {
+      "id": 544,
+      "national": 544,
+      "name": "Whirlipede"
+    },
+    {
+      "id": 545,
+      "national": 545,
+      "name": "Scolipede"
+    },
+    {
+      "id": 546,
+      "national": 546,
+      "name": "Cottonee"
+    },
+    {
+      "id": 547,
+      "national": 547,
+      "name": "Whimsicott"
+    },
+    {
+      "id": 548,
+      "national": 548,
+      "name": "Petilil"
+    },
+    {
+      "id": 549,
+      "national": 549,
+      "name": "Lilligant"
+    },
+    {
+      "id": 550,
+      "national": 550,
+      "name": "Basculin"
+    },
+    {
+      "id": 551,
+      "national": 551,
+      "name": "Sandile"
+    },
+    {
+      "id": 552,
+      "national": 552,
+      "name": "Krokorok"
+    },
+    {
+      "id": 553,
+      "national": 553,
+      "name": "Krookodile"
+    },
+    {
+      "id": 554,
+      "national": 554,
+      "name": "Darumaka"
+    },
+    {
+      "id": 555,
+      "national": 555,
+      "name": "Darmanitan"
+    },
+    {
+      "id": 556,
+      "national": 556,
+      "name": "Maractus"
+    },
+    {
+      "id": 557,
+      "national": 557,
+      "name": "Dwebble"
+    },
+    {
+      "id": 558,
+      "national": 558,
+      "name": "Crustle"
+    },
+    {
+      "id": 559,
+      "national": 559,
+      "name": "Scraggy"
+    },
+    {
+      "id": 560,
+      "national": 560,
+      "name": "Scrafty"
+    },
+    {
+      "id": 561,
+      "national": 561,
+      "name": "Sigilyph"
+    },
+    {
+      "id": 562,
+      "national": 562,
+      "name": "Yamask"
+    },
+    {
+      "id": 563,
+      "national": 563,
+      "name": "Cofagrigus"
+    },
+    {
+      "id": 564,
+      "national": 564,
+      "name": "Tirtouga"
+    },
+    {
+      "id": 565,
+      "national": 565,
+      "name": "Carracosta"
+    },
+    {
+      "id": 566,
+      "national": 566,
+      "name": "Archen"
+    },
+    {
+      "id": 567,
+      "national": 567,
+      "name": "Archeops"
+    },
+    {
+      "id": 568,
+      "national": 568,
+      "name": "Trubbish"
+    },
+    {
+      "id": 569,
+      "national": 569,
+      "name": "Garbodor"
+    },
+    {
+      "id": 570,
+      "national": 570,
+      "name": "Zorua"
+    },
+    {
+      "id": 571,
+      "national": 571,
+      "name": "Zoroark"
+    },
+    {
+      "id": 572,
+      "national": 572,
+      "name": "Minccino"
+    },
+    {
+      "id": 573,
+      "national": 573,
+      "name": "Cinccino"
+    },
+    {
+      "id": 574,
+      "national": 574,
+      "name": "Gothita"
+    },
+    {
+      "id": 575,
+      "national": 575,
+      "name": "Gothorita"
+    },
+    {
+      "id": 576,
+      "national": 576,
+      "name": "Gothitelle"
+    },
+    {
+      "id": 577,
+      "national": 577,
+      "name": "Solosis"
+    },
+    {
+      "id": 578,
+      "national": 578,
+      "name": "Duosion"
+    },
+    {
+      "id": 579,
+      "national": 579,
+      "name": "Reuniclus"
+    },
+    {
+      "id": 580,
+      "national": 580,
+      "name": "Ducklett"
+    },
+    {
+      "id": 581,
+      "national": 581,
+      "name": "Swanna"
+    },
+    {
+      "id": 582,
+      "national": 582,
+      "name": "Vanillite"
+    },
+    {
+      "id": 583,
+      "national": 583,
+      "name": "Vanillish"
+    },
+    {
+      "id": 584,
+      "national": 584,
+      "name": "Vanilluxe"
+    },
+    {
+      "id": 585,
+      "national": 585,
+      "name": "Deerling"
+    },
+    {
+      "id": 586,
+      "national": 586,
+      "name": "Sawsbuck"
+    },
+    {
+      "id": 587,
+      "national": 587,
+      "name": "Emolga"
+    },
+    {
+      "id": 588,
+      "national": 588,
+      "name": "Karrablast"
+    },
+    {
+      "id": 589,
+      "national": 589,
+      "name": "Escavalier"
+    },
+    {
+      "id": 590,
+      "national": 590,
+      "name": "Foongus"
+    },
+    {
+      "id": 591,
+      "national": 591,
+      "name": "Amoonguss"
+    },
+    {
+      "id": 592,
+      "national": 592,
+      "name": "Frillish"
+    },
+    {
+      "id": 593,
+      "national": 593,
+      "name": "Jellicent"
+    },
+    {
+      "id": 594,
+      "national": 594,
+      "name": "Alomomola"
+    },
+    {
+      "id": 595,
+      "national": 595,
+      "name": "Joltik"
+    },
+    {
+      "id": 596,
+      "national": 596,
+      "name": "Galvantula"
+    },
+    {
+      "id": 597,
+      "national": 597,
+      "name": "Ferroseed"
+    },
+    {
+      "id": 598,
+      "national": 598,
+      "name": "Ferrothorn"
+    },
+    {
+      "id": 599,
+      "national": 599,
+      "name": "Klink"
+    },
+    {
+      "id": 600,
+      "national": 600,
+      "name": "Klang"
+    },
+    {
+      "id": 601,
+      "national": 601,
+      "name": "Klinklang"
+    },
+    {
+      "id": 602,
+      "national": 602,
+      "name": "Tynamo"
+    },
+    {
+      "id": 603,
+      "national": 603,
+      "name": "Eelektrik"
+    },
+    {
+      "id": 604,
+      "national": 604,
+      "name": "Eelektross"
+    },
+    {
+      "id": 605,
+      "national": 605,
+      "name": "Elgyem"
+    },
+    {
+      "id": 606,
+      "national": 606,
+      "name": "Beheeyem"
+    },
+    {
+      "id": 607,
+      "national": 607,
+      "name": "Litwick"
+    },
+    {
+      "id": 608,
+      "national": 608,
+      "name": "Lampent"
+    },
+    {
+      "id": 609,
+      "national": 609,
+      "name": "Chandelure"
+    },
+    {
+      "id": 610,
+      "national": 610,
+      "name": "Axew"
+    },
+    {
+      "id": 611,
+      "national": 611,
+      "name": "Fraxure"
+    },
+    {
+      "id": 612,
+      "national": 612,
+      "name": "Haxorus"
+    },
+    {
+      "id": 613,
+      "national": 613,
+      "name": "Cubchoo"
+    },
+    {
+      "id": 614,
+      "national": 614,
+      "name": "Beartic"
+    },
+    {
+      "id": 615,
+      "national": 615,
+      "name": "Cryogonal"
+    },
+    {
+      "id": 616,
+      "national": 616,
+      "name": "Shelmet"
+    },
+    {
+      "id": 617,
+      "national": 617,
+      "name": "Accelgor"
+    },
+    {
+      "id": 618,
+      "national": 618,
+      "name": "Stunfisk"
+    },
+    {
+      "id": 619,
+      "national": 619,
+      "name": "Mienfoo"
+    },
+    {
+      "id": 620,
+      "national": 620,
+      "name": "Mienshao"
+    },
+    {
+      "id": 621,
+      "national": 621,
+      "name": "Druddigon"
+    },
+    {
+      "id": 622,
+      "national": 622,
+      "name": "Golett"
+    },
+    {
+      "id": 623,
+      "national": 623,
+      "name": "Golurk"
+    },
+    {
+      "id": 624,
+      "national": 624,
+      "name": "Pawniard"
+    },
+    {
+      "id": 625,
+      "national": 625,
+      "name": "Bisharp"
+    },
+    {
+      "id": 626,
+      "national": 626,
+      "name": "Bouffalant"
+    },
+    {
+      "id": 627,
+      "national": 627,
+      "name": "Rufflet"
+    },
+    {
+      "id": 628,
+      "national": 628,
+      "name": "Braviary"
+    },
+    {
+      "id": 629,
+      "national": 629,
+      "name": "Vullaby"
+    },
+    {
+      "id": 630,
+      "national": 630,
+      "name": "Mandibuzz"
+    },
+    {
+      "id": 631,
+      "national": 631,
+      "name": "Heatmor"
+    },
+    {
+      "id": 632,
+      "national": 632,
+      "name": "Durant"
+    },
+    {
+      "id": 633,
+      "national": 633,
+      "name": "Deino"
+    },
+    {
+      "id": 634,
+      "national": 634,
+      "name": "Zweilous"
+    },
+    {
+      "id": 635,
+      "national": 635,
+      "name": "Hydreigon"
+    },
+    {
+      "id": 636,
+      "national": 636,
+      "name": "Larvesta"
+    },
+    {
+      "id": 637,
+      "national": 637,
+      "name": "Volcarona"
+    },
+    {
+      "id": 638,
+      "national": 638,
+      "name": "Cobalion"
+    },
+    {
+      "id": 639,
+      "national": 639,
+      "name": "Terrakion"
+    },
+    {
+      "id": 640,
+      "national": 640,
+      "name": "Virizion"
+    },
+    {
+      "id": 641,
+      "national": 641,
+      "name": "Tornadus"
+    },
+    {
+      "id": 642,
+      "national": 642,
+      "name": "Thundurus"
+    },
+    {
+      "id": 643,
+      "national": 643,
+      "name": "Reshiram"
+    },
+    {
+      "id": 644,
+      "national": 644,
+      "name": "Zekrom"
+    },
+    {
+      "id": 645,
+      "national": 645,
+      "name": "Landorus"
+    },
+    {
+      "id": 646,
+      "national": 646,
+      "name": "Kyurem"
+    },
+    {
+      "id": 647,
+      "national": 647,
+      "name": "Keldeo"
+    },
+    {
+      "id": 648,
+      "national": 648,
+      "name": "Meloetta"
+    },
+    {
+      "id": 649,
+      "national": 649,
+      "name": "Genesect"
+    },
+    {
+      "id": 650,
+      "national": 650,
+      "name": "Chespin"
+    },
+    {
+      "id": 651,
+      "national": 651,
+      "name": "Quilladin"
+    },
+    {
+      "id": 652,
+      "national": 652,
+      "name": "Chesnaught"
+    },
+    {
+      "id": 653,
+      "national": 653,
+      "name": "Fennekin"
+    },
+    {
+      "id": 654,
+      "national": 654,
+      "name": "Braixen"
+    },
+    {
+      "id": 655,
+      "national": 655,
+      "name": "Delphox"
+    },
+    {
+      "id": 656,
+      "national": 656,
+      "name": "Froakie"
+    },
+    {
+      "id": 657,
+      "national": 657,
+      "name": "Frogadier"
+    },
+    {
+      "id": 658,
+      "national": 658,
+      "name": "Greninja"
+    },
+    {
+      "id": 659,
+      "national": 659,
+      "name": "Bunnelby"
+    },
+    {
+      "id": 660,
+      "national": 660,
+      "name": "Diggersby"
+    },
+    {
+      "id": 661,
+      "national": 661,
+      "name": "Fletchling"
+    },
+    {
+      "id": 662,
+      "national": 662,
+      "name": "Fletchinder"
+    },
+    {
+      "id": 663,
+      "national": 663,
+      "name": "Talonflame"
+    },
+    {
+      "id": 664,
+      "national": 664,
+      "name": "Scatterbug"
+    },
+    {
+      "id": 665,
+      "national": 665,
+      "name": "Spewpa"
+    },
+    {
+      "id": 666,
+      "national": 666,
+      "name": "Vivillon"
+    },
+    {
+      "id": 667,
+      "national": 667,
+      "name": "Litleo"
+    },
+    {
+      "id": 668,
+      "national": 668,
+      "name": "Pyroar"
+    },
+    {
+      "id": 670,
+      "national": 670,
+      "name": "Floette"
+    },
+    {
+      "id": 671,
+      "national": 671,
+      "name": "Florges"
+    },
+    {
+      "id": 672,
+      "national": 672,
+      "name": "Skiddo"
+    },
+    {
+      "id": 673,
+      "national": 673,
+      "name": "Gogoat"
+    },
+    {
+      "id": 674,
+      "national": 674,
+      "name": "Pancham"
+    },
+    {
+      "id": 675,
+      "national": 675,
+      "name": "Pangoro"
+    },
+    {
+      "id": 676,
+      "national": 676,
+      "name": "Furfrou"
+    },
+    {
+      "id": 677,
+      "national": 677,
+      "name": "Espurr"
+    },
+    {
+      "id": 678,
+      "national": 678,
+      "name": "Meowstic"
+    },
+    {
+      "id": 679,
+      "national": 679,
+      "name": "Honedge"
+    },
+    {
+      "id": 680,
+      "national": 680,
+      "name": "Doublade"
+    },
+    {
+      "id": 681,
+      "national": 681,
+      "name": "Aegislash"
+    },
+    {
+      "id": 682,
+      "national": 682,
+      "name": "Spritzee"
+    },
+    {
+      "id": 683,
+      "national": 683,
+      "name": "Aromatisse"
+    },
+    {
+      "id": 684,
+      "national": 684,
+      "name": "Swirlix"
+    },
+    {
+      "id": 685,
+      "national": 685,
+      "name": "Slurpuff"
+    },
+    {
+      "id": 686,
+      "national": 686,
+      "name": "Inkay"
+    },
+    {
+      "id": 687,
+      "national": 687,
+      "name": "Malamar"
+    },
+    {
+      "id": 688,
+      "national": 688,
+      "name": "Binacle"
+    },
+    {
+      "id": 689,
+      "national": 689,
+      "name": "Barbaracle"
+    },
+    {
+      "id": 690,
+      "national": 690,
+      "name": "Skrelp"
+    },
+    {
+      "id": 691,
+      "national": 691,
+      "name": "Dragalge"
+    },
+    {
+      "id": 692,
+      "national": 692,
+      "name": "Clauncher"
+    },
+    {
+      "id": 693,
+      "national": 693,
+      "name": "Clawitzer"
+    },
+    {
+      "id": 694,
+      "national": 694,
+      "name": "Helioptile"
+    },
+    {
+      "id": 695,
+      "national": 695,
+      "name": "Heliolisk"
+    },
+    {
+      "id": 696,
+      "national": 696,
+      "name": "Tyrunt"
+    },
+    {
+      "id": 697,
+      "national": 697,
+      "name": "Tyrantrum"
+    },
+    {
+      "id": 698,
+      "national": 698,
+      "name": "Amaura"
+    },
+    {
+      "id": 699,
+      "national": 699,
+      "name": "Aurorus"
+    },
+    {
+      "id": 700,
+      "national": 700,
+      "name": "Sylveon"
+    },
+    {
+      "id": 701,
+      "national": 701,
+      "name": "Hawlucha"
+    },
+    {
+      "id": 702,
+      "national": 702,
+      "name": "Dedenne"
+    },
+    {
+      "id": 703,
+      "national": 703,
+      "name": "Carbink"
+    },
+    {
+      "id": 704,
+      "national": 704,
+      "name": "Goomy"
+    },
+    {
+      "id": 705,
+      "national": 705,
+      "name": "Sliggoo"
+    },
+    {
+      "id": 706,
+      "national": 706,
+      "name": "Goodra"
+    },
+    {
+      "id": 707,
+      "national": 707,
+      "name": "Klefki"
+    },
+    {
+      "id": 708,
+      "national": 708,
+      "name": "Phantump"
+    },
+    {
+      "id": 709,
+      "national": 709,
+      "name": "Trevenant"
+    },
+    {
+      "id": 710,
+      "national": 710,
+      "name": "Pumpkaboo"
+    },
+    {
+      "id": 711,
+      "national": 711,
+      "name": "Gourgeist"
+    },
+    {
+      "id": 712,
+      "national": 712,
+      "name": "Bergmite"
+    },
+    {
+      "id": 713,
+      "national": 713,
+      "name": "Avalugg"
+    },
+    {
+      "id": 714,
+      "national": 714,
+      "name": "Noibat"
+    },
+    {
+      "id": 715,
+      "national": 715,
+      "name": "Noivern"
+    },
+    {
+      "id": 716,
+      "national": 716,
+      "name": "Xerneas"
+    },
+    {
+      "id": 717,
+      "national": 717,
+      "name": "Yveltal"
+    },
+    {
+      "id": 718,
+      "national": 718,
+      "name": "Zygarde"
+    },
+    {
+      "id": 719,
+      "national": 719,
+      "name": "Diancie"
+    },
+    {
+      "id": 720,
+      "national": 720,
+      "name": "Hoopa"
+    },
+    {
+      "id": 721,
+      "national": 721,
+      "name": "Volcanion"
+    },
+    {
+      "id": 722,
+      "national": 722,
+      "name": "Rowlet"
+    },
+    {
+      "id": 723,
+      "national": 723,
+      "name": "Dartrix"
+    },
+    {
+      "id": 724,
+      "national": 724,
+      "name": "Decidueye"
+    },
+    {
+      "id": 725,
+      "national": 725,
+      "name": "Litten"
+    },
+    {
+      "id": 726,
+      "national": 726,
+      "name": "Torracat"
+    },
+    {
+      "id": 727,
+      "national": 727,
+      "name": "Incineroar"
+    },
+    {
+      "id": 728,
+      "national": 728,
+      "name": "Popplio"
+    },
+    {
+      "id": 729,
+      "national": 729,
+      "name": "Brionne"
+    },
+    {
+      "id": 730,
+      "national": 730,
+      "name": "Primarina"
+    },
+    {
+      "id": 731,
+      "national": 731,
+      "name": "Pikipek"
+    },
+    {
+      "id": 732,
+      "national": 732,
+      "name": "Trumbeak"
+    },
+    {
+      "id": 733,
+      "national": 733,
+      "name": "Toucannon"
+    },
+    {
+      "id": 734,
+      "national": 734,
+      "name": "Yungoos"
+    },
+    {
+      "id": 735,
+      "national": 735,
+      "name": "Gumshoos"
+    },
+    {
+      "id": 736,
+      "national": 736,
+      "name": "Grubbin"
+    },
+    {
+      "id": 737,
+      "national": 737,
+      "name": "Charjabug"
+    },
+    {
+      "id": 738,
+      "national": 738,
+      "name": "Vikavolt"
+    },
+    {
+      "id": 739,
+      "national": 739,
+      "name": "Crabrawler"
+    },
+    {
+      "id": 740,
+      "national": 740,
+      "name": "Crabominable"
+    },
+    {
+      "id": 741,
+      "national": 741,
+      "name": "Oricorio"
+    },
+    {
+      "id": 742,
+      "national": 742,
+      "name": "Cutiefly"
+    },
+    {
+      "id": 743,
+      "national": 743,
+      "name": "Ribombee"
+    },
+    {
+      "id": 744,
+      "national": 744,
+      "name": "Rockruff"
+    },
+    {
+      "id": 745,
+      "national": 745,
+      "name": "Lycanroc"
+    },
+    {
+      "id": 746,
+      "national": 746,
+      "name": "Wishiwashi"
+    },
+    {
+      "id": 747,
+      "national": 747,
+      "name": "Mareanie"
+    },
+    {
+      "id": 748,
+      "national": 748,
+      "name": "Toxapex"
+    },
+    {
+      "id": 749,
+      "national": 749,
+      "name": "Mudbray"
+    },
+    {
+      "id": 750,
+      "national": 750,
+      "name": "Mudsdale"
+    },
+    {
+      "id": 751,
+      "national": 751,
+      "name": "Dewpider"
+    },
+    {
+      "id": 752,
+      "national": 752,
+      "name": "Araquanid"
+    },
+    {
+      "id": 753,
+      "national": 753,
+      "name": "Fomantis"
+    },
+    {
+      "id": 754,
+      "national": 754,
+      "name": "Lurantis"
+    },
+    {
+      "id": 755,
+      "national": 755,
+      "name": "Morelull"
+    },
+    {
+      "id": 756,
+      "national": 756,
+      "name": "Shiinotic"
+    },
+    {
+      "id": 757,
+      "national": 757,
+      "name": "Salandit"
+    },
+    {
+      "id": 758,
+      "national": 758,
+      "name": "Salazzle"
+    },
+    {
+      "id": 759,
+      "national": 759,
+      "name": "Stufful"
+    },
+    {
+      "id": 760,
+      "national": 760,
+      "name": "Bewear"
+    },
+    {
+      "id": 761,
+      "national": 761,
+      "name": "Bounsweet"
+    },
+    {
+      "id": 762,
+      "national": 762,
+      "name": "Steenee"
+    },
+    {
+      "id": 763,
+      "national": 763,
+      "name": "Tsareena"
+    },
+    {
+      "id": 764,
+      "national": 764,
+      "name": "Comfey"
+    },
+    {
+      "id": 765,
+      "national": 765,
+      "name": "Oranguru"
+    },
+    {
+      "id": 766,
+      "national": 766,
+      "name": "Passimian"
+    },
+    {
+      "id": 767,
+      "national": 767,
+      "name": "Wimpod"
+    },
+    {
+      "id": 768,
+      "national": 768,
+      "name": "Golisopod"
+    },
+    {
+      "id": 769,
+      "national": 769,
+      "name": "Sandygast"
+    },
+    {
+      "id": 770,
+      "national": 770,
+      "name": "Palossand"
+    },
+    {
+      "id": 771,
+      "national": 771,
+      "name": "Pyukumuku"
+    },
+    {
+      "id": 772,
+      "national": 772,
+      "name": "Type: Null"
+    },
+    {
+      "id": 773,
+      "national": 773,
+      "name": "Silvally"
+    },
+    {
+      "id": 774,
+      "national": 774,
+      "name": "Minior"
+    },
+    {
+      "id": 775,
+      "national": 775,
+      "name": "Komala"
+    },
+    {
+      "id": 776,
+      "national": 776,
+      "name": "Turtonator"
+    },
+    {
+      "id": 777,
+      "national": 777,
+      "name": "Togedemaru"
+    },
+    {
+      "id": 778,
+      "national": 778,
+      "name": "Mimikyu"
+    },
+    {
+      "id": 779,
+      "national": 779,
+      "name": "Bruxish"
+    },
+    {
+      "id": 780,
+      "national": 780,
+      "name": "Drampa"
+    },
+    {
+      "id": 781,
+      "national": 781,
+      "name": "Dhelmise"
+    },
+    {
+      "id": 782,
+      "national": 782,
+      "name": "Jangmo-o"
+    },
+    {
+      "id": 783,
+      "national": 783,
+      "name": "Hakamo-o"
+    },
+    {
+      "id": 784,
+      "national": 784,
+      "name": "Kommo-o"
+    },
+    {
+      "id": 785,
+      "national": 785,
+      "name": "Tapu Koko"
+    },
+    {
+      "id": 786,
+      "national": 786,
+      "name": "Tapu Lele"
+    },
+    {
+      "id": 787,
+      "national": 787,
+      "name": "Tapu Bulu"
+    },
+    {
+      "id": 788,
+      "national": 788,
+      "name": "Tapu Fini"
+    },
+    {
+      "id": 789,
+      "national": 789,
+      "name": "Cosmog"
+    },
+    {
+      "id": 790,
+      "national": 790,
+      "name": "Cosmoem"
+    },
+    {
+      "id": 791,
+      "national": 791,
+      "name": "Solgaleo"
+    },
+    {
+      "id": 792,
+      "national": 792,
+      "name": "Lunala"
+    },
+    {
+      "id": 793,
+      "national": 793,
+      "name": "Nihilego"
+    },
+    {
+      "id": 794,
+      "national": 794,
+      "name": "Buzzwole"
+    },
+    {
+      "id": 795,
+      "national": 795,
+      "name": "Pheromosa"
+    },
+    {
+      "id": 796,
+      "national": 796,
+      "name": "Xurkitree"
+    },
+    {
+      "id": 797,
+      "national": 797,
+      "name": "Celesteela"
+    },
+    {
+      "id": 798,
+      "national": 798,
+      "name": "Kartana"
+    },
+    {
+      "id": 799,
+      "national": 799,
+      "name": "Guzzlord"
+    },
+    {
+      "id": 800,
+      "national": 800,
+      "name": "Necrozma"
+    },
+    {
+      "id": 801,
+      "national": 801,
+      "name": "Magearna"
+    },
+    {
+      "id": 802,
+      "national": 802,
+      "name": "Marshadow"
+    },
+    {
+      "id": 803,
+      "national": 803,
+      "name": "Poipole"
+    },
+    {
+      "id": 804,
+      "national": 804,
+      "name": "Naganadel"
+    },
+    {
+      "id": 805,
+      "national": 805,
+      "name": "Stakataka"
+    },
+    {
+      "id": 806,
+      "national": 806,
+      "name": "Blacephalon"
+    },
+    {
+      "id": 807,
+      "national": 807,
+      "name": "Zeraora"
+    },
+    {
+      "id": 808,
+      "national": 808,
+      "name": "Meltan"
+    },
+    {
+      "id": 809,
+      "national": 809,
+      "name": "Melmetal"
+    },
+    {
+      "id": 810,
+      "national": 810,
+      "name": "Grookey"
+    },
+    {
+      "id": 811,
+      "national": 811,
+      "name": "Thwackey"
+    },
+    {
+      "id": 812,
+      "national": 812,
+      "name": "Rillaboom"
+    },
+    {
+      "id": 813,
+      "national": 813,
+      "name": "Scorbunny"
+    },
+    {
+      "id": 814,
+      "national": 814,
+      "name": "Raboot"
+    },
+    {
+      "id": 815,
+      "national": 815,
+      "name": "Cinderace"
+    },
+    {
+      "id": 816,
+      "national": 816,
+      "name": "Sobble"
+    },
+    {
+      "id": 817,
+      "national": 817,
+      "name": "Drizzile"
+    },
+    {
+      "id": 818,
+      "national": 818,
+      "name": "Inteleon"
+    },
+    {
+      "id": 819,
+      "national": 819,
+      "name": "Skwovet"
+    },
+    {
+      "id": 820,
+      "national": 820,
+      "name": "Greedent"
+    },
+    {
+      "id": 821,
+      "national": 821,
+      "name": "Rookidee"
+    },
+    {
+      "id": 822,
+      "national": 822,
+      "name": "Corvisquire"
+    },
+    {
+      "id": 823,
+      "national": 823,
+      "name": "Corviknight"
+    },
+    {
+      "id": 824,
+      "national": 824,
+      "name": "Blipbug"
+    },
+    {
+      "id": 825,
+      "national": 825,
+      "name": "Dottler"
+    },
+    {
+      "id": 826,
+      "national": 826,
+      "name": "Orbeetle"
+    },
+    {
+      "id": 827,
+      "national": 827,
+      "name": "Nickit"
+    },
+    {
+      "id": 828,
+      "national": 828,
+      "name": "Thievul"
+    },
+    {
+      "id": 829,
+      "national": 829,
+      "name": "Gossifleur"
+    },
+    {
+      "id": 830,
+      "national": 830,
+      "name": "Eldegoss"
+    },
+    {
+      "id": 831,
+      "national": 831,
+      "name": "Wooloo"
+    },
+    {
+      "id": 832,
+      "national": 832,
+      "name": "Dubwool"
+    },
+    {
+      "id": 833,
+      "national": 833,
+      "name": "Chewtle"
+    },
+    {
+      "id": 834,
+      "national": 834,
+      "name": "Drednaw"
+    },
+    {
+      "id": 835,
+      "national": 835,
+      "name": "Yamper"
+    },
+    {
+      "id": 836,
+      "national": 836,
+      "name": "Boltund"
+    },
+    {
+      "id": 837,
+      "national": 837,
+      "name": "Rolycoly"
+    },
+    {
+      "id": 838,
+      "national": 838,
+      "name": "Carkol"
+    },
+    {
+      "id": 839,
+      "national": 839,
+      "name": "Coalossal"
+    },
+    {
+      "id": 840,
+      "national": 840,
+      "name": "Applin"
+    },
+    {
+      "id": 841,
+      "national": 841,
+      "name": "Flapple"
+    },
+    {
+      "id": 842,
+      "national": 842,
+      "name": "Appletun"
+    },
+    {
+      "id": 843,
+      "national": 843,
+      "name": "Silicobra"
+    },
+    {
+      "id": 844,
+      "national": 844,
+      "name": "Sandaconda"
+    },
+    {
+      "id": 845,
+      "national": 845,
+      "name": "Cramorant"
+    },
+    {
+      "id": 846,
+      "national": 846,
+      "name": "Arrokuda"
+    },
+    {
+      "id": 847,
+      "national": 847,
+      "name": "Barraskewda"
+    },
+    {
+      "id": 848,
+      "national": 848,
+      "name": "Toxel"
+    },
+    {
+      "id": 849,
+      "national": 849,
+      "name": "Toxtricity"
+    },
+    {
+      "id": 850,
+      "national": 850,
+      "name": "Sizzlipede"
+    },
+    {
+      "id": 851,
+      "national": 851,
+      "name": "Centiskorch"
+    },
+    {
+      "id": 852,
+      "national": 852,
+      "name": "Clobbopus"
+    },
+    {
+      "id": 853,
+      "national": 853,
+      "name": "Grapploct"
+    },
+    {
+      "id": 854,
+      "national": 854,
+      "name": "Sinistea"
+    },
+    {
+      "id": 855,
+      "national": 855,
+      "name": "Polteageist"
+    },
+    {
+      "id": 856,
+      "national": 856,
+      "name": "Hatenna"
+    },
+    {
+      "id": 857,
+      "national": 857,
+      "name": "Hattrem"
+    },
+    {
+      "id": 858,
+      "national": 858,
+      "name": "Hatterene"
+    },
+    {
+      "id": 859,
+      "national": 859,
+      "name": "Impidimp"
+    },
+    {
+      "id": 860,
+      "national": 860,
+      "name": "Morgrem"
+    },
+    {
+      "id": 861,
+      "national": 861,
+      "name": "Grimmsnarl"
+    },
+    {
+      "id": 862,
+      "national": 862,
+      "name": "Obstagoon"
+    },
+    {
+      "id": 863,
+      "national": 863,
+      "name": "Perrserker"
+    },
+    {
+      "id": 864,
+      "national": 864,
+      "name": "Cursola"
+    },
+    {
+      "id": 865,
+      "national": 865,
+      "name": "Sirfetch\u0027d"
+    },
+    {
+      "id": 866,
+      "national": 866,
+      "name": "Mr. Rime"
+    },
+    {
+      "id": 867,
+      "national": 867,
+      "name": "Runerigus"
+    },
+    {
+      "id": 868,
+      "national": 868,
+      "name": "Milcery"
+    },
+    {
+      "id": 869,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 870,
+      "national": 870,
+      "name": "Falinks"
+    },
+    {
+      "id": 871,
+      "national": 871,
+      "name": "Pincurchin"
+    },
+    {
+      "id": 872,
+      "national": 872,
+      "name": "Snom"
+    },
+    {
+      "id": 873,
+      "national": 873,
+      "name": "Frosmoth"
+    },
+    {
+      "id": 874,
+      "national": 874,
+      "name": "Stonjourner"
+    },
+    {
+      "id": 875,
+      "national": 875,
+      "name": "Eiscue"
+    },
+    {
+      "id": 876,
+      "national": 876,
+      "name": "Indeedee"
+    },
+    {
+      "id": 877,
+      "national": 877,
+      "name": "Morpeko"
+    },
+    {
+      "id": 878,
+      "national": 878,
+      "name": "Cufant"
+    },
+    {
+      "id": 879,
+      "national": 879,
+      "name": "Copperajah"
+    },
+    {
+      "id": 880,
+      "national": 880,
+      "name": "Dracozolt"
+    },
+    {
+      "id": 881,
+      "national": 881,
+      "name": "Arctozolt"
+    },
+    {
+      "id": 882,
+      "national": 882,
+      "name": "Dracovish"
+    },
+    {
+      "id": 883,
+      "national": 883,
+      "name": "Arctovish"
+    },
+    {
+      "id": 884,
+      "national": 884,
+      "name": "Duraludon"
+    },
+    {
+      "id": 885,
+      "national": 885,
+      "name": "Dreepy"
+    },
+    {
+      "id": 886,
+      "national": 886,
+      "name": "Drakloak"
+    },
+    {
+      "id": 887,
+      "national": 887,
+      "name": "Dragapult"
+    },
+    {
+      "id": 888,
+      "national": 888,
+      "name": "Zacian"
+    },
+    {
+      "id": 889,
+      "national": 889,
+      "name": "Zamazenta"
+    },
+    {
+      "id": 890,
+      "national": 890,
+      "name": "Eternatus"
+    },
+    {
+      "id": 891,
+      "national": 891,
+      "name": "Kubfu"
+    },
+    {
+      "id": 892,
+      "national": 892,
+      "name": "Urshifu"
+    },
+    {
+      "id": 893,
+      "national": 893,
+      "name": "Zarude"
+    },
+    {
+      "id": 894,
+      "national": 894,
+      "name": "Regieleki"
+    },
+    {
+      "id": 895,
+      "national": 895,
+      "name": "Regidrago"
+    },
+    {
+      "id": 896,
+      "national": 896,
+      "name": "Glastrier"
+    },
+    {
+      "id": 897,
+      "national": 897,
+      "name": "Spectrier"
+    },
+    {
+      "id": 898,
+      "national": 898,
+      "name": "Calyrex"
+    },
+    {
+      "id": 899,
+      "national": 899,
+      "name": "Wyrdeer"
+    },
+    {
+      "id": 900,
+      "national": 900,
+      "name": "Kleavor"
+    },
+    {
+      "id": 901,
+      "national": 901,
+      "name": "Ursaluna"
+    },
+    {
+      "id": 902,
+      "national": 902,
+      "name": "Basculegion"
+    },
+    {
+      "id": 903,
+      "national": 903,
+      "name": "Sneasler"
+    },
+    {
+      "id": 904,
+      "national": 904,
+      "name": "Overqwil"
+    },
+    {
+      "id": 905,
+      "national": 905,
+      "name": "Enamorus"
+    },
+    {
+      "id": 1009,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1010,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1011,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1012,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1013,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1014,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1235,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1244,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1253,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1262,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1271,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1280,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1289,
+      "national": 906,
+      "name": "Sprigatito"
+    },
+    {
+      "id": 1290,
+      "national": 907,
+      "name": "Floragato"
+    },
+    {
+      "id": 1291,
+      "national": 908,
+      "name": "Meowscarada"
+    },
+    {
+      "id": 1292,
+      "national": 909,
+      "name": "Fuecoco"
+    },
+    {
+      "id": 1293,
+      "national": 910,
+      "name": "Crocalor"
+    },
+    {
+      "id": 1294,
+      "national": 911,
+      "name": "Skeledirge"
+    },
+    {
+      "id": 1295,
+      "national": 912,
+      "name": "Quaxly"
+    },
+    {
+      "id": 1296,
+      "national": 913,
+      "name": "Quaxwell"
+    },
+    {
+      "id": 1297,
+      "national": 914,
+      "name": "Quaquaval"
+    },
+    {
+      "id": 1298,
+      "national": 915,
+      "name": "Lechonk"
+    },
+    {
+      "id": 1299,
+      "national": 916,
+      "name": "Oinkologne"
+    },
+    {
+      "id": 1301,
+      "national": 917,
+      "name": "Tarountula"
+    },
+    {
+      "id": 1302,
+      "national": 918,
+      "name": "Spidops"
+    },
+    {
+      "id": 1303,
+      "national": 919,
+      "name": "Nymble"
+    },
+    {
+      "id": 1304,
+      "national": 920,
+      "name": "Lokix"
+    },
+    {
+      "id": 1305,
+      "national": 921,
+      "name": "Pawmi"
+    },
+    {
+      "id": 1306,
+      "national": 922,
+      "name": "Pawmo"
+    },
+    {
+      "id": 1307,
+      "national": 923,
+      "name": "Pawmot"
+    },
+    {
+      "id": 1308,
+      "national": 924,
+      "name": "Tandemaus"
+    },
+    {
+      "id": 1309,
+      "national": 925,
+      "name": "Maushold"
+    },
+    {
+      "id": 1311,
+      "national": 926,
+      "name": "Fidough"
+    },
+    {
+      "id": 1312,
+      "national": 927,
+      "name": "Dachsbun"
+    },
+    {
+      "id": 1313,
+      "national": 928,
+      "name": "Smoliv"
+    },
+    {
+      "id": 1314,
+      "national": 929,
+      "name": "Dolliv"
+    },
+    {
+      "id": 1315,
+      "national": 930,
+      "name": "Arboliva"
+    },
+    {
+      "id": 1316,
+      "national": 931,
+      "name": "Squawkabilly"
+    },
+    {
+      "id": 1320,
+      "national": 932,
+      "name": "Nacli"
+    },
+    {
+      "id": 1321,
+      "national": 933,
+      "name": "Naclstack"
+    },
+    {
+      "id": 1322,
+      "national": 934,
+      "name": "Garganacl"
+    },
+    {
+      "id": 1323,
+      "national": 935,
+      "name": "Charcadet"
+    },
+    {
+      "id": 1324,
+      "national": 936,
+      "name": "Armarouge"
+    },
+    {
+      "id": 1325,
+      "national": 937,
+      "name": "Ceruledge"
+    },
+    {
+      "id": 1326,
+      "national": 938,
+      "name": "Tadbulb"
+    },
+    {
+      "id": 1327,
+      "national": 939,
+      "name": "Bellibolt"
+    },
+    {
+      "id": 1328,
+      "national": 940,
+      "name": "Wattrel"
+    },
+    {
+      "id": 1329,
+      "national": 941,
+      "name": "Kilowattrel"
+    },
+    {
+      "id": 1330,
+      "national": 942,
+      "name": "Maschiff"
+    },
+    {
+      "id": 1331,
+      "national": 943,
+      "name": "Mabosstiff"
+    },
+    {
+      "id": 1332,
+      "national": 944,
+      "name": "Shroodle"
+    },
+    {
+      "id": 1333,
+      "national": 945,
+      "name": "Grafaiai"
+    },
+    {
+      "id": 1334,
+      "national": 946,
+      "name": "Bramblin"
+    },
+    {
+      "id": 1335,
+      "national": 947,
+      "name": "Brambleghast"
+    },
+    {
+      "id": 1336,
+      "national": 948,
+      "name": "Toedscool"
+    },
+    {
+      "id": 1337,
+      "national": 949,
+      "name": "Toedscruel"
+    },
+    {
+      "id": 1338,
+      "national": 950,
+      "name": "Klawf"
+    },
+    {
+      "id": 1339,
+      "national": 951,
+      "name": "Capsakid"
+    },
+    {
+      "id": 1340,
+      "national": 952,
+      "name": "Scovillain"
+    },
+    {
+      "id": 1341,
+      "national": 953,
+      "name": "Rellor"
+    },
+    {
+      "id": 1342,
+      "national": 954,
+      "name": "Rabsca"
+    },
+    {
+      "id": 1343,
+      "national": 955,
+      "name": "Flittle"
+    },
+    {
+      "id": 1344,
+      "national": 956,
+      "name": "Espathra"
+    },
+    {
+      "id": 1345,
+      "national": 957,
+      "name": "Tinkatink"
+    },
+    {
+      "id": 1346,
+      "national": 958,
+      "name": "Tinkatuff"
+    },
+    {
+      "id": 1347,
+      "national": 959,
+      "name": "Tinkaton"
+    },
+    {
+      "id": 1348,
+      "national": 960,
+      "name": "Wiglett"
+    },
+    {
+      "id": 1349,
+      "national": 961,
+      "name": "Wugtrio"
+    },
+    {
+      "id": 1350,
+      "national": 962,
+      "name": "Bombirdier"
+    },
+    {
+      "id": 1351,
+      "national": 963,
+      "name": "Finizen"
+    },
+    {
+      "id": 1352,
+      "national": 964,
+      "name": "Palafin"
+    },
+    {
+      "id": 1354,
+      "national": 965,
+      "name": "Varoom"
+    },
+    {
+      "id": 1355,
+      "national": 966,
+      "name": "Revavroom"
+    },
+    {
+      "id": 1356,
+      "national": 967,
+      "name": "Cyclizar"
+    },
+    {
+      "id": 1357,
+      "national": 968,
+      "name": "Orthworm"
+    },
+    {
+      "id": 1358,
+      "national": 969,
+      "name": "Glimmet"
+    },
+    {
+      "id": 1359,
+      "national": 970,
+      "name": "Glimmora"
+    },
+    {
+      "id": 1360,
+      "national": 971,
+      "name": "Greavard"
+    },
+    {
+      "id": 1361,
+      "national": 972,
+      "name": "Houndstone"
+    },
+    {
+      "id": 1362,
+      "national": 973,
+      "name": "Flamigo"
+    },
+    {
+      "id": 1363,
+      "national": 974,
+      "name": "Cetoddle"
+    },
+    {
+      "id": 1364,
+      "national": 975,
+      "name": "Cetitan"
+    },
+    {
+      "id": 1365,
+      "national": 976,
+      "name": "Veluza"
+    },
+    {
+      "id": 1366,
+      "national": 977,
+      "name": "Dondozo"
+    },
+    {
+      "id": 1367,
+      "national": 978,
+      "name": "Tatsugiri"
+    },
+    {
+      "id": 1370,
+      "national": 979,
+      "name": "Annihilape"
+    },
+    {
+      "id": 1371,
+      "national": 980,
+      "name": "Clodsire"
+    },
+    {
+      "id": 1372,
+      "national": 981,
+      "name": "Farigiraf"
+    },
+    {
+      "id": 1373,
+      "national": 982,
+      "name": "Dudunsparce"
+    },
+    {
+      "id": 1375,
+      "national": 983,
+      "name": "Kingambit"
+    },
+    {
+      "id": 1376,
+      "national": 984,
+      "name": "Great Tusk"
+    },
+    {
+      "id": 1377,
+      "national": 985,
+      "name": "Scream Tail"
+    },
+    {
+      "id": 1378,
+      "national": 986,
+      "name": "Brute Bonnet"
+    },
+    {
+      "id": 1379,
+      "national": 987,
+      "name": "Flutter Mane"
+    },
+    {
+      "id": 1380,
+      "national": 988,
+      "name": "Slither Wing"
+    },
+    {
+      "id": 1381,
+      "national": 989,
+      "name": "Sandy Shocks"
+    },
+    {
+      "id": 1382,
+      "national": 990,
+      "name": "Iron Treads"
+    },
+    {
+      "id": 1383,
+      "national": 991,
+      "name": "Iron Bundle"
+    },
+    {
+      "id": 1384,
+      "national": 992,
+      "name": "Iron Hands"
+    },
+    {
+      "id": 1385,
+      "national": 993,
+      "name": "Iron Jugulis"
+    },
+    {
+      "id": 1386,
+      "national": 994,
+      "name": "Iron Moth"
+    },
+    {
+      "id": 1387,
+      "national": 995,
+      "name": "Iron Thorns"
+    },
+    {
+      "id": 1388,
+      "national": 996,
+      "name": "Frigibax"
+    },
+    {
+      "id": 1389,
+      "national": 997,
+      "name": "Arctibax"
+    },
+    {
+      "id": 1390,
+      "national": 998,
+      "name": "Baxcalibur"
+    },
+    {
+      "id": 1391,
+      "national": 999,
+      "name": "Gimmighoul"
+    },
+    {
+      "id": 1393,
+      "national": 1000,
+      "name": "Gholdengo"
+    },
+    {
+      "id": 1394,
+      "national": 1001,
+      "name": "Wo-Chien"
+    },
+    {
+      "id": 1395,
+      "national": 1002,
+      "name": "Chien-Pao"
+    },
+    {
+      "id": 1396,
+      "national": 1003,
+      "name": "Ting-Lu"
+    },
+    {
+      "id": 1397,
+      "national": 1004,
+      "name": "Chi-Yu"
+    },
+    {
+      "id": 1398,
+      "national": 1005,
+      "name": "Roaring Moon"
+    },
+    {
+      "id": 1399,
+      "national": 1006,
+      "name": "Iron Valiant"
+    },
+    {
+      "id": 1400,
+      "national": 1007,
+      "name": "Koraidon"
+    },
+    {
+      "id": 1401,
+      "national": 1008,
+      "name": "Miraidon"
+    },
+    {
+      "id": 1406,
+      "national": 1009,
+      "name": "Walking Wake"
+    },
+    {
+      "id": 1407,
+      "national": 1010,
+      "name": "Iron Leaves"
+    },
+    {
+      "id": 1408,
+      "national": 1011,
+      "name": "Dipplin"
+    },
+    {
+      "id": 1409,
+      "national": 1012,
+      "name": "Poltchageist"
+    },
+    {
+      "id": 1411,
+      "national": 1013,
+      "name": "Sinistcha"
+    },
+    {
+      "id": 1413,
+      "national": 1014,
+      "name": "Okidogi"
+    },
+    {
+      "id": 1414,
+      "national": 1015,
+      "name": "Munkidori"
+    },
+    {
+      "id": 1415,
+      "national": 1016,
+      "name": "Fezandipiti"
+    },
+    {
+      "id": 1416,
+      "national": 1017,
+      "name": "Ogerpon"
+    },
+    {
+      "id": 1425,
+      "national": 1018,
+      "name": "Archaludon"
+    },
+    {
+      "id": 1426,
+      "national": 1019,
+      "name": "Hydrapple"
+    },
+    {
+      "id": 1427,
+      "national": 1020,
+      "name": "Gouging Fire"
+    },
+    {
+      "id": 1428,
+      "national": 1021,
+      "name": "Raging Bolt"
+    },
+    {
+      "id": 1429,
+      "national": 1022,
+      "name": "Iron Boulder"
+    },
+    {
+      "id": 1430,
+      "national": 1023,
+      "name": "Iron Crown"
+    },
+    {
+      "id": 1431,
+      "national": 1024,
+      "name": "Terapagos"
+    },
+    {
+      "id": 1434,
+      "national": 1025,
+      "name": "Pecharunt"
+    },
+    {
+      "id": 1489,
+      "national": 3,
+      "name": "Venusaur"
+    },
+    {
+      "id": 1490,
+      "national": 9,
+      "name": "Blastoise"
+    },
+    {
+      "id": 1491,
+      "national": 6,
+      "name": "Charizard"
+    },
+    {
+      "id": 1492,
+      "national": 12,
+      "name": "Butterfree"
+    },
+    {
+      "id": 1493,
+      "national": 25,
+      "name": "Pikachu"
+    },
+    {
+      "id": 1494,
+      "national": 52,
+      "name": "Meowth"
+    },
+    {
+      "id": 1495,
+      "national": 68,
+      "name": "Machamp"
+    },
+    {
+      "id": 1496,
+      "national": 94,
+      "name": "Gengar"
+    },
+    {
+      "id": 1497,
+      "national": 99,
+      "name": "Kingler"
+    },
+    {
+      "id": 1498,
+      "national": 131,
+      "name": "Lapras"
+    },
+    {
+      "id": 1499,
+      "national": 133,
+      "name": "Eevee"
+    },
+    {
+      "id": 1500,
+      "national": 143,
+      "name": "Snorlax"
+    },
+    {
+      "id": 1501,
+      "national": 569,
+      "name": "Garbodor"
+    },
+    {
+      "id": 1502,
+      "national": 809,
+      "name": "Melmetal"
+    },
+    {
+      "id": 1503,
+      "national": 812,
+      "name": "Rillaboom"
+    },
+    {
+      "id": 1504,
+      "national": 815,
+      "name": "Cinderace"
+    },
+    {
+      "id": 1505,
+      "national": 818,
+      "name": "Inteleon"
+    },
+    {
+      "id": 1506,
+      "national": 823,
+      "name": "Corviknight"
+    },
+    {
+      "id": 1507,
+      "national": 826,
+      "name": "Orbeetle"
+    },
+    {
+      "id": 1508,
+      "national": 834,
+      "name": "Drednaw"
+    },
+    {
+      "id": 1509,
+      "national": 839,
+      "name": "Coalossal"
+    },
+    {
+      "id": 1510,
+      "national": 841,
+      "name": "Flapple"
+    },
+    {
+      "id": 1511,
+      "national": 842,
+      "name": "Appletun"
+    },
+    {
+      "id": 1512,
+      "national": 844,
+      "name": "Sandaconda"
+    },
+    {
+      "id": 1513,
+      "national": 849,
+      "name": "Toxtricity"
+    },
+    {
+      "id": 1515,
+      "national": 851,
+      "name": "Centiskorch"
+    },
+    {
+      "id": 1516,
+      "national": 858,
+      "name": "Hatterene"
+    },
+    {
+      "id": 1517,
+      "national": 861,
+      "name": "Grimmsnarl"
+    },
+    {
+      "id": 1518,
+      "national": 869,
+      "name": "Alcremie"
+    },
+    {
+      "id": 1519,
+      "national": 879,
+      "name": "Copperajah"
+    },
+    {
+      "id": 1520,
+      "national": 884,
+      "name": "Duraludon"
+    },
+    {
+      "id": 1521,
+      "national": 892,
+      "name": "Urshifu"
+    }
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "national": 1,
+      "name": "Pound"
+    },
+    {
+      "id": 2,
+      "national": 2,
+      "name": "Karate Chop"
+    },
+    {
+      "id": 3,
+      "national": 3,
+      "name": "Double Slap"
+    },
+    {
+      "id": 4,
+      "national": 4,
+      "name": "Comet Punch"
+    },
+    {
+      "id": 5,
+      "national": 5,
+      "name": "Mega Punch"
+    },
+    {
+      "id": 6,
+      "national": 6,
+      "name": "Pay Day"
+    },
+    {
+      "id": 7,
+      "national": 7,
+      "name": "Fire Punch"
+    },
+    {
+      "id": 8,
+      "national": 8,
+      "name": "Ice Punch"
+    },
+    {
+      "id": 9,
+      "national": 9,
+      "name": "Thunder Punch"
+    },
+    {
+      "id": 10,
+      "national": 10,
+      "name": "Scratch"
+    },
+    {
+      "id": 11,
+      "national": 11,
+      "name": "Vise Grip"
+    },
+    {
+      "id": 12,
+      "national": 12,
+      "name": "Guillotine"
+    },
+    {
+      "id": 13,
+      "national": 13,
+      "name": "Razor Wind"
+    },
+    {
+      "id": 14,
+      "national": 14,
+      "name": "Swords Dance"
+    },
+    {
+      "id": 15,
+      "national": 15,
+      "name": "Cut"
+    },
+    {
+      "id": 16,
+      "national": 16,
+      "name": "Gust"
+    },
+    {
+      "id": 17,
+      "national": 17,
+      "name": "Wing Attack"
+    },
+    {
+      "id": 18,
+      "national": 18,
+      "name": "Whirlwind"
+    },
+    {
+      "id": 19,
+      "national": 19,
+      "name": "Fly"
+    },
+    {
+      "id": 20,
+      "national": 20,
+      "name": "Bind"
+    },
+    {
+      "id": 21,
+      "national": 21,
+      "name": "Slam"
+    },
+    {
+      "id": 22,
+      "national": 22,
+      "name": "Vine Whip"
+    },
+    {
+      "id": 23,
+      "national": 23,
+      "name": "Stomp"
+    },
+    {
+      "id": 24,
+      "national": 24,
+      "name": "Double Kick"
+    },
+    {
+      "id": 25,
+      "national": 25,
+      "name": "Mega Kick"
+    },
+    {
+      "id": 26,
+      "national": 26,
+      "name": "Jump Kick"
+    },
+    {
+      "id": 27,
+      "national": 27,
+      "name": "Rolling Kick"
+    },
+    {
+      "id": 28,
+      "national": 28,
+      "name": "Sand Attack"
+    },
+    {
+      "id": 29,
+      "national": 29,
+      "name": "Headbutt"
+    },
+    {
+      "id": 30,
+      "national": 30,
+      "name": "Horn Attack"
+    },
+    {
+      "id": 31,
+      "national": 31,
+      "name": "Fury Attack"
+    },
+    {
+      "id": 32,
+      "national": 32,
+      "name": "Horn Drill"
+    },
+    {
+      "id": 33,
+      "national": 33,
+      "name": "Tackle"
+    },
+    {
+      "id": 34,
+      "national": 34,
+      "name": "Body Slam"
+    },
+    {
+      "id": 35,
+      "national": 35,
+      "name": "Wrap"
+    },
+    {
+      "id": 36,
+      "national": 36,
+      "name": "Take Down"
+    },
+    {
+      "id": 37,
+      "national": 37,
+      "name": "Thrash"
+    },
+    {
+      "id": 38,
+      "national": 38,
+      "name": "Double-Edge"
+    },
+    {
+      "id": 39,
+      "national": 39,
+      "name": "Tail Whip"
+    },
+    {
+      "id": 40,
+      "national": 40,
+      "name": "Poison Sting"
+    },
+    {
+      "id": 41,
+      "national": 41,
+      "name": "Twineedle"
+    },
+    {
+      "id": 42,
+      "national": 42,
+      "name": "Pin Missile"
+    },
+    {
+      "id": 43,
+      "national": 43,
+      "name": "Leer"
+    },
+    {
+      "id": 44,
+      "national": 44,
+      "name": "Bite"
+    },
+    {
+      "id": 45,
+      "national": 45,
+      "name": "Growl"
+    },
+    {
+      "id": 46,
+      "national": 46,
+      "name": "Roar"
+    },
+    {
+      "id": 47,
+      "national": 47,
+      "name": "Sing"
+    },
+    {
+      "id": 48,
+      "national": 48,
+      "name": "Supersonic"
+    },
+    {
+      "id": 49,
+      "national": 49,
+      "name": "Sonic Boom"
+    },
+    {
+      "id": 50,
+      "national": 50,
+      "name": "Disable"
+    },
+    {
+      "id": 51,
+      "national": 51,
+      "name": "Acid"
+    },
+    {
+      "id": 52,
+      "national": 52,
+      "name": "Ember"
+    },
+    {
+      "id": 53,
+      "national": 53,
+      "name": "Flamethrower"
+    },
+    {
+      "id": 54,
+      "national": 54,
+      "name": "Mist"
+    },
+    {
+      "id": 55,
+      "national": 55,
+      "name": "Water Gun"
+    },
+    {
+      "id": 56,
+      "national": 56,
+      "name": "Hydro Pump"
+    },
+    {
+      "id": 57,
+      "national": 57,
+      "name": "Surf"
+    },
+    {
+      "id": 58,
+      "national": 58,
+      "name": "Ice Beam"
+    },
+    {
+      "id": 59,
+      "national": 59,
+      "name": "Blizzard"
+    },
+    {
+      "id": 60,
+      "national": 60,
+      "name": "Psybeam"
+    },
+    {
+      "id": 61,
+      "national": 61,
+      "name": "Bubble Beam"
+    },
+    {
+      "id": 62,
+      "national": 62,
+      "name": "Aurora Beam"
+    },
+    {
+      "id": 63,
+      "national": 63,
+      "name": "Hyper Beam"
+    },
+    {
+      "id": 64,
+      "national": 64,
+      "name": "Peck"
+    },
+    {
+      "id": 65,
+      "national": 65,
+      "name": "Drill Peck"
+    },
+    {
+      "id": 66,
+      "national": 66,
+      "name": "Submission"
+    },
+    {
+      "id": 67,
+      "national": 67,
+      "name": "Low Kick"
+    },
+    {
+      "id": 68,
+      "national": 68,
+      "name": "Counter"
+    },
+    {
+      "id": 69,
+      "national": 69,
+      "name": "Seismic Toss"
+    },
+    {
+      "id": 70,
+      "national": 70,
+      "name": "Strength"
+    },
+    {
+      "id": 71,
+      "national": 71,
+      "name": "Absorb"
+    },
+    {
+      "id": 72,
+      "national": 72,
+      "name": "Mega Drain"
+    },
+    {
+      "id": 73,
+      "national": 73,
+      "name": "Leech Seed"
+    },
+    {
+      "id": 74,
+      "national": 74,
+      "name": "Growth"
+    },
+    {
+      "id": 75,
+      "national": 75,
+      "name": "Razor Leaf"
+    },
+    {
+      "id": 76,
+      "national": 76,
+      "name": "Solar Beam"
+    },
+    {
+      "id": 77,
+      "national": 77,
+      "name": "Poison Powder"
+    },
+    {
+      "id": 78,
+      "national": 78,
+      "name": "Stun Spore"
+    },
+    {
+      "id": 79,
+      "national": 79,
+      "name": "Sleep Powder"
+    },
+    {
+      "id": 80,
+      "national": 80,
+      "name": "Petal Dance"
+    },
+    {
+      "id": 81,
+      "national": 81,
+      "name": "String Shot"
+    },
+    {
+      "id": 82,
+      "national": 82,
+      "name": "Dragon Rage"
+    },
+    {
+      "id": 83,
+      "national": 83,
+      "name": "Fire Spin"
+    },
+    {
+      "id": 84,
+      "national": 84,
+      "name": "Thunder Shock"
+    },
+    {
+      "id": 85,
+      "national": 85,
+      "name": "Thunderbolt"
+    },
+    {
+      "id": 86,
+      "national": 86,
+      "name": "Thunder Wave"
+    },
+    {
+      "id": 87,
+      "national": 87,
+      "name": "Thunder"
+    },
+    {
+      "id": 88,
+      "national": 88,
+      "name": "Rock Throw"
+    },
+    {
+      "id": 89,
+      "national": 89,
+      "name": "Earthquake"
+    },
+    {
+      "id": 90,
+      "national": 90,
+      "name": "Fissure"
+    },
+    {
+      "id": 91,
+      "national": 91,
+      "name": "Dig"
+    },
+    {
+      "id": 92,
+      "national": 92,
+      "name": "Toxic"
+    },
+    {
+      "id": 93,
+      "national": 93,
+      "name": "Confusion"
+    },
+    {
+      "id": 94,
+      "national": 94,
+      "name": "Psychic"
+    },
+    {
+      "id": 95,
+      "national": 95,
+      "name": "Hypnosis"
+    },
+    {
+      "id": 96,
+      "national": 96,
+      "name": "Meditate"
+    },
+    {
+      "id": 97,
+      "national": 97,
+      "name": "Agility"
+    },
+    {
+      "id": 98,
+      "national": 98,
+      "name": "Quick Attack"
+    },
+    {
+      "id": 99,
+      "national": 99,
+      "name": "Rage"
+    },
+    {
+      "id": 100,
+      "national": 100,
+      "name": "Teleport"
+    },
+    {
+      "id": 101,
+      "national": 101,
+      "name": "Night Shade"
+    },
+    {
+      "id": 102,
+      "national": 102,
+      "name": "Mimic"
+    },
+    {
+      "id": 103,
+      "national": 103,
+      "name": "Screech"
+    },
+    {
+      "id": 104,
+      "national": 104,
+      "name": "Double Team"
+    },
+    {
+      "id": 105,
+      "national": 105,
+      "name": "Recover"
+    },
+    {
+      "id": 106,
+      "national": 106,
+      "name": "Harden"
+    },
+    {
+      "id": 107,
+      "national": 107,
+      "name": "Minimize"
+    },
+    {
+      "id": 108,
+      "national": 108,
+      "name": "Smokescreen"
+    },
+    {
+      "id": 109,
+      "national": 109,
+      "name": "Confuse Ray"
+    },
+    {
+      "id": 110,
+      "national": 110,
+      "name": "Withdraw"
+    },
+    {
+      "id": 111,
+      "national": 111,
+      "name": "Defense Curl"
+    },
+    {
+      "id": 112,
+      "national": 112,
+      "name": "Barrier"
+    },
+    {
+      "id": 113,
+      "national": 113,
+      "name": "Light Screen"
+    },
+    {
+      "id": 114,
+      "national": 114,
+      "name": "Haze"
+    },
+    {
+      "id": 115,
+      "national": 115,
+      "name": "Reflect"
+    },
+    {
+      "id": 116,
+      "national": 116,
+      "name": "Focus Energy"
+    },
+    {
+      "id": 117,
+      "national": 117,
+      "name": "Bide"
+    },
+    {
+      "id": 118,
+      "national": 118,
+      "name": "Metronome"
+    },
+    {
+      "id": 119,
+      "national": 119,
+      "name": "Mirror Move"
+    },
+    {
+      "id": 120,
+      "national": 120,
+      "name": "Self-Destruct"
+    },
+    {
+      "id": 121,
+      "national": 121,
+      "name": "Egg Bomb"
+    },
+    {
+      "id": 122,
+      "national": 122,
+      "name": "Lick"
+    },
+    {
+      "id": 123,
+      "national": 123,
+      "name": "Smog"
+    },
+    {
+      "id": 124,
+      "national": 124,
+      "name": "Sludge"
+    },
+    {
+      "id": 125,
+      "national": 125,
+      "name": "Bone Club"
+    },
+    {
+      "id": 126,
+      "national": 126,
+      "name": "Fire Blast"
+    },
+    {
+      "id": 127,
+      "national": 127,
+      "name": "Waterfall"
+    },
+    {
+      "id": 128,
+      "national": 128,
+      "name": "Clamp"
+    },
+    {
+      "id": 129,
+      "national": 129,
+      "name": "Swift"
+    },
+    {
+      "id": 130,
+      "national": 130,
+      "name": "Skull Bash"
+    },
+    {
+      "id": 131,
+      "national": 131,
+      "name": "Spike Cannon"
+    },
+    {
+      "id": 132,
+      "national": 132,
+      "name": "Constrict"
+    },
+    {
+      "id": 133,
+      "national": 133,
+      "name": "Amnesia"
+    },
+    {
+      "id": 134,
+      "national": 134,
+      "name": "Kinesis"
+    },
+    {
+      "id": 135,
+      "national": 135,
+      "name": "Soft-Boiled"
+    },
+    {
+      "id": 136,
+      "national": 136,
+      "name": "High Jump Kick"
+    },
+    {
+      "id": 137,
+      "national": 137,
+      "name": "Glare"
+    },
+    {
+      "id": 138,
+      "national": 138,
+      "name": "Dream Eater"
+    },
+    {
+      "id": 139,
+      "national": 139,
+      "name": "Poison Gas"
+    },
+    {
+      "id": 140,
+      "national": 140,
+      "name": "Barrage"
+    },
+    {
+      "id": 141,
+      "national": 141,
+      "name": "Leech Life"
+    },
+    {
+      "id": 142,
+      "national": 142,
+      "name": "Lovely Kiss"
+    },
+    {
+      "id": 143,
+      "national": 143,
+      "name": "Sky Attack"
+    },
+    {
+      "id": 144,
+      "national": 144,
+      "name": "Transform"
+    },
+    {
+      "id": 145,
+      "national": 145,
+      "name": "Bubble"
+    },
+    {
+      "id": 146,
+      "national": 146,
+      "name": "Dizzy Punch"
+    },
+    {
+      "id": 147,
+      "national": 147,
+      "name": "Spore"
+    },
+    {
+      "id": 148,
+      "national": 148,
+      "name": "Flash"
+    },
+    {
+      "id": 149,
+      "national": 149,
+      "name": "Psywave"
+    },
+    {
+      "id": 150,
+      "national": 150,
+      "name": "Splash"
+    },
+    {
+      "id": 151,
+      "national": 151,
+      "name": "Acid Armor"
+    },
+    {
+      "id": 152,
+      "national": 152,
+      "name": "Crabhammer"
+    },
+    {
+      "id": 153,
+      "national": 153,
+      "name": "Explosion"
+    },
+    {
+      "id": 154,
+      "national": 154,
+      "name": "Fury Swipes"
+    },
+    {
+      "id": 155,
+      "national": 155,
+      "name": "Bonemerang"
+    },
+    {
+      "id": 156,
+      "national": 156,
+      "name": "Rest"
+    },
+    {
+      "id": 157,
+      "national": 157,
+      "name": "Rock Slide"
+    },
+    {
+      "id": 158,
+      "national": 158,
+      "name": "Hyper Fang"
+    },
+    {
+      "id": 159,
+      "national": 159,
+      "name": "Sharpen"
+    },
+    {
+      "id": 160,
+      "national": 160,
+      "name": "Conversion"
+    },
+    {
+      "id": 161,
+      "national": 161,
+      "name": "Tri Attack"
+    },
+    {
+      "id": 162,
+      "national": 162,
+      "name": "Super Fang"
+    },
+    {
+      "id": 163,
+      "national": 163,
+      "name": "Slash"
+    },
+    {
+      "id": 164,
+      "national": 164,
+      "name": "Substitute"
+    },
+    {
+      "id": 165,
+      "national": 165,
+      "name": "Struggle"
+    },
+    {
+      "id": 166,
+      "national": 166,
+      "name": "Sketch"
+    },
+    {
+      "id": 167,
+      "national": 167,
+      "name": "Triple Kick"
+    },
+    {
+      "id": 168,
+      "national": 168,
+      "name": "Thief"
+    },
+    {
+      "id": 169,
+      "national": 169,
+      "name": "Spider Web"
+    },
+    {
+      "id": 170,
+      "national": 170,
+      "name": "Mind Reader"
+    },
+    {
+      "id": 171,
+      "national": 171,
+      "name": "Nightmare"
+    },
+    {
+      "id": 172,
+      "national": 172,
+      "name": "Flame Wheel"
+    },
+    {
+      "id": 173,
+      "national": 173,
+      "name": "Snore"
+    },
+    {
+      "id": 174,
+      "national": 174,
+      "name": "Curse"
+    },
+    {
+      "id": 175,
+      "national": 175,
+      "name": "Flail"
+    },
+    {
+      "id": 176,
+      "national": 176,
+      "name": "Conversion 2"
+    },
+    {
+      "id": 177,
+      "national": 177,
+      "name": "Aeroblast"
+    },
+    {
+      "id": 178,
+      "national": 178,
+      "name": "Cotton Spore"
+    },
+    {
+      "id": 179,
+      "national": 179,
+      "name": "Reversal"
+    },
+    {
+      "id": 180,
+      "national": 180,
+      "name": "Spite"
+    },
+    {
+      "id": 181,
+      "national": 181,
+      "name": "Powder Snow"
+    },
+    {
+      "id": 182,
+      "national": 182,
+      "name": "Protect"
+    },
+    {
+      "id": 183,
+      "national": 183,
+      "name": "Mach Punch"
+    },
+    {
+      "id": 184,
+      "national": 184,
+      "name": "Scary Face"
+    },
+    {
+      "id": 185,
+      "national": 185,
+      "name": "Feint Attack"
+    },
+    {
+      "id": 186,
+      "national": 186,
+      "name": "Sweet Kiss"
+    },
+    {
+      "id": 187,
+      "national": 187,
+      "name": "Belly Drum"
+    },
+    {
+      "id": 188,
+      "national": 188,
+      "name": "Sludge Bomb"
+    },
+    {
+      "id": 189,
+      "national": 189,
+      "name": "Mud-Slap"
+    },
+    {
+      "id": 190,
+      "national": 190,
+      "name": "Octazooka"
+    },
+    {
+      "id": 191,
+      "national": 191,
+      "name": "Spikes"
+    },
+    {
+      "id": 192,
+      "national": 192,
+      "name": "Zap Cannon"
+    },
+    {
+      "id": 193,
+      "national": 193,
+      "name": "Foresight"
+    },
+    {
+      "id": 194,
+      "national": 194,
+      "name": "Destiny Bond"
+    },
+    {
+      "id": 195,
+      "national": 195,
+      "name": "Perish Song"
+    },
+    {
+      "id": 196,
+      "national": 196,
+      "name": "Icy Wind"
+    },
+    {
+      "id": 197,
+      "national": 197,
+      "name": "Detect"
+    },
+    {
+      "id": 198,
+      "national": 198,
+      "name": "Bone Rush"
+    },
+    {
+      "id": 199,
+      "national": 199,
+      "name": "Lock-On"
+    },
+    {
+      "id": 200,
+      "national": 200,
+      "name": "Outrage"
+    },
+    {
+      "id": 201,
+      "national": 201,
+      "name": "Sandstorm"
+    },
+    {
+      "id": 202,
+      "national": 202,
+      "name": "Giga Drain"
+    },
+    {
+      "id": 203,
+      "national": 203,
+      "name": "Endure"
+    },
+    {
+      "id": 204,
+      "national": 204,
+      "name": "Charm"
+    },
+    {
+      "id": 205,
+      "national": 205,
+      "name": "Rollout"
+    },
+    {
+      "id": 206,
+      "national": 206,
+      "name": "False Swipe"
+    },
+    {
+      "id": 207,
+      "national": 207,
+      "name": "Swagger"
+    },
+    {
+      "id": 208,
+      "national": 208,
+      "name": "Milk Drink"
+    },
+    {
+      "id": 209,
+      "national": 209,
+      "name": "Spark"
+    },
+    {
+      "id": 210,
+      "national": 210,
+      "name": "Fury Cutter"
+    },
+    {
+      "id": 211,
+      "national": 211,
+      "name": "Steel Wing"
+    },
+    {
+      "id": 212,
+      "national": 212,
+      "name": "Mean Look"
+    },
+    {
+      "id": 213,
+      "national": 213,
+      "name": "Attract"
+    },
+    {
+      "id": 214,
+      "national": 214,
+      "name": "Sleep Talk"
+    },
+    {
+      "id": 215,
+      "national": 215,
+      "name": "Heal Bell"
+    },
+    {
+      "id": 216,
+      "national": 216,
+      "name": "Return"
+    },
+    {
+      "id": 217,
+      "national": 217,
+      "name": "Present"
+    },
+    {
+      "id": 218,
+      "national": 218,
+      "name": "Frustration"
+    },
+    {
+      "id": 219,
+      "national": 219,
+      "name": "Safeguard"
+    },
+    {
+      "id": 220,
+      "national": 220,
+      "name": "Pain Split"
+    },
+    {
+      "id": 221,
+      "national": 221,
+      "name": "Sacred Fire"
+    },
+    {
+      "id": 222,
+      "national": 222,
+      "name": "Magnitude"
+    },
+    {
+      "id": 223,
+      "national": 223,
+      "name": "Dynamic Punch"
+    },
+    {
+      "id": 224,
+      "national": 224,
+      "name": "Megahorn"
+    },
+    {
+      "id": 225,
+      "national": 225,
+      "name": "Dragon Breath"
+    },
+    {
+      "id": 226,
+      "national": 226,
+      "name": "Baton Pass"
+    },
+    {
+      "id": 227,
+      "national": 227,
+      "name": "Encore"
+    },
+    {
+      "id": 228,
+      "national": 228,
+      "name": "Pursuit"
+    },
+    {
+      "id": 229,
+      "national": 229,
+      "name": "Rapid Spin"
+    },
+    {
+      "id": 230,
+      "national": 230,
+      "name": "Sweet Scent"
+    },
+    {
+      "id": 231,
+      "national": 231,
+      "name": "Iron Tail"
+    },
+    {
+      "id": 232,
+      "national": 232,
+      "name": "Metal Claw"
+    },
+    {
+      "id": 233,
+      "national": 233,
+      "name": "Vital Throw"
+    },
+    {
+      "id": 234,
+      "national": 234,
+      "name": "Morning Sun"
+    },
+    {
+      "id": 235,
+      "national": 235,
+      "name": "Synthesis"
+    },
+    {
+      "id": 236,
+      "national": 236,
+      "name": "Moonlight"
+    },
+    {
+      "id": 237,
+      "national": 237,
+      "name": "Hidden Power"
+    },
+    {
+      "id": 238,
+      "national": 238,
+      "name": "Cross Chop"
+    },
+    {
+      "id": 239,
+      "national": 239,
+      "name": "Twister"
+    },
+    {
+      "id": 240,
+      "national": 240,
+      "name": "Rain Dance"
+    },
+    {
+      "id": 241,
+      "national": 241,
+      "name": "Sunny Day"
+    },
+    {
+      "id": 242,
+      "national": 242,
+      "name": "Crunch"
+    },
+    {
+      "id": 243,
+      "national": 243,
+      "name": "Mirror Coat"
+    },
+    {
+      "id": 244,
+      "national": 244,
+      "name": "Psych Up"
+    },
+    {
+      "id": 245,
+      "national": 245,
+      "name": "Extreme Speed"
+    },
+    {
+      "id": 246,
+      "national": 246,
+      "name": "Ancient Power"
+    },
+    {
+      "id": 247,
+      "national": 247,
+      "name": "Shadow Ball"
+    },
+    {
+      "id": 248,
+      "national": 248,
+      "name": "Future Sight"
+    },
+    {
+      "id": 249,
+      "national": 249,
+      "name": "Rock Smash"
+    },
+    {
+      "id": 250,
+      "national": 250,
+      "name": "Whirlpool"
+    },
+    {
+      "id": 251,
+      "national": 251,
+      "name": "Beat Up"
+    },
+    {
+      "id": 252,
+      "national": 252,
+      "name": "Fake Out"
+    },
+    {
+      "id": 253,
+      "national": 253,
+      "name": "Uproar"
+    },
+    {
+      "id": 254,
+      "national": 254,
+      "name": "Stockpile"
+    },
+    {
+      "id": 255,
+      "national": 255,
+      "name": "Spit Up"
+    },
+    {
+      "id": 256,
+      "national": 256,
+      "name": "Swallow"
+    },
+    {
+      "id": 257,
+      "national": 257,
+      "name": "Heat Wave"
+    },
+    {
+      "id": 258,
+      "national": 258,
+      "name": "Hail"
+    },
+    {
+      "id": 259,
+      "national": 259,
+      "name": "Torment"
+    },
+    {
+      "id": 260,
+      "national": 260,
+      "name": "Flatter"
+    },
+    {
+      "id": 261,
+      "national": 261,
+      "name": "Will-O-Wisp"
+    },
+    {
+      "id": 262,
+      "national": 262,
+      "name": "Memento"
+    },
+    {
+      "id": 263,
+      "national": 263,
+      "name": "Facade"
+    },
+    {
+      "id": 264,
+      "national": 264,
+      "name": "Focus Punch"
+    },
+    {
+      "id": 265,
+      "national": 265,
+      "name": "Smelling Salts"
+    },
+    {
+      "id": 266,
+      "national": 266,
+      "name": "Follow Me"
+    },
+    {
+      "id": 267,
+      "national": 267,
+      "name": "Nature Power"
+    },
+    {
+      "id": 268,
+      "national": 268,
+      "name": "Charge"
+    },
+    {
+      "id": 269,
+      "national": 269,
+      "name": "Taunt"
+    },
+    {
+      "id": 270,
+      "national": 270,
+      "name": "Helping Hand"
+    },
+    {
+      "id": 271,
+      "national": 271,
+      "name": "Trick"
+    },
+    {
+      "id": 272,
+      "national": 272,
+      "name": "Role Play"
+    },
+    {
+      "id": 273,
+      "national": 273,
+      "name": "Wish"
+    },
+    {
+      "id": 274,
+      "national": 274,
+      "name": "Assist"
+    },
+    {
+      "id": 275,
+      "national": 275,
+      "name": "Ingrain"
+    },
+    {
+      "id": 276,
+      "national": 276,
+      "name": "Superpower"
+    },
+    {
+      "id": 277,
+      "national": 277,
+      "name": "Magic Coat"
+    },
+    {
+      "id": 278,
+      "national": 278,
+      "name": "Recycle"
+    },
+    {
+      "id": 279,
+      "national": 279,
+      "name": "Revenge"
+    },
+    {
+      "id": 280,
+      "national": 280,
+      "name": "Brick Break"
+    },
+    {
+      "id": 281,
+      "national": 281,
+      "name": "Yawn"
+    },
+    {
+      "id": 282,
+      "national": 282,
+      "name": "Knock Off"
+    },
+    {
+      "id": 283,
+      "national": 283,
+      "name": "Endeavor"
+    },
+    {
+      "id": 284,
+      "national": 284,
+      "name": "Eruption"
+    },
+    {
+      "id": 285,
+      "national": 285,
+      "name": "Skill Swap"
+    },
+    {
+      "id": 286,
+      "national": 286,
+      "name": "Imprison"
+    },
+    {
+      "id": 287,
+      "national": 287,
+      "name": "Refresh"
+    },
+    {
+      "id": 288,
+      "national": 288,
+      "name": "Grudge"
+    },
+    {
+      "id": 289,
+      "national": 289,
+      "name": "Snatch"
+    },
+    {
+      "id": 290,
+      "national": 290,
+      "name": "Secret Power"
+    },
+    {
+      "id": 291,
+      "national": 291,
+      "name": "Dive"
+    },
+    {
+      "id": 292,
+      "national": 292,
+      "name": "Arm Thrust"
+    },
+    {
+      "id": 293,
+      "national": 293,
+      "name": "Camouflage"
+    },
+    {
+      "id": 294,
+      "national": 294,
+      "name": "Tail Glow"
+    },
+    {
+      "id": 295,
+      "national": 295,
+      "name": "Luster Purge"
+    },
+    {
+      "id": 296,
+      "national": 296,
+      "name": "Mist Ball"
+    },
+    {
+      "id": 297,
+      "national": 297,
+      "name": "Feather Dance"
+    },
+    {
+      "id": 298,
+      "national": 298,
+      "name": "Teeter Dance"
+    },
+    {
+      "id": 299,
+      "national": 299,
+      "name": "Blaze Kick"
+    },
+    {
+      "id": 300,
+      "national": 300,
+      "name": "Mud Sport"
+    },
+    {
+      "id": 301,
+      "national": 301,
+      "name": "Ice Ball"
+    },
+    {
+      "id": 302,
+      "national": 302,
+      "name": "Needle Arm"
+    },
+    {
+      "id": 303,
+      "national": 303,
+      "name": "Slack Off"
+    },
+    {
+      "id": 304,
+      "national": 304,
+      "name": "Hyper Voice"
+    },
+    {
+      "id": 305,
+      "national": 305,
+      "name": "Poison Fang"
+    },
+    {
+      "id": 306,
+      "national": 306,
+      "name": "Crush Claw"
+    },
+    {
+      "id": 307,
+      "national": 307,
+      "name": "Blast Burn"
+    },
+    {
+      "id": 308,
+      "national": 308,
+      "name": "Hydro Cannon"
+    },
+    {
+      "id": 309,
+      "national": 309,
+      "name": "Meteor Mash"
+    },
+    {
+      "id": 310,
+      "national": 310,
+      "name": "Astonish"
+    },
+    {
+      "id": 311,
+      "national": 311,
+      "name": "Weather Ball"
+    },
+    {
+      "id": 312,
+      "national": 312,
+      "name": "Aromatherapy"
+    },
+    {
+      "id": 313,
+      "national": 313,
+      "name": "Fake Tears"
+    },
+    {
+      "id": 314,
+      "national": 314,
+      "name": "Air Cutter"
+    },
+    {
+      "id": 315,
+      "national": 315,
+      "name": "Overheat"
+    },
+    {
+      "id": 316,
+      "national": 316,
+      "name": "Odor Sleuth"
+    },
+    {
+      "id": 317,
+      "national": 317,
+      "name": "Rock Tomb"
+    },
+    {
+      "id": 318,
+      "national": 318,
+      "name": "Silver Wind"
+    },
+    {
+      "id": 319,
+      "national": 319,
+      "name": "Metal Sound"
+    },
+    {
+      "id": 320,
+      "national": 320,
+      "name": "Grass Whistle"
+    },
+    {
+      "id": 321,
+      "national": 321,
+      "name": "Tickle"
+    },
+    {
+      "id": 322,
+      "national": 322,
+      "name": "Cosmic Power"
+    },
+    {
+      "id": 323,
+      "national": 323,
+      "name": "Water Spout"
+    },
+    {
+      "id": 324,
+      "national": 324,
+      "name": "Signal Beam"
+    },
+    {
+      "id": 325,
+      "national": 325,
+      "name": "Shadow Punch"
+    },
+    {
+      "id": 326,
+      "national": 326,
+      "name": "Extrasensory"
+    },
+    {
+      "id": 327,
+      "national": 327,
+      "name": "Sky Uppercut"
+    },
+    {
+      "id": 328,
+      "national": 328,
+      "name": "Sand Tomb"
+    },
+    {
+      "id": 329,
+      "national": 329,
+      "name": "Sheer Cold"
+    },
+    {
+      "id": 330,
+      "national": 330,
+      "name": "Muddy Water"
+    },
+    {
+      "id": 331,
+      "national": 331,
+      "name": "Bullet Seed"
+    },
+    {
+      "id": 332,
+      "national": 332,
+      "name": "Aerial Ace"
+    },
+    {
+      "id": 333,
+      "national": 333,
+      "name": "Icicle Spear"
+    },
+    {
+      "id": 334,
+      "national": 334,
+      "name": "Iron Defense"
+    },
+    {
+      "id": 335,
+      "national": 335,
+      "name": "Block"
+    },
+    {
+      "id": 336,
+      "national": 336,
+      "name": "Howl"
+    },
+    {
+      "id": 337,
+      "national": 337,
+      "name": "Dragon Claw"
+    },
+    {
+      "id": 338,
+      "national": 338,
+      "name": "Frenzy Plant"
+    },
+    {
+      "id": 339,
+      "national": 339,
+      "name": "Bulk Up"
+    },
+    {
+      "id": 340,
+      "national": 340,
+      "name": "Bounce"
+    },
+    {
+      "id": 341,
+      "national": 341,
+      "name": "Mud Shot"
+    },
+    {
+      "id": 342,
+      "national": 342,
+      "name": "Poison Tail"
+    },
+    {
+      "id": 343,
+      "national": 343,
+      "name": "Covet"
+    },
+    {
+      "id": 344,
+      "national": 344,
+      "name": "Volt Tackle"
+    },
+    {
+      "id": 345,
+      "national": 345,
+      "name": "Magical Leaf"
+    },
+    {
+      "id": 346,
+      "national": 346,
+      "name": "Water Sport"
+    },
+    {
+      "id": 347,
+      "national": 347,
+      "name": "Calm Mind"
+    },
+    {
+      "id": 348,
+      "national": 348,
+      "name": "Leaf Blade"
+    },
+    {
+      "id": 349,
+      "national": 349,
+      "name": "Dragon Dance"
+    },
+    {
+      "id": 350,
+      "national": 350,
+      "name": "Rock Blast"
+    },
+    {
+      "id": 351,
+      "national": 351,
+      "name": "Shock Wave"
+    },
+    {
+      "id": 352,
+      "national": 352,
+      "name": "Water Pulse"
+    },
+    {
+      "id": 353,
+      "national": 353,
+      "name": "Doom Desire"
+    },
+    {
+      "id": 354,
+      "national": 354,
+      "name": "Psycho Boost"
+    },
+    {
+      "id": 355,
+      "national": 355,
+      "name": "Roost"
+    },
+    {
+      "id": 356,
+      "national": 356,
+      "name": "Gravity"
+    },
+    {
+      "id": 357,
+      "national": 357,
+      "name": "Miracle Eye"
+    },
+    {
+      "id": 358,
+      "national": 358,
+      "name": "Wake-Up Slap"
+    },
+    {
+      "id": 359,
+      "national": 359,
+      "name": "Hammer Arm"
+    },
+    {
+      "id": 360,
+      "national": 360,
+      "name": "Gyro Ball"
+    },
+    {
+      "id": 361,
+      "national": 361,
+      "name": "Healing Wish"
+    },
+    {
+      "id": 362,
+      "national": 362,
+      "name": "Brine"
+    },
+    {
+      "id": 363,
+      "national": 363,
+      "name": "Natural Gift"
+    },
+    {
+      "id": 364,
+      "national": 364,
+      "name": "Feint"
+    },
+    {
+      "id": 365,
+      "national": 365,
+      "name": "Pluck"
+    },
+    {
+      "id": 366,
+      "national": 366,
+      "name": "Tailwind"
+    },
+    {
+      "id": 367,
+      "national": 367,
+      "name": "Acupressure"
+    },
+    {
+      "id": 368,
+      "national": 368,
+      "name": "Metal Burst"
+    },
+    {
+      "id": 369,
+      "national": 369,
+      "name": "U-turn"
+    },
+    {
+      "id": 370,
+      "national": 370,
+      "name": "Close Combat"
+    },
+    {
+      "id": 371,
+      "national": 371,
+      "name": "Payback"
+    },
+    {
+      "id": 372,
+      "national": 372,
+      "name": "Assurance"
+    },
+    {
+      "id": 373,
+      "national": 373,
+      "name": "Embargo"
+    },
+    {
+      "id": 374,
+      "national": 374,
+      "name": "Fling"
+    },
+    {
+      "id": 375,
+      "national": 375,
+      "name": "Psycho Shift"
+    },
+    {
+      "id": 376,
+      "national": 376,
+      "name": "Trump Card"
+    },
+    {
+      "id": 377,
+      "national": 377,
+      "name": "Heal Block"
+    },
+    {
+      "id": 378,
+      "national": 378,
+      "name": "Wring Out"
+    },
+    {
+      "id": 379,
+      "national": 379,
+      "name": "Power Trick"
+    },
+    {
+      "id": 380,
+      "national": 380,
+      "name": "Gastro Acid"
+    },
+    {
+      "id": 381,
+      "national": 381,
+      "name": "Lucky Chant"
+    },
+    {
+      "id": 382,
+      "national": 382,
+      "name": "Me First"
+    },
+    {
+      "id": 383,
+      "national": 383,
+      "name": "Copycat"
+    },
+    {
+      "id": 384,
+      "national": 384,
+      "name": "Power Swap"
+    },
+    {
+      "id": 385,
+      "national": 385,
+      "name": "Guard Swap"
+    },
+    {
+      "id": 386,
+      "national": 386,
+      "name": "Punishment"
+    },
+    {
+      "id": 387,
+      "national": 387,
+      "name": "Last Resort"
+    },
+    {
+      "id": 388,
+      "national": 388,
+      "name": "Worry Seed"
+    },
+    {
+      "id": 389,
+      "national": 389,
+      "name": "Sucker Punch"
+    },
+    {
+      "id": 390,
+      "national": 390,
+      "name": "Toxic Spikes"
+    },
+    {
+      "id": 391,
+      "national": 391,
+      "name": "Heart Swap"
+    },
+    {
+      "id": 392,
+      "national": 392,
+      "name": "Aqua Ring"
+    },
+    {
+      "id": 393,
+      "national": 393,
+      "name": "Magnet Rise"
+    },
+    {
+      "id": 394,
+      "national": 394,
+      "name": "Flare Blitz"
+    },
+    {
+      "id": 395,
+      "national": 395,
+      "name": "Force Palm"
+    },
+    {
+      "id": 396,
+      "national": 396,
+      "name": "Aura Sphere"
+    },
+    {
+      "id": 397,
+      "national": 397,
+      "name": "Rock Polish"
+    },
+    {
+      "id": 398,
+      "national": 398,
+      "name": "Poison Jab"
+    },
+    {
+      "id": 399,
+      "national": 399,
+      "name": "Dark Pulse"
+    },
+    {
+      "id": 400,
+      "national": 400,
+      "name": "Night Slash"
+    },
+    {
+      "id": 401,
+      "national": 401,
+      "name": "Aqua Tail"
+    },
+    {
+      "id": 402,
+      "national": 402,
+      "name": "Seed Bomb"
+    },
+    {
+      "id": 403,
+      "national": 403,
+      "name": "Air Slash"
+    },
+    {
+      "id": 404,
+      "national": 404,
+      "name": "X-Scissor"
+    },
+    {
+      "id": 405,
+      "national": 405,
+      "name": "Bug Buzz"
+    },
+    {
+      "id": 406,
+      "national": 406,
+      "name": "Dragon Pulse"
+    },
+    {
+      "id": 407,
+      "national": 407,
+      "name": "Dragon Rush"
+    },
+    {
+      "id": 408,
+      "national": 408,
+      "name": "Power Gem"
+    },
+    {
+      "id": 409,
+      "national": 409,
+      "name": "Drain Punch"
+    },
+    {
+      "id": 410,
+      "national": 410,
+      "name": "Vacuum Wave"
+    },
+    {
+      "id": 411,
+      "national": 411,
+      "name": "Focus Blast"
+    },
+    {
+      "id": 412,
+      "national": 412,
+      "name": "Energy Ball"
+    },
+    {
+      "id": 413,
+      "national": 413,
+      "name": "Brave Bird"
+    },
+    {
+      "id": 414,
+      "national": 414,
+      "name": "Earth Power"
+    },
+    {
+      "id": 415,
+      "national": 415,
+      "name": "Switcheroo"
+    },
+    {
+      "id": 416,
+      "national": 416,
+      "name": "Giga Impact"
+    },
+    {
+      "id": 417,
+      "national": 417,
+      "name": "Nasty Plot"
+    },
+    {
+      "id": 418,
+      "national": 418,
+      "name": "Bullet Punch"
+    },
+    {
+      "id": 419,
+      "national": 419,
+      "name": "Avalanche"
+    },
+    {
+      "id": 420,
+      "national": 420,
+      "name": "Ice Shard"
+    },
+    {
+      "id": 421,
+      "national": 421,
+      "name": "Shadow Claw"
+    },
+    {
+      "id": 422,
+      "national": 422,
+      "name": "Thunder Fang"
+    },
+    {
+      "id": 423,
+      "national": 423,
+      "name": "Ice Fang"
+    },
+    {
+      "id": 424,
+      "national": 424,
+      "name": "Fire Fang"
+    },
+    {
+      "id": 425,
+      "national": 425,
+      "name": "Shadow Sneak"
+    },
+    {
+      "id": 426,
+      "national": 426,
+      "name": "Mud Bomb"
+    },
+    {
+      "id": 427,
+      "national": 427,
+      "name": "Psycho Cut"
+    },
+    {
+      "id": 428,
+      "national": 428,
+      "name": "Zen Headbutt"
+    },
+    {
+      "id": 429,
+      "national": 429,
+      "name": "Mirror Shot"
+    },
+    {
+      "id": 430,
+      "national": 430,
+      "name": "Flash Cannon"
+    },
+    {
+      "id": 431,
+      "national": 431,
+      "name": "Rock Climb"
+    },
+    {
+      "id": 432,
+      "national": 432,
+      "name": "Defog"
+    },
+    {
+      "id": 433,
+      "national": 433,
+      "name": "Trick Room"
+    },
+    {
+      "id": 434,
+      "national": 434,
+      "name": "Draco Meteor"
+    },
+    {
+      "id": 435,
+      "national": 435,
+      "name": "Discharge"
+    },
+    {
+      "id": 436,
+      "national": 436,
+      "name": "Lava Plume"
+    },
+    {
+      "id": 437,
+      "national": 437,
+      "name": "Leaf Storm"
+    },
+    {
+      "id": 438,
+      "national": 438,
+      "name": "Power Whip"
+    },
+    {
+      "id": 439,
+      "national": 439,
+      "name": "Rock Wrecker"
+    },
+    {
+      "id": 440,
+      "national": 440,
+      "name": "Cross Poison"
+    },
+    {
+      "id": 441,
+      "national": 441,
+      "name": "Gunk Shot"
+    },
+    {
+      "id": 442,
+      "national": 442,
+      "name": "Iron Head"
+    },
+    {
+      "id": 443,
+      "national": 443,
+      "name": "Magnet Bomb"
+    },
+    {
+      "id": 444,
+      "national": 444,
+      "name": "Stone Edge"
+    },
+    {
+      "id": 445,
+      "national": 445,
+      "name": "Captivate"
+    },
+    {
+      "id": 446,
+      "national": 446,
+      "name": "Stealth Rock"
+    },
+    {
+      "id": 447,
+      "national": 447,
+      "name": "Grass Knot"
+    },
+    {
+      "id": 448,
+      "national": 448,
+      "name": "Chatter"
+    },
+    {
+      "id": 449,
+      "national": 449,
+      "name": "Judgment"
+    },
+    {
+      "id": 450,
+      "national": 450,
+      "name": "Bug Bite"
+    },
+    {
+      "id": 451,
+      "national": 451,
+      "name": "Charge Beam"
+    },
+    {
+      "id": 452,
+      "national": 452,
+      "name": "Wood Hammer"
+    },
+    {
+      "id": 453,
+      "national": 453,
+      "name": "Aqua Jet"
+    },
+    {
+      "id": 454,
+      "national": 454,
+      "name": "Attack Order"
+    },
+    {
+      "id": 455,
+      "national": 455,
+      "name": "Defend Order"
+    },
+    {
+      "id": 456,
+      "national": 456,
+      "name": "Heal Order"
+    },
+    {
+      "id": 457,
+      "national": 457,
+      "name": "Head Smash"
+    },
+    {
+      "id": 458,
+      "national": 458,
+      "name": "Double Hit"
+    },
+    {
+      "id": 459,
+      "national": 459,
+      "name": "Roar of Time"
+    },
+    {
+      "id": 460,
+      "national": 460,
+      "name": "Spacial Rend"
+    },
+    {
+      "id": 461,
+      "national": 461,
+      "name": "Lunar Dance"
+    },
+    {
+      "id": 462,
+      "national": 462,
+      "name": "Crush Grip"
+    },
+    {
+      "id": 463,
+      "national": 463,
+      "name": "Magma Storm"
+    },
+    {
+      "id": 464,
+      "national": 464,
+      "name": "Dark Void"
+    },
+    {
+      "id": 465,
+      "national": 465,
+      "name": "Seed Flare"
+    },
+    {
+      "id": 466,
+      "national": 466,
+      "name": "Ominous Wind"
+    },
+    {
+      "id": 467,
+      "national": 467,
+      "name": "Shadow Force"
+    },
+    {
+      "id": 468,
+      "national": 468,
+      "name": "Hone Claws"
+    },
+    {
+      "id": 469,
+      "national": 469,
+      "name": "Wide Guard"
+    },
+    {
+      "id": 470,
+      "national": 470,
+      "name": "Guard Split"
+    },
+    {
+      "id": 471,
+      "national": 471,
+      "name": "Power Split"
+    },
+    {
+      "id": 472,
+      "national": 472,
+      "name": "Wonder Room"
+    },
+    {
+      "id": 473,
+      "national": 473,
+      "name": "Psyshock"
+    },
+    {
+      "id": 474,
+      "national": 474,
+      "name": "Venoshock"
+    },
+    {
+      "id": 475,
+      "national": 475,
+      "name": "Autotomize"
+    },
+    {
+      "id": 476,
+      "national": 476,
+      "name": "Rage Powder"
+    },
+    {
+      "id": 477,
+      "national": 477,
+      "name": "Telekinesis"
+    },
+    {
+      "id": 478,
+      "national": 478,
+      "name": "Magic Room"
+    },
+    {
+      "id": 479,
+      "national": 479,
+      "name": "Smack Down"
+    },
+    {
+      "id": 480,
+      "national": 480,
+      "name": "Storm Throw"
+    },
+    {
+      "id": 481,
+      "national": 481,
+      "name": "Flame Burst"
+    },
+    {
+      "id": 482,
+      "national": 482,
+      "name": "Sludge Wave"
+    },
+    {
+      "id": 483,
+      "national": 483,
+      "name": "Quiver Dance"
+    },
+    {
+      "id": 484,
+      "national": 484,
+      "name": "Heavy Slam"
+    },
+    {
+      "id": 485,
+      "national": 485,
+      "name": "Synchronoise"
+    },
+    {
+      "id": 486,
+      "national": 486,
+      "name": "Electro Ball"
+    },
+    {
+      "id": 487,
+      "national": 487,
+      "name": "Soak"
+    },
+    {
+      "id": 488,
+      "national": 488,
+      "name": "Flame Charge"
+    },
+    {
+      "id": 489,
+      "national": 489,
+      "name": "Coil"
+    },
+    {
+      "id": 490,
+      "national": 490,
+      "name": "Low Sweep"
+    },
+    {
+      "id": 491,
+      "national": 491,
+      "name": "Acid Spray"
+    },
+    {
+      "id": 492,
+      "national": 492,
+      "name": "Foul Play"
+    },
+    {
+      "id": 493,
+      "national": 493,
+      "name": "Simple Beam"
+    },
+    {
+      "id": 494,
+      "national": 494,
+      "name": "Entrainment"
+    },
+    {
+      "id": 495,
+      "national": 495,
+      "name": "After You"
+    },
+    {
+      "id": 496,
+      "national": 496,
+      "name": "Round"
+    },
+    {
+      "id": 497,
+      "national": 497,
+      "name": "Echoed Voice"
+    },
+    {
+      "id": 498,
+      "national": 498,
+      "name": "Chip Away"
+    },
+    {
+      "id": 499,
+      "national": 499,
+      "name": "Clear Smog"
+    },
+    {
+      "id": 500,
+      "national": 500,
+      "name": "Stored Power"
+    },
+    {
+      "id": 501,
+      "national": 501,
+      "name": "Quick Guard"
+    },
+    {
+      "id": 502,
+      "national": 502,
+      "name": "Ally Switch"
+    },
+    {
+      "id": 503,
+      "national": 503,
+      "name": "Scald"
+    },
+    {
+      "id": 504,
+      "national": 504,
+      "name": "Shell Smash"
+    },
+    {
+      "id": 505,
+      "national": 505,
+      "name": "Heal Pulse"
+    },
+    {
+      "id": 506,
+      "national": 506,
+      "name": "Hex"
+    },
+    {
+      "id": 507,
+      "national": 507,
+      "name": "Sky Drop"
+    },
+    {
+      "id": 508,
+      "national": 508,
+      "name": "Shift Gear"
+    },
+    {
+      "id": 509,
+      "national": 509,
+      "name": "Circle Throw"
+    },
+    {
+      "id": 510,
+      "national": 510,
+      "name": "Incinerate"
+    },
+    {
+      "id": 511,
+      "national": 511,
+      "name": "Quash"
+    },
+    {
+      "id": 512,
+      "national": 512,
+      "name": "Acrobatics"
+    },
+    {
+      "id": 513,
+      "national": 513,
+      "name": "Reflect Type"
+    },
+    {
+      "id": 514,
+      "national": 514,
+      "name": "Retaliate"
+    },
+    {
+      "id": 515,
+      "national": 515,
+      "name": "Final Gambit"
+    },
+    {
+      "id": 516,
+      "national": 516,
+      "name": "Bestow"
+    },
+    {
+      "id": 517,
+      "national": 517,
+      "name": "Inferno"
+    },
+    {
+      "id": 518,
+      "national": 518,
+      "name": "Water Pledge"
+    },
+    {
+      "id": 519,
+      "national": 519,
+      "name": "Fire Pledge"
+    },
+    {
+      "id": 520,
+      "national": 520,
+      "name": "Grass Pledge"
+    },
+    {
+      "id": 521,
+      "national": 521,
+      "name": "Volt Switch"
+    },
+    {
+      "id": 522,
+      "national": 522,
+      "name": "Struggle Bug"
+    },
+    {
+      "id": 523,
+      "national": 523,
+      "name": "Bulldoze"
+    },
+    {
+      "id": 524,
+      "national": 524,
+      "name": "Frost Breath"
+    },
+    {
+      "id": 525,
+      "national": 525,
+      "name": "Dragon Tail"
+    },
+    {
+      "id": 526,
+      "national": 526,
+      "name": "Work Up"
+    },
+    {
+      "id": 527,
+      "national": 527,
+      "name": "Electroweb"
+    },
+    {
+      "id": 528,
+      "national": 528,
+      "name": "Wild Charge"
+    },
+    {
+      "id": 529,
+      "national": 529,
+      "name": "Drill Run"
+    },
+    {
+      "id": 530,
+      "national": 530,
+      "name": "Dual Chop"
+    },
+    {
+      "id": 531,
+      "national": 531,
+      "name": "Heart Stamp"
+    },
+    {
+      "id": 532,
+      "national": 532,
+      "name": "Horn Leech"
+    },
+    {
+      "id": 533,
+      "national": 533,
+      "name": "Sacred Sword"
+    },
+    {
+      "id": 534,
+      "national": 534,
+      "name": "Razor Shell"
+    },
+    {
+      "id": 535,
+      "national": 535,
+      "name": "Heat Crash"
+    },
+    {
+      "id": 536,
+      "national": 536,
+      "name": "Leaf Tornado"
+    },
+    {
+      "id": 537,
+      "national": 537,
+      "name": "Steamroller"
+    },
+    {
+      "id": 538,
+      "national": 538,
+      "name": "Cotton Guard"
+    },
+    {
+      "id": 539,
+      "national": 539,
+      "name": "Night Daze"
+    },
+    {
+      "id": 540,
+      "national": 540,
+      "name": "Psystrike"
+    },
+    {
+      "id": 541,
+      "national": 541,
+      "name": "Tail Slap"
+    },
+    {
+      "id": 542,
+      "national": 542,
+      "name": "Hurricane"
+    },
+    {
+      "id": 543,
+      "national": 543,
+      "name": "Head Charge"
+    },
+    {
+      "id": 544,
+      "national": 544,
+      "name": "Gear Grind"
+    },
+    {
+      "id": 545,
+      "national": 545,
+      "name": "Searing Shot"
+    },
+    {
+      "id": 546,
+      "national": 546,
+      "name": "Techno Blast"
+    },
+    {
+      "id": 547,
+      "national": 547,
+      "name": "Relic Song"
+    },
+    {
+      "id": 548,
+      "national": 548,
+      "name": "Secret Sword"
+    },
+    {
+      "id": 549,
+      "national": 549,
+      "name": "Glaciate"
+    },
+    {
+      "id": 550,
+      "national": 550,
+      "name": "Bolt Strike"
+    },
+    {
+      "id": 551,
+      "national": 551,
+      "name": "Blue Flare"
+    },
+    {
+      "id": 552,
+      "national": 552,
+      "name": "Fiery Dance"
+    },
+    {
+      "id": 553,
+      "national": 553,
+      "name": "Freeze Shock"
+    },
+    {
+      "id": 554,
+      "national": 554,
+      "name": "Ice Burn"
+    },
+    {
+      "id": 555,
+      "national": 555,
+      "name": "Snarl"
+    },
+    {
+      "id": 556,
+      "national": 556,
+      "name": "Icicle Crash"
+    },
+    {
+      "id": 557,
+      "national": 557,
+      "name": "V-create"
+    },
+    {
+      "id": 558,
+      "national": 558,
+      "name": "Fusion Flare"
+    },
+    {
+      "id": 559,
+      "national": 559,
+      "name": "Fusion Bolt"
+    },
+    {
+      "id": 560,
+      "national": 560,
+      "name": "Flying Press"
+    },
+    {
+      "id": 561,
+      "national": 561,
+      "name": "Mat Block"
+    },
+    {
+      "id": 562,
+      "national": 562,
+      "name": "Belch"
+    },
+    {
+      "id": 563,
+      "national": 563,
+      "name": "Rototiller"
+    },
+    {
+      "id": 564,
+      "national": 564,
+      "name": "Sticky Web"
+    },
+    {
+      "id": 565,
+      "national": 565,
+      "name": "Fell Stinger"
+    },
+    {
+      "id": 566,
+      "national": 566,
+      "name": "Phantom Force"
+    },
+    {
+      "id": 567,
+      "national": 567,
+      "name": "Trick-or-Treat"
+    },
+    {
+      "id": 568,
+      "national": 568,
+      "name": "Noble Roar"
+    },
+    {
+      "id": 569,
+      "national": 569,
+      "name": "Ion Deluge"
+    },
+    {
+      "id": 570,
+      "national": 570,
+      "name": "Parabolic Charge"
+    },
+    {
+      "id": 571,
+      "national": 571,
+      "name": "Forest\u0027s Curse"
+    },
+    {
+      "id": 572,
+      "national": 572,
+      "name": "Petal Blizzard"
+    },
+    {
+      "id": 573,
+      "national": 573,
+      "name": "Freeze-Dry"
+    },
+    {
+      "id": 574,
+      "national": 574,
+      "name": "Disarming Voice"
+    },
+    {
+      "id": 575,
+      "national": 575,
+      "name": "Parting Shot"
+    },
+    {
+      "id": 576,
+      "national": 576,
+      "name": "Topsy-Turvy"
+    },
+    {
+      "id": 577,
+      "national": 577,
+      "name": "Draining Kiss"
+    },
+    {
+      "id": 578,
+      "national": 578,
+      "name": "Crafty Shield"
+    },
+    {
+      "id": 579,
+      "national": 579,
+      "name": "Flower Shield"
+    },
+    {
+      "id": 580,
+      "national": 580,
+      "name": "Grassy Terrain"
+    },
+    {
+      "id": 581,
+      "national": 581,
+      "name": "Misty Terrain"
+    },
+    {
+      "id": 582,
+      "national": 582,
+      "name": "Electrify"
+    },
+    {
+      "id": 583,
+      "national": 583,
+      "name": "Play Rough"
+    },
+    {
+      "id": 584,
+      "national": 584,
+      "name": "Fairy Wind"
+    },
+    {
+      "id": 585,
+      "national": 585,
+      "name": "Moonblast"
+    },
+    {
+      "id": 586,
+      "national": 586,
+      "name": "Boomburst"
+    },
+    {
+      "id": 587,
+      "national": 587,
+      "name": "Fairy Lock"
+    },
+    {
+      "id": 588,
+      "national": 588,
+      "name": "King\u0027s Shield"
+    },
+    {
+      "id": 589,
+      "national": 589,
+      "name": "Play Nice"
+    },
+    {
+      "id": 590,
+      "national": 590,
+      "name": "Confide"
+    },
+    {
+      "id": 591,
+      "national": 591,
+      "name": "Diamond Storm"
+    },
+    {
+      "id": 592,
+      "national": 592,
+      "name": "Steam Eruption"
+    },
+    {
+      "id": 593,
+      "national": 593,
+      "name": "Hyperspace Hole"
+    },
+    {
+      "id": 594,
+      "national": 594,
+      "name": "Water Shuriken"
+    },
+    {
+      "id": 595,
+      "national": 595,
+      "name": "Mystical Fire"
+    },
+    {
+      "id": 596,
+      "national": 596,
+      "name": "Spiky Shield"
+    },
+    {
+      "id": 597,
+      "national": 597,
+      "name": "Aromatic Mist"
+    },
+    {
+      "id": 598,
+      "national": 598,
+      "name": "Eerie Impulse"
+    },
+    {
+      "id": 599,
+      "national": 599,
+      "name": "Venom Drench"
+    },
+    {
+      "id": 600,
+      "national": 600,
+      "name": "Powder"
+    },
+    {
+      "id": 601,
+      "national": 601,
+      "name": "Geomancy"
+    },
+    {
+      "id": 602,
+      "national": 602,
+      "name": "Magnetic Flux"
+    },
+    {
+      "id": 603,
+      "national": 603,
+      "name": "Happy Hour"
+    },
+    {
+      "id": 604,
+      "national": 604,
+      "name": "Electric Terrain"
+    },
+    {
+      "id": 605,
+      "national": 605,
+      "name": "Dazzling Gleam"
+    },
+    {
+      "id": 606,
+      "national": 606,
+      "name": "Celebrate"
+    },
+    {
+      "id": 607,
+      "national": 607,
+      "name": "Hold Hands"
+    },
+    {
+      "id": 608,
+      "national": 608,
+      "name": "Baby-Doll Eyes"
+    },
+    {
+      "id": 609,
+      "national": 609,
+      "name": "Nuzzle"
+    },
+    {
+      "id": 610,
+      "national": 610,
+      "name": "Hold Back"
+    },
+    {
+      "id": 611,
+      "national": 611,
+      "name": "Infestation"
+    },
+    {
+      "id": 612,
+      "national": 612,
+      "name": "Power-Up Punch"
+    },
+    {
+      "id": 613,
+      "national": 613,
+      "name": "Oblivion Wing"
+    },
+    {
+      "id": 614,
+      "national": 614,
+      "name": "Thousand Arrows"
+    },
+    {
+      "id": 615,
+      "national": 615,
+      "name": "Thousand Waves"
+    },
+    {
+      "id": 616,
+      "national": 616,
+      "name": "Land\u0027s Wrath"
+    },
+    {
+      "id": 617,
+      "national": 617,
+      "name": "Light Of Ruin"
+    },
+    {
+      "id": 618,
+      "national": 618,
+      "name": "Origin Pulse"
+    },
+    {
+      "id": 619,
+      "national": 619,
+      "name": "Precipice Blades"
+    },
+    {
+      "id": 620,
+      "national": 620,
+      "name": "Dragon Ascent"
+    },
+    {
+      "id": 621,
+      "national": 621,
+      "name": "Hyperspace Fury"
+    },
+    {
+      "id": 622,
+      "national": 659,
+      "name": "Shore Up"
+    },
+    {
+      "id": 623,
+      "national": 660,
+      "name": "First Impression"
+    },
+    {
+      "id": 624,
+      "national": 661,
+      "name": "Baneful Bunker"
+    },
+    {
+      "id": 625,
+      "national": 662,
+      "name": "Spirit Shackle"
+    },
+    {
+      "id": 626,
+      "national": 663,
+      "name": "Darkest Lariat"
+    },
+    {
+      "id": 627,
+      "national": 664,
+      "name": "Sparkling Aria"
+    },
+    {
+      "id": 628,
+      "national": 665,
+      "name": "Ice Hammer"
+    },
+    {
+      "id": 629,
+      "national": 666,
+      "name": "Floral Healing"
+    },
+    {
+      "id": 630,
+      "national": 667,
+      "name": "High Horsepower"
+    },
+    {
+      "id": 631,
+      "national": 668,
+      "name": "Strength Sap"
+    },
+    {
+      "id": 632,
+      "national": 669,
+      "name": "Solar Blade"
+    },
+    {
+      "id": 633,
+      "national": 670,
+      "name": "Leafage"
+    },
+    {
+      "id": 634,
+      "national": 671,
+      "name": "Spotlight"
+    },
+    {
+      "id": 635,
+      "national": 672,
+      "name": "Toxic Thread"
+    },
+    {
+      "id": 636,
+      "national": 673,
+      "name": "Laser Focus"
+    },
+    {
+      "id": 637,
+      "national": 674,
+      "name": "Gear Up"
+    },
+    {
+      "id": 638,
+      "national": 675,
+      "name": "Throat Chop"
+    },
+    {
+      "id": 639,
+      "national": 676,
+      "name": "Pollen Puff"
+    },
+    {
+      "id": 640,
+      "national": 677,
+      "name": "Anchor Shot"
+    },
+    {
+      "id": 641,
+      "national": 678,
+      "name": "Psychic Terrain"
+    },
+    {
+      "id": 642,
+      "national": 679,
+      "name": "Lunge"
+    },
+    {
+      "id": 643,
+      "national": 680,
+      "name": "Fire Lash"
+    },
+    {
+      "id": 644,
+      "national": 681,
+      "name": "Power Trip"
+    },
+    {
+      "id": 645,
+      "national": 682,
+      "name": "Burn Up"
+    },
+    {
+      "id": 646,
+      "national": 683,
+      "name": "Speed Swap"
+    },
+    {
+      "id": 647,
+      "national": 684,
+      "name": "Smart Strike"
+    },
+    {
+      "id": 648,
+      "national": 685,
+      "name": "Purify"
+    },
+    {
+      "id": 649,
+      "national": 686,
+      "name": "Revelation Dance"
+    },
+    {
+      "id": 650,
+      "national": 687,
+      "name": "Core Enforcer"
+    },
+    {
+      "id": 651,
+      "national": 688,
+      "name": "Trop Kick"
+    },
+    {
+      "id": 652,
+      "national": 689,
+      "name": "Instruct"
+    },
+    {
+      "id": 653,
+      "national": 690,
+      "name": "Beak Blast"
+    },
+    {
+      "id": 654,
+      "national": 691,
+      "name": "Clanging Scales"
+    },
+    {
+      "id": 655,
+      "national": 692,
+      "name": "Dragon Hammer"
+    },
+    {
+      "id": 656,
+      "national": 693,
+      "name": "Brutal Swing"
+    },
+    {
+      "id": 657,
+      "national": 694,
+      "name": "Aurora Veil"
+    },
+    {
+      "id": 658,
+      "national": 704,
+      "name": "Shell Trap"
+    },
+    {
+      "id": 659,
+      "national": 705,
+      "name": "Fleur Cannon"
+    },
+    {
+      "id": 660,
+      "national": 706,
+      "name": "Psychic Fangs"
+    },
+    {
+      "id": 661,
+      "national": 707,
+      "name": "Stomping Tantrum"
+    },
+    {
+      "id": 662,
+      "national": 708,
+      "name": "Shadow Bone"
+    },
+    {
+      "id": 663,
+      "national": 709,
+      "name": "Accelerock"
+    },
+    {
+      "id": 664,
+      "national": 710,
+      "name": "Liquidation"
+    },
+    {
+      "id": 665,
+      "national": 711,
+      "name": "Prismatic Laser"
+    },
+    {
+      "id": 666,
+      "national": 712,
+      "name": "Spectral Thief"
+    },
+    {
+      "id": 667,
+      "national": 713,
+      "name": "Sunsteel Strike"
+    },
+    {
+      "id": 668,
+      "national": 714,
+      "name": "Moongeist Beam"
+    },
+    {
+      "id": 669,
+      "national": 715,
+      "name": "Tearful Look"
+    },
+    {
+      "id": 670,
+      "national": 716,
+      "name": "Zing Zap"
+    },
+    {
+      "id": 671,
+      "national": 717,
+      "name": "Nature\u0027s Madness"
+    },
+    {
+      "id": 672,
+      "national": 718,
+      "name": "Multi-Attack"
+    },
+    {
+      "id": 673,
+      "national": 720,
+      "name": "Mind Blown"
+    },
+    {
+      "id": 674,
+      "national": 721,
+      "name": "Plasma Fists"
+    },
+    {
+      "id": 675,
+      "national": 722,
+      "name": "Photon Geyser"
+    },
+    {
+      "id": 676,
+      "national": 729,
+      "name": "Zippy Zap"
+    },
+    {
+      "id": 677,
+      "national": 730,
+      "name": "Splishy Splash"
+    },
+    {
+      "id": 678,
+      "national": 731,
+      "name": "Floaty Fall"
+    },
+    {
+      "id": 679,
+      "national": 732,
+      "name": "Pika Papow"
+    },
+    {
+      "id": 680,
+      "national": 733,
+      "name": "Bouncy Bubble"
+    },
+    {
+      "id": 681,
+      "national": 734,
+      "name": "Buzzy Buzz"
+    },
+    {
+      "id": 682,
+      "national": 735,
+      "name": "Sizzly Slide"
+    },
+    {
+      "id": 683,
+      "national": 736,
+      "name": "Glitzy Glow"
+    },
+    {
+      "id": 684,
+      "national": 737,
+      "name": "Baddy Bad"
+    },
+    {
+      "id": 685,
+      "national": 738,
+      "name": "Sappy Seed"
+    },
+    {
+      "id": 686,
+      "national": 739,
+      "name": "Freezy Frost"
+    },
+    {
+      "id": 687,
+      "national": 740,
+      "name": "Sparkly Swirl"
+    },
+    {
+      "id": 688,
+      "national": 741,
+      "name": "Veevee Volley"
+    },
+    {
+      "id": 689,
+      "national": 742,
+      "name": "Double Iron Bash"
+    },
+    {
+      "id": 690,
+      "national": 744,
+      "name": "Dynamax Cannon"
+    },
+    {
+      "id": 691,
+      "national": 745,
+      "name": "Snipe Shot"
+    },
+    {
+      "id": 692,
+      "national": 746,
+      "name": "Jaw Lock"
+    },
+    {
+      "id": 693,
+      "national": 747,
+      "name": "Stuff Cheeks"
+    },
+    {
+      "id": 694,
+      "national": 748,
+      "name": "No Retreat"
+    },
+    {
+      "id": 695,
+      "national": 749,
+      "name": "Tar Shot"
+    },
+    {
+      "id": 696,
+      "national": 750,
+      "name": "Magic Powder"
+    },
+    {
+      "id": 697,
+      "national": 751,
+      "name": "Dragon Darts"
+    },
+    {
+      "id": 698,
+      "national": 752,
+      "name": "Teatime"
+    },
+    {
+      "id": 699,
+      "national": 753,
+      "name": "Octolock"
+    },
+    {
+      "id": 700,
+      "national": 754,
+      "name": "Bolt Beak"
+    },
+    {
+      "id": 701,
+      "national": 755,
+      "name": "Fishious Rend"
+    },
+    {
+      "id": 702,
+      "national": 756,
+      "name": "Court Change"
+    },
+    {
+      "id": 703,
+      "national": 775,
+      "name": "Clangorous Soul"
+    },
+    {
+      "id": 704,
+      "national": 776,
+      "name": "Body Press"
+    },
+    {
+      "id": 705,
+      "national": 777,
+      "name": "Decorate"
+    },
+    {
+      "id": 706,
+      "national": 778,
+      "name": "Drum Beating"
+    },
+    {
+      "id": 707,
+      "national": 779,
+      "name": "Snap Trap"
+    },
+    {
+      "id": 708,
+      "national": 780,
+      "name": "Pyro Ball"
+    },
+    {
+      "id": 709,
+      "national": 781,
+      "name": "Behemoth Blade"
+    },
+    {
+      "id": 710,
+      "national": 782,
+      "name": "Behemoth Bash"
+    },
+    {
+      "id": 711,
+      "national": 783,
+      "name": "Aura Wheel"
+    },
+    {
+      "id": 712,
+      "national": 784,
+      "name": "Breaking Swipe"
+    },
+    {
+      "id": 713,
+      "national": 785,
+      "name": "Branch Poke"
+    },
+    {
+      "id": 714,
+      "national": 786,
+      "name": "Overdrive"
+    },
+    {
+      "id": 715,
+      "national": 787,
+      "name": "Apple Acid"
+    },
+    {
+      "id": 716,
+      "national": 788,
+      "name": "Grav Apple"
+    },
+    {
+      "id": 717,
+      "national": 789,
+      "name": "Spirit Break"
+    },
+    {
+      "id": 718,
+      "national": 790,
+      "name": "Strange Steam"
+    },
+    {
+      "id": 719,
+      "national": 791,
+      "name": "Life Dew"
+    },
+    {
+      "id": 720,
+      "national": 792,
+      "name": "Obstruct"
+    },
+    {
+      "id": 721,
+      "national": 793,
+      "name": "False Surrender"
+    },
+    {
+      "id": 722,
+      "national": 794,
+      "name": "Meteor Assault"
+    },
+    {
+      "id": 723,
+      "national": 795,
+      "name": "Eternabeam"
+    },
+    {
+      "id": 724,
+      "national": 796,
+      "name": "Steel Beam"
+    },
+    {
+      "id": 725,
+      "national": 797,
+      "name": "Expanding Force"
+    },
+    {
+      "id": 726,
+      "national": 798,
+      "name": "Steel Roller"
+    },
+    {
+      "id": 727,
+      "national": 799,
+      "name": "Scale Shot"
+    },
+    {
+      "id": 728,
+      "national": 800,
+      "name": "Meteor Beam"
+    },
+    {
+      "id": 729,
+      "national": 801,
+      "name": "Shell Side Arm"
+    },
+    {
+      "id": 730,
+      "national": 802,
+      "name": "Misty Explosion"
+    },
+    {
+      "id": 731,
+      "national": 803,
+      "name": "Grassy Glide"
+    },
+    {
+      "id": 732,
+      "national": 804,
+      "name": "Rising Voltage"
+    },
+    {
+      "id": 733,
+      "national": 805,
+      "name": "Terrain Pulse"
+    },
+    {
+      "id": 734,
+      "national": 806,
+      "name": "Skitter Smack"
+    },
+    {
+      "id": 735,
+      "national": 807,
+      "name": "Burning Jealousy"
+    },
+    {
+      "id": 736,
+      "national": 808,
+      "name": "Lash Out"
+    },
+    {
+      "id": 737,
+      "national": 809,
+      "name": "Poltergeist"
+    },
+    {
+      "id": 738,
+      "national": 810,
+      "name": "Corrosive Gas"
+    },
+    {
+      "id": 739,
+      "national": 811,
+      "name": "Coaching"
+    },
+    {
+      "id": 740,
+      "national": 812,
+      "name": "Flip Turn"
+    },
+    {
+      "id": 741,
+      "national": 813,
+      "name": "Triple Axel"
+    },
+    {
+      "id": 742,
+      "national": 814,
+      "name": "Dual Wingbeat"
+    },
+    {
+      "id": 743,
+      "national": 815,
+      "name": "Scorching Sands"
+    },
+    {
+      "id": 744,
+      "national": 816,
+      "name": "Jungle Healing"
+    },
+    {
+      "id": 745,
+      "national": 817,
+      "name": "Wicked Blow"
+    },
+    {
+      "id": 746,
+      "national": 818,
+      "name": "Surging Strikes"
+    },
+    {
+      "id": 747,
+      "national": 819,
+      "name": "Thunder Cage"
+    },
+    {
+      "id": 748,
+      "national": 820,
+      "name": "Dragon Energy"
+    },
+    {
+      "id": 749,
+      "national": 821,
+      "name": "Freezing Glare"
+    },
+    {
+      "id": 750,
+      "national": 822,
+      "name": "Fiery Wrath"
+    },
+    {
+      "id": 751,
+      "national": 823,
+      "name": "Thunderous Kick"
+    },
+    {
+      "id": 752,
+      "national": 824,
+      "name": "Glacial Lance"
+    },
+    {
+      "id": 753,
+      "national": 825,
+      "name": "Astral Barrage"
+    },
+    {
+      "id": 754,
+      "national": 826,
+      "name": "Eerie Spell"
+    },
+    {
+      "id": 755,
+      "national": 827,
+      "name": "Dire Claw"
+    },
+    {
+      "id": 756,
+      "national": 828,
+      "name": "Psyshield Bash"
+    },
+    {
+      "id": 757,
+      "national": 829,
+      "name": "Power Shift"
+    },
+    {
+      "id": 758,
+      "national": 830,
+      "name": "Stone Axe"
+    },
+    {
+      "id": 759,
+      "national": 831,
+      "name": "Springtide Storm"
+    },
+    {
+      "id": 760,
+      "national": 832,
+      "name": "Mystical Power"
+    },
+    {
+      "id": 761,
+      "national": 833,
+      "name": "Raging Fury"
+    },
+    {
+      "id": 762,
+      "national": 834,
+      "name": "Wave Crash"
+    },
+    {
+      "id": 763,
+      "national": 835,
+      "name": "Chloroblast"
+    },
+    {
+      "id": 764,
+      "national": 836,
+      "name": "Mountain Gale"
+    },
+    {
+      "id": 765,
+      "national": 837,
+      "name": "Victory Dance"
+    },
+    {
+      "id": 766,
+      "national": 838,
+      "name": "Headlong Rush"
+    },
+    {
+      "id": 767,
+      "national": 839,
+      "name": "Barb Barrage"
+    },
+    {
+      "id": 768,
+      "national": 840,
+      "name": "Esper Wing"
+    },
+    {
+      "id": 769,
+      "national": 841,
+      "name": "Bitter Malice"
+    },
+    {
+      "id": 770,
+      "national": 842,
+      "name": "Shelter"
+    },
+    {
+      "id": 771,
+      "national": 843,
+      "name": "Triple Arrows"
+    },
+    {
+      "id": 772,
+      "national": 844,
+      "name": "Infernal Parade"
+    },
+    {
+      "id": 773,
+      "national": 845,
+      "name": "Ceaseless Edge"
+    },
+    {
+      "id": 774,
+      "national": 846,
+      "name": "Bleakwind Storm"
+    },
+    {
+      "id": 775,
+      "national": 847,
+      "name": "Wildbolt Storm"
+    },
+    {
+      "id": 776,
+      "national": 848,
+      "name": "Sandsear Storm"
+    },
+    {
+      "id": 777,
+      "national": 849,
+      "name": "Lunar Blessing"
+    },
+    {
+      "id": 778,
+      "national": 850,
+      "name": "Take Heart"
+    },
+    {
+      "id": 779,
+      "national": 851,
+      "name": "Tera Blast"
+    },
+    {
+      "id": 780,
+      "national": 852,
+      "name": "Silk Trap"
+    },
+    {
+      "id": 781,
+      "national": 853,
+      "name": "Axe Kick"
+    },
+    {
+      "id": 782,
+      "national": 854,
+      "name": "Last Respects"
+    },
+    {
+      "id": 783,
+      "national": 855,
+      "name": "Lumina Crash"
+    },
+    {
+      "id": 784,
+      "national": 856,
+      "name": "Order Up"
+    },
+    {
+      "id": 785,
+      "national": 857,
+      "name": "Jet Punch"
+    },
+    {
+      "id": 786,
+      "national": 858,
+      "name": "Spicy Extract"
+    },
+    {
+      "id": 787,
+      "national": 859,
+      "name": "Spin Out"
+    },
+    {
+      "id": 788,
+      "national": 860,
+      "name": "Population Bomb"
+    },
+    {
+      "id": 789,
+      "national": 861,
+      "name": "Ice Spinner"
+    },
+    {
+      "id": 790,
+      "national": 862,
+      "name": "Glaive Rush"
+    },
+    {
+      "id": 791,
+      "national": 863,
+      "name": "Revival Blessing"
+    },
+    {
+      "id": 792,
+      "national": 864,
+      "name": "Salt Cure"
+    },
+    {
+      "id": 793,
+      "national": 865,
+      "name": "Triple Dive"
+    },
+    {
+      "id": 794,
+      "national": 866,
+      "name": "Mortal Spin"
+    },
+    {
+      "id": 795,
+      "national": 867,
+      "name": "Doodle"
+    },
+    {
+      "id": 796,
+      "national": 868,
+      "name": "Fillet Away"
+    },
+    {
+      "id": 797,
+      "national": 869,
+      "name": "Kowtow Cleave"
+    },
+    {
+      "id": 798,
+      "national": 870,
+      "name": "Flower Trick"
+    },
+    {
+      "id": 799,
+      "national": 871,
+      "name": "Torch Song"
+    },
+    {
+      "id": 800,
+      "national": 872,
+      "name": "Aqua Step"
+    },
+    {
+      "id": 801,
+      "national": 873,
+      "name": "Raging Bull"
+    },
+    {
+      "id": 802,
+      "national": 874,
+      "name": "Make It Rain"
+    },
+    {
+      "id": 803,
+      "national": 877,
+      "name": "Ruination"
+    },
+    {
+      "id": 804,
+      "national": 878,
+      "name": "Collision Course"
+    },
+    {
+      "id": 805,
+      "national": 879,
+      "name": "Electro Drift"
+    },
+    {
+      "id": 806,
+      "national": 880,
+      "name": "Shed Tail"
+    },
+    {
+      "id": 807,
+      "national": 881,
+      "name": "Chilly Reception"
+    },
+    {
+      "id": 808,
+      "national": 882,
+      "name": "Tidy Up"
+    },
+    {
+      "id": 809,
+      "national": 883,
+      "name": "Snowscape"
+    },
+    {
+      "id": 810,
+      "national": 884,
+      "name": "Pounce"
+    },
+    {
+      "id": 811,
+      "national": 885,
+      "name": "Trailblaze"
+    },
+    {
+      "id": 812,
+      "national": 886,
+      "name": "Chilling Water"
+    },
+    {
+      "id": 813,
+      "national": 887,
+      "name": "Hyper Drill"
+    },
+    {
+      "id": 814,
+      "national": 888,
+      "name": "Twin Beam"
+    },
+    {
+      "id": 815,
+      "national": 889,
+      "name": "Rage Fist"
+    },
+    {
+      "id": 816,
+      "national": 890,
+      "name": "Armor Cannon"
+    },
+    {
+      "id": 817,
+      "national": 891,
+      "name": "Bitter Blade"
+    },
+    {
+      "id": 818,
+      "national": 892,
+      "name": "Double Shock"
+    },
+    {
+      "id": 819,
+      "national": 893,
+      "name": "Gigaton Hammer"
+    },
+    {
+      "id": 820,
+      "national": 894,
+      "name": "Comeuppance"
+    },
+    {
+      "id": 821,
+      "national": 895,
+      "name": "Aqua Cutter"
+    },
+    {
+      "id": 822,
+      "national": 896,
+      "name": "Blazing Torque"
+    },
+    {
+      "id": 823,
+      "national": 897,
+      "name": "Wicked Torque"
+    },
+    {
+      "id": 824,
+      "national": 898,
+      "name": "Noxious Torque"
+    },
+    {
+      "id": 825,
+      "national": 899,
+      "name": "Combat Torque"
+    },
+    {
+      "id": 826,
+      "national": 900,
+      "name": "Magical Torque"
+    },
+    {
+      "id": 827,
+      "national": 875,
+      "name": "Psyblade"
+    },
+    {
+      "id": 828,
+      "national": 876,
+      "name": "Hydro Steam"
+    },
+    {
+      "id": 829,
+      "national": 901,
+      "name": "Blood Moon"
+    },
+    {
+      "id": 830,
+      "national": 902,
+      "name": "Matcha Gotcha"
+    },
+    {
+      "id": 831,
+      "national": 903,
+      "name": "Syrup Bomb"
+    },
+    {
+      "id": 832,
+      "national": 904,
+      "name": "Ivy Cudgel"
+    },
+    {
+      "id": 833,
+      "national": 905,
+      "name": "Electro Shot"
+    },
+    {
+      "id": 834,
+      "national": 906,
+      "name": "Tera Starstorm"
+    },
+    {
+      "id": 835,
+      "national": 907,
+      "name": "Fickle Beam"
+    },
+    {
+      "id": 836,
+      "national": 908,
+      "name": "Burning Bulwark"
+    },
+    {
+      "id": 837,
+      "national": 909,
+      "name": "Thunderclap"
+    },
+    {
+      "id": 838,
+      "national": 910,
+      "name": "Mighty Cleave"
+    },
+    {
+      "id": 839,
+      "national": 911,
+      "name": "Tachyon Cutter"
+    },
+    {
+      "id": 840,
+      "national": 912,
+      "name": "Hard Press"
+    },
+    {
+      "id": 841,
+      "national": 913,
+      "name": "Dragon Cheer"
+    },
+    {
+      "id": 842,
+      "national": 914,
+      "name": "Alluring Voice"
+    },
+    {
+      "id": 843,
+      "national": 915,
+      "name": "Temper Flare"
+    },
+    {
+      "id": 844,
+      "national": 916,
+      "name": "Supercell Slam"
+    },
+    {
+      "id": 845,
+      "national": 917,
+      "name": "Psychic Noise"
+    },
+    {
+      "id": 846,
+      "national": 918,
+      "name": "Upper Hand"
+    },
+    {
+      "id": 847,
+      "national": 919,
+      "name": "Malignant Chain"
+    },
+    {
+      "id": 867,
+      "national": 658,
+      "name": "Catastropika"
+    },
+    {
+      "id": 869,
+      "national": 700,
+      "name": "Stoked Sparksurfer"
+    },
+    {
+      "id": 870,
+      "national": 702,
+      "name": "Extreme Evoboost"
+    },
+    {
+      "id": 871,
+      "national": 701,
+      "name": "Pulverizing Pancake"
+    },
+    {
+      "id": 872,
+      "national": 703,
+      "name": "Genesis Supernova"
+    },
+    {
+      "id": 873,
+      "national": 695,
+      "name": "Sinister Arrow Raid"
+    },
+    {
+      "id": 874,
+      "national": 696,
+      "name": "Malicious Moonsault"
+    },
+    {
+      "id": 875,
+      "national": 697,
+      "name": "Oceanic Operetta"
+    },
+    {
+      "id": 878,
+      "national": 728,
+      "name": "Clangorous Soulblaze"
+    },
+    {
+      "id": 879,
+      "national": 698,
+      "name": "Guardian of Alola"
+    },
+    {
+      "id": 884,
+      "national": 743,
+      "name": "Max Guard"
+    },
+    {
+      "id": 885,
+      "national": 760,
+      "name": "Max Strike"
+    },
+    {
+      "id": 886,
+      "national": 761,
+      "name": "Max Knuckle"
+    },
+    {
+      "id": 887,
+      "national": 766,
+      "name": "Max Airstream"
+    },
+    {
+      "id": 888,
+      "national": 764,
+      "name": "Max Ooze"
+    },
+    {
+      "id": 889,
+      "national": 771,
+      "name": "Max Quake"
+    },
+    {
+      "id": 890,
+      "national": 770,
+      "name": "Max Rockfall"
+    },
+    {
+      "id": 891,
+      "national": 758,
+      "name": "Max Flutterby"
+    },
+    {
+      "id": 892,
+      "national": 762,
+      "name": "Max Phantasm"
+    },
+    {
+      "id": 893,
+      "national": 774,
+      "name": "Max Steelspike"
+    },
+    {
+      "id": 894,
+      "national": 757,
+      "name": "Max Flare"
+    },
+    {
+      "id": 895,
+      "national": 765,
+      "name": "Max Geyser"
+    },
+    {
+      "id": 896,
+      "national": 773,
+      "name": "Max Overgrowth"
+    },
+    {
+      "id": 897,
+      "national": 759,
+      "name": "Max Lightning"
+    },
+    {
+      "id": 898,
+      "national": 769,
+      "name": "Max Mindstorm"
+    },
+    {
+      "id": 899,
+      "national": 763,
+      "name": "Max Hailstorm"
+    },
+    {
+      "id": 900,
+      "national": 768,
+      "name": "Max Wyrmwind"
+    },
+    {
+      "id": 901,
+      "national": 772,
+      "name": "Max Darkness"
+    },
+    {
+      "id": 902,
+      "national": 767,
+      "name": "Max Starfall"
+    }
+  ]
+}

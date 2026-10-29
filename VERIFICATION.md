@@ -2,7 +2,7 @@
 
 - .NET WebAssembly publish: PASS.
 - React/TypeScript production build: PASS.
-- Web unit suite: 200 tests, 30 files, PASS.
+- Web unit suite: 202 tests, 31 files, PASS.
 - Completed-save native comparison: six party members and three occupied box slots, PASS.
 - Direct and editor/facade no-op save exports: byte-identical, PASS.
 - Nickname, IV, level and native shiny edits: PASS.
@@ -16,7 +16,7 @@
 - Original completed save unchanged.
 - JavaScript dependency audits: no reported vulnerabilities after compatible patches.
 
-Real-save and in-game stock expansion/HnS/Soulgold validation remains outstanding.
+A supplied SoulGold save passed no-op and nickname-edit checks and an edited copy was verified in-game. A Heart & Soul randomizer-labeled save passed structural and edit checks and an edited copy loaded in the standard 2.0.6 game; its exact randomizer configuration remains unavailable. Stock expansion real-save coverage remains outstanding.
 Other expansion releases and save-changing configurations require their own profiles.
 Persistent custom-profile storage and cross-profile imports are not complete.
 GitHub Pages uses the project base path; nested-route redirect and asset loading are checked separately.
@@ -29,3 +29,12 @@ were reopened with PKHeX Core and checked for species, form, trainer IDs, IVs,
 EVs, nicknames and shininess. The original save was unchanged. Independent
 synthetic tests cover slot fallback, corrupt sectors, empty PC and PK9 conversion.
 The prototype is read-only; other compressed box layouts are deliberately refused.
+
+Local later-build compatibility verification:
+
+- Petalburg Dynasty 1.10.0: supplied save and matching state agreed for eight real Pokémon; one custom species skipped. PK6/PK9 and corruption/pointer checks passed.
+- Lazarus 2.0: all 268 and 29 native records in two supplied saves matched their respective live states; eligible portable PK6/PK9 and archives reopened successfully.
+- Recharged Yellow 1.9.7: four party and two boxed records matched the live state and produced verified PK6 files; corrupt sectors and pointers rejected.
+- Polished Crystal 3.2.3: supplied faithful save’s party identity matched live normal-ROM state; box checksums, backup fallback, corruption controls, 66 portable exports and shiny flags checked. Differences in recalculated stats and approximation limits are documented.
+- Older Rijon: supplied VBA party matched a seeded mGBA state and a battery file reconstructed from live state memory. No game-created battery save or real occupied PC has been verified.
+- Permanent synthetic profile checks cover the new readers, state routing, portable PK6/PK9, unknown forms and negative inputs. Website upload controls were inspected in a local browser; native file chooser and download were not tested end-to-end.

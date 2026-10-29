@@ -1,0 +1,2043 @@
+{
+  "profile": "audit",
+  "romSha256": "d5fb604e42a7b2e88cedf1992ba23a1cd47526eb0c1f467d2a01d78fb8274ff6",
+  "moves": [
+    {
+      "id": 1,
+      "name": "Destructor"
+    },
+    {
+      "id": 2,
+      "name": "Golpe karate"
+    },
+    {
+      "id": 3,
+      "name": "DobleBofeton"
+    },
+    {
+      "id": 4,
+      "name": "Pu\u00f1o cometa"
+    },
+    {
+      "id": 5,
+      "name": "Megapu\u00f1o"
+    },
+    {
+      "id": 6,
+      "name": "Dia de pago"
+    },
+    {
+      "id": 7,
+      "name": "Pu\u00f1o fuego"
+    },
+    {
+      "id": 8,
+      "name": "Pu\u00f1o hielo"
+    },
+    {
+      "id": 9,
+      "name": "Pu\u00f1o trueno"
+    },
+    {
+      "id": 10,
+      "name": "Ara\u00f1azo"
+    },
+    {
+      "id": 11,
+      "name": "Agarre"
+    },
+    {
+      "id": 14,
+      "name": "Danza espada"
+    },
+    {
+      "id": 15,
+      "name": "Corte"
+    },
+    {
+      "id": 16,
+      "name": "Tornado"
+    },
+    {
+      "id": 17,
+      "name": "Ataque ala"
+    },
+    {
+      "id": 18,
+      "name": "Remolino"
+    },
+    {
+      "id": 19,
+      "name": "Vuelo"
+    },
+    {
+      "id": 20,
+      "name": "Atadura"
+    },
+    {
+      "id": 22,
+      "name": "Latigo cepa"
+    },
+    {
+      "id": 23,
+      "name": "pisoton"
+    },
+    {
+      "id": 24,
+      "name": "doblePatada"
+    },
+    {
+      "id": 25,
+      "name": "MegaPatada"
+    },
+    {
+      "id": 26,
+      "name": "Patada salto"
+    },
+    {
+      "id": 27,
+      "name": "Patada giro"
+    },
+    {
+      "id": 28,
+      "name": "Ataque arena"
+    },
+    {
+      "id": 29,
+      "name": "Golpe cabeza"
+    },
+    {
+      "id": 30,
+      "name": "Cornada"
+    },
+    {
+      "id": 31,
+      "name": "Ataque furia"
+    },
+    {
+      "id": 32,
+      "name": "Perforador"
+    },
+    {
+      "id": 33,
+      "name": "Placaje"
+    },
+    {
+      "id": 34,
+      "name": "Golpe cuerpo"
+    },
+    {
+      "id": 36,
+      "name": "Derribo"
+    },
+    {
+      "id": 38,
+      "name": "Doble filo"
+    },
+    {
+      "id": 41,
+      "name": "Doble ataque"
+    },
+    {
+      "id": 42,
+      "name": "Pin misil"
+    },
+    {
+      "id": 43,
+      "name": "Malicioso"
+    },
+    {
+      "id": 44,
+      "name": "Mordisco"
+    },
+    {
+      "id": 45,
+      "name": "Gru\u00f1ido"
+    },
+    {
+      "id": 46,
+      "name": "Rugido"
+    },
+    {
+      "id": 47,
+      "name": "Canto"
+    },
+    {
+      "id": 48,
+      "name": "Supersonico"
+    },
+    {
+      "id": 49,
+      "name": "Bomba sonica"
+    },
+    {
+      "id": 50,
+      "name": "Anulaci\u00f3n"
+    },
+    {
+      "id": 51,
+      "name": "Acido"
+    },
+    {
+      "id": 52,
+      "name": "Ascuas"
+    },
+    {
+      "id": 53,
+      "name": "Lanzallamas"
+    },
+    {
+      "id": 54,
+      "name": "Neblina"
+    },
+    {
+      "id": 55,
+      "name": "Pistola agua"
+    },
+    {
+      "id": 56,
+      "name": "Hidro bomba"
+    },
+    {
+      "id": 57,
+      "name": "Surf"
+    },
+    {
+      "id": 58,
+      "name": "Rayo hielo"
+    },
+    {
+      "id": 59,
+      "name": "Ventisca"
+    },
+    {
+      "id": 60,
+      "name": "Psicorrayo"
+    },
+    {
+      "id": 61,
+      "name": "Rayo burbuja"
+    },
+    {
+      "id": 62,
+      "name": "Rayo aurora"
+    },
+    {
+      "id": 63,
+      "name": "Hiperrayo"
+    },
+    {
+      "id": 64,
+      "name": "Picotazo"
+    },
+    {
+      "id": 65,
+      "name": "Pico taladro"
+    },
+    {
+      "id": 66,
+      "name": "Sumision"
+    },
+    {
+      "id": 67,
+      "name": "Patada baja"
+    },
+    {
+      "id": 70,
+      "name": "Fuerza"
+    },
+    {
+      "id": 72,
+      "name": "Megaagotar"
+    },
+    {
+      "id": 73,
+      "name": "Drenadoras"
+    },
+    {
+      "id": 74,
+      "name": "Desarrollo"
+    },
+    {
+      "id": 75,
+      "name": "Hoja afilada"
+    },
+    {
+      "id": 76,
+      "name": "Rayo solar"
+    },
+    {
+      "id": 77,
+      "name": "Polvo veneno"
+    },
+    {
+      "id": 78,
+      "name": "Paralizador"
+    },
+    {
+      "id": 79,
+      "name": "Somnifero"
+    },
+    {
+      "id": 80,
+      "name": "Danza petalo"
+    },
+    {
+      "id": 82,
+      "name": "Furia dragon"
+    },
+    {
+      "id": 83,
+      "name": "Giro fuego"
+    },
+    {
+      "id": 84,
+      "name": "Impactrueno"
+    },
+    {
+      "id": 85,
+      "name": "Rayo"
+    },
+    {
+      "id": 86,
+      "name": "Onda trueno"
+    },
+    {
+      "id": 87,
+      "name": "Trueno"
+    },
+    {
+      "id": 88,
+      "name": "Lanzarrocas"
+    },
+    {
+      "id": 89,
+      "name": "Terremoto"
+    },
+    {
+      "id": 90,
+      "name": "Fisura"
+    },
+    {
+      "id": 91,
+      "name": "Excavar"
+    },
+    {
+      "id": 92,
+      "name": "T\u00f3xico"
+    },
+    {
+      "id": 93,
+      "name": "Confusi\u00f3n"
+    },
+    {
+      "id": 94,
+      "name": "Psiquico"
+    },
+    {
+      "id": 95,
+      "name": "Hipnosis"
+    },
+    {
+      "id": 96,
+      "name": "Meditaci\u00f3n"
+    },
+    {
+      "id": 97,
+      "name": "Agilidad"
+    },
+    {
+      "id": 99,
+      "name": "Furia"
+    },
+    {
+      "id": 101,
+      "name": "Tinieblas"
+    },
+    {
+      "id": 103,
+      "name": "Chirrido"
+    },
+    {
+      "id": 104,
+      "name": "Doble equipo"
+    },
+    {
+      "id": 105,
+      "name": "Recuperaci\u00f3n"
+    },
+    {
+      "id": 106,
+      "name": "Fortaleza"
+    },
+    {
+      "id": 107,
+      "name": "Reduccion"
+    },
+    {
+      "id": 109,
+      "name": "Rayo confuso"
+    },
+    {
+      "id": 110,
+      "name": "Refugio"
+    },
+    {
+      "id": 111,
+      "name": "Rizo defensa"
+    },
+    {
+      "id": 112,
+      "name": "Barrera"
+    },
+    {
+      "id": 114,
+      "name": "Niebla"
+    },
+    {
+      "id": 115,
+      "name": "Reflejo"
+    },
+    {
+      "id": 116,
+      "name": "Foco energia"
+    },
+    {
+      "id": 117,
+      "name": "Venganza"
+    },
+    {
+      "id": 118,
+      "name": "Metronomo"
+    },
+    {
+      "id": 121,
+      "name": "Bomba huevo"
+    },
+    {
+      "id": 122,
+      "name": "Lenguetazo"
+    },
+    {
+      "id": 123,
+      "name": "Poluci\u00f3n"
+    },
+    {
+      "id": 124,
+      "name": "Residuos"
+    },
+    {
+      "id": 125,
+      "name": "Hueso palo"
+    },
+    {
+      "id": 126,
+      "name": "Llamarada"
+    },
+    {
+      "id": 127,
+      "name": "Cascada"
+    },
+    {
+      "id": 128,
+      "name": "Tenaza"
+    },
+    {
+      "id": 130,
+      "name": "Cabezazo"
+    },
+    {
+      "id": 131,
+      "name": "Clavo ca\u00f1on"
+    },
+    {
+      "id": 132,
+      "name": "Restricci\u00f3n"
+    },
+    {
+      "id": 133,
+      "name": "Amnesia"
+    },
+    {
+      "id": 134,
+      "name": "Kinetico"
+    },
+    {
+      "id": 137,
+      "name": "Deslumbrar"
+    },
+    {
+      "id": 138,
+      "name": "Come sue\u00f1os"
+    },
+    {
+      "id": 139,
+      "name": "Gas venenoso"
+    },
+    {
+      "id": 141,
+      "name": "Chupavidas"
+    },
+    {
+      "id": 142,
+      "name": "Beso amoroso"
+    },
+    {
+      "id": 143,
+      "name": "Ataque aereo"
+    },
+    {
+      "id": 144,
+      "name": "Transform."
+    },
+    {
+      "id": 145,
+      "name": "Burbuja"
+    },
+    {
+      "id": 146,
+      "name": "Pu\u00f1o mareo"
+    },
+    {
+      "id": 147,
+      "name": "Espora"
+    },
+    {
+      "id": 148,
+      "name": "Destello"
+    },
+    {
+      "id": 149,
+      "name": "Psicoonda"
+    },
+    {
+      "id": 150,
+      "name": "Salpicadura"
+    },
+    {
+      "id": 152,
+      "name": "Martillazo"
+    },
+    {
+      "id": 153,
+      "name": "Explosi\u00f3n"
+    },
+    {
+      "id": 154,
+      "name": "Golpes furia"
+    },
+    {
+      "id": 155,
+      "name": "Huesomerang"
+    },
+    {
+      "id": 156,
+      "name": "Descanso"
+    },
+    {
+      "id": 157,
+      "name": "Avalancha"
+    },
+    {
+      "id": 159,
+      "name": "Afilar"
+    },
+    {
+      "id": 160,
+      "name": "Conversi\u00f3n"
+    },
+    {
+      "id": 161,
+      "name": "Tri ataque"
+    },
+    {
+      "id": 162,
+      "name": "Superdiente"
+    },
+    {
+      "id": 164,
+      "name": "Sustituto"
+    },
+    {
+      "id": 166,
+      "name": "Esquema"
+    },
+    {
+      "id": 167,
+      "name": "Triplepatada"
+    },
+    {
+      "id": 168,
+      "name": "Ladron"
+    },
+    {
+      "id": 169,
+      "name": "Telara\u00f1a"
+    },
+    {
+      "id": 170,
+      "name": "Telepata"
+    },
+    {
+      "id": 171,
+      "name": "Pesadilla"
+    },
+    {
+      "id": 172,
+      "name": "Rueda fuego"
+    },
+    {
+      "id": 173,
+      "name": "Ronquido"
+    },
+    {
+      "id": 174,
+      "name": "Maldici\u00f3n"
+    },
+    {
+      "id": 175,
+      "name": "Azote"
+    },
+    {
+      "id": 176,
+      "name": "Conversi\u00f3n 2"
+    },
+    {
+      "id": 177,
+      "name": "Aerochorro"
+    },
+    {
+      "id": 178,
+      "name": "Esporagodon"
+    },
+    {
+      "id": 179,
+      "name": "Inversi\u00f3n"
+    },
+    {
+      "id": 180,
+      "name": "Rencor"
+    },
+    {
+      "id": 181,
+      "name": "Nieve polvo"
+    },
+    {
+      "id": 182,
+      "name": "Protecci\u00f3n"
+    },
+    {
+      "id": 183,
+      "name": "Ultrapu\u00f1o"
+    },
+    {
+      "id": 184,
+      "name": "Cara susto"
+    },
+    {
+      "id": 185,
+      "name": "Finta"
+    },
+    {
+      "id": 186,
+      "name": "Beso dulce"
+    },
+    {
+      "id": 187,
+      "name": "Tambor"
+    },
+    {
+      "id": 188,
+      "name": "Bomba lodo"
+    },
+    {
+      "id": 189,
+      "name": "Bofeton lodo"
+    },
+    {
+      "id": 190,
+      "name": "Pulpoca\u00f1on"
+    },
+    {
+      "id": 191,
+      "name": "Puas"
+    },
+    {
+      "id": 192,
+      "name": "Electroca\u00f1on"
+    },
+    {
+      "id": 194,
+      "name": "Mismodestino"
+    },
+    {
+      "id": 195,
+      "name": "Canto mortal"
+    },
+    {
+      "id": 196,
+      "name": "Viento hielo"
+    },
+    {
+      "id": 197,
+      "name": "Deteccion"
+    },
+    {
+      "id": 198,
+      "name": "Ataque oseo"
+    },
+    {
+      "id": 199,
+      "name": "Fijar blanco"
+    },
+    {
+      "id": 200,
+      "name": "Enfado"
+    },
+    {
+      "id": 202,
+      "name": "Giga drenado"
+    },
+    {
+      "id": 203,
+      "name": "Aguante"
+    },
+    {
+      "id": 204,
+      "name": "Encanto"
+    },
+    {
+      "id": 206,
+      "name": "Falsotortazo"
+    },
+    {
+      "id": 207,
+      "name": "Contoneo"
+    },
+    {
+      "id": 208,
+      "name": "Batido"
+    },
+    {
+      "id": 209,
+      "name": "Chispa"
+    },
+    {
+      "id": 210,
+      "name": "Cortefuria"
+    },
+    {
+      "id": 211,
+      "name": "Ala de acero"
+    },
+    {
+      "id": 212,
+      "name": "Mal de ojo"
+    },
+    {
+      "id": 213,
+      "name": "Atraccion"
+    },
+    {
+      "id": 214,
+      "name": "Sonambulo"
+    },
+    {
+      "id": 219,
+      "name": "Velo sagrado"
+    },
+    {
+      "id": 220,
+      "name": "Divide dolor"
+    },
+    {
+      "id": 221,
+      "name": "FuegoSagrado"
+    },
+    {
+      "id": 222,
+      "name": "Magnitud"
+    },
+    {
+      "id": 223,
+      "name": "Pu\u00f1oDinamico"
+    },
+    {
+      "id": 224,
+      "name": "Megacuerno"
+    },
+    {
+      "id": 225,
+      "name": "Dragoaliento"
+    },
+    {
+      "id": 226,
+      "name": "Relevo"
+    },
+    {
+      "id": 227,
+      "name": "Otra vez"
+    },
+    {
+      "id": 228,
+      "name": "Persecucion"
+    },
+    {
+      "id": 229,
+      "name": "Giro r\u00e1pido"
+    },
+    {
+      "id": 230,
+      "name": "Dulce aroma"
+    },
+    {
+      "id": 231,
+      "name": "Cola f\u00e9rrea"
+    },
+    {
+      "id": 232,
+      "name": "Garra metal"
+    },
+    {
+      "id": 234,
+      "name": "Sol matinal"
+    },
+    {
+      "id": 236,
+      "name": "Luz lunar"
+    },
+    {
+      "id": 237,
+      "name": "Poder oculto"
+    },
+    {
+      "id": 238,
+      "name": "Tajo cruzado"
+    },
+    {
+      "id": 239,
+      "name": "Ciclon"
+    },
+    {
+      "id": 240,
+      "name": "DanzaLluvia"
+    },
+    {
+      "id": 241,
+      "name": "Dia soleado"
+    },
+    {
+      "id": 242,
+      "name": "Triturar"
+    },
+    {
+      "id": 243,
+      "name": "Manto espejo"
+    },
+    {
+      "id": 246,
+      "name": "Poder pasado"
+    },
+    {
+      "id": 247,
+      "name": "Bola sombra"
+    },
+    {
+      "id": 248,
+      "name": "Premonicion"
+    },
+    {
+      "id": 249,
+      "name": "Golpe roca"
+    },
+    {
+      "id": 250,
+      "name": "Torbellino"
+    },
+    {
+      "id": 251,
+      "name": "Paliza"
+    },
+    {
+      "id": 252,
+      "name": "Sorpresa"
+    },
+    {
+      "id": 253,
+      "name": "Alboroto"
+    },
+    {
+      "id": 254,
+      "name": "Reserva"
+    },
+    {
+      "id": 255,
+      "name": "Escupir"
+    },
+    {
+      "id": 256,
+      "name": "Tragar"
+    },
+    {
+      "id": 257,
+      "name": "Onda ignea"
+    },
+    {
+      "id": 258,
+      "name": "Granizo"
+    },
+    {
+      "id": 259,
+      "name": "Tormento"
+    },
+    {
+      "id": 260,
+      "name": "Camelo"
+    },
+    {
+      "id": 261,
+      "name": "Fuego fatuo"
+    },
+    {
+      "id": 262,
+      "name": "Legado"
+    },
+    {
+      "id": 263,
+      "name": "Imagen"
+    },
+    {
+      "id": 264,
+      "name": "Pu\u00f1o certero"
+    },
+    {
+      "id": 265,
+      "name": "Estimulo"
+    },
+    {
+      "id": 266,
+      "name": "Se\u00f1uelo"
+    },
+    {
+      "id": 267,
+      "name": "Adaptaci\u00f3n"
+    },
+    {
+      "id": 268,
+      "name": "Carga"
+    },
+    {
+      "id": 269,
+      "name": "Mofa"
+    },
+    {
+      "id": 270,
+      "name": "Refuerzo"
+    },
+    {
+      "id": 271,
+      "name": "Truco"
+    },
+    {
+      "id": 272,
+      "name": "Imitacion"
+    },
+    {
+      "id": 273,
+      "name": "Deseo"
+    },
+    {
+      "id": 274,
+      "name": "Ayuda"
+    },
+    {
+      "id": 275,
+      "name": "Arraigo"
+    },
+    {
+      "id": 276,
+      "name": "Fuerza bruta"
+    },
+    {
+      "id": 277,
+      "name": "Capa magica"
+    },
+    {
+      "id": 278,
+      "name": "Reciclaje"
+    },
+    {
+      "id": 279,
+      "name": "Desquite"
+    },
+    {
+      "id": 280,
+      "name": "Demolicion"
+    },
+    {
+      "id": 281,
+      "name": "Bostezo"
+    },
+    {
+      "id": 282,
+      "name": "Desarme"
+    },
+    {
+      "id": 283,
+      "name": "Esfuerzo"
+    },
+    {
+      "id": 284,
+      "name": "Estallido"
+    },
+    {
+      "id": 285,
+      "name": "Intercambio"
+    },
+    {
+      "id": 287,
+      "name": "Alivio"
+    },
+    {
+      "id": 288,
+      "name": "Rabia"
+    },
+    {
+      "id": 289,
+      "name": "Robo"
+    },
+    {
+      "id": 290,
+      "name": "Da\u00f1o secreto"
+    },
+    {
+      "id": 291,
+      "name": "Buceo"
+    },
+    {
+      "id": 292,
+      "name": "Empujon"
+    },
+    {
+      "id": 293,
+      "name": "Camuflaje"
+    },
+    {
+      "id": 295,
+      "name": "Resplandor"
+    },
+    {
+      "id": 296,
+      "name": "Bola neblina"
+    },
+    {
+      "id": 297,
+      "name": "Danza pluma"
+    },
+    {
+      "id": 298,
+      "name": "Danza caos"
+    },
+    {
+      "id": 299,
+      "name": "Patada ignea"
+    },
+    {
+      "id": 300,
+      "name": "Chapoteolodo"
+    },
+    {
+      "id": 301,
+      "name": "Bola hielo"
+    },
+    {
+      "id": 302,
+      "name": "Brazo pincho"
+    },
+    {
+      "id": 303,
+      "name": "Relajo"
+    },
+    {
+      "id": 304,
+      "name": "Vozarron"
+    },
+    {
+      "id": 306,
+      "name": "Garra brutal"
+    },
+    {
+      "id": 307,
+      "name": "Anillo igneo"
+    },
+    {
+      "id": 308,
+      "name": "Hidro ca\u00f1on"
+    },
+    {
+      "id": 309,
+      "name": "Pu\u00f1o meteoro"
+    },
+    {
+      "id": 310,
+      "name": "Impresionar"
+    },
+    {
+      "id": 311,
+      "name": "Meteorobola"
+    },
+    {
+      "id": 312,
+      "name": "Aromaterapia"
+    },
+    {
+      "id": 313,
+      "name": "Llanto falso"
+    },
+    {
+      "id": 314,
+      "name": "Aire afilado"
+    },
+    {
+      "id": 315,
+      "name": "Sofoco"
+    },
+    {
+      "id": 316,
+      "name": "Rastreo"
+    },
+    {
+      "id": 318,
+      "name": "Viento plata"
+    },
+    {
+      "id": 319,
+      "name": "Eco metalico"
+    },
+    {
+      "id": 320,
+      "name": "Silbato"
+    },
+    {
+      "id": 321,
+      "name": "Cosquillas"
+    },
+    {
+      "id": 322,
+      "name": "Masa cosmica"
+    },
+    {
+      "id": 323,
+      "name": "Salpicar"
+    },
+    {
+      "id": 325,
+      "name": "Pu\u00f1o sombra"
+    },
+    {
+      "id": 326,
+      "name": "Paranormal"
+    },
+    {
+      "id": 327,
+      "name": "Gancho alto"
+    },
+    {
+      "id": 328,
+      "name": "Bucle arena"
+    },
+    {
+      "id": 329,
+      "name": "Frio polar"
+    },
+    {
+      "id": 330,
+      "name": "Agua lodosa"
+    },
+    {
+      "id": 332,
+      "name": "Golpe aereo"
+    },
+    {
+      "id": 333,
+      "name": "Carambano"
+    },
+    {
+      "id": 335,
+      "name": "Bloqueo"
+    },
+    {
+      "id": 336,
+      "name": "Aullido"
+    },
+    {
+      "id": 337,
+      "name": "Garra dragon"
+    },
+    {
+      "id": 338,
+      "name": "Planta feroz"
+    },
+    {
+      "id": 339,
+      "name": "Corpulencia"
+    },
+    {
+      "id": 340,
+      "name": "Bote"
+    },
+    {
+      "id": 341,
+      "name": "Disparo lodo"
+    },
+    {
+      "id": 342,
+      "name": "Cola veneno"
+    },
+    {
+      "id": 343,
+      "name": "Antojo"
+    },
+    {
+      "id": 344,
+      "name": "PlacajeElec."
+    },
+    {
+      "id": 345,
+      "name": "Hoja magica"
+    },
+    {
+      "id": 346,
+      "name": "Hidro chorro"
+    },
+    {
+      "id": 347,
+      "name": "Paz mental"
+    },
+    {
+      "id": 348,
+      "name": "Hoja aguda"
+    },
+    {
+      "id": 349,
+      "name": "Danza dragon"
+    },
+    {
+      "id": 350,
+      "name": "Pedrada"
+    },
+    {
+      "id": 352,
+      "name": "Hidro pulso"
+    },
+    {
+      "id": 353,
+      "name": "Deseo oculto"
+    },
+    {
+      "id": 354,
+      "name": "Psico ataque"
+    },
+    {
+      "id": 39,
+      "name": "Latigo"
+    }
+  ],
+  "items": [
+    {
+      "id": 13,
+      "modern": 17,
+      "name": "Poci\u00f3n"
+    },
+    {
+      "id": 14,
+      "modern": 18,
+      "name": "Antidoto"
+    },
+    {
+      "id": 15,
+      "modern": 19,
+      "name": "Antiquemar"
+    },
+    {
+      "id": 16,
+      "modern": 20,
+      "name": "Antihielo"
+    },
+    {
+      "id": 17,
+      "modern": 21,
+      "name": "Despertar"
+    },
+    {
+      "id": 22,
+      "modern": 26,
+      "name": "Super Poci\u00f3n"
+    },
+    {
+      "id": 23,
+      "modern": 27,
+      "name": "Cura Total"
+    },
+    {
+      "id": 24,
+      "modern": 28,
+      "name": "Revivir"
+    },
+    {
+      "id": 26,
+      "modern": 30,
+      "name": "Agua Fresca"
+    },
+    {
+      "id": 27,
+      "modern": 31,
+      "name": "Soda Pop"
+    },
+    {
+      "id": 28,
+      "modern": 32,
+      "name": "Limonada"
+    },
+    {
+      "id": 30,
+      "modern": 34,
+      "name": "Polvo Energ\u00eda"
+    },
+    {
+      "id": 31,
+      "modern": 35,
+      "name": "Ra\u00edz Energ\u00eda"
+    },
+    {
+      "id": 32,
+      "modern": 36,
+      "name": "Polvo Curaci\u00f3n"
+    },
+    {
+      "id": 34,
+      "modern": 38,
+      "name": "\u00c9ter"
+    },
+    {
+      "id": 36,
+      "modern": 40,
+      "name": "Elixir"
+    },
+    {
+      "id": 37,
+      "modern": 41,
+      "name": "Max Elixir"
+    },
+    {
+      "id": 39,
+      "modern": 65,
+      "name": "Flauta Az\u00f9l"
+    },
+    {
+      "id": 41,
+      "modern": 67,
+      "name": "Flauta Roja"
+    },
+    {
+      "id": 42,
+      "modern": 68,
+      "name": "Flauta Negra"
+    },
+    {
+      "id": 43,
+      "modern": 69,
+      "name": "Flauta Blanca"
+    },
+    {
+      "id": 45,
+      "modern": 44,
+      "name": "Ceniza Sagrada"
+    },
+    {
+      "id": 48,
+      "modern": 72,
+      "name": "Parte Roja"
+    },
+    {
+      "id": 49,
+      "modern": 73,
+      "name": "Parte Az\u00f9l"
+    },
+    {
+      "id": 50,
+      "modern": 74,
+      "name": "Parte Amarilla"
+    },
+    {
+      "id": 51,
+      "modern": 75,
+      "name": "Parte Verde"
+    },
+    {
+      "id": 63,
+      "modern": 45,
+      "name": "M\u00e1s PS"
+    },
+    {
+      "id": 64,
+      "modern": 46,
+      "name": "Prote\u00edna"
+    },
+    {
+      "id": 65,
+      "modern": 47,
+      "name": "Hierro"
+    },
+    {
+      "id": 67,
+      "modern": 49,
+      "name": "Calcio"
+    },
+    {
+      "id": 69,
+      "modern": 51,
+      "name": "M\u00e1s PP"
+    },
+    {
+      "id": 70,
+      "modern": 52,
+      "name": "Zinc"
+    },
+    {
+      "id": 75,
+      "modern": 57,
+      "name": "Ataque X"
+    },
+    {
+      "id": 76,
+      "modern": 58,
+      "name": "Defensa X"
+    },
+    {
+      "id": 77,
+      "modern": 59,
+      "name": "Velocidad X"
+    },
+    {
+      "id": 83,
+      "modern": 76,
+      "name": "Super Repel"
+    },
+    {
+      "id": 84,
+      "modern": 77,
+      "name": "M\u00e1x Repel"
+    },
+    {
+      "id": 85,
+      "modern": 78,
+      "name": "Cuerda Huida"
+    },
+    {
+      "id": 86,
+      "modern": 79,
+      "name": "Repelente"
+    },
+    {
+      "id": 93,
+      "modern": 80,
+      "name": "Piedra Solar"
+    },
+    {
+      "id": 94,
+      "modern": 81,
+      "name": "Piedra Lunar"
+    },
+    {
+      "id": 95,
+      "modern": 82,
+      "name": "Piedra Fuego"
+    },
+    {
+      "id": 96,
+      "modern": 83,
+      "name": "Piedra Trueno"
+    },
+    {
+      "id": 97,
+      "modern": 84,
+      "name": "Piedra Agua"
+    },
+    {
+      "id": 98,
+      "modern": 85,
+      "name": "Piedra Hoja"
+    },
+    {
+      "id": 106,
+      "modern": 88,
+      "name": "Perla"
+    },
+    {
+      "id": 111,
+      "modern": 93,
+      "name": "Escama Coraz\u00f3n"
+    },
+    {
+      "id": 133,
+      "modern": 149,
+      "name": "Baya Zreza"
+    },
+    {
+      "id": 134,
+      "modern": 150,
+      "name": "Baya Atania"
+    },
+    {
+      "id": 135,
+      "modern": 151,
+      "name": "Baya Meloc"
+    },
+    {
+      "id": 137,
+      "modern": 153,
+      "name": "Baya Perasi"
+    },
+    {
+      "id": 138,
+      "modern": 154,
+      "name": "Baya Zanama"
+    },
+    {
+      "id": 139,
+      "modern": 155,
+      "name": "Baya Aranja"
+    },
+    {
+      "id": 140,
+      "modern": 156,
+      "name": "Baya Caquic"
+    },
+    {
+      "id": 141,
+      "modern": 157,
+      "name": "Baya Ziuela"
+    },
+    {
+      "id": 142,
+      "modern": 158,
+      "name": "Baya Zidra "
+    },
+    {
+      "id": 143,
+      "modern": 159,
+      "name": "Baya Higog"
+    },
+    {
+      "id": 144,
+      "modern": 160,
+      "name": "Baya Wiki"
+    },
+    {
+      "id": 145,
+      "modern": 161,
+      "name": "Baya Ango"
+    },
+    {
+      "id": 146,
+      "modern": 162,
+      "name": "Baya Guaya"
+    },
+    {
+      "id": 147,
+      "modern": 163,
+      "name": "Baya Pabaya"
+    },
+    {
+      "id": 148,
+      "modern": 164,
+      "name": "Baya Frambu"
+    },
+    {
+      "id": 149,
+      "modern": 165,
+      "name": "Baya Oram"
+    },
+    {
+      "id": 150,
+      "modern": 166,
+      "name": "Baya Latano"
+    },
+    {
+      "id": 151,
+      "modern": 167,
+      "name": "Baya Peragu"
+    },
+    {
+      "id": 152,
+      "modern": 168,
+      "name": "Baya Pinia"
+    },
+    {
+      "id": 153,
+      "modern": 169,
+      "name": "Baya Grana"
+    },
+    {
+      "id": 154,
+      "modern": 170,
+      "name": "Baya Algama"
+    },
+    {
+      "id": 155,
+      "modern": 171,
+      "name": "Baya Ispero"
+    },
+    {
+      "id": 156,
+      "modern": 172,
+      "name": "Baya Meluce"
+    },
+    {
+      "id": 157,
+      "modern": 173,
+      "name": "Baya Uvav "
+    },
+    {
+      "id": 158,
+      "modern": 174,
+      "name": "Baya Tamate"
+    },
+    {
+      "id": 159,
+      "modern": 175,
+      "name": "Baya Mais"
+    },
+    {
+      "id": 160,
+      "modern": 176,
+      "name": "Baya Aostan"
+    },
+    {
+      "id": 161,
+      "modern": 177,
+      "name": "Baya Rautan"
+    },
+    {
+      "id": 162,
+      "modern": 178,
+      "name": "Baya Monli"
+    },
+    {
+      "id": 163,
+      "modern": 179,
+      "name": "Baya Wikano"
+    },
+    {
+      "id": 164,
+      "modern": 180,
+      "name": "Baya Plama"
+    },
+    {
+      "id": 165,
+      "modern": 181,
+      "name": "Baya Sambia"
+    },
+    {
+      "id": 166,
+      "modern": 182,
+      "name": "Baya Rudion"
+    },
+    {
+      "id": 167,
+      "modern": 183,
+      "name": "Baya Andano"
+    },
+    {
+      "id": 168,
+      "modern": 201,
+      "name": "Baya Lichi"
+    },
+    {
+      "id": 169,
+      "modern": 202,
+      "name": "Baya Gonlan"
+    },
+    {
+      "id": 170,
+      "modern": 203,
+      "name": "Baya Aslac"
+    },
+    {
+      "id": 171,
+      "modern": 204,
+      "name": "Baya Yapati"
+    },
+    {
+      "id": 173,
+      "modern": 206,
+      "name": "Baya Zonlan"
+    },
+    {
+      "id": 174,
+      "modern": 207,
+      "name": "Baya Arabol"
+    },
+    {
+      "id": 175,
+      "modern": 208,
+      "name": "Baya Enigma"
+    },
+    {
+      "id": 179,
+      "modern": 213,
+      "name": "Polvo Brillo"
+    },
+    {
+      "id": 180,
+      "modern": 214,
+      "name": "Hierba Blanca"
+    },
+    {
+      "id": 183,
+      "modern": 217,
+      "name": "Garra Rapida"
+    },
+    {
+      "id": 187,
+      "modern": 221,
+      "name": "Roca Del Rey"
+    },
+    {
+      "id": 188,
+      "modern": 222,
+      "name": "Polvo plata"
+    },
+    {
+      "id": 192,
+      "modern": 226,
+      "name": "Diente  Marino"
+    },
+    {
+      "id": 193,
+      "modern": 227,
+      "name": "Escama Marina"
+    },
+    {
+      "id": 195,
+      "modern": 229,
+      "name": "Piedra Eterna"
+    },
+    {
+      "id": 197,
+      "modern": 231,
+      "name": "Huevo Suerte"
+    },
+    {
+      "id": 198,
+      "modern": 232,
+      "name": "Periscopio"
+    },
+    {
+      "id": 200,
+      "modern": 234,
+      "name": "Restos"
+    },
+    {
+      "id": 202,
+      "modern": 236,
+      "name": "Bola Luminosa"
+    },
+    {
+      "id": 203,
+      "modern": 237,
+      "name": "Arena Fina"
+    },
+    {
+      "id": 204,
+      "modern": 238,
+      "name": "Piedra Dura"
+    },
+    {
+      "id": 207,
+      "modern": 241,
+      "name": "Cinturon Negro"
+    },
+    {
+      "id": 208,
+      "modern": 242,
+      "name": "Iman"
+    },
+    {
+      "id": 209,
+      "modern": 243,
+      "name": "Agua Mistica"
+    },
+    {
+      "id": 213,
+      "modern": 247,
+      "name": "Hechizo"
+    },
+    {
+      "id": 215,
+      "modern": 249,
+      "name": "Carb\u00f3n"
+    },
+    {
+      "id": 218,
+      "modern": 252,
+      "name": "Mejora"
+    },
+    {
+      "id": 223,
+      "modern": 257,
+      "name": "Polvo Metalico"
+    },
+    {
+      "id": 289,
+      "modern": 328,
+      "name": "MT01"
+    },
+    {
+      "id": 290,
+      "modern": 329,
+      "name": "MT02"
+    },
+    {
+      "id": 291,
+      "modern": 330,
+      "name": "MT03"
+    },
+    {
+      "id": 292,
+      "modern": 331,
+      "name": "MT04"
+    },
+    {
+      "id": 293,
+      "modern": 332,
+      "name": "MT05"
+    },
+    {
+      "id": 294,
+      "modern": 333,
+      "name": "MT06"
+    },
+    {
+      "id": 295,
+      "modern": 334,
+      "name": "MT07"
+    },
+    {
+      "id": 296,
+      "modern": 335,
+      "name": "MT08"
+    },
+    {
+      "id": 297,
+      "modern": 336,
+      "name": "MT09"
+    },
+    {
+      "id": 298,
+      "modern": 337,
+      "name": "MT10"
+    },
+    {
+      "id": 299,
+      "modern": 338,
+      "name": "MT11"
+    },
+    {
+      "id": 300,
+      "modern": 339,
+      "name": "MT12"
+    },
+    {
+      "id": 301,
+      "modern": 340,
+      "name": "MT13"
+    },
+    {
+      "id": 302,
+      "modern": 341,
+      "name": "MT14"
+    },
+    {
+      "id": 303,
+      "modern": 342,
+      "name": "MT15"
+    },
+    {
+      "id": 304,
+      "modern": 343,
+      "name": "MT16"
+    },
+    {
+      "id": 305,
+      "modern": 344,
+      "name": "MT17"
+    },
+    {
+      "id": 306,
+      "modern": 345,
+      "name": "MT18"
+    },
+    {
+      "id": 307,
+      "modern": 346,
+      "name": "MT19"
+    },
+    {
+      "id": 308,
+      "modern": 347,
+      "name": "MT20"
+    },
+    {
+      "id": 309,
+      "modern": 348,
+      "name": "MT21"
+    },
+    {
+      "id": 310,
+      "modern": 349,
+      "name": "MT22"
+    },
+    {
+      "id": 311,
+      "modern": 350,
+      "name": "MT23"
+    },
+    {
+      "id": 312,
+      "modern": 351,
+      "name": "MT24"
+    },
+    {
+      "id": 313,
+      "modern": 352,
+      "name": "MT25"
+    },
+    {
+      "id": 314,
+      "modern": 353,
+      "name": "MT26"
+    },
+    {
+      "id": 315,
+      "modern": 354,
+      "name": "MT27"
+    },
+    {
+      "id": 316,
+      "modern": 355,
+      "name": "MT28"
+    },
+    {
+      "id": 317,
+      "modern": 356,
+      "name": "MT29"
+    },
+    {
+      "id": 318,
+      "modern": 357,
+      "name": "MT30"
+    },
+    {
+      "id": 319,
+      "modern": 358,
+      "name": "MT31"
+    },
+    {
+      "id": 320,
+      "modern": 359,
+      "name": "MT32"
+    },
+    {
+      "id": 321,
+      "modern": 360,
+      "name": "MT33"
+    },
+    {
+      "id": 322,
+      "modern": 361,
+      "name": "MT34"
+    },
+    {
+      "id": 323,
+      "modern": 362,
+      "name": "MT35"
+    },
+    {
+      "id": 324,
+      "modern": 363,
+      "name": "MT36"
+    },
+    {
+      "id": 325,
+      "modern": 364,
+      "name": "MT37"
+    },
+    {
+      "id": 326,
+      "modern": 365,
+      "name": "MT38"
+    },
+    {
+      "id": 327,
+      "modern": 366,
+      "name": "MT39"
+    },
+    {
+      "id": 328,
+      "modern": 367,
+      "name": "MT40"
+    },
+    {
+      "id": 329,
+      "modern": 368,
+      "name": "MT41"
+    },
+    {
+      "id": 330,
+      "modern": 369,
+      "name": "MT42"
+    },
+    {
+      "id": 331,
+      "modern": 370,
+      "name": "MT43"
+    },
+    {
+      "id": 332,
+      "modern": 371,
+      "name": "MT44"
+    },
+    {
+      "id": 333,
+      "modern": 372,
+      "name": "MT45"
+    },
+    {
+      "id": 334,
+      "modern": 373,
+      "name": "MT46"
+    },
+    {
+      "id": 335,
+      "modern": 374,
+      "name": "MT47"
+    },
+    {
+      "id": 336,
+      "modern": 375,
+      "name": "MT48"
+    },
+    {
+      "id": 337,
+      "modern": 376,
+      "name": "MT49"
+    },
+    {
+      "id": 338,
+      "modern": 377,
+      "name": "MT50"
+    }
+  ]
+}

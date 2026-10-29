@@ -5,7 +5,61 @@ using System.Text.Json;
 using System.Security.Cryptography;
 
 if(args.Contains("--quetzal-private")){QuetzalChecks.Private("../quetzal-work/sample-inspection.json",args.Contains("--write-quetzal-private"));return;}
-if(args.Contains("--synthetic-only")){RunSyntheticChecks();LocationChecks.Run();QuetzalChecks.Synthetic();return;}
+if(args.Contains("--state-sample")){
+ var samplePath=args[Array.IndexOf(args,"--state-sample")+1];var snapshot=MgbaState.Read(File.ReadAllBytes(samplePath));
+ Console.WriteLine($"{snapshot.Game.Profile} trainer={snapshot.Trainer} records={snapshot.Members.Count}");
+ foreach(var x in snapshot.Members)Console.WriteLine($"{x.Position}: {x.Pokemon.Nickname} species={x.Pokemon.SpeciesIndex} national={x.Pokemon.Species}");
+ return;
+}
+if(args.Contains("--state-fixtures")){
+ foreach(var (name,id,box) in new[]{("vanilla","pokeemerald-expansion-1-17-1","Box 14 Slot 30"),("hns","heart-and-soul-2.0.6","Box 14 Slot 30"),("soulgold","soulgold-1.2.1","Box 21 Slot 30")}){
+  byte[] input=File.ReadAllBytes($"../state-support-work/fixtures/{name}/live-synthetic.state");var state=MgbaState.Read(input);
+  Require(state.Game.Profile==id&&state.Members.Count==2&&state.Members[0].Position=="Party 01"&&state.Members[1].Position==box,"state fixture positions "+id);
+  foreach(var record in state.Members)Require(record.Pokemon.Species==82&&record.Pokemon.Nickname=="CHECK"&&record.Pokemon.ID32==0x11223344&&record.Pokemon.Valid,"state fixture identity "+id);
+  using var result=JsonDocument.Parse(StateExport.Inspect(input));foreach(var mon in result.RootElement.GetProperty("pokemon").EnumerateArray())Require(mon.GetProperty("error").ValueKind==JsonValueKind.Null,"state fixture portable export "+id);
+  var stateEdited=input.ToArray();int nameOffset=0x21000+(int)(state.Game.Party-0x02000000)+8;stateEdited[nameOffset]=0xBB;
+  Require(MgbaState.Read(stateEdited).Members[0].Pokemon.Nickname!=state.Members[0].Pokemon.Nickname,"reads live RAM, not saved flash");
+  var damaged=input.ToArray();int recordOffset=nameOffset-8;var stateProfile=SourceProfile.Find(id);
+  if(stateProfile.Compact){int bit=stateProfile.BitFields["outer.reservedOuter"][0];damaged[recordOffset+bit/8]|=(byte)(1<<(bit%8));}else damaged[recordOffset+32]^=1;
+  bool rejected=false;try{MgbaState.Read(damaged);}catch(InvalidDataException){rejected=true;}Require(rejected,"reject invalid Pokémon record");
+  var unknown=input.ToArray();unknown[8]^=0x80;rejected=false;try{MgbaState.Read(unknown);}catch(InvalidDataException){rejected=true;}Require(rejected,"reject unknown ROM build");
+  Console.WriteLine("PASS state fixture: "+id+" player, last box, live edits, corruption and ROM identity");
+ }
+ return;
+}
+if(args.Contains("--state-private")){
+ var state=MgbaState.Read(File.ReadAllBytes("../pokemon-export-work/completed-save.state"));
+ var stateSave=new NativeSave(SourceProfile.Find("rocket-hoenn"),File.ReadAllBytes("../Pokemon Emerald - Joule.sav"));
+ var expected=Enumerable.Range(0,stateSave.PartyCount).Select(stateSave.GetPartySlotAtIndex).Concat(stateSave.BoxData.Where(x=>x.Species!=0)).Cast<NativePokemon>().ToArray();
+ Require(state.Trainer=="Joule"&&state.Members.Count==expected.Length,"state live party and boxes");
+ for(int i=0;i<expected.Length;i++){
+  var actual=state.Members[i].Pokemon;var wanted=expected[i];
+  Require(actual.PID==wanted.PID&&actual.ID32==wanted.ID32&&actual.SpeciesIndex==wanted.SpeciesIndex&&actual.Nickname==wanted.Nickname,"state live identity "+i);
+ }
+ var pngState=MgbaState.Read(File.ReadAllBytes("../state-support-work/fixtures/rocket-png.state"));
+ Require(pngState.Members.Count==state.Members.Count&&pngState.Members[0].Pokemon.PID==state.Members[0].Pokemon.PID,"PNG state agrees with raw state");
+ var broken=File.ReadAllBytes("../state-support-work/fixtures/rocket-png.state");broken[^8]^=1;bool rejected=false;try{MgbaState.Read(broken);}catch(InvalidDataException){rejected=true;}Require(rejected,"damaged PNG rejected");
+ string exported=StateExport.Inspect(File.ReadAllBytes("../pokemon-export-work/completed-save.state"));using var result=JsonDocument.Parse(exported);
+ Require(result.RootElement.GetProperty("pokemon").GetArrayLength()==expected.Length,"state export count");
+ foreach(var record in result.RootElement.GetProperty("pokemon").EnumerateArray())
+  Require(record.GetProperty("error").ValueKind==JsonValueKind.Null,"state portable export: "+record.GetProperty("nickname")+" "+record.GetProperty("error"));
+ using(var zip=new System.IO.Compression.ZipArchive(new MemoryStream(StateExport.Archive(exported)),System.IO.Compression.ZipArchiveMode.Read)){
+  Require(zip.Entries.Count(x=>x.FullName.EndsWith(".expmon"))==expected.Length,"native state export count");
+  Require(zip.GetEntry("Metadata.json")!=null,"state archive metadata");
+ }
+ Console.WriteLine($"PASS live mGBA state: {state.Members.Count} Pokémon match Joule save identities");return;
+}
+if(args.Contains("--write-state-fixtures")){
+ var dir="../state-support-work/fixtures";Directory.CreateDirectory(dir);
+ foreach(var p in SourceProfile.All){
+  var fixture=SyntheticSave.Create(p);File.WriteAllBytes(Path.Combine(dir,p.Id+"-synthetic.sav"),fixture);
+  var native=new NativeSave(p,fixture);var party=(NativePokemon)native.GetPartySlotAtIndex(0);var box=(NativePokemon)native.GetBoxSlotAtIndex(native.BoxCount*30-1);
+  var partyBytes=new byte[party.SIZE_PARTY];party.WriteEncryptedDataParty(partyBytes);var boxBytes=new byte[box.SIZE_STORED];box.WriteEncryptedDataStored(boxBytes);
+  File.WriteAllBytes(Path.Combine(dir,p.Id+"-party.bin"),partyBytes);File.WriteAllBytes(Path.Combine(dir,p.Id+"-box.bin"),boxBytes);
+ }
+ return;
+}
+if(args.Contains("--synthetic-only")){RunSyntheticChecks();LocationChecks.Run();QuetzalChecks.Synthetic();StateChecks.Run();VbaChecks.Run();GbStateChecks.Run();PolishedSyntheticChecks.Run();HackRecoveryChecks.Run();return;}
 var path=Path.GetFullPath(args.FirstOrDefault(x=>!x.StartsWith("--"))??"../Pokemon Emerald - Joule.sav");
 var original=File.ReadAllBytes(path);var hash=SHA256.HashData(original);
 Console.WriteLine("Loaded profiles: "+string.Join(", ",SourceProfile.All.Select(x=>x.Id)));

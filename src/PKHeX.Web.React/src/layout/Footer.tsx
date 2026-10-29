@@ -17,6 +17,7 @@ export function Footer() {
         <Link to={routes.privacyPolicy}>Privacy Policy</Link>
         <Link to={routes.termsOfUse}>Terms of Use</Link>
         <Link to={routes.credits}>Credits</Link>
+        <Link to={routes.supportedFormats}>Supported formats</Link>
         <Link to={routes.releaseNotes()}>Release Notes</Link>
         <a href={sdkDocs} target="_blank">
           SDK

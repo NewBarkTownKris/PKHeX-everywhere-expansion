@@ -1,0 +1,1164 @@
+{
+  "game": "Liquid Crystal",
+  "romSha256": "adc4dbddd285b55261ba01a3d531d2df19c892515c3f41043566b0737ca3ba5d",
+  "tableOffset": "0x2C8980",
+  "indexBase": 88,
+  "description": "Place-name mapping extracted from supplied ROM. Location names and values should still be verified against real save captures; species and item changes are not yet mapped.",
+  "locations": [
+    {
+      "id": 88,
+      "name": "PALLET TOWN",
+      "exactHgssId": 138,
+      "exactHgssName": "Pallet Town",
+      "ambiguity": false
+    },
+    {
+      "id": 89,
+      "name": "VIRIDIAN CITY",
+      "exactHgssId": 139,
+      "exactHgssName": "Viridian City",
+      "ambiguity": false
+    },
+    {
+      "id": 90,
+      "name": "PEWTER CITY",
+      "exactHgssId": 140,
+      "exactHgssName": "Pewter City",
+      "ambiguity": false
+    },
+    {
+      "id": 91,
+      "name": "CERULEAN CITY",
+      "exactHgssId": 141,
+      "exactHgssName": "Cerulean City",
+      "ambiguity": false
+    },
+    {
+      "id": 92,
+      "name": "LAVENDER TOWN",
+      "exactHgssId": 142,
+      "exactHgssName": "Lavender Town",
+      "ambiguity": false
+    },
+    {
+      "id": 93,
+      "name": "VERMILION CITY",
+      "exactHgssId": 143,
+      "exactHgssName": "Vermilion City",
+      "ambiguity": false
+    },
+    {
+      "id": 94,
+      "name": "CELADON CITY",
+      "exactHgssId": 144,
+      "exactHgssName": "Celadon City",
+      "ambiguity": false
+    },
+    {
+      "id": 95,
+      "name": "FUCHSIA CITY",
+      "exactHgssId": 145,
+      "exactHgssName": "Fuchsia City",
+      "ambiguity": false
+    },
+    {
+      "id": 96,
+      "name": "CINNABAR ISLAND",
+      "exactHgssId": 146,
+      "exactHgssName": "Cinnabar Island",
+      "ambiguity": false
+    },
+    {
+      "id": 97,
+      "name": "INDIGO PLATEAU",
+      "exactHgssId": 147,
+      "exactHgssName": "Indigo Plateau",
+      "ambiguity": false
+    },
+    {
+      "id": 98,
+      "name": "SAFFRON CITY",
+      "exactHgssId": 148,
+      "exactHgssName": "Saffron City",
+      "ambiguity": false
+    },
+    {
+      "id": 99,
+      "name": "OLIVINE CITY",
+      "exactHgssId": 132,
+      "exactHgssName": "Olivine City",
+      "ambiguity": false
+    },
+    {
+      "id": 100,
+      "name": "ROUTE 10",
+      "exactHgssId": 158,
+      "exactHgssName": "Route 10",
+      "ambiguity": false
+    },
+    {
+      "id": 101,
+      "name": "ROUTE 1",
+      "exactHgssId": 149,
+      "exactHgssName": "Route 1",
+      "ambiguity": false
+    },
+    {
+      "id": 102,
+      "name": "ROUTE 2",
+      "exactHgssId": 150,
+      "exactHgssName": "Route 2",
+      "ambiguity": false
+    },
+    {
+      "id": 103,
+      "name": "ROUTE 3",
+      "exactHgssId": 151,
+      "exactHgssName": "Route 3",
+      "ambiguity": false
+    },
+    {
+      "id": 104,
+      "name": "ROUTE 4",
+      "exactHgssId": 152,
+      "exactHgssName": "Route 4",
+      "ambiguity": false
+    },
+    {
+      "id": 105,
+      "name": "ROUTE 5",
+      "exactHgssId": 153,
+      "exactHgssName": "Route 5",
+      "ambiguity": false
+    },
+    {
+      "id": 106,
+      "name": "ROUTE 6",
+      "exactHgssId": 154,
+      "exactHgssName": "Route 6",
+      "ambiguity": false
+    },
+    {
+      "id": 107,
+      "name": "ROUTE 7",
+      "exactHgssId": 155,
+      "exactHgssName": "Route 7",
+      "ambiguity": false
+    },
+    {
+      "id": 108,
+      "name": "ROUTE 8",
+      "exactHgssId": 156,
+      "exactHgssName": "Route 8",
+      "ambiguity": false
+    },
+    {
+      "id": 109,
+      "name": "ROUTE 9",
+      "exactHgssId": 157,
+      "exactHgssName": "Route 9",
+      "ambiguity": false
+    },
+    {
+      "id": 110,
+      "name": "ROUTE 10",
+      "exactHgssId": 158,
+      "exactHgssName": "Route 10",
+      "ambiguity": false
+    },
+    {
+      "id": 111,
+      "name": "ROUTE 11",
+      "exactHgssId": 159,
+      "exactHgssName": "Route 11",
+      "ambiguity": false
+    },
+    {
+      "id": 112,
+      "name": "ROUTE 12",
+      "exactHgssId": 160,
+      "exactHgssName": "Route 12",
+      "ambiguity": false
+    },
+    {
+      "id": 113,
+      "name": "ROUTE 13",
+      "exactHgssId": 161,
+      "exactHgssName": "Route 13",
+      "ambiguity": false
+    },
+    {
+      "id": 114,
+      "name": "ROUTE 14",
+      "exactHgssId": 162,
+      "exactHgssName": "Route 14",
+      "ambiguity": false
+    },
+    {
+      "id": 115,
+      "name": "ROUTE 15",
+      "exactHgssId": 163,
+      "exactHgssName": "Route 15",
+      "ambiguity": false
+    },
+    {
+      "id": 116,
+      "name": "ROUTE 16",
+      "exactHgssId": 164,
+      "exactHgssName": "Route 16",
+      "ambiguity": false
+    },
+    {
+      "id": 117,
+      "name": "ROUTE 17",
+      "exactHgssId": 165,
+      "exactHgssName": "Route 17",
+      "ambiguity": false
+    },
+    {
+      "id": 118,
+      "name": "ROUTE 18",
+      "exactHgssId": 166,
+      "exactHgssName": "Route 18",
+      "ambiguity": false
+    },
+    {
+      "id": 119,
+      "name": "ROUTE 19",
+      "exactHgssId": 167,
+      "exactHgssName": "Route 19",
+      "ambiguity": false
+    },
+    {
+      "id": 120,
+      "name": "ROUTE 20",
+      "exactHgssId": 168,
+      "exactHgssName": "Route 20",
+      "ambiguity": false
+    },
+    {
+      "id": 121,
+      "name": "ROUTE 21",
+      "exactHgssId": 169,
+      "exactHgssName": "Route 21",
+      "ambiguity": false
+    },
+    {
+      "id": 122,
+      "name": "ROUTE 22",
+      "exactHgssId": 170,
+      "exactHgssName": "Route 22",
+      "ambiguity": false
+    },
+    {
+      "id": 123,
+      "name": "ROUTE 23",
+      "exactHgssId": 171,
+      "exactHgssName": "Route 23",
+      "ambiguity": false
+    },
+    {
+      "id": 124,
+      "name": "ROUTE 24",
+      "exactHgssId": 172,
+      "exactHgssName": "Route 24",
+      "ambiguity": false
+    },
+    {
+      "id": 125,
+      "name": "ROUTE 25",
+      "exactHgssId": 173,
+      "exactHgssName": "Route 25",
+      "ambiguity": false
+    },
+    {
+      "id": 126,
+      "name": "ILEX FOREST",
+      "exactHgssId": 214,
+      "exactHgssName": "Ilex Forest",
+      "ambiguity": false
+    },
+    {
+      "id": 127,
+      "name": "DARK CAVE",
+      "exactHgssId": 220,
+      "exactHgssName": "Dark Cave",
+      "ambiguity": false
+    },
+    {
+      "id": 128,
+      "name": "S.S. AQUA",
+      "exactHgssId": 226,
+      "exactHgssName": "S.S. Aqua",
+      "ambiguity": false
+    },
+    {
+      "id": 129,
+      "name": "OLIVINE CITY",
+      "exactHgssId": 132,
+      "exactHgssName": "Olivine City",
+      "ambiguity": false
+    },
+    {
+      "id": 130,
+      "name": "UNDERGROUND PATH",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 131,
+      "name": "DIGLETT\u0027S CAVE",
+      "exactHgssId": 197,
+      "exactHgssName": "DIGLETT\u2019s Cave",
+      "ambiguity": false
+    },
+    {
+      "id": 132,
+      "name": "VICTORY ROAD",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 133,
+      "name": "ROCKET HIDEOUT",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 134,
+      "name": "SILPH CO.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 135,
+      "name": "ROUTE 27",
+      "exactHgssId": 175,
+      "exactHgssName": "Route 27",
+      "ambiguity": false
+    },
+    {
+      "id": 136,
+      "name": "ROUTE 100",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 137,
+      "name": "POK\u00E9MON LEAGUE",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 138,
+      "name": "ROCK TUNNEL",
+      "exactHgssId": 200,
+      "exactHgssName": "Rock Tunnel",
+      "ambiguity": false
+    },
+    {
+      "id": 139,
+      "name": "ROUTE 28",
+      "exactHgssId": 176,
+      "exactHgssName": "Route 28",
+      "ambiguity": false
+    },
+    {
+      "id": 140,
+      "name": "MT. MOON",
+      "exactHgssId": 198,
+      "exactHgssName": "Mt. Moon",
+      "ambiguity": false
+    },
+    {
+      "id": 141,
+      "name": "ROUTE 29",
+      "exactHgssId": 177,
+      "exactHgssName": "Route 29",
+      "ambiguity": false
+    },
+    {
+      "id": 142,
+      "name": "POWER PLANT",
+      "exactHgssId": 201,
+      "exactHgssName": "Power Plant",
+      "ambiguity": false
+    },
+    {
+      "id": 143,
+      "name": "NEW BARK TOWN",
+      "exactHgssId": 126,
+      "exactHgssName": "New Bark Town",
+      "ambiguity": false
+    },
+    {
+      "id": 144,
+      "name": "BLACKTHORN CITY",
+      "exactHgssId": 136,
+      "exactHgssName": "Blackthorn City",
+      "ambiguity": false
+    },
+    {
+      "id": 145,
+      "name": "VIOLET CITY",
+      "exactHgssId": 128,
+      "exactHgssName": "Violet City",
+      "ambiguity": false
+    },
+    {
+      "id": 146,
+      "name": "GOLDENROD CITY",
+      "exactHgssId": 131,
+      "exactHgssName": "Goldenrod City",
+      "ambiguity": false
+    },
+    {
+      "id": 147,
+      "name": "AZALEA TOWN",
+      "exactHgssId": 129,
+      "exactHgssName": "Azalea Town",
+      "ambiguity": false
+    },
+    {
+      "id": 148,
+      "name": "ECRUTEAK CITY",
+      "exactHgssId": 133,
+      "exactHgssName": "Ecruteak City",
+      "ambiguity": false
+    },
+    {
+      "id": 149,
+      "name": "MAHOGANY TOWN",
+      "exactHgssId": 134,
+      "exactHgssName": "Mahogany Town",
+      "ambiguity": false
+    },
+    {
+      "id": 150,
+      "name": "SILVER CAVE",
+      "exactHgssId": 137,
+      "exactHgssName": "Mt. Silver",
+      "ambiguity": false
+    },
+    {
+      "id": 151,
+      "name": "ROUTE 46",
+      "exactHgssId": 194,
+      "exactHgssName": "Route 46",
+      "ambiguity": false
+    },
+    {
+      "id": 152,
+      "name": "ROUTE 30",
+      "exactHgssId": 178,
+      "exactHgssName": "Route 30",
+      "ambiguity": false
+    },
+    {
+      "id": 153,
+      "name": "ROUTE 31",
+      "exactHgssId": 179,
+      "exactHgssName": "Route 31",
+      "ambiguity": false
+    },
+    {
+      "id": 154,
+      "name": "ROUTE 32",
+      "exactHgssId": 180,
+      "exactHgssName": "Route 32",
+      "ambiguity": false
+    },
+    {
+      "id": 155,
+      "name": "ROUTE 36",
+      "exactHgssId": 184,
+      "exactHgssName": "Route 36",
+      "ambiguity": false
+    },
+    {
+      "id": 156,
+      "name": "WHIRL ISLANDS",
+      "exactHgssId": 218,
+      "exactHgssName": "Whirl Islands",
+      "ambiguity": false
+    },
+    {
+      "id": 157,
+      "name": "ROUTE 33",
+      "exactHgssId": 181,
+      "exactHgssName": "Route 33",
+      "ambiguity": false
+    },
+    {
+      "id": 158,
+      "name": "SPROUT TOWER",
+      "exactHgssId": 204,
+      "exactHgssName": "Sprout Tower",
+      "ambiguity": false
+    },
+    {
+      "id": 159,
+      "name": "ROUTE 35",
+      "exactHgssId": 183,
+      "exactHgssName": "Route 35",
+      "ambiguity": false
+    },
+    {
+      "id": 160,
+      "name": "ROUTE 37",
+      "exactHgssId": 185,
+      "exactHgssName": "Route 37",
+      "ambiguity": false
+    },
+    {
+      "id": 161,
+      "name": "LIGHTHOUSE",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 162,
+      "name": "ROUTE 38",
+      "exactHgssId": 186,
+      "exactHgssName": "Route 38",
+      "ambiguity": false
+    },
+    {
+      "id": 163,
+      "name": "ROUTE 39",
+      "exactHgssId": 187,
+      "exactHgssName": "Route 39",
+      "ambiguity": false
+    },
+    {
+      "id": 164,
+      "name": "ROUTE 42",
+      "exactHgssId": 190,
+      "exactHgssName": "Route 42",
+      "ambiguity": false
+    },
+    {
+      "id": 165,
+      "name": "ROUTE 40",
+      "exactHgssId": 188,
+      "exactHgssName": "Route 40",
+      "ambiguity": false
+    },
+    {
+      "id": 166,
+      "name": "NATIONAL PARK",
+      "exactHgssId": 207,
+      "exactHgssName": "National Park",
+      "ambiguity": false
+    },
+    {
+      "id": 167,
+      "name": "CIANWOOD CITY",
+      "exactHgssId": 130,
+      "exactHgssName": "Cianwood City",
+      "ambiguity": false
+    },
+    {
+      "id": 168,
+      "name": "ROUTE 40",
+      "exactHgssId": 188,
+      "exactHgssName": "Route 40",
+      "ambiguity": false
+    },
+    {
+      "id": 169,
+      "name": "ROUTE 43",
+      "exactHgssId": 191,
+      "exactHgssName": "Route 43",
+      "ambiguity": false
+    },
+    {
+      "id": 170,
+      "name": "CHERRYGROVE CITY",
+      "exactHgssId": 127,
+      "exactHgssName": "Cherrygrove City",
+      "ambiguity": false
+    },
+    {
+      "id": 171,
+      "name": "ROUTE 44",
+      "exactHgssId": 192,
+      "exactHgssName": "Route 44",
+      "ambiguity": false
+    },
+    {
+      "id": 172,
+      "name": "DRAGON\u2018S DEN",
+      "exactHgssId": 222,
+      "exactHgssName": "Dragon\u2019s Den",
+      "ambiguity": false
+    },
+    {
+      "id": 173,
+      "name": "CAVE OF WISDOM",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 174,
+      "name": "MT. MORTAR",
+      "exactHgssId": 216,
+      "exactHgssName": "Mt. Mortar",
+      "ambiguity": false
+    },
+    {
+      "id": 175,
+      "name": "TEMPLE OF ROCK",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 176,
+      "name": "ROUTE 45",
+      "exactHgssId": 193,
+      "exactHgssName": "Route 45",
+      "ambiguity": false
+    },
+    {
+      "id": 177,
+      "name": "ICE PATH",
+      "exactHgssId": 217,
+      "exactHgssName": "Ice Path",
+      "ambiguity": false
+    },
+    {
+      "id": 178,
+      "name": "UNDERSEA CAVERN",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 179,
+      "name": "ROUTE 41",
+      "exactHgssId": 189,
+      "exactHgssName": "Route 41",
+      "ambiguity": false
+    },
+    {
+      "id": 180,
+      "name": "OLIVINE CITY",
+      "exactHgssId": 132,
+      "exactHgssName": "Olivine City",
+      "ambiguity": false
+    },
+    {
+      "id": 181,
+      "name": "RUINS OF ALPH",
+      "exactHgssId": 209,
+      "exactHgssName": "Ruins of Alph",
+      "ambiguity": false
+    },
+    {
+      "id": 182,
+      "name": "ROUTE 100",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 183,
+      "name": "NEW ISLAND",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 184,
+      "name": "TIN TOWER",
+      "exactHgssId": 205,
+      "exactHgssName": "Bell Tower",
+      "ambiguity": false
+    },
+    {
+      "id": 185,
+      "name": "ROUTE 47",
+      "exactHgssId": 195,
+      "exactHgssName": "Route 47",
+      "ambiguity": false
+    },
+    {
+      "id": 186,
+      "name": "TOHJO FALLS",
+      "exactHgssId": 223,
+      "exactHgssName": "Tohjo Falls",
+      "ambiguity": false
+    },
+    {
+      "id": 187,
+      "name": "LAKE OF RAGE",
+      "exactHgssId": 135,
+      "exactHgssName": "Lake of Rage",
+      "ambiguity": false
+    },
+    {
+      "id": 188,
+      "name": "UNION CAVE",
+      "exactHgssId": 210,
+      "exactHgssName": "Union Cave",
+      "ambiguity": false
+    },
+    {
+      "id": 189,
+      "name": "SLOWPOKE WELL",
+      "exactHgssId": 211,
+      "exactHgssName": "SLOWPOKE Well",
+      "ambiguity": false
+    },
+    {
+      "id": 190,
+      "name": "ROUTE 26",
+      "exactHgssId": 174,
+      "exactHgssName": "Route 26",
+      "ambiguity": false
+    },
+    {
+      "id": 191,
+      "name": "ROUTE 34",
+      "exactHgssId": 182,
+      "exactHgssName": "Route 34",
+      "ambiguity": false
+    },
+    {
+      "id": 192,
+      "name": "ROUTE 43",
+      "exactHgssId": 191,
+      "exactHgssName": "Route 43",
+      "ambiguity": false
+    },
+    {
+      "id": 193,
+      "name": "VALENCIA ISLAND",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 194,
+      "name": "\u00C1\u00C1FARI ZONE",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 195,
+      "name": "NOT USED",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 196,
+      "name": "BATTLE TOWER",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 197,
+      "name": "RADIO TOWER",
+      "exactHgssId": 208,
+      "exactHgssName": "Radio Tower",
+      "ambiguity": false
+    },
+    {
+      "id": 198,
+      "name": "RADIO TOWER",
+      "exactHgssId": 208,
+      "exactHgssName": "Radio Tower",
+      "ambiguity": false
+    },
+    {
+      "id": 199,
+      "name": "BURNT TOWER",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 200,
+      "name": "TIN TOWER",
+      "exactHgssId": 205,
+      "exactHgssName": "Bell Tower",
+      "ambiguity": false
+    },
+    {
+      "id": 201,
+      "name": "HOLLOW CAVE",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 202,
+      "name": "OUTSKIRT ISLAND",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 203,
+      "name": "LOST WOODS",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 204,
+      "name": "KANTO OFFICE",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 205,
+      "name": "SPECIAL HQ.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 206,
+      "name": "SILPH CO.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 207,
+      "name": "CELADON DEPT.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 208,
+      "name": "GOLDENROD DEPT.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 209,
+      "name": "SAFARI ZONE",
+      "exactHgssId": 202,
+      "exactHgssName": "Safari Zone",
+      "ambiguity": false
+    },
+    {
+      "id": 210,
+      "name": "CERULEAN CAVE",
+      "exactHgssId": 199,
+      "exactHgssName": "Cerulean Cave",
+      "ambiguity": false
+    },
+    {
+      "id": 211,
+      "name": "VIRIDIAN FOREST",
+      "exactHgssId": 224,
+      "exactHgssName": "Viridian Forest",
+      "ambiguity": false
+    },
+    {
+      "id": 212,
+      "name": "CINNABAR VOLCANO",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 213,
+      "name": "SEAFOAM ISLANDS",
+      "exactHgssId": 203,
+      "exactHgssName": "Seafoam Islands",
+      "ambiguity": false
+    },
+    {
+      "id": 214,
+      "name": "MEADOW TOWN",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 215,
+      "name": "VALENCIA PORT",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 216,
+      "name": "ESSENCE TOWN",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 217,
+      "name": "CORSOLA CAVE",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 218,
+      "name": "ROUTE 47",
+      "exactHgssId": 195,
+      "exactHgssName": "Route 47",
+      "ambiguity": false
+    },
+    {
+      "id": 219,
+      "name": "ROUTE 48",
+      "exactHgssId": 196,
+      "exactHgssName": "Route 48",
+      "ambiguity": false
+    },
+    {
+      "id": 220,
+      "name": "ROUTE 49",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 221,
+      "name": "CAVE OF WISDOM",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 222,
+      "name": "LEAF BAY CITY",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 223,
+      "name": "ROUTE 51",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 224,
+      "name": "OLD MANSION",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 225,
+      "name": "LEAF BAY DEPT.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 226,
+      "name": "FOREST OF MYTH",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 227,
+      "name": "ROUTE 50",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 228,
+      "name": "ROUTE 52",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 229,
+      "name": "ROUTE 50",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 230,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 231,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 232,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 233,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 234,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 235,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 236,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 237,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 238,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 239,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 240,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 241,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 242,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 243,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 244,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 245,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 246,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 247,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 248,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 249,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 250,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 251,
+      "name": "\u00C0\u30F2\u3069\u30B6\u00CB\u00C2\u30A5U\u30C9\u00CB ",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    },
+    {
+      "id": 252,
+      "name": "ll inexpensive herbal medicine.",
+      "exactHgssId": null,
+      "exactHgssName": null,
+      "ambiguity": false
+    }
+  ]
+}

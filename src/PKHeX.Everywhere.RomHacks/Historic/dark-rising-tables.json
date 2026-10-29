@@ -1,0 +1,5421 @@
+{
+  "romSha256": "8f430dc5324855cef3adf7a208eaca686043a89688980bee2ab73ccde30e2dd1",
+  "speciesTableOffset": "0x245EE0",
+  "moveTableOffset": "0x247094",
+  "species": [
+    {
+      "id": 1,
+      "name": "BULBASAUR",
+      "national": 1,
+      "vanillaNational": 1,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 2,
+      "name": "IVYSAUR",
+      "national": 2,
+      "vanillaNational": 2,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 3,
+      "name": "VENUSAUR",
+      "national": 3,
+      "vanillaNational": 3,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 4,
+      "name": "CHARMANDER",
+      "national": 4,
+      "vanillaNational": 4,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 5,
+      "name": "CHARMELEON",
+      "national": 5,
+      "vanillaNational": 5,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 6,
+      "name": "CHARIZARD",
+      "national": 6,
+      "vanillaNational": 6,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 7,
+      "name": "SQUIRTLE",
+      "national": 7,
+      "vanillaNational": 7,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 8,
+      "name": "WARTORTLE",
+      "national": 8,
+      "vanillaNational": 8,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 9,
+      "name": "BLASTOISE",
+      "national": 9,
+      "vanillaNational": 9,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 10,
+      "name": "CATERPIE",
+      "national": 10,
+      "vanillaNational": 10,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 11,
+      "name": "METAPOD",
+      "national": 11,
+      "vanillaNational": 11,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 12,
+      "name": "BUTTERFREE",
+      "national": 12,
+      "vanillaNational": 12,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 13,
+      "name": "VENIPEDE",
+      "national": 543,
+      "vanillaNational": 13,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 14,
+      "name": "WHIRLIPEDE",
+      "national": 544,
+      "vanillaNational": 14,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 15,
+      "name": "SCOLIPEDE",
+      "national": 545,
+      "vanillaNational": 15,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 16,
+      "name": "PIDGEY",
+      "national": 16,
+      "vanillaNational": 16,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 17,
+      "name": "PIDGEOTTO",
+      "national": 17,
+      "vanillaNational": 17,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 18,
+      "name": "PIDGEOT",
+      "national": 18,
+      "vanillaNational": 18,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 19,
+      "name": "BLITZLE",
+      "national": 522,
+      "vanillaNational": 19,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 20,
+      "name": "ZEBSTRIKA",
+      "national": 523,
+      "vanillaNational": 20,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 21,
+      "name": "RUFFLET",
+      "national": 627,
+      "vanillaNational": 21,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 22,
+      "name": "BRAVIARY",
+      "national": 628,
+      "vanillaNational": 22,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 23,
+      "name": "EKANS",
+      "national": 23,
+      "vanillaNational": 23,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 24,
+      "name": "ARBOK",
+      "national": 24,
+      "vanillaNational": 24,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 25,
+      "name": "PIKACHU",
+      "national": 25,
+      "vanillaNational": 25,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 26,
+      "name": "RAICHU",
+      "national": 26,
+      "vanillaNational": 26,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 27,
+      "name": "ZORUA",
+      "national": 570,
+      "vanillaNational": 27,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 28,
+      "name": "ZOROARK",
+      "national": 571,
+      "vanillaNational": 28,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 29,
+      "name": "SOLOSIS",
+      "national": 577,
+      "vanillaNational": 29,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 30,
+      "name": "DUOSION",
+      "national": 578,
+      "vanillaNational": 30,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 31,
+      "name": "REUNICLUS",
+      "national": 579,
+      "vanillaNational": 31,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 32,
+      "name": "LITWICK",
+      "national": 607,
+      "vanillaNational": 32,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 33,
+      "name": "LAMPENT",
+      "national": 608,
+      "vanillaNational": 33,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 34,
+      "name": "CHANDELURE",
+      "national": 609,
+      "vanillaNational": 34,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 35,
+      "name": "SNOVER",
+      "national": 459,
+      "vanillaNational": 35,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 36,
+      "name": "ABOMASNOW",
+      "national": 460,
+      "vanillaNational": 36,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 37,
+      "name": "VULPIX",
+      "national": 37,
+      "vanillaNational": 37,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 38,
+      "name": "NINETALES",
+      "national": 38,
+      "vanillaNational": 38,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 39,
+      "name": "YAMASK",
+      "national": 562,
+      "vanillaNational": 39,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 40,
+      "name": "COFAGRIGUS",
+      "national": 563,
+      "vanillaNational": 40,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 41,
+      "name": "ZUBAT",
+      "national": 41,
+      "vanillaNational": 41,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 42,
+      "name": "GOLBAT",
+      "national": 42,
+      "vanillaNational": 42,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 43,
+      "name": "GOTHITA",
+      "national": 574,
+      "vanillaNational": 43,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 44,
+      "name": "GOTHORITA",
+      "national": 575,
+      "vanillaNational": 44,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 45,
+      "name": "GOTHITELLE",
+      "national": 576,
+      "vanillaNational": 45,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 46,
+      "name": "PATRAT",
+      "national": 504,
+      "vanillaNational": 46,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 47,
+      "name": "WATCHOG",
+      "national": 505,
+      "vanillaNational": 47,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 48,
+      "name": "MINCCINO",
+      "national": 572,
+      "vanillaNational": 48,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 49,
+      "name": "CINCINNO",
+      "national": null,
+      "vanillaNational": 49,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 50,
+      "name": "DRILBUR",
+      "national": 529,
+      "vanillaNational": 50,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 51,
+      "name": "EXCADRILL",
+      "national": 530,
+      "vanillaNational": 51,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 52,
+      "name": "MIENFOO",
+      "national": 619,
+      "vanillaNational": 52,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 53,
+      "name": "MIENSHAO",
+      "national": 620,
+      "vanillaNational": 53,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 54,
+      "name": "HIPPOPOTAS",
+      "national": 449,
+      "vanillaNational": 54,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 55,
+      "name": "HIPPOWDON",
+      "national": 450,
+      "vanillaNational": 55,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 56,
+      "name": "PAWNIARD",
+      "national": 624,
+      "vanillaNational": 56,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 57,
+      "name": "BISHARP",
+      "national": 625,
+      "vanillaNational": 57,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 58,
+      "name": "GROWLITHE",
+      "national": 58,
+      "vanillaNational": 58,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 59,
+      "name": "ARCANINE",
+      "national": 59,
+      "vanillaNational": 59,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 60,
+      "name": "POLIWAG",
+      "national": 60,
+      "vanillaNational": 60,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 61,
+      "name": "POLIWHIRL",
+      "national": 61,
+      "vanillaNational": 61,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 62,
+      "name": "POLIWRATH",
+      "national": 62,
+      "vanillaNational": 62,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 63,
+      "name": "ABRA",
+      "national": 63,
+      "vanillaNational": 63,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 64,
+      "name": "KADABRA",
+      "national": 64,
+      "vanillaNational": 64,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 65,
+      "name": "ALAKAZAM",
+      "national": 65,
+      "vanillaNational": 65,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 66,
+      "name": "MACHOP",
+      "national": 66,
+      "vanillaNational": 66,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 67,
+      "name": "MACHOKE",
+      "national": 67,
+      "vanillaNational": 67,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 68,
+      "name": "MACHAMP",
+      "national": 68,
+      "vanillaNational": 68,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 69,
+      "name": "STARLY",
+      "national": 396,
+      "vanillaNational": 69,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 70,
+      "name": "STARAVIA",
+      "national": 397,
+      "vanillaNational": 70,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 71,
+      "name": "STARAPTOR",
+      "national": 398,
+      "vanillaNational": 71,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 72,
+      "name": "TENTACOOL",
+      "national": 72,
+      "vanillaNational": 72,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 73,
+      "name": "TENTACRUEL",
+      "national": 73,
+      "vanillaNational": 73,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 74,
+      "name": "GEODUDE",
+      "national": 74,
+      "vanillaNational": 74,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 75,
+      "name": "GRAVELER",
+      "national": 75,
+      "vanillaNational": 75,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 76,
+      "name": "GOLEM",
+      "national": 76,
+      "vanillaNational": 76,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 77,
+      "name": "PONYTA",
+      "national": 77,
+      "vanillaNational": 77,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 78,
+      "name": "RAPIDASH",
+      "national": 78,
+      "vanillaNational": 78,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 79,
+      "name": "SLOWPOKE",
+      "national": 79,
+      "vanillaNational": 79,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 80,
+      "name": "SLOWBRO",
+      "national": 80,
+      "vanillaNational": 80,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 81,
+      "name": "MAGNEMITE",
+      "national": 81,
+      "vanillaNational": 81,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 82,
+      "name": "MAGNETON",
+      "national": 82,
+      "vanillaNational": 82,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 83,
+      "name": "AXEW",
+      "national": 610,
+      "vanillaNational": 83,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 84,
+      "name": "FRAXURE",
+      "national": 611,
+      "vanillaNational": 84,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 85,
+      "name": "HAXORUS",
+      "national": 612,
+      "vanillaNational": 85,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 86,
+      "name": "DWEBBLE",
+      "national": 557,
+      "vanillaNational": 86,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 87,
+      "name": "CRUSTLE",
+      "national": 558,
+      "vanillaNational": 87,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 88,
+      "name": "CROAGUNK",
+      "national": 453,
+      "vanillaNational": 88,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 89,
+      "name": "TOXICROAK",
+      "national": 454,
+      "vanillaNational": 89,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 90,
+      "name": "SHELLDER",
+      "national": 90,
+      "vanillaNational": 90,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 91,
+      "name": "CLOYSTER",
+      "national": 91,
+      "vanillaNational": 91,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 92,
+      "name": "GASTLY",
+      "national": 92,
+      "vanillaNational": 92,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 93,
+      "name": "HAUNTER",
+      "national": 93,
+      "vanillaNational": 93,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 94,
+      "name": "GENGAR",
+      "national": 94,
+      "vanillaNational": 94,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 95,
+      "name": "ONIX",
+      "national": 95,
+      "vanillaNational": 95,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 96,
+      "name": "BRONZOR",
+      "national": 436,
+      "vanillaNational": 96,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 97,
+      "name": "BRONZONG",
+      "national": 437,
+      "vanillaNational": 97,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 98,
+      "name": "SCRAGGY",
+      "national": 559,
+      "vanillaNational": 98,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 99,
+      "name": "SCRAFTY",
+      "national": 560,
+      "vanillaNational": 99,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 100,
+      "name": "RIOLU",
+      "national": 447,
+      "vanillaNational": 100,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 101,
+      "name": "LUCARIO",
+      "national": 448,
+      "vanillaNational": 101,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 102,
+      "name": "EXEGGCUTE",
+      "national": 102,
+      "vanillaNational": 102,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 103,
+      "name": "EXEGGUTOR",
+      "national": 103,
+      "vanillaNational": 103,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 104,
+      "name": "DARUMAKA",
+      "national": 554,
+      "vanillaNational": 104,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 105,
+      "name": "DARMANITAN",
+      "national": 555,
+      "vanillaNational": 105,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 106,
+      "name": "HITMONLEE",
+      "national": 106,
+      "vanillaNational": 106,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 107,
+      "name": "HITMONCHAN",
+      "national": 107,
+      "vanillaNational": 107,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 108,
+      "name": "LICKITUNG",
+      "national": 108,
+      "vanillaNational": 108,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 109,
+      "name": "KOFFING",
+      "national": 109,
+      "vanillaNational": 109,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 110,
+      "name": "WEEZING",
+      "national": 110,
+      "vanillaNational": 110,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 111,
+      "name": "RHYHORN",
+      "national": 111,
+      "vanillaNational": 111,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 112,
+      "name": "RHYDON",
+      "national": 112,
+      "vanillaNational": 112,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 113,
+      "name": "CHANSEY",
+      "national": 113,
+      "vanillaNational": 113,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 114,
+      "name": "TANGELA",
+      "national": 114,
+      "vanillaNational": 114,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 115,
+      "name": "KANGASKHAN",
+      "national": 115,
+      "vanillaNational": 115,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 116,
+      "name": "HORSEA",
+      "national": 116,
+      "vanillaNational": 116,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 117,
+      "name": "SEADRA",
+      "national": 117,
+      "vanillaNational": 117,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 118,
+      "name": "DUCKLETT",
+      "national": 580,
+      "vanillaNational": 118,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 119,
+      "name": "SWANNA",
+      "national": 581,
+      "vanillaNational": 119,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 120,
+      "name": "STARYU",
+      "national": 120,
+      "vanillaNational": 120,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 121,
+      "name": "STARMIE",
+      "national": 121,
+      "vanillaNational": 121,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 122,
+      "name": "SPIRITOMB",
+      "national": 442,
+      "vanillaNational": 122,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 123,
+      "name": "SCYTHER",
+      "national": 123,
+      "vanillaNational": 123,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 124,
+      "name": "JYNX",
+      "national": 124,
+      "vanillaNational": 124,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 125,
+      "name": "ELECTABUZZ",
+      "national": 125,
+      "vanillaNational": 125,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 126,
+      "name": "MAGMAR",
+      "national": 126,
+      "vanillaNational": 126,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 127,
+      "name": "PINSIR",
+      "national": 127,
+      "vanillaNational": 127,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 128,
+      "name": "TAUROS",
+      "national": 128,
+      "vanillaNational": 128,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 129,
+      "name": "MAGIKARP",
+      "national": 129,
+      "vanillaNational": 129,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 130,
+      "name": "GYARADOS",
+      "national": 130,
+      "vanillaNational": 130,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 131,
+      "name": "LAPRAS",
+      "national": 131,
+      "vanillaNational": 131,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 132,
+      "name": "DITTO",
+      "national": 132,
+      "vanillaNational": 132,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 133,
+      "name": "EEVEE",
+      "national": 133,
+      "vanillaNational": 133,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 134,
+      "name": "VAPOREON",
+      "national": 134,
+      "vanillaNational": 134,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 135,
+      "name": "JOLTEON",
+      "national": 135,
+      "vanillaNational": 135,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 136,
+      "name": "FLAREON",
+      "national": 136,
+      "vanillaNational": 136,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 137,
+      "name": "PORYGON",
+      "national": 137,
+      "vanillaNational": 137,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 138,
+      "name": "TIRTOUGA",
+      "national": 564,
+      "vanillaNational": 138,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 139,
+      "name": "CARRACOSTA",
+      "national": 565,
+      "vanillaNational": 139,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 140,
+      "name": "ARCHEN",
+      "national": 566,
+      "vanillaNational": 140,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 141,
+      "name": "ARCHEOPS",
+      "national": 567,
+      "vanillaNational": 141,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 142,
+      "name": "AERODACTYL",
+      "national": 142,
+      "vanillaNational": 142,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 143,
+      "name": "SNORLAX",
+      "national": 143,
+      "vanillaNational": 143,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 144,
+      "name": "ALOMOMOLA",
+      "national": 594,
+      "vanillaNational": 144,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 145,
+      "name": "DURANT",
+      "national": 632,
+      "vanillaNational": 145,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 146,
+      "name": "ZEN MODE",
+      "national": null,
+      "vanillaNational": 146,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 147,
+      "name": "DRATINI",
+      "national": 147,
+      "vanillaNational": 147,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 148,
+      "name": "DRAGONAIR",
+      "national": 148,
+      "vanillaNational": 148,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 149,
+      "name": "DRAGONITE",
+      "national": 149,
+      "vanillaNational": 149,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 150,
+      "name": "AUDINO",
+      "national": 531,
+      "vanillaNational": 150,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 151,
+      "name": "MEW",
+      "national": 151,
+      "vanillaNational": 151,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 152,
+      "name": "CHIKORITA",
+      "national": 152,
+      "vanillaNational": 152,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 153,
+      "name": "BAYLEEF",
+      "national": 153,
+      "vanillaNational": 153,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 154,
+      "name": "MEGANIUM",
+      "national": 154,
+      "vanillaNational": 154,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 155,
+      "name": "CYNDAQUIL",
+      "national": 155,
+      "vanillaNational": 155,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 156,
+      "name": "QUILAVA",
+      "national": 156,
+      "vanillaNational": 156,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 157,
+      "name": "TYPHLOSION",
+      "national": 157,
+      "vanillaNational": 157,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 158,
+      "name": "TOTODILE",
+      "national": 158,
+      "vanillaNational": 158,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 159,
+      "name": "CROCONAW",
+      "national": 159,
+      "vanillaNational": 159,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 160,
+      "name": "FERALIGATR",
+      "national": 160,
+      "vanillaNational": 160,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 161,
+      "name": "MUNNA",
+      "national": 517,
+      "vanillaNational": 161,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 162,
+      "name": "MUSHARNA",
+      "national": 518,
+      "vanillaNational": 162,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 163,
+      "name": "BUIZEL",
+      "national": 418,
+      "vanillaNational": 163,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 164,
+      "name": "FLOATZEL",
+      "national": 419,
+      "vanillaNational": 164,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 165,
+      "name": "JOLTIK",
+      "national": 595,
+      "vanillaNational": 165,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 166,
+      "name": "GALVANTULA",
+      "national": 596,
+      "vanillaNational": 166,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 167,
+      "name": "SPINARAK",
+      "national": 167,
+      "vanillaNational": 167,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 168,
+      "name": "ARIADOS",
+      "national": 168,
+      "vanillaNational": 168,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 169,
+      "name": "CROBAT",
+      "national": 169,
+      "vanillaNational": 169,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 170,
+      "name": "CHINCHOU",
+      "national": 170,
+      "vanillaNational": 170,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 171,
+      "name": "LANTURN",
+      "national": 171,
+      "vanillaNational": 171,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 172,
+      "name": "PICHU",
+      "national": 172,
+      "vanillaNational": 172,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 173,
+      "name": "SHELLOS",
+      "national": 422,
+      "vanillaNational": 173,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 174,
+      "name": "GASTRODON",
+      "national": 423,
+      "vanillaNational": 174,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 175,
+      "name": "TOGEPI",
+      "national": 175,
+      "vanillaNational": 175,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 176,
+      "name": "TOGETIC",
+      "national": 176,
+      "vanillaNational": 176,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 177,
+      "name": "DRIFLOON",
+      "national": 425,
+      "vanillaNational": 177,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 178,
+      "name": "DRIFTBLIM",
+      "national": null,
+      "vanillaNational": 178,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 179,
+      "name": "TIMBURR",
+      "national": 532,
+      "vanillaNational": 179,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 180,
+      "name": "GURDURR",
+      "national": 533,
+      "vanillaNational": 180,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 181,
+      "name": "CONKELDURR",
+      "national": 534,
+      "vanillaNational": 181,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 182,
+      "name": "EMOLGA",
+      "national": 587,
+      "vanillaNational": 182,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 183,
+      "name": "BOUFFALANT",
+      "national": 626,
+      "vanillaNational": 183,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 184,
+      "name": "THROH",
+      "national": 538,
+      "vanillaNational": 184,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 185,
+      "name": "SAWK",
+      "national": 539,
+      "vanillaNational": 185,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 186,
+      "name": "POLITOED",
+      "national": 186,
+      "vanillaNational": 186,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 187,
+      "name": "ROGGENROLA",
+      "national": 524,
+      "vanillaNational": 187,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 188,
+      "name": "BOLDORE",
+      "national": 525,
+      "vanillaNational": 188,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 189,
+      "name": "GIGALITH",
+      "national": 526,
+      "vanillaNational": 189,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 190,
+      "name": "AIPOM",
+      "national": 190,
+      "vanillaNational": 190,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 191,
+      "name": "COTTONEE",
+      "national": 546,
+      "vanillaNational": 191,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 192,
+      "name": "WHIMSICOTT",
+      "national": 547,
+      "vanillaNational": 192,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 193,
+      "name": "YANMA",
+      "national": 193,
+      "vanillaNational": 193,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 194,
+      "name": "FRILLISH",
+      "national": 592,
+      "vanillaNational": 194,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 195,
+      "name": "JELLICENT",
+      "national": 593,
+      "vanillaNational": 195,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 196,
+      "name": "ESPEON",
+      "national": 196,
+      "vanillaNational": 196,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 197,
+      "name": "UMBREON",
+      "national": 197,
+      "vanillaNational": 197,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 198,
+      "name": "MURKROW",
+      "national": 198,
+      "vanillaNational": 198,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 199,
+      "name": "SLOWKING",
+      "national": 199,
+      "vanillaNational": 199,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 200,
+      "name": "MISDREAVUS",
+      "national": 200,
+      "vanillaNational": 200,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 201,
+      "name": "UNOWN",
+      "national": 201,
+      "vanillaNational": 201,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 202,
+      "name": "WOBBUFFET",
+      "national": 202,
+      "vanillaNational": 202,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 203,
+      "name": "GALLADE",
+      "national": 475,
+      "vanillaNational": 203,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 204,
+      "name": "PINECO",
+      "national": 204,
+      "vanillaNational": 204,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 205,
+      "name": "FORRETRESS",
+      "national": 205,
+      "vanillaNational": 205,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 206,
+      "name": "RHYPERIOR",
+      "national": 464,
+      "vanillaNational": 206,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 207,
+      "name": "GLIGAR",
+      "national": 207,
+      "vanillaNational": 207,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 208,
+      "name": "STEELIX",
+      "national": 208,
+      "vanillaNational": 208,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 209,
+      "name": "SKORUPI",
+      "national": 451,
+      "vanillaNational": 209,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 210,
+      "name": "DRAPION",
+      "national": 452,
+      "vanillaNational": 210,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 211,
+      "name": "GLISCOR",
+      "national": 472,
+      "vanillaNational": 211,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 212,
+      "name": "SCIZOR",
+      "national": 212,
+      "vanillaNational": 212,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 213,
+      "name": "TANGROWTH",
+      "national": 465,
+      "vanillaNational": 213,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 214,
+      "name": "HERACROSS",
+      "national": 214,
+      "vanillaNational": 214,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 215,
+      "name": "SNEASEL",
+      "national": 215,
+      "vanillaNational": 215,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 216,
+      "name": "TEDDIURSA",
+      "national": 216,
+      "vanillaNational": 216,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 217,
+      "name": "URSARING",
+      "national": 217,
+      "vanillaNational": 217,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 218,
+      "name": "CUBCHOO",
+      "national": 613,
+      "vanillaNational": 218,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 219,
+      "name": "BEARTIC",
+      "national": 614,
+      "vanillaNational": 219,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 220,
+      "name": "SWINUB",
+      "national": 220,
+      "vanillaNational": 220,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 221,
+      "name": "PILOSWINE",
+      "national": 221,
+      "vanillaNational": 221,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 222,
+      "name": "GIBLE",
+      "national": 443,
+      "vanillaNational": 222,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 223,
+      "name": "GABITE",
+      "national": 444,
+      "vanillaNational": 223,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 224,
+      "name": "GARCHOMP",
+      "national": 445,
+      "vanillaNational": 224,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 225,
+      "name": "DELIBIRD",
+      "national": 225,
+      "vanillaNational": 225,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 226,
+      "name": "TOGEKISS",
+      "national": 468,
+      "vanillaNational": 226,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 227,
+      "name": "SKARMORY",
+      "national": 227,
+      "vanillaNational": 227,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 228,
+      "name": "HOUNDOUR",
+      "national": 228,
+      "vanillaNational": 228,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 229,
+      "name": "HOUNDOOM",
+      "national": 229,
+      "vanillaNational": 229,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 230,
+      "name": "KINGDRA",
+      "national": 230,
+      "vanillaNational": 230,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 231,
+      "name": "PHANPY",
+      "national": 231,
+      "vanillaNational": 231,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 232,
+      "name": "DONPHAN",
+      "national": 232,
+      "vanillaNational": 232,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 233,
+      "name": "PORYGON2",
+      "national": 233,
+      "vanillaNational": 233,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 234,
+      "name": "MUNCHLAX",
+      "national": 446,
+      "vanillaNational": 234,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 235,
+      "name": "DRUDDIGON",
+      "national": 621,
+      "vanillaNational": 235,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 236,
+      "name": "TYROGUE",
+      "national": 236,
+      "vanillaNational": 236,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 237,
+      "name": "HITMONTOP",
+      "national": 237,
+      "vanillaNational": 237,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 238,
+      "name": "SMOOCHUM",
+      "national": 238,
+      "vanillaNational": 238,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 239,
+      "name": "ELEKID",
+      "national": 239,
+      "vanillaNational": 239,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 240,
+      "name": "MAGBY",
+      "national": 240,
+      "vanillaNational": 240,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 241,
+      "name": "MILTANK",
+      "national": 241,
+      "vanillaNational": 241,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 242,
+      "name": "BLISSEY",
+      "national": 242,
+      "vanillaNational": 242,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 243,
+      "name": "RAIKOU",
+      "national": 243,
+      "vanillaNational": 243,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 244,
+      "name": "ENTEI",
+      "national": 244,
+      "vanillaNational": 244,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 245,
+      "name": "SUICUNE",
+      "national": 245,
+      "vanillaNational": 245,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 246,
+      "name": "LARVITAR",
+      "national": 246,
+      "vanillaNational": 246,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 247,
+      "name": "PUPITAR",
+      "national": 247,
+      "vanillaNational": 247,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 248,
+      "name": "TYRANITAR",
+      "national": 248,
+      "vanillaNational": 248,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 249,
+      "name": "LUGIA",
+      "national": 249,
+      "vanillaNational": 249,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 250,
+      "name": "HO-OH",
+      "national": 250,
+      "vanillaNational": 250,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 251,
+      "name": "CELEBI",
+      "national": 251,
+      "vanillaNational": 251,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 252,
+      "name": "HEATMOR",
+      "national": 631,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 253,
+      "name": "SEISMITOAD",
+      "national": 537,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 254,
+      "name": "SIGILYPH",
+      "national": 561,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 255,
+      "name": "CRYOGONAL",
+      "national": 615,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 256,
+      "name": "KLINKLANG",
+      "national": 601,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 257,
+      "name": "RESHIRAM",
+      "national": 643,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 258,
+      "name": "ZEKROM",
+      "national": 644,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 259,
+      "name": "MELOETTA",
+      "national": 648,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 260,
+      "name": "AMPHAROS",
+      "national": 181,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 261,
+      "name": "VANILLUXE",
+      "national": 584,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 262,
+      "name": "LANDORUS-T",
+      "national": null,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 263,
+      "name": "COBALION",
+      "national": 638,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 264,
+      "name": "PIKACHU!!!",
+      "national": null,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 265,
+      "name": "GIRATINA",
+      "national": 487,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 266,
+      "name": "DIALGA",
+      "national": 483,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 267,
+      "name": "PALKIA",
+      "national": 484,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 268,
+      "name": "REGIGIGAS",
+      "national": 486,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 269,
+      "name": "CRESSELIA",
+      "national": 488,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 270,
+      "name": "MEWTWO",
+      "national": 150,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 271,
+      "name": "KYUREM W",
+      "national": null,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 272,
+      "name": "KYUREM B",
+      "national": null,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 273,
+      "name": "KYUREM",
+      "national": 646,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 274,
+      "name": "CONARP",
+      "national": null,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 275,
+      "name": "BLAZARD",
+      "national": null,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 276,
+      "name": "GENESECT",
+      "national": 649,
+      "vanillaNational": 0,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 277,
+      "name": "TREECKO",
+      "national": 252,
+      "vanillaNational": 252,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 278,
+      "name": "GROVYLE",
+      "national": 253,
+      "vanillaNational": 253,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 279,
+      "name": "SCEPTILE",
+      "national": 254,
+      "vanillaNational": 254,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 280,
+      "name": "TORCHIC",
+      "national": 255,
+      "vanillaNational": 255,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 281,
+      "name": "COMBUSKEN",
+      "national": 256,
+      "vanillaNational": 256,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 282,
+      "name": "BLAZIKEN",
+      "national": 257,
+      "vanillaNational": 257,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 283,
+      "name": "MUDKIP",
+      "national": 258,
+      "vanillaNational": 258,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 284,
+      "name": "MARSHTOMP",
+      "national": 259,
+      "vanillaNational": 259,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 285,
+      "name": "SWAMPERT",
+      "national": 260,
+      "vanillaNational": 260,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 286,
+      "name": "TURTWIG",
+      "national": 387,
+      "vanillaNational": 261,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 287,
+      "name": "GROTLE",
+      "national": 388,
+      "vanillaNational": 262,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 288,
+      "name": "TORTERRA",
+      "national": 389,
+      "vanillaNational": 263,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 289,
+      "name": "TEPIG",
+      "national": 498,
+      "vanillaNational": 264,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 290,
+      "name": "PIGNITE",
+      "national": 499,
+      "vanillaNational": 265,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 291,
+      "name": "EMBOAR",
+      "national": 500,
+      "vanillaNational": 266,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 292,
+      "name": "SNIVY",
+      "national": 495,
+      "vanillaNational": 267,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 293,
+      "name": "SERVINE",
+      "national": 496,
+      "vanillaNational": 268,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 294,
+      "name": "SERPERIOR",
+      "national": 497,
+      "vanillaNational": 269,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 295,
+      "name": "LOTAD",
+      "national": 270,
+      "vanillaNational": 270,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 296,
+      "name": "LOMBRE",
+      "national": 271,
+      "vanillaNational": 271,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 297,
+      "name": "LUDICOLO",
+      "national": 272,
+      "vanillaNational": 272,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 298,
+      "name": "SEEDOT",
+      "national": 273,
+      "vanillaNational": 273,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 299,
+      "name": "NUZLEAF",
+      "national": 274,
+      "vanillaNational": 274,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 300,
+      "name": "SHIFTRY",
+      "national": 275,
+      "vanillaNational": 275,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 301,
+      "name": "YANMEGA",
+      "national": 469,
+      "vanillaNational": 290,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 302,
+      "name": "AMBIPOM",
+      "national": 424,
+      "vanillaNational": 291,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 303,
+      "name": "SHEDINJA",
+      "national": 292,
+      "vanillaNational": 292,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 304,
+      "name": "TAILLOW",
+      "national": 276,
+      "vanillaNational": 276,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 305,
+      "name": "SWELLOW",
+      "national": 277,
+      "vanillaNational": 277,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 306,
+      "name": "SHROOMISH",
+      "national": 285,
+      "vanillaNational": 285,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 307,
+      "name": "BRELOOM",
+      "national": 286,
+      "vanillaNational": 286,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 308,
+      "name": "TYNAMO",
+      "national": 602,
+      "vanillaNational": 327,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 309,
+      "name": "EELEKTRIK",
+      "national": 603,
+      "vanillaNational": 278,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 310,
+      "name": "EELEKTROSS",
+      "national": 604,
+      "vanillaNational": 279,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 311,
+      "name": "PIPLUP",
+      "national": 393,
+      "vanillaNational": 283,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 312,
+      "name": "PRINPULP",
+      "national": null,
+      "vanillaNational": 284,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 313,
+      "name": "EMPOLEON",
+      "national": 395,
+      "vanillaNational": 320,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 314,
+      "name": "MAMOSWINE",
+      "national": 473,
+      "vanillaNational": 321,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 315,
+      "name": "SANDILE",
+      "national": 551,
+      "vanillaNational": 300,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 316,
+      "name": "KROKOROK",
+      "national": 552,
+      "vanillaNational": 301,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 317,
+      "name": "KROOKODILE",
+      "national": 553,
+      "vanillaNational": 352,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 318,
+      "name": "BALTOY",
+      "national": 343,
+      "vanillaNational": 343,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 319,
+      "name": "CLAYDOL",
+      "national": 344,
+      "vanillaNational": 344,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 320,
+      "name": "NOSEPASS",
+      "national": 299,
+      "vanillaNational": 299,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 321,
+      "name": "TORKOAL",
+      "national": 324,
+      "vanillaNational": 324,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 322,
+      "name": "SABLEYE",
+      "national": 302,
+      "vanillaNational": 302,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 323,
+      "name": "OSHAWOTT",
+      "national": 501,
+      "vanillaNational": 339,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 324,
+      "name": "DEWOTT",
+      "national": 502,
+      "vanillaNational": 340,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 325,
+      "name": "SAMUROTT",
+      "national": 503,
+      "vanillaNational": 370,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 326,
+      "name": "CORPHISH",
+      "national": 341,
+      "vanillaNational": 341,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 327,
+      "name": "CRAWDAUNT",
+      "national": 342,
+      "vanillaNational": 342,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 328,
+      "name": "FEEBAS",
+      "national": 349,
+      "vanillaNational": 349,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 329,
+      "name": "MILOTIC",
+      "national": 350,
+      "vanillaNational": 350,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 330,
+      "name": "CARVANHA",
+      "national": 318,
+      "vanillaNational": 318,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 331,
+      "name": "SHARPEDO",
+      "national": 319,
+      "vanillaNational": 319,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 332,
+      "name": "TRAPINCH",
+      "national": 328,
+      "vanillaNational": 328,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 333,
+      "name": "VIBRAVA",
+      "national": 329,
+      "vanillaNational": 329,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 334,
+      "name": "FLYGON",
+      "national": 330,
+      "vanillaNational": 330,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 335,
+      "name": "KARRABLAST",
+      "national": 588,
+      "vanillaNational": 296,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 336,
+      "name": "ESCAVALIER",
+      "national": 589,
+      "vanillaNational": 297,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 337,
+      "name": "SHELMET",
+      "national": 616,
+      "vanillaNational": 309,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 338,
+      "name": "ACCELLGOR",
+      "national": null,
+      "vanillaNational": 310,
+      "changed": true,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 339,
+      "name": "ELECTIVIRE",
+      "national": 466,
+      "vanillaNational": 322,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 340,
+      "name": "MAGMORTAR",
+      "national": 467,
+      "vanillaNational": 323,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 341,
+      "name": "SPHEAL",
+      "national": 363,
+      "vanillaNational": 363,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 342,
+      "name": "SEALEO",
+      "national": 364,
+      "vanillaNational": 364,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 343,
+      "name": "WALREIN",
+      "national": 365,
+      "vanillaNational": 365,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 344,
+      "name": "CACNEA",
+      "national": 331,
+      "vanillaNational": 331,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 345,
+      "name": "CACTURNE",
+      "national": 332,
+      "vanillaNational": 332,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 346,
+      "name": "SNORUNT",
+      "national": 361,
+      "vanillaNational": 361,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 347,
+      "name": "GLALIE",
+      "national": 362,
+      "vanillaNational": 362,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 348,
+      "name": "GLACEON",
+      "national": 471,
+      "vanillaNational": 337,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 349,
+      "name": "LEAFEON",
+      "national": 470,
+      "vanillaNational": 338,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 350,
+      "name": "HONCHKROW",
+      "national": 430,
+      "vanillaNational": 298,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 351,
+      "name": "SPOINK",
+      "national": 325,
+      "vanillaNational": 325,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 352,
+      "name": "GRUMPIG",
+      "national": 326,
+      "vanillaNational": 326,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 353,
+      "name": "LARVESTA",
+      "national": 636,
+      "vanillaNational": 311,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 354,
+      "name": "VOLCARONA",
+      "national": 637,
+      "vanillaNational": 312,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 355,
+      "name": "ROSERADE",
+      "national": 407,
+      "vanillaNational": 303,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 356,
+      "name": "PORYGON-Z",
+      "national": 474,
+      "vanillaNational": 307,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 357,
+      "name": "MAGNEZONE",
+      "national": 462,
+      "vanillaNational": 308,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 358,
+      "name": "SWABLU",
+      "national": 333,
+      "vanillaNational": 333,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 359,
+      "name": "ALTARIA",
+      "national": 334,
+      "vanillaNational": 334,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 360,
+      "name": "WYNAUT",
+      "national": 360,
+      "vanillaNational": 360,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 361,
+      "name": "DUSKULL",
+      "national": 355,
+      "vanillaNational": 355,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 362,
+      "name": "DUSCLOPS",
+      "national": 356,
+      "vanillaNational": 356,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 363,
+      "name": "ROSELIA",
+      "national": 315,
+      "vanillaNational": 315,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 364,
+      "name": "SLAKOTH",
+      "national": 287,
+      "vanillaNational": 287,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 365,
+      "name": "VIGOROTH",
+      "national": 288,
+      "vanillaNational": 288,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 366,
+      "name": "SLAKING",
+      "national": 289,
+      "vanillaNational": 289,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 367,
+      "name": "CHIMCHAR",
+      "national": 390,
+      "vanillaNational": 316,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 368,
+      "name": "MONFERNO",
+      "national": 391,
+      "vanillaNational": 317,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 369,
+      "name": "INFERNAPE",
+      "national": 392,
+      "vanillaNational": 357,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 370,
+      "name": "GOLETT",
+      "national": 622,
+      "vanillaNational": 293,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 371,
+      "name": "GOLURK",
+      "national": 623,
+      "vanillaNational": 294,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 372,
+      "name": "DUSKNOIR",
+      "national": 477,
+      "vanillaNational": 295,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 373,
+      "name": "DEINO",
+      "national": 633,
+      "vanillaNational": 366,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 374,
+      "name": "ZWEILOUS",
+      "national": 634,
+      "vanillaNational": 367,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 375,
+      "name": "HYDREIGON",
+      "national": 635,
+      "vanillaNational": 368,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 376,
+      "name": "ABSOL",
+      "national": 359,
+      "vanillaNational": 359,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 377,
+      "name": "FERROSEED",
+      "national": 597,
+      "vanillaNational": 353,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 378,
+      "name": "FERROTHORN",
+      "national": 598,
+      "vanillaNational": 354,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 379,
+      "name": "FROSLASS",
+      "national": 478,
+      "vanillaNational": 336,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 380,
+      "name": "WEAVILE",
+      "national": 461,
+      "vanillaNational": 335,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 381,
+      "name": "MISMAGIUS",
+      "national": 429,
+      "vanillaNational": 369,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 382,
+      "name": "ARON",
+      "national": 304,
+      "vanillaNational": 304,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 383,
+      "name": "LAIRON",
+      "national": 305,
+      "vanillaNational": 305,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 384,
+      "name": "AGGRON",
+      "national": 306,
+      "vanillaNational": 306,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 385,
+      "name": "CASTFORM",
+      "national": 351,
+      "vanillaNational": 351,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 386,
+      "name": "LICKILICKY",
+      "national": 463,
+      "vanillaNational": 313,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 387,
+      "name": "PROBOPASS",
+      "national": 476,
+      "vanillaNational": 314,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 388,
+      "name": "SHIELDON",
+      "national": 410,
+      "vanillaNational": 345,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 389,
+      "name": "BASTIODON",
+      "national": 411,
+      "vanillaNational": 346,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 390,
+      "name": "CRANIDOS",
+      "national": 408,
+      "vanillaNational": 347,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 391,
+      "name": "RAMPARDOS",
+      "national": 409,
+      "vanillaNational": 348,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 392,
+      "name": "RALTS",
+      "national": 280,
+      "vanillaNational": 280,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 393,
+      "name": "KIRLIA",
+      "national": 281,
+      "vanillaNational": 281,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 394,
+      "name": "GARDEVOIR",
+      "national": 282,
+      "vanillaNational": 282,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 395,
+      "name": "BAGON",
+      "national": 371,
+      "vanillaNational": 371,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 396,
+      "name": "SHELGON",
+      "national": 372,
+      "vanillaNational": 372,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 397,
+      "name": "SALAMENCE",
+      "national": 373,
+      "vanillaNational": 373,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 398,
+      "name": "BELDUM",
+      "national": 374,
+      "vanillaNational": 374,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 399,
+      "name": "METANG",
+      "national": 375,
+      "vanillaNational": 375,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 400,
+      "name": "METAGROSS",
+      "national": 376,
+      "vanillaNational": 376,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 401,
+      "name": "TORNADUS",
+      "national": 641,
+      "vanillaNational": 377,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 402,
+      "name": "THUNDURUS",
+      "national": 642,
+      "vanillaNational": 378,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 403,
+      "name": "LANDORUS",
+      "national": 645,
+      "vanillaNational": 379,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 404,
+      "name": "KYOGRE",
+      "national": 382,
+      "vanillaNational": 382,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 405,
+      "name": "GROUDON",
+      "national": 383,
+      "vanillaNational": 383,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 406,
+      "name": "RAYQUAZA",
+      "national": 384,
+      "vanillaNational": 384,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 407,
+      "name": "VICTINI",
+      "national": 494,
+      "vanillaNational": 380,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 408,
+      "name": "KELDEO",
+      "national": 647,
+      "vanillaNational": 381,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 409,
+      "name": "JIRACHI",
+      "national": 385,
+      "vanillaNational": 385,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 410,
+      "name": "DEOXYS",
+      "national": 386,
+      "vanillaNational": 386,
+      "changed": false,
+      "confidence": "exact name match; verify form and ROM semantics"
+    },
+    {
+      "id": 411,
+      "name": "SHAYMIN",
+      "national": 492,
+      "vanillaNational": 358,
+      "changed": true,
+      "confidence": "exact name match; verify form and ROM semantics"
+    }
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "name": "POUND",
+      "standardId": 1,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 2,
+      "name": "KARATE CHOP",
+      "standardId": 2,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 3,
+      "name": "DOUBLESLAP",
+      "standardId": 3,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 4,
+      "name": "COMET PUNCH",
+      "standardId": 4,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 5,
+      "name": "DRAIN PUNCH",
+      "standardId": 409,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 6,
+      "name": "PAY DAY",
+      "standardId": 6,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 7,
+      "name": "FIRE PUNCH",
+      "standardId": 7,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 8,
+      "name": "ICE PUNCH",
+      "standardId": 8,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 9,
+      "name": "THUNDERPUNCH",
+      "standardId": 9,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 10,
+      "name": "SCRATCH",
+      "standardId": 10,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 11,
+      "name": "NIGHT SLASH",
+      "standardId": 400,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 12,
+      "name": "GUILLOTINE",
+      "standardId": 12,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 13,
+      "name": "RAZOR WIND",
+      "standardId": 13,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 14,
+      "name": "SWORDS DANCE",
+      "standardId": 14,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 15,
+      "name": "CUT",
+      "standardId": 15,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 16,
+      "name": "GUST",
+      "standardId": 16,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 17,
+      "name": "WING ATTACK",
+      "standardId": 17,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 18,
+      "name": "WHIRLWIND",
+      "standardId": 18,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 19,
+      "name": "FLY",
+      "standardId": 19,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 20,
+      "name": "BIND",
+      "standardId": 20,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 21,
+      "name": "SLAM",
+      "standardId": 21,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 22,
+      "name": "VINE WHIP",
+      "standardId": 22,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 23,
+      "name": "STOMP",
+      "standardId": 23,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 24,
+      "name": "DOUBLE KICK",
+      "standardId": 24,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 25,
+      "name": "MEGA KICK",
+      "standardId": 25,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 26,
+      "name": "JUMP KICK",
+      "standardId": 26,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 27,
+      "name": "ROLLING KICK",
+      "standardId": 27,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 28,
+      "name": "SAND-ATTACK",
+      "standardId": 28,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 29,
+      "name": "HEADBUTT",
+      "standardId": 29,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 30,
+      "name": "HORN ATTACK",
+      "standardId": 30,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 31,
+      "name": "FURY ATTACK",
+      "standardId": 31,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 32,
+      "name": "HORN DRILL",
+      "standardId": 32,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 33,
+      "name": "TACKLE",
+      "standardId": 33,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 34,
+      "name": "BODY SLAM",
+      "standardId": 34,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 35,
+      "name": "WRAP",
+      "standardId": 35,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 36,
+      "name": "TAKE DOWN",
+      "standardId": 36,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 37,
+      "name": "THRASH",
+      "standardId": 37,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 38,
+      "name": "DOUBLE-EDGE",
+      "standardId": 38,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 39,
+      "name": "TAIL WHIP",
+      "standardId": 39,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 40,
+      "name": "POISON STING",
+      "standardId": 40,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 41,
+      "name": "TWINEEDLE",
+      "standardId": 41,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 42,
+      "name": "PIN MISSILE",
+      "standardId": 42,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 43,
+      "name": "LEER",
+      "standardId": 43,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 44,
+      "name": "BITE",
+      "standardId": 44,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 45,
+      "name": "GROWL",
+      "standardId": 45,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 46,
+      "name": "ROAR",
+      "standardId": 46,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 47,
+      "name": "SING",
+      "standardId": 47,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 48,
+      "name": "SUPERSONIC",
+      "standardId": 48,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 49,
+      "name": "SONICBOOM",
+      "standardId": 49,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 50,
+      "name": "DISABLE",
+      "standardId": 50,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 51,
+      "name": "ACID",
+      "standardId": 51,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 52,
+      "name": "EMBER",
+      "standardId": 52,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 53,
+      "name": "FLAMETHROWER",
+      "standardId": 53,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 54,
+      "name": "MIST",
+      "standardId": 54,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 55,
+      "name": "WATER GUN",
+      "standardId": 55,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 56,
+      "name": "HYDRO PUMP",
+      "standardId": 56,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 57,
+      "name": "SURF",
+      "standardId": 57,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 58,
+      "name": "ICE BEAM",
+      "standardId": 58,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 59,
+      "name": "BLIZZARD",
+      "standardId": 59,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 60,
+      "name": "PSYBEAM",
+      "standardId": 60,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 61,
+      "name": "BUBBLEBEAM",
+      "standardId": 61,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 62,
+      "name": "AURORA BEAM",
+      "standardId": 62,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 63,
+      "name": "HYPER BEAM",
+      "standardId": 63,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 64,
+      "name": "PECK",
+      "standardId": 64,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 65,
+      "name": "DRILL PECK",
+      "standardId": 65,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 66,
+      "name": "SUBMISSION",
+      "standardId": 66,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 67,
+      "name": "LOW KICK",
+      "standardId": 67,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 68,
+      "name": "COUNTER",
+      "standardId": 68,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 69,
+      "name": "SEISMIC TOSS",
+      "standardId": 69,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 70,
+      "name": "STRENGTH",
+      "standardId": 70,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 71,
+      "name": "ABSORB",
+      "standardId": 71,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 72,
+      "name": "MEGA DRAIN",
+      "standardId": 72,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 73,
+      "name": "LEECH SEED",
+      "standardId": 73,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 74,
+      "name": "GROWTH",
+      "standardId": 74,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 75,
+      "name": "RAZOR LEAF",
+      "standardId": 75,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 76,
+      "name": "SOLARBEAM",
+      "standardId": 76,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 77,
+      "name": "POISONPOWDER",
+      "standardId": 77,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 78,
+      "name": "STUN SPORE",
+      "standardId": 78,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 79,
+      "name": "SLEEP POWDER",
+      "standardId": 79,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 80,
+      "name": "PETAL DANCE",
+      "standardId": 80,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 81,
+      "name": "STRING SHOT",
+      "standardId": 81,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 82,
+      "name": "DRAGON PULSE",
+      "standardId": 406,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 83,
+      "name": "FIRE SPIN",
+      "standardId": 83,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 84,
+      "name": "THUNDERSHOCK",
+      "standardId": 84,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 85,
+      "name": "THUNDERBOLT",
+      "standardId": 85,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 86,
+      "name": "THUNDER WAVE",
+      "standardId": 86,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 87,
+      "name": "THUNDER",
+      "standardId": 87,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 88,
+      "name": "ROCK SLIDE",
+      "standardId": 157,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 89,
+      "name": "EARTHQUAKE",
+      "standardId": 89,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 90,
+      "name": "FISSURE",
+      "standardId": 90,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 91,
+      "name": "DIG",
+      "standardId": 91,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 92,
+      "name": "TOXIC",
+      "standardId": 92,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 93,
+      "name": "CONFUSION",
+      "standardId": 93,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 94,
+      "name": "PSYCHIC",
+      "standardId": 94,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 95,
+      "name": "HYPNOSIS",
+      "standardId": 95,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 96,
+      "name": "MEDITATE",
+      "standardId": 96,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 97,
+      "name": "AGILITY",
+      "standardId": 97,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 98,
+      "name": "QUICK ATTACK",
+      "standardId": 98,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 99,
+      "name": "RAGE",
+      "standardId": 99,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 100,
+      "name": "TELEPORT",
+      "standardId": 100,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 101,
+      "name": "NIGHT SHADE",
+      "standardId": 101,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 102,
+      "name": "MIMIC",
+      "standardId": 102,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 103,
+      "name": "SCREECH",
+      "standardId": 103,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 104,
+      "name": "DOUBLE TEAM",
+      "standardId": 104,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 105,
+      "name": "RECOVER",
+      "standardId": 105,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 106,
+      "name": "HARDEN",
+      "standardId": 106,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 107,
+      "name": "MINIMIZE",
+      "standardId": 107,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 108,
+      "name": "SMOKESCREEN",
+      "standardId": 108,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 109,
+      "name": "CONFUSE RAY",
+      "standardId": 109,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 110,
+      "name": "WITHDRAW",
+      "standardId": 110,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 111,
+      "name": "DEFENSE CURL",
+      "standardId": 111,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 112,
+      "name": "BARRIER",
+      "standardId": 112,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 113,
+      "name": "LIGHT SCREEN",
+      "standardId": 113,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 114,
+      "name": "HAZE",
+      "standardId": 114,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 115,
+      "name": "REFLECT",
+      "standardId": 115,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 116,
+      "name": "FOCUS ENERGY",
+      "standardId": 116,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 117,
+      "name": "BIDE",
+      "standardId": 117,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 118,
+      "name": "METRONOME",
+      "standardId": 118,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 119,
+      "name": "MIRROR MOVE",
+      "standardId": 119,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 120,
+      "name": "SELFDESTRUCT",
+      "standardId": 120,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 121,
+      "name": "EGG BOMB",
+      "standardId": 121,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 122,
+      "name": "LICK",
+      "standardId": 122,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 123,
+      "name": "SMOG",
+      "standardId": 123,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 124,
+      "name": "SLUDGE",
+      "standardId": 124,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 125,
+      "name": "BONE CLUB",
+      "standardId": 125,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 126,
+      "name": "FIRE BLAST",
+      "standardId": 126,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 127,
+      "name": "WATERFALL",
+      "standardId": 127,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 128,
+      "name": "CLAMP",
+      "standardId": 128,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 129,
+      "name": "SWIFT",
+      "standardId": 129,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 130,
+      "name": "IRON HEAD",
+      "standardId": 442,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 131,
+      "name": "SPIKE CANNON",
+      "standardId": 131,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 132,
+      "name": "CONSTRICT",
+      "standardId": 132,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 133,
+      "name": "AMNESIA",
+      "standardId": 133,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 134,
+      "name": "KINESIS",
+      "standardId": 134,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 135,
+      "name": "SOFTBOILED",
+      "standardId": 135,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 136,
+      "name": "HI JUMP KICK",
+      "standardId": null,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 137,
+      "name": "GLARE",
+      "standardId": 137,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 138,
+      "name": "DREAM EATER",
+      "standardId": 138,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 139,
+      "name": "POISON GAS",
+      "standardId": 139,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 140,
+      "name": "ROCK WRECKER",
+      "standardId": 439,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 141,
+      "name": "LEECH LIFE",
+      "standardId": 141,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 142,
+      "name": "LOVELY KISS",
+      "standardId": 142,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 143,
+      "name": "BRAVE BIRD",
+      "standardId": 413,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 144,
+      "name": "TRANSFORM",
+      "standardId": 144,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 145,
+      "name": "BUBBLE",
+      "standardId": 145,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 146,
+      "name": "DIZZY PUNCH",
+      "standardId": 146,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 147,
+      "name": "SPORE",
+      "standardId": 147,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 148,
+      "name": "FLASH",
+      "standardId": 148,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 149,
+      "name": "PSYWAVE",
+      "standardId": 149,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 150,
+      "name": "SPLASH",
+      "standardId": 150,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 151,
+      "name": "ACID ARMOR",
+      "standardId": 151,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 152,
+      "name": "CRABHAMMER",
+      "standardId": 152,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 153,
+      "name": "EXPLOSION",
+      "standardId": 153,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 154,
+      "name": "FURY SWIPES",
+      "standardId": 154,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 155,
+      "name": "BONEMERANG",
+      "standardId": 155,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 156,
+      "name": "REST",
+      "standardId": 156,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 157,
+      "name": "STONE EDGE",
+      "standardId": 444,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 158,
+      "name": "HYPER FANG",
+      "standardId": 158,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 159,
+      "name": "SHARPEN",
+      "standardId": 159,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 160,
+      "name": "CONVERSION",
+      "standardId": 160,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 161,
+      "name": "TRI ATTACK",
+      "standardId": 161,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 162,
+      "name": "SUPER FANG",
+      "standardId": 162,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 163,
+      "name": "SLASH",
+      "standardId": 163,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 164,
+      "name": "SUBSTITUTE",
+      "standardId": 164,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 165,
+      "name": "STRUGGLE",
+      "standardId": 165,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 166,
+      "name": "SKETCH",
+      "standardId": 166,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 167,
+      "name": "TRIPLE KICK",
+      "standardId": 167,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 168,
+      "name": "THIEF",
+      "standardId": 168,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 169,
+      "name": "SPIDER WEB",
+      "standardId": 169,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 170,
+      "name": "MIND READER",
+      "standardId": 170,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 171,
+      "name": "NIGHTMARE",
+      "standardId": 171,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 172,
+      "name": "FLAME WHEEL",
+      "standardId": 172,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 173,
+      "name": "SNORE",
+      "standardId": 173,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 174,
+      "name": "CURSE",
+      "standardId": 174,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 175,
+      "name": "FLAIL",
+      "standardId": 175,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 176,
+      "name": "CONVERSION 2",
+      "standardId": 176,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 177,
+      "name": "AEROBLAST",
+      "standardId": 177,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 178,
+      "name": "COTTON SPORE",
+      "standardId": 178,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 179,
+      "name": "REVERSAL",
+      "standardId": 179,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 180,
+      "name": "OMINOUS WIND",
+      "standardId": 466,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 181,
+      "name": "POWDER SNOW",
+      "standardId": 181,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 182,
+      "name": "PROTECT",
+      "standardId": 182,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 183,
+      "name": "MACH PUNCH",
+      "standardId": 183,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 184,
+      "name": "SCARY FACE",
+      "standardId": 184,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 185,
+      "name": "DARK PULSE",
+      "standardId": 399,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 186,
+      "name": "SWEET KISS",
+      "standardId": 186,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 187,
+      "name": "BELLY DRUM",
+      "standardId": 187,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 188,
+      "name": "SLUDGE BOMB",
+      "standardId": 188,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 189,
+      "name": "MUD-SLAP",
+      "standardId": 189,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 190,
+      "name": "OCTAZOOKA",
+      "standardId": 190,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 191,
+      "name": "SPIKES",
+      "standardId": 191,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 192,
+      "name": "ZAP CANNON",
+      "standardId": 192,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 193,
+      "name": "FORESIGHT",
+      "standardId": 193,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 194,
+      "name": "DESTINY BOND",
+      "standardId": 194,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 195,
+      "name": "PERISH SONG",
+      "standardId": 195,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 196,
+      "name": "ICY WIND",
+      "standardId": 196,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 197,
+      "name": "DETECT",
+      "standardId": 197,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 198,
+      "name": "BONE RUSH",
+      "standardId": 198,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 199,
+      "name": "LOCK-ON",
+      "standardId": 199,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 200,
+      "name": "OUTRAGE",
+      "standardId": 200,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 201,
+      "name": "SANDSTORM",
+      "standardId": 201,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 202,
+      "name": "GIGA DRAIN",
+      "standardId": 202,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 203,
+      "name": "ENDURE",
+      "standardId": 203,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 204,
+      "name": "CHARM",
+      "standardId": 204,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 205,
+      "name": "ROLLOUT",
+      "standardId": 205,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 206,
+      "name": "SHADOW CLAW",
+      "standardId": 421,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 207,
+      "name": "SWAGGER",
+      "standardId": 207,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 208,
+      "name": "MILK DRINK",
+      "standardId": 208,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 209,
+      "name": "SPARK",
+      "standardId": 209,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 210,
+      "name": "X-SCISSOR",
+      "standardId": 404,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 211,
+      "name": "STEEL WING",
+      "standardId": 211,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 212,
+      "name": "MEAN LOOK",
+      "standardId": 212,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 213,
+      "name": "ATTRACT",
+      "standardId": 213,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 214,
+      "name": "SLEEP TALK",
+      "standardId": 214,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 215,
+      "name": "HEAL BELL",
+      "standardId": 215,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 216,
+      "name": "RETURN",
+      "standardId": 216,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 217,
+      "name": "PRESENT",
+      "standardId": 217,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 218,
+      "name": "FRUSTRATION",
+      "standardId": 218,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 219,
+      "name": "SAFEGUARD",
+      "standardId": 219,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 220,
+      "name": "PAIN SPLIT",
+      "standardId": 220,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 221,
+      "name": "SACRED FIRE",
+      "standardId": 221,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 222,
+      "name": "MAGNITUDE",
+      "standardId": 222,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 223,
+      "name": "DYNAMICPUNCH",
+      "standardId": 223,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 224,
+      "name": "MEGAHORN",
+      "standardId": 224,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 225,
+      "name": "DRAGONBREATH",
+      "standardId": 225,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 226,
+      "name": "BATON PASS",
+      "standardId": 226,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 227,
+      "name": "ENCORE",
+      "standardId": 227,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 228,
+      "name": "PURSUIT",
+      "standardId": 228,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 229,
+      "name": "RAPID SPIN",
+      "standardId": 229,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 230,
+      "name": "SWEET SCENT",
+      "standardId": 230,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 231,
+      "name": "IRON TAIL",
+      "standardId": 231,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 232,
+      "name": "METAL CLAW",
+      "standardId": 232,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 233,
+      "name": "VITAL THROW",
+      "standardId": 233,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 234,
+      "name": "MORNING SUN",
+      "standardId": 234,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 235,
+      "name": "SYNTHESIS",
+      "standardId": 235,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 236,
+      "name": "MOONLIGHT",
+      "standardId": 236,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 237,
+      "name": "HIDDEN POWER",
+      "standardId": 237,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 238,
+      "name": "CROSS CHOP",
+      "standardId": 238,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 239,
+      "name": "HURRICANE",
+      "standardId": 542,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 240,
+      "name": "RAIN DANCE",
+      "standardId": 240,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 241,
+      "name": "SUNNY DAY",
+      "standardId": 241,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 242,
+      "name": "CRUNCH",
+      "standardId": 242,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 243,
+      "name": "MIRROR COAT",
+      "standardId": 243,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 244,
+      "name": "PSYCH UP",
+      "standardId": 244,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 245,
+      "name": "EXTREMESPEED",
+      "standardId": 245,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 246,
+      "name": "ANCIENTPOWER",
+      "standardId": 246,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 247,
+      "name": "SHADOW BALL",
+      "standardId": 247,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 248,
+      "name": "FUTURE SIGHT",
+      "standardId": 248,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 249,
+      "name": "ROCK SMASH",
+      "standardId": 249,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 250,
+      "name": "WHIRLPOOL",
+      "standardId": 250,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 251,
+      "name": "BEAT UP",
+      "standardId": 251,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 252,
+      "name": "FAKE OUT",
+      "standardId": 252,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 253,
+      "name": "ZEN HEADBUTT",
+      "standardId": 428,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 254,
+      "name": "AUTOTOMIZE",
+      "standardId": 475,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 255,
+      "name": "NASTY PLOT",
+      "standardId": 417,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 256,
+      "name": "SWALLOW",
+      "standardId": 256,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 257,
+      "name": "HEAT WAVE",
+      "standardId": 257,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 258,
+      "name": "HAIL",
+      "standardId": 258,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 259,
+      "name": "TORMENT",
+      "standardId": 259,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 260,
+      "name": "FLATTER",
+      "standardId": 260,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 261,
+      "name": "WILL-O-WISP",
+      "standardId": 261,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 262,
+      "name": "MEMENTO",
+      "standardId": 262,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 263,
+      "name": "FACADE",
+      "standardId": 263,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 264,
+      "name": "FOCUS PUNCH",
+      "standardId": 264,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 265,
+      "name": "SMELLINGSALT",
+      "standardId": null,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 266,
+      "name": "FOLLOW ME",
+      "standardId": 266,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 267,
+      "name": "NATURE POWER",
+      "standardId": 267,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 268,
+      "name": "CHARGE",
+      "standardId": 268,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 269,
+      "name": "TAUNT",
+      "standardId": 269,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 270,
+      "name": "HELPING HAND",
+      "standardId": 270,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 271,
+      "name": "TRICK",
+      "standardId": 271,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 272,
+      "name": "ROLE PLAY",
+      "standardId": 272,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 273,
+      "name": "WISH",
+      "standardId": 273,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 274,
+      "name": "ASSIST",
+      "standardId": 274,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 275,
+      "name": "INGRAIN",
+      "standardId": 275,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 276,
+      "name": "SUPERPOWER",
+      "standardId": 276,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 277,
+      "name": "MAGIC COAT",
+      "standardId": 277,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 278,
+      "name": "RECYCLE",
+      "standardId": 278,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 279,
+      "name": "REVENGE",
+      "standardId": 279,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 280,
+      "name": "BRICK BREAK",
+      "standardId": 280,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 281,
+      "name": "YAWN",
+      "standardId": 281,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 282,
+      "name": "KNOCK OFF",
+      "standardId": 282,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 283,
+      "name": "ENDEAVOR",
+      "standardId": 283,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 284,
+      "name": "ERUPTION",
+      "standardId": 284,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 285,
+      "name": "SKILL SWAP",
+      "standardId": 285,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 286,
+      "name": "IMPRISON",
+      "standardId": 286,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 287,
+      "name": "REFRESH",
+      "standardId": 287,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 288,
+      "name": "GRUDGE",
+      "standardId": 288,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 289,
+      "name": "SNATCH",
+      "standardId": 289,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 290,
+      "name": "SECRET POWER",
+      "standardId": 290,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 291,
+      "name": "DIVE",
+      "standardId": 291,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 292,
+      "name": "ARM THRUST",
+      "standardId": 292,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 293,
+      "name": "CAMOUFLAGE",
+      "standardId": 293,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 294,
+      "name": "TAIL GLOW",
+      "standardId": 294,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 295,
+      "name": "FLASH CANNON",
+      "standardId": 430,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 296,
+      "name": "AURA SPHERE",
+      "standardId": 396,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 297,
+      "name": "ROOST",
+      "standardId": 355,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 298,
+      "name": "TEETER DANCE",
+      "standardId": 298,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 299,
+      "name": "BLAZE KICK",
+      "standardId": 299,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 300,
+      "name": "MUD SPORT",
+      "standardId": 300,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 301,
+      "name": "ICE BALL",
+      "standardId": 301,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 302,
+      "name": "NEEDLE ARM",
+      "standardId": 302,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 303,
+      "name": "SLACK OFF",
+      "standardId": 303,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 304,
+      "name": "HYPER VOICE",
+      "standardId": 304,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 305,
+      "name": "POISON FANG",
+      "standardId": 305,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 306,
+      "name": "CRUSH CLAW",
+      "standardId": 306,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 307,
+      "name": "BLAST BURN",
+      "standardId": 307,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 308,
+      "name": "HYDRO CANNON",
+      "standardId": 308,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 309,
+      "name": "METEOR MASH",
+      "standardId": 309,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 310,
+      "name": "ASTONISH",
+      "standardId": 310,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 311,
+      "name": "WEATHER BALL",
+      "standardId": 311,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 312,
+      "name": "AROMATHERAPY",
+      "standardId": 312,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 313,
+      "name": "FAKE TEARS",
+      "standardId": 313,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 314,
+      "name": "AIR SLASH",
+      "standardId": 403,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 315,
+      "name": "OVERHEAT",
+      "standardId": 315,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 316,
+      "name": "ODOR SLEUTH",
+      "standardId": 316,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 317,
+      "name": "STEALTH ROCK",
+      "standardId": 446,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 318,
+      "name": "SILVER WIND",
+      "standardId": 318,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 319,
+      "name": "METAL SOUND",
+      "standardId": 319,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 320,
+      "name": "GRASSWHISTLE",
+      "standardId": 320,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 321,
+      "name": "TICKLE",
+      "standardId": 321,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 322,
+      "name": "COSMIC POWER",
+      "standardId": 322,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 323,
+      "name": "WATER SPOUT",
+      "standardId": 323,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 324,
+      "name": "SIGNAL BEAM",
+      "standardId": 324,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 325,
+      "name": "SHADOW PUNCH",
+      "standardId": 325,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 326,
+      "name": "EXTRASENSORY",
+      "standardId": 326,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 327,
+      "name": "SKY UPPERCUT",
+      "standardId": 327,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 328,
+      "name": "SAND TOMB",
+      "standardId": 328,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 329,
+      "name": "SHEER COLD",
+      "standardId": 329,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 330,
+      "name": "MUDDY WATER",
+      "standardId": 330,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 331,
+      "name": "BULLET SEED",
+      "standardId": 331,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 332,
+      "name": "AERIAL ACE",
+      "standardId": 332,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 333,
+      "name": "ICICLE SPEAR",
+      "standardId": 333,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 334,
+      "name": "IRON DEFENSE",
+      "standardId": 334,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 335,
+      "name": "BLOCK",
+      "standardId": 335,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 336,
+      "name": "HOWL",
+      "standardId": 336,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 337,
+      "name": "DRAGON CLAW",
+      "standardId": 337,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 338,
+      "name": "FRENZY PLANT",
+      "standardId": 338,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 339,
+      "name": "BULK UP",
+      "standardId": 339,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 340,
+      "name": "BOUNCE",
+      "standardId": 340,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 341,
+      "name": "MUD SHOT",
+      "standardId": 341,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 342,
+      "name": "POISON TAIL",
+      "standardId": 342,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 343,
+      "name": "COVET",
+      "standardId": 343,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 344,
+      "name": "VOLT TACKLE",
+      "standardId": 344,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 345,
+      "name": "MAGICAL LEAF",
+      "standardId": 345,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 346,
+      "name": "SCALD",
+      "standardId": 503,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 347,
+      "name": "CALM MIND",
+      "standardId": 347,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 348,
+      "name": "LEAF BLADE",
+      "standardId": 348,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 349,
+      "name": "DRAGON DANCE",
+      "standardId": 349,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 350,
+      "name": "ROCK BLAST",
+      "standardId": 350,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 351,
+      "name": "SHOCK WAVE",
+      "standardId": 351,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 352,
+      "name": "WATER PULSE",
+      "standardId": 352,
+      "confidence": "name-match; effects unverified"
+    },
+    {
+      "id": 353,
+      "name": "JUDGEMENT",
+      "standardId": null,
+      "confidence": "unmapped"
+    },
+    {
+      "id": 354,
+      "name": "DARK CHAOS",
+      "standardId": null,
+      "confidence": "unmapped"
+    }
+  ]
+}

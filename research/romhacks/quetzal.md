@@ -1,0 +1,15 @@
+# Pokémon Quetzal English Alpha 9 v1 / 9.1
+
+**Status:** read-only PK9 export from the supported 128 KiB save layout. The [ROM-derived tables](../../src/PKHeX.Everywhere.RomHacks/Quetzal/quetzal-9-v1.json) identify the English Alpha 9 v1 ROM by SHA-1 `c108cec750a35775084c0806cc704d8abd1994e7`; never bundle the ROM or a user's save.
+
+## Save and Pokémon records
+
+[quetzalSave.ts](../../src/PKHeX.Web.React/src/pages/load/quetzalSave.ts) validates 16 rotated sectors per slot (signature `0x08012025`, consistent counter and checksum over `0xFF4`), chooses the newest valid slot, and joins `0xF80` bytes of each storage sector. SaveBlock1 party count is at `0x6A4`, party array at `0x6A8`, 104 bytes per unencrypted party record. The PC stream begins at `0x461`. Three layouts are scored: 38-byte/37-box, 31-byte/45-box and 21-byte/67-box; only **31-byte** and empty-PC cases export. Ambiguous or unsupported layouts are refused.
+
+In the 31-byte compact record, little-endian bits: species `0..10`, item `11..20`, experience/10 `21..37`, ball `38..43`, shiny bit 44, Radiant bit 45, four 10-bit moves starting 48, six 6-bit EVs starting 88 (stored ÷4), six 5-bit IVs starting 124, female bit 160, nature `161..165`, ability slot `166..167`; nickname is bytes 21–30. Box records omit OT, PID, met location and PP. Source raw records and approximation flags are retained in metadata. Party/PC cross-checks and the named real examples support the selected layout; more revisions need separate verification.
+
+## Mapping decisions
+
+[QuetzalExporter](../../src/PKHeX.Everywhere.RomHacks/Quetzal/QuetzalExporter.cs) maps native table names to PKHeX species/move/item/ability IDs, resolving forms by stats/types and abilities where unique; unsupported or ambiguous mappings fail. Box OT is approximated with the save trainer, box PID is derived from a hash of the raw record, and PID may be adjusted to preserve shiny status. Party flags at byte `0x13`: bit 3 is shiny and bit 4 is Radiant; compact PC bits 44/45 represent them respectively. Radiant **or** shiny exports as a standard shiny; PK9 cannot retain the Radiant palette. Synthetic tests cover all four combinations of the two flags; the supplied save provides additional examples, but the identity of one named Radiant example was not confirmed. Further independent in-game confirmation is useful.
+
+Known ball IDs are mapped by name; native ID 25 (Radiant Ball) and other unmapped IDs become **Great Ball**, with `nativeBallId` and `ballApproximate` in metadata. Do not infer Radiant status from ball type. PK9 origin is Scarlet (`SL`), and a low-level Scarlet/Violet wild encounter for the species/form is chosen as a **suggestion**, preferring Paldea; otherwise met location is unknown. These are not actual source encounters. Experience/met level and box PP are approximated, and some held items require manual PK9 format selection in tools. See [Quetzal checks](../../src/PKHeX.Everywhere.ProfileChecks/QuetzalChecks.cs), [web parser tests](../../src/PKHeX.Web.React/src/pages/load/quetzalSave.test.ts), and [PokeDaisy](https://github.com/lidor30/pokedaisy), whose GPL-3.0 tools informed ROM-table extraction.

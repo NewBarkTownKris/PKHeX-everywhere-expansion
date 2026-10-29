@@ -1,0 +1,2886 @@
+{
+  "species": [
+    {
+      "id": 1,
+      "national": 1,
+      "name": "BULBASAUR"
+    },
+    {
+      "id": 2,
+      "national": 2,
+      "name": "IVYSAUR"
+    },
+    {
+      "id": 3,
+      "national": 3,
+      "name": "VENUSAUR"
+    },
+    {
+      "id": 4,
+      "national": 4,
+      "name": "CHARMANDER"
+    },
+    {
+      "id": 5,
+      "national": 5,
+      "name": "CHARMELEON"
+    },
+    {
+      "id": 6,
+      "national": 6,
+      "name": "CHARIZARD"
+    },
+    {
+      "id": 7,
+      "national": 7,
+      "name": "SQUIRTLE"
+    },
+    {
+      "id": 8,
+      "national": 8,
+      "name": "WARTORTLE"
+    },
+    {
+      "id": 9,
+      "national": 9,
+      "name": "BLASTOISE"
+    },
+    {
+      "id": 10,
+      "national": 10,
+      "name": "CATERPIE"
+    },
+    {
+      "id": 11,
+      "national": 11,
+      "name": "METAPOD"
+    },
+    {
+      "id": 12,
+      "national": 12,
+      "name": "BUTTERFREE"
+    },
+    {
+      "id": 13,
+      "national": 13,
+      "name": "WEEDLE"
+    },
+    {
+      "id": 14,
+      "national": 14,
+      "name": "KAKUNA"
+    },
+    {
+      "id": 15,
+      "national": 15,
+      "name": "BEEDRILL"
+    },
+    {
+      "id": 16,
+      "national": 16,
+      "name": "PIDGEY"
+    },
+    {
+      "id": 17,
+      "national": 17,
+      "name": "PIDGEOTTO"
+    },
+    {
+      "id": 18,
+      "national": 18,
+      "name": "PIDGEOT"
+    },
+    {
+      "id": 19,
+      "national": 19,
+      "name": "RATTATA"
+    },
+    {
+      "id": 20,
+      "national": 20,
+      "name": "RATICATE"
+    },
+    {
+      "id": 21,
+      "national": 21,
+      "name": "SPEAROW"
+    },
+    {
+      "id": 22,
+      "national": 22,
+      "name": "FEAROW"
+    },
+    {
+      "id": 23,
+      "national": 23,
+      "name": "EKANS"
+    },
+    {
+      "id": 24,
+      "national": 24,
+      "name": "ARBOK"
+    },
+    {
+      "id": 25,
+      "national": 25,
+      "name": "PIKACHU"
+    },
+    {
+      "id": 26,
+      "national": 26,
+      "name": "RAICHU"
+    },
+    {
+      "id": 27,
+      "national": 27,
+      "name": "SANDSHREW"
+    },
+    {
+      "id": 28,
+      "national": 28,
+      "name": "SANDSLASH"
+    },
+    {
+      "id": 29,
+      "national": 29,
+      "name": "NIDORAN_F"
+    },
+    {
+      "id": 30,
+      "national": 30,
+      "name": "NIDORINA"
+    },
+    {
+      "id": 31,
+      "national": 31,
+      "name": "NIDOQUEEN"
+    },
+    {
+      "id": 32,
+      "national": 32,
+      "name": "NIDORAN_M"
+    },
+    {
+      "id": 33,
+      "national": 33,
+      "name": "NIDORINO"
+    },
+    {
+      "id": 34,
+      "national": 34,
+      "name": "NIDOKING"
+    },
+    {
+      "id": 35,
+      "national": 35,
+      "name": "CLEFAIRY"
+    },
+    {
+      "id": 36,
+      "national": 36,
+      "name": "CLEFABLE"
+    },
+    {
+      "id": 37,
+      "national": 37,
+      "name": "VULPIX"
+    },
+    {
+      "id": 38,
+      "national": 38,
+      "name": "NINETALES"
+    },
+    {
+      "id": 39,
+      "national": 39,
+      "name": "JIGGLYPUFF"
+    },
+    {
+      "id": 40,
+      "national": 40,
+      "name": "WIGGLYTUFF"
+    },
+    {
+      "id": 41,
+      "national": 41,
+      "name": "ZUBAT"
+    },
+    {
+      "id": 42,
+      "national": 42,
+      "name": "GOLBAT"
+    },
+    {
+      "id": 43,
+      "national": 43,
+      "name": "ODDISH"
+    },
+    {
+      "id": 44,
+      "national": 44,
+      "name": "GLOOM"
+    },
+    {
+      "id": 45,
+      "national": 45,
+      "name": "VILEPLUME"
+    },
+    {
+      "id": 46,
+      "national": 46,
+      "name": "PARAS"
+    },
+    {
+      "id": 47,
+      "national": 47,
+      "name": "PARASECT"
+    },
+    {
+      "id": 48,
+      "national": 48,
+      "name": "VENONAT"
+    },
+    {
+      "id": 49,
+      "national": 49,
+      "name": "VENOMOTH"
+    },
+    {
+      "id": 50,
+      "national": 50,
+      "name": "DIGLETT"
+    },
+    {
+      "id": 51,
+      "national": 51,
+      "name": "DUGTRIO"
+    },
+    {
+      "id": 52,
+      "national": 52,
+      "name": "MEOWTH"
+    },
+    {
+      "id": 53,
+      "national": 53,
+      "name": "PERSIAN"
+    },
+    {
+      "id": 54,
+      "national": 54,
+      "name": "PSYDUCK"
+    },
+    {
+      "id": 55,
+      "national": 55,
+      "name": "GOLDUCK"
+    },
+    {
+      "id": 56,
+      "national": 56,
+      "name": "MANKEY"
+    },
+    {
+      "id": 57,
+      "national": 57,
+      "name": "PRIMEAPE"
+    },
+    {
+      "id": 58,
+      "national": 58,
+      "name": "GROWLITHE"
+    },
+    {
+      "id": 59,
+      "national": 59,
+      "name": "ARCANINE"
+    },
+    {
+      "id": 60,
+      "national": 60,
+      "name": "POLIWAG"
+    },
+    {
+      "id": 61,
+      "national": 61,
+      "name": "POLIWHIRL"
+    },
+    {
+      "id": 62,
+      "national": 62,
+      "name": "POLIWRATH"
+    },
+    {
+      "id": 63,
+      "national": 63,
+      "name": "ABRA"
+    },
+    {
+      "id": 64,
+      "national": 64,
+      "name": "KADABRA"
+    },
+    {
+      "id": 65,
+      "national": 65,
+      "name": "ALAKAZAM"
+    },
+    {
+      "id": 66,
+      "national": 66,
+      "name": "MACHOP"
+    },
+    {
+      "id": 67,
+      "national": 67,
+      "name": "MACHOKE"
+    },
+    {
+      "id": 68,
+      "national": 68,
+      "name": "MACHAMP"
+    },
+    {
+      "id": 69,
+      "national": 69,
+      "name": "BELLSPROUT"
+    },
+    {
+      "id": 70,
+      "national": 70,
+      "name": "WEEPINBELL"
+    },
+    {
+      "id": 71,
+      "national": 71,
+      "name": "VICTREEBEL"
+    },
+    {
+      "id": 72,
+      "national": 72,
+      "name": "TENTACOOL"
+    },
+    {
+      "id": 73,
+      "national": 73,
+      "name": "TENTACRUEL"
+    },
+    {
+      "id": 74,
+      "national": 74,
+      "name": "GEODUDE"
+    },
+    {
+      "id": 75,
+      "national": 75,
+      "name": "GRAVELER"
+    },
+    {
+      "id": 76,
+      "national": 76,
+      "name": "GOLEM"
+    },
+    {
+      "id": 77,
+      "national": 77,
+      "name": "PONYTA"
+    },
+    {
+      "id": 78,
+      "national": 78,
+      "name": "RAPIDASH"
+    },
+    {
+      "id": 79,
+      "national": 79,
+      "name": "SLOWPOKE"
+    },
+    {
+      "id": 80,
+      "national": 80,
+      "name": "SLOWBRO"
+    },
+    {
+      "id": 81,
+      "national": 81,
+      "name": "MAGNEMITE"
+    },
+    {
+      "id": 82,
+      "national": 82,
+      "name": "MAGNETON"
+    },
+    {
+      "id": 83,
+      "national": 83,
+      "name": "FARFETCH_D"
+    },
+    {
+      "id": 84,
+      "national": 84,
+      "name": "DODUO"
+    },
+    {
+      "id": 85,
+      "national": 85,
+      "name": "DODRIO"
+    },
+    {
+      "id": 86,
+      "national": 86,
+      "name": "SEEL"
+    },
+    {
+      "id": 87,
+      "national": 87,
+      "name": "DEWGONG"
+    },
+    {
+      "id": 88,
+      "national": 88,
+      "name": "GRIMER"
+    },
+    {
+      "id": 89,
+      "national": 89,
+      "name": "MUK"
+    },
+    {
+      "id": 90,
+      "national": 90,
+      "name": "SHELLDER"
+    },
+    {
+      "id": 91,
+      "national": 91,
+      "name": "CLOYSTER"
+    },
+    {
+      "id": 92,
+      "national": 92,
+      "name": "GASTLY"
+    },
+    {
+      "id": 93,
+      "national": 93,
+      "name": "HAUNTER"
+    },
+    {
+      "id": 94,
+      "national": 94,
+      "name": "GENGAR"
+    },
+    {
+      "id": 95,
+      "national": 95,
+      "name": "ONIX"
+    },
+    {
+      "id": 96,
+      "national": 96,
+      "name": "DROWZEE"
+    },
+    {
+      "id": 97,
+      "national": 97,
+      "name": "HYPNO"
+    },
+    {
+      "id": 98,
+      "national": 98,
+      "name": "KRABBY"
+    },
+    {
+      "id": 99,
+      "national": 99,
+      "name": "KINGLER"
+    },
+    {
+      "id": 100,
+      "national": 100,
+      "name": "VOLTORB"
+    },
+    {
+      "id": 101,
+      "national": 101,
+      "name": "ELECTRODE"
+    },
+    {
+      "id": 102,
+      "national": 102,
+      "name": "EXEGGCUTE"
+    },
+    {
+      "id": 103,
+      "national": 103,
+      "name": "EXEGGUTOR"
+    },
+    {
+      "id": 104,
+      "national": 104,
+      "name": "CUBONE"
+    },
+    {
+      "id": 105,
+      "national": 105,
+      "name": "MAROWAK"
+    },
+    {
+      "id": 106,
+      "national": 106,
+      "name": "HITMONLEE"
+    },
+    {
+      "id": 107,
+      "national": 107,
+      "name": "HITMONCHAN"
+    },
+    {
+      "id": 108,
+      "national": 108,
+      "name": "LICKITUNG"
+    },
+    {
+      "id": 109,
+      "national": 109,
+      "name": "KOFFING"
+    },
+    {
+      "id": 110,
+      "national": 110,
+      "name": "WEEZING"
+    },
+    {
+      "id": 111,
+      "national": 111,
+      "name": "RHYHORN"
+    },
+    {
+      "id": 112,
+      "national": 112,
+      "name": "RHYDON"
+    },
+    {
+      "id": 113,
+      "national": 113,
+      "name": "CHANSEY"
+    },
+    {
+      "id": 114,
+      "national": 114,
+      "name": "TANGELA"
+    },
+    {
+      "id": 115,
+      "national": 115,
+      "name": "KANGASKHAN"
+    },
+    {
+      "id": 116,
+      "national": 116,
+      "name": "HORSEA"
+    },
+    {
+      "id": 117,
+      "national": 117,
+      "name": "SEADRA"
+    },
+    {
+      "id": 118,
+      "national": 118,
+      "name": "GOLDEEN"
+    },
+    {
+      "id": 119,
+      "national": 119,
+      "name": "SEAKING"
+    },
+    {
+      "id": 120,
+      "national": 120,
+      "name": "STARYU"
+    },
+    {
+      "id": 121,
+      "national": 121,
+      "name": "STARMIE"
+    },
+    {
+      "id": 122,
+      "national": 122,
+      "name": "MR__MIME"
+    },
+    {
+      "id": 123,
+      "national": 123,
+      "name": "SCYTHER"
+    },
+    {
+      "id": 124,
+      "national": 124,
+      "name": "JYNX"
+    },
+    {
+      "id": 125,
+      "national": 125,
+      "name": "ELECTABUZZ"
+    },
+    {
+      "id": 126,
+      "national": 126,
+      "name": "MAGMAR"
+    },
+    {
+      "id": 127,
+      "national": 127,
+      "name": "PINSIR"
+    },
+    {
+      "id": 128,
+      "national": 128,
+      "name": "TAUROS"
+    },
+    {
+      "id": 129,
+      "national": 129,
+      "name": "MAGIKARP"
+    },
+    {
+      "id": 130,
+      "national": 130,
+      "name": "GYARADOS"
+    },
+    {
+      "id": 131,
+      "national": 131,
+      "name": "LAPRAS"
+    },
+    {
+      "id": 132,
+      "national": 132,
+      "name": "DITTO"
+    },
+    {
+      "id": 133,
+      "national": 133,
+      "name": "EEVEE"
+    },
+    {
+      "id": 134,
+      "national": 134,
+      "name": "VAPOREON"
+    },
+    {
+      "id": 135,
+      "national": 135,
+      "name": "JOLTEON"
+    },
+    {
+      "id": 136,
+      "national": 136,
+      "name": "FLAREON"
+    },
+    {
+      "id": 137,
+      "national": 137,
+      "name": "PORYGON"
+    },
+    {
+      "id": 138,
+      "national": 138,
+      "name": "OMANYTE"
+    },
+    {
+      "id": 139,
+      "national": 139,
+      "name": "OMASTAR"
+    },
+    {
+      "id": 140,
+      "national": 140,
+      "name": "KABUTO"
+    },
+    {
+      "id": 141,
+      "national": 141,
+      "name": "KABUTOPS"
+    },
+    {
+      "id": 142,
+      "national": 142,
+      "name": "AERODACTYL"
+    },
+    {
+      "id": 143,
+      "national": 143,
+      "name": "SNORLAX"
+    },
+    {
+      "id": 144,
+      "national": 144,
+      "name": "ARTICUNO"
+    },
+    {
+      "id": 145,
+      "national": 145,
+      "name": "ZAPDOS"
+    },
+    {
+      "id": 146,
+      "national": 146,
+      "name": "MOLTRES"
+    },
+    {
+      "id": 147,
+      "national": 147,
+      "name": "DRATINI"
+    },
+    {
+      "id": 148,
+      "national": 148,
+      "name": "DRAGONAIR"
+    },
+    {
+      "id": 149,
+      "national": 149,
+      "name": "DRAGONITE"
+    },
+    {
+      "id": 150,
+      "national": 150,
+      "name": "MEWTWO"
+    },
+    {
+      "id": 151,
+      "national": 151,
+      "name": "MEW"
+    },
+    {
+      "id": 152,
+      "national": 152,
+      "name": "CHIKORITA"
+    },
+    {
+      "id": 153,
+      "national": 153,
+      "name": "BAYLEEF"
+    },
+    {
+      "id": 154,
+      "national": 154,
+      "name": "MEGANIUM"
+    },
+    {
+      "id": 155,
+      "national": 155,
+      "name": "CYNDAQUIL"
+    },
+    {
+      "id": 156,
+      "national": 156,
+      "name": "QUILAVA"
+    },
+    {
+      "id": 157,
+      "national": 157,
+      "name": "TYPHLOSION"
+    },
+    {
+      "id": 158,
+      "national": 158,
+      "name": "TOTODILE"
+    },
+    {
+      "id": 159,
+      "national": 159,
+      "name": "CROCONAW"
+    },
+    {
+      "id": 160,
+      "national": 160,
+      "name": "FERALIGATR"
+    },
+    {
+      "id": 161,
+      "national": 161,
+      "name": "SENTRET"
+    },
+    {
+      "id": 162,
+      "national": 162,
+      "name": "FURRET"
+    },
+    {
+      "id": 163,
+      "national": 163,
+      "name": "HOOTHOOT"
+    },
+    {
+      "id": 164,
+      "national": 164,
+      "name": "NOCTOWL"
+    },
+    {
+      "id": 165,
+      "national": 165,
+      "name": "LEDYBA"
+    },
+    {
+      "id": 166,
+      "national": 166,
+      "name": "LEDIAN"
+    },
+    {
+      "id": 167,
+      "national": 167,
+      "name": "SPINARAK"
+    },
+    {
+      "id": 168,
+      "national": 168,
+      "name": "ARIADOS"
+    },
+    {
+      "id": 169,
+      "national": 169,
+      "name": "CROBAT"
+    },
+    {
+      "id": 170,
+      "national": 170,
+      "name": "CHINCHOU"
+    },
+    {
+      "id": 171,
+      "national": 171,
+      "name": "LANTURN"
+    },
+    {
+      "id": 172,
+      "national": 172,
+      "name": "PICHU"
+    },
+    {
+      "id": 173,
+      "national": 173,
+      "name": "CLEFFA"
+    },
+    {
+      "id": 174,
+      "national": 174,
+      "name": "IGGLYBUFF"
+    },
+    {
+      "id": 175,
+      "national": 175,
+      "name": "TOGEPI"
+    },
+    {
+      "id": 176,
+      "national": 176,
+      "name": "TOGETIC"
+    },
+    {
+      "id": 177,
+      "national": 177,
+      "name": "NATU"
+    },
+    {
+      "id": 178,
+      "national": 178,
+      "name": "XATU"
+    },
+    {
+      "id": 179,
+      "national": 179,
+      "name": "MAREEP"
+    },
+    {
+      "id": 180,
+      "national": 180,
+      "name": "FLAAFFY"
+    },
+    {
+      "id": 181,
+      "national": 181,
+      "name": "AMPHAROS"
+    },
+    {
+      "id": 182,
+      "national": 182,
+      "name": "BELLOSSOM"
+    },
+    {
+      "id": 183,
+      "national": 183,
+      "name": "MARILL"
+    },
+    {
+      "id": 184,
+      "national": 184,
+      "name": "AZUMARILL"
+    },
+    {
+      "id": 185,
+      "national": 185,
+      "name": "SUDOWOODO"
+    },
+    {
+      "id": 186,
+      "national": 186,
+      "name": "POLITOED"
+    },
+    {
+      "id": 187,
+      "national": 187,
+      "name": "HOPPIP"
+    },
+    {
+      "id": 188,
+      "national": 188,
+      "name": "SKIPLOOM"
+    },
+    {
+      "id": 189,
+      "national": 189,
+      "name": "JUMPLUFF"
+    },
+    {
+      "id": 190,
+      "national": 190,
+      "name": "AIPOM"
+    },
+    {
+      "id": 191,
+      "national": 191,
+      "name": "SUNKERN"
+    },
+    {
+      "id": 192,
+      "national": 192,
+      "name": "SUNFLORA"
+    },
+    {
+      "id": 193,
+      "national": 193,
+      "name": "YANMA"
+    },
+    {
+      "id": 194,
+      "national": 194,
+      "name": "WOOPER"
+    },
+    {
+      "id": 195,
+      "national": 195,
+      "name": "QUAGSIRE"
+    },
+    {
+      "id": 196,
+      "national": 196,
+      "name": "ESPEON"
+    },
+    {
+      "id": 197,
+      "national": 197,
+      "name": "UMBREON"
+    },
+    {
+      "id": 198,
+      "national": 198,
+      "name": "MURKROW"
+    },
+    {
+      "id": 199,
+      "national": 199,
+      "name": "SLOWKING"
+    },
+    {
+      "id": 200,
+      "national": 200,
+      "name": "MISDREAVUS"
+    },
+    {
+      "id": 201,
+      "national": 201,
+      "name": "UNOWN"
+    },
+    {
+      "id": 202,
+      "national": 202,
+      "name": "WOBBUFFET"
+    },
+    {
+      "id": 203,
+      "national": 203,
+      "name": "GIRAFARIG"
+    },
+    {
+      "id": 204,
+      "national": 204,
+      "name": "PINECO"
+    },
+    {
+      "id": 205,
+      "national": 205,
+      "name": "FORRETRESS"
+    },
+    {
+      "id": 206,
+      "national": 206,
+      "name": "DUNSPARCE"
+    },
+    {
+      "id": 207,
+      "national": 207,
+      "name": "GLIGAR"
+    },
+    {
+      "id": 208,
+      "national": 208,
+      "name": "STEELIX"
+    },
+    {
+      "id": 209,
+      "national": 209,
+      "name": "SNUBBULL"
+    },
+    {
+      "id": 210,
+      "national": 210,
+      "name": "GRANBULL"
+    },
+    {
+      "id": 211,
+      "national": 211,
+      "name": "QWILFISH"
+    },
+    {
+      "id": 212,
+      "national": 212,
+      "name": "SCIZOR"
+    },
+    {
+      "id": 213,
+      "national": 213,
+      "name": "SHUCKLE"
+    },
+    {
+      "id": 214,
+      "national": 214,
+      "name": "HERACROSS"
+    },
+    {
+      "id": 215,
+      "national": 215,
+      "name": "SNEASEL"
+    },
+    {
+      "id": 216,
+      "national": 216,
+      "name": "TEDDIURSA"
+    },
+    {
+      "id": 217,
+      "national": 217,
+      "name": "URSARING"
+    },
+    {
+      "id": 218,
+      "national": 218,
+      "name": "SLUGMA"
+    },
+    {
+      "id": 219,
+      "national": 219,
+      "name": "MAGCARGO"
+    },
+    {
+      "id": 220,
+      "national": 220,
+      "name": "SWINUB"
+    },
+    {
+      "id": 221,
+      "national": 221,
+      "name": "PILOSWINE"
+    },
+    {
+      "id": 222,
+      "national": 222,
+      "name": "CORSOLA"
+    },
+    {
+      "id": 223,
+      "national": 223,
+      "name": "REMORAID"
+    },
+    {
+      "id": 224,
+      "national": 224,
+      "name": "OCTILLERY"
+    },
+    {
+      "id": 225,
+      "national": 225,
+      "name": "DELIBIRD"
+    },
+    {
+      "id": 226,
+      "national": 226,
+      "name": "MANTINE"
+    },
+    {
+      "id": 227,
+      "national": 227,
+      "name": "SKARMORY"
+    },
+    {
+      "id": 228,
+      "national": 228,
+      "name": "HOUNDOUR"
+    },
+    {
+      "id": 229,
+      "national": 229,
+      "name": "HOUNDOOM"
+    },
+    {
+      "id": 230,
+      "national": 230,
+      "name": "KINGDRA"
+    },
+    {
+      "id": 231,
+      "national": 231,
+      "name": "PHANPY"
+    },
+    {
+      "id": 232,
+      "national": 232,
+      "name": "DONPHAN"
+    },
+    {
+      "id": 233,
+      "national": 233,
+      "name": "PORYGON2"
+    },
+    {
+      "id": 234,
+      "national": 234,
+      "name": "STANTLER"
+    },
+    {
+      "id": 235,
+      "national": 235,
+      "name": "SMEARGLE"
+    },
+    {
+      "id": 236,
+      "national": 236,
+      "name": "TYROGUE"
+    },
+    {
+      "id": 237,
+      "national": 237,
+      "name": "HITMONTOP"
+    },
+    {
+      "id": 238,
+      "national": 238,
+      "name": "SMOOCHUM"
+    },
+    {
+      "id": 239,
+      "national": 239,
+      "name": "ELEKID"
+    },
+    {
+      "id": 240,
+      "national": 240,
+      "name": "MAGBY"
+    },
+    {
+      "id": 241,
+      "national": 241,
+      "name": "MILTANK"
+    },
+    {
+      "id": 242,
+      "national": 242,
+      "name": "BLISSEY"
+    },
+    {
+      "id": 243,
+      "national": 243,
+      "name": "RAIKOU"
+    },
+    {
+      "id": 244,
+      "national": 244,
+      "name": "ENTEI"
+    },
+    {
+      "id": 245,
+      "national": 245,
+      "name": "SUICUNE"
+    },
+    {
+      "id": 246,
+      "national": 246,
+      "name": "LARVITAR"
+    },
+    {
+      "id": 247,
+      "national": 247,
+      "name": "PUPITAR"
+    },
+    {
+      "id": 248,
+      "national": 248,
+      "name": "TYRANITAR"
+    },
+    {
+      "id": 249,
+      "national": 249,
+      "name": "LUGIA"
+    },
+    {
+      "id": 250,
+      "national": 250,
+      "name": "HO_OH"
+    },
+    {
+      "id": 251,
+      "national": 251,
+      "name": "CELEBI"
+    },
+    {
+      "id": 252,
+      "national": 298,
+      "name": "AZURILL"
+    },
+    {
+      "id": 253,
+      "national": 360,
+      "name": "WYNAUT"
+    },
+    {
+      "id": 254,
+      "national": 424,
+      "name": "AMBIPOM"
+    },
+    {
+      "id": 257,
+      "national": 429,
+      "name": "MISMAGIUS"
+    },
+    {
+      "id": 258,
+      "national": 430,
+      "name": "HONCHKROW"
+    },
+    {
+      "id": 259,
+      "national": 438,
+      "name": "BONSLY"
+    },
+    {
+      "id": 260,
+      "national": 439,
+      "name": "MIME_JR_"
+    },
+    {
+      "id": 261,
+      "national": 440,
+      "name": "HAPPINY"
+    },
+    {
+      "id": 262,
+      "national": 446,
+      "name": "MUNCHLAX"
+    },
+    {
+      "id": 263,
+      "national": 458,
+      "name": "MANTYKE"
+    },
+    {
+      "id": 264,
+      "national": 461,
+      "name": "WEAVILE"
+    },
+    {
+      "id": 265,
+      "national": 462,
+      "name": "MAGNEZONE"
+    },
+    {
+      "id": 266,
+      "national": 463,
+      "name": "LICKILICKY"
+    },
+    {
+      "id": 267,
+      "national": 464,
+      "name": "RHYPERIOR"
+    },
+    {
+      "id": 268,
+      "national": 465,
+      "name": "TANGROWTH"
+    },
+    {
+      "id": 269,
+      "national": 466,
+      "name": "ELECTIVIRE"
+    },
+    {
+      "id": 270,
+      "national": 467,
+      "name": "MAGMORTAR"
+    },
+    {
+      "id": 271,
+      "national": 468,
+      "name": "TOGEKISS"
+    },
+    {
+      "id": 272,
+      "national": 469,
+      "name": "YANMEGA"
+    },
+    {
+      "id": 273,
+      "national": 470,
+      "name": "LEAFEON"
+    },
+    {
+      "id": 274,
+      "national": 471,
+      "name": "GLACEON"
+    },
+    {
+      "id": 275,
+      "national": 472,
+      "name": "GLISCOR"
+    },
+    {
+      "id": 276,
+      "national": 473,
+      "name": "MAMOSWINE"
+    },
+    {
+      "id": 277,
+      "national": 474,
+      "name": "PORYGON_Z"
+    },
+    {
+      "id": 278,
+      "national": 700,
+      "name": "SYLVEON"
+    },
+    {
+      "id": 279,
+      "national": 863,
+      "name": "PERRSERKER"
+    },
+    {
+      "id": 280,
+      "national": 864,
+      "name": "CURSOLA"
+    },
+    {
+      "id": 281,
+      "national": 865,
+      "name": "SIRFETCH_D"
+    },
+    {
+      "id": 282,
+      "national": 866,
+      "name": "MR__RIME"
+    },
+    {
+      "id": 283,
+      "national": 899,
+      "name": "WYRDEER"
+    },
+    {
+      "id": 284,
+      "national": 900,
+      "name": "KLEAVOR"
+    },
+    {
+      "id": 285,
+      "national": 901,
+      "name": "URSALUNA"
+    },
+    {
+      "id": 286,
+      "national": 903,
+      "name": "SNEASLER"
+    },
+    {
+      "id": 287,
+      "national": 904,
+      "name": "OVERQWIL"
+    },
+    {
+      "id": 288,
+      "national": 982,
+      "name": "DUDUNSPARCE"
+    },
+    {
+      "id": 289,
+      "national": 981,
+      "name": "FARIGIRAF"
+    },
+    {
+      "id": 290,
+      "national": 980,
+      "name": "CLODSIRE"
+    },
+    {
+      "id": 291,
+      "national": 979,
+      "name": "ANNIHILAPE"
+    }
+  ],
+  "moves": [
+    {
+      "id": 1,
+      "national": 512,
+      "name": "ACROBATICS"
+    },
+    {
+      "id": 2,
+      "national": 2,
+      "name": "KARATE_CHOP"
+    },
+    {
+      "id": 3,
+      "national": 3,
+      "name": "DOUBLE_SLAP"
+    },
+    {
+      "id": 4,
+      "national": 332,
+      "name": "AERIAL_ACE"
+    },
+    {
+      "id": 5,
+      "national": 337,
+      "name": "DRAGON_CLAW"
+    },
+    {
+      "id": 6,
+      "national": 6,
+      "name": "PAY_DAY"
+    },
+    {
+      "id": 7,
+      "national": 7,
+      "name": "FIRE_PUNCH"
+    },
+    {
+      "id": 8,
+      "national": 8,
+      "name": "ICE_PUNCH"
+    },
+    {
+      "id": 9,
+      "national": 9,
+      "name": "THUNDERPUNCH"
+    },
+    {
+      "id": 10,
+      "national": 10,
+      "name": "SCRATCH"
+    },
+    {
+      "id": 11,
+      "national": 404,
+      "name": "X_SCISSOR"
+    },
+    {
+      "id": 12,
+      "national": 400,
+      "name": "NIGHT_SLASH"
+    },
+    {
+      "id": 13,
+      "national": 403,
+      "name": "AIR_SLASH"
+    },
+    {
+      "id": 14,
+      "national": 14,
+      "name": "SWORDS_DANCE"
+    },
+    {
+      "id": 15,
+      "national": 15,
+      "name": "CUT"
+    },
+    {
+      "id": 16,
+      "national": 16,
+      "name": "GUST"
+    },
+    {
+      "id": 17,
+      "national": 17,
+      "name": "WING_ATTACK"
+    },
+    {
+      "id": 18,
+      "national": 389,
+      "name": "SUCKER_PUNCH"
+    },
+    {
+      "id": 19,
+      "national": 19,
+      "name": "FLY"
+    },
+    {
+      "id": 21,
+      "national": 521,
+      "name": "VOLT_SWITCH"
+    },
+    {
+      "id": 22,
+      "national": 22,
+      "name": "VINE_WHIP"
+    },
+    {
+      "id": 23,
+      "national": 23,
+      "name": "STOMP"
+    },
+    {
+      "id": 24,
+      "national": 24,
+      "name": "DOUBLE_KICK"
+    },
+    {
+      "id": 25,
+      "national": 394,
+      "name": "FLARE_BLITZ"
+    },
+    {
+      "id": 26,
+      "national": 444,
+      "name": "STONE_EDGE"
+    },
+    {
+      "id": 27,
+      "national": 411,
+      "name": "FOCUS_BLAST"
+    },
+    {
+      "id": 28,
+      "national": 390,
+      "name": "TOXIC_SPIKES"
+    },
+    {
+      "id": 29,
+      "national": 29,
+      "name": "HEADBUTT"
+    },
+    {
+      "id": 30,
+      "national": 30,
+      "name": "HORN_ATTACK"
+    },
+    {
+      "id": 31,
+      "national": 271,
+      "name": "TRICK"
+    },
+    {
+      "id": 32,
+      "national": 506,
+      "name": "HEX"
+    },
+    {
+      "id": 33,
+      "national": 33,
+      "name": "TACKLE"
+    },
+    {
+      "id": 34,
+      "national": 34,
+      "name": "BODY_SLAM"
+    },
+    {
+      "id": 35,
+      "national": 35,
+      "name": "WRAP"
+    },
+    {
+      "id": 36,
+      "national": 36,
+      "name": "TAKE_DOWN"
+    },
+    {
+      "id": 37,
+      "national": 37,
+      "name": "THRASH"
+    },
+    {
+      "id": 38,
+      "national": 38,
+      "name": "DOUBLE_EDGE"
+    },
+    {
+      "id": 39,
+      "national": 258,
+      "name": "HAIL"
+    },
+    {
+      "id": 40,
+      "national": 40,
+      "name": "POISON_STING"
+    },
+    {
+      "id": 41,
+      "national": 369,
+      "name": "U_TURN"
+    },
+    {
+      "id": 42,
+      "national": 42,
+      "name": "PIN_MISSILE"
+    },
+    {
+      "id": 43,
+      "national": 43,
+      "name": "LEER"
+    },
+    {
+      "id": 44,
+      "national": 44,
+      "name": "BITE"
+    },
+    {
+      "id": 45,
+      "national": 45,
+      "name": "GROWL"
+    },
+    {
+      "id": 46,
+      "national": 46,
+      "name": "ROAR"
+    },
+    {
+      "id": 47,
+      "national": 47,
+      "name": "SING"
+    },
+    {
+      "id": 48,
+      "national": 48,
+      "name": "SUPERSONIC"
+    },
+    {
+      "id": 49,
+      "national": 49,
+      "name": "SONIC_BOOM"
+    },
+    {
+      "id": 50,
+      "national": 50,
+      "name": "DISABLE"
+    },
+    {
+      "id": 51,
+      "national": 51,
+      "name": "ACID"
+    },
+    {
+      "id": 52,
+      "national": 52,
+      "name": "EMBER"
+    },
+    {
+      "id": 53,
+      "national": 53,
+      "name": "FLAMETHROWER"
+    },
+    {
+      "id": 54,
+      "national": 347,
+      "name": "CALM_MIND"
+    },
+    {
+      "id": 55,
+      "national": 55,
+      "name": "WATER_GUN"
+    },
+    {
+      "id": 56,
+      "national": 56,
+      "name": "HYDRO_PUMP"
+    },
+    {
+      "id": 57,
+      "national": 57,
+      "name": "SURF"
+    },
+    {
+      "id": 58,
+      "national": 58,
+      "name": "ICE_BEAM"
+    },
+    {
+      "id": 59,
+      "national": 59,
+      "name": "BLIZZARD"
+    },
+    {
+      "id": 60,
+      "national": 60,
+      "name": "PSYBEAM"
+    },
+    {
+      "id": 61,
+      "national": 61,
+      "name": "BUBBLE_BEAM"
+    },
+    {
+      "id": 62,
+      "national": 62,
+      "name": "AURORA_BEAM"
+    },
+    {
+      "id": 63,
+      "national": 63,
+      "name": "HYPER_BEAM"
+    },
+    {
+      "id": 64,
+      "national": 64,
+      "name": "PECK"
+    },
+    {
+      "id": 65,
+      "national": 65,
+      "name": "DRILL_PECK"
+    },
+    {
+      "id": 66,
+      "national": 370,
+      "name": "CLOSE_COMBAT"
+    },
+    {
+      "id": 67,
+      "national": 67,
+      "name": "LOW_KICK"
+    },
+    {
+      "id": 68,
+      "national": 68,
+      "name": "COUNTER"
+    },
+    {
+      "id": 69,
+      "national": 69,
+      "name": "SEISMIC_TOSS"
+    },
+    {
+      "id": 70,
+      "national": 70,
+      "name": "STRENGTH"
+    },
+    {
+      "id": 71,
+      "national": 71,
+      "name": "ABSORB"
+    },
+    {
+      "id": 72,
+      "national": 72,
+      "name": "MEGA_DRAIN"
+    },
+    {
+      "id": 73,
+      "national": 73,
+      "name": "LEECH_SEED"
+    },
+    {
+      "id": 74,
+      "national": 74,
+      "name": "GROWTH"
+    },
+    {
+      "id": 75,
+      "national": 75,
+      "name": "RAZOR_LEAF"
+    },
+    {
+      "id": 76,
+      "national": 76,
+      "name": "SOLAR_BEAM"
+    },
+    {
+      "id": 77,
+      "national": 77,
+      "name": "POISONPOWDER"
+    },
+    {
+      "id": 78,
+      "national": 78,
+      "name": "STUN_SPORE"
+    },
+    {
+      "id": 79,
+      "national": 79,
+      "name": "SLEEP_POWDER"
+    },
+    {
+      "id": 80,
+      "national": 80,
+      "name": "PETAL_DANCE"
+    },
+    {
+      "id": 81,
+      "national": 81,
+      "name": "STRING_SHOT"
+    },
+    {
+      "id": 82,
+      "national": 82,
+      "name": "DRAGON_RAGE"
+    },
+    {
+      "id": 83,
+      "national": 83,
+      "name": "FIRE_SPIN"
+    },
+    {
+      "id": 84,
+      "national": 84,
+      "name": "THUNDERSHOCK"
+    },
+    {
+      "id": 85,
+      "national": 85,
+      "name": "THUNDERBOLT"
+    },
+    {
+      "id": 86,
+      "national": 86,
+      "name": "THUNDER_WAVE"
+    },
+    {
+      "id": 87,
+      "national": 87,
+      "name": "THUNDER"
+    },
+    {
+      "id": 88,
+      "national": 88,
+      "name": "ROCK_THROW"
+    },
+    {
+      "id": 89,
+      "national": 89,
+      "name": "EARTHQUAKE"
+    },
+    {
+      "id": 90,
+      "national": 419,
+      "name": "AVALANCHE"
+    },
+    {
+      "id": 91,
+      "national": 91,
+      "name": "DIG"
+    },
+    {
+      "id": 92,
+      "national": 92,
+      "name": "TOXIC"
+    },
+    {
+      "id": 93,
+      "national": 93,
+      "name": "CONFUSION"
+    },
+    {
+      "id": 95,
+      "national": 95,
+      "name": "HYPNOSIS"
+    },
+    {
+      "id": 96,
+      "national": 468,
+      "name": "HONE_CLAWS"
+    },
+    {
+      "id": 97,
+      "national": 97,
+      "name": "AGILITY"
+    },
+    {
+      "id": 98,
+      "national": 98,
+      "name": "QUICK_ATTACK"
+    },
+    {
+      "id": 99,
+      "national": 99,
+      "name": "RAGE"
+    },
+    {
+      "id": 100,
+      "national": 100,
+      "name": "TELEPORT"
+    },
+    {
+      "id": 101,
+      "national": 101,
+      "name": "NIGHT_SHADE"
+    },
+    {
+      "id": 102,
+      "national": 406,
+      "name": "DRAGON_PULSE"
+    },
+    {
+      "id": 103,
+      "national": 103,
+      "name": "SCREECH"
+    },
+    {
+      "id": 104,
+      "national": 104,
+      "name": "DOUBLE_TEAM"
+    },
+    {
+      "id": 105,
+      "national": 105,
+      "name": "RECOVER"
+    },
+    {
+      "id": 106,
+      "national": 350,
+      "name": "ROCK_BLAST"
+    },
+    {
+      "id": 107,
+      "national": 107,
+      "name": "MINIMIZE"
+    },
+    {
+      "id": 108,
+      "national": 108,
+      "name": "SMOKESCREEN"
+    },
+    {
+      "id": 109,
+      "national": 109,
+      "name": "CONFUSE_RAY"
+    },
+    {
+      "id": 110,
+      "national": 401,
+      "name": "AQUA_TAIL"
+    },
+    {
+      "id": 111,
+      "national": 111,
+      "name": "DEFENSE_CURL"
+    },
+    {
+      "id": 112,
+      "national": 112,
+      "name": "BARRIER"
+    },
+    {
+      "id": 113,
+      "national": 113,
+      "name": "LIGHT_SCREEN"
+    },
+    {
+      "id": 114,
+      "national": 114,
+      "name": "HAZE"
+    },
+    {
+      "id": 115,
+      "national": 115,
+      "name": "REFLECT"
+    },
+    {
+      "id": 116,
+      "national": 116,
+      "name": "FOCUS_ENERGY"
+    },
+    {
+      "id": 117,
+      "national": 430,
+      "name": "FLASH_CANNON"
+    },
+    {
+      "id": 118,
+      "national": 118,
+      "name": "METRONOME"
+    },
+    {
+      "id": 119,
+      "national": 503,
+      "name": "SCALD"
+    },
+    {
+      "id": 120,
+      "national": 433,
+      "name": "TRICK_ROOM"
+    },
+    {
+      "id": 121,
+      "national": 285,
+      "name": "SKILL_SWAP"
+    },
+    {
+      "id": 122,
+      "national": 122,
+      "name": "LICK"
+    },
+    {
+      "id": 123,
+      "national": 441,
+      "name": "GUNK_SHOT"
+    },
+    {
+      "id": 124,
+      "national": 474,
+      "name": "VENOSHOCK"
+    },
+    {
+      "id": 125,
+      "national": 414,
+      "name": "EARTH_POWER"
+    },
+    {
+      "id": 126,
+      "national": 126,
+      "name": "FIRE_BLAST"
+    },
+    {
+      "id": 127,
+      "national": 127,
+      "name": "WATERFALL"
+    },
+    {
+      "id": 128,
+      "national": 556,
+      "name": "ICICLE_CRASH"
+    },
+    {
+      "id": 129,
+      "national": 129,
+      "name": "SWIFT"
+    },
+    {
+      "id": 130,
+      "national": 442,
+      "name": "IRON_HEAD"
+    },
+    {
+      "id": 131,
+      "national": 333,
+      "name": "ICICLE_SPEAR"
+    },
+    {
+      "id": 132,
+      "national": 523,
+      "name": "BULLDOZE"
+    },
+    {
+      "id": 133,
+      "national": 133,
+      "name": "AMNESIA"
+    },
+    {
+      "id": 134,
+      "national": 355,
+      "name": "ROOST"
+    },
+    {
+      "id": 137,
+      "national": 137,
+      "name": "GLARE"
+    },
+    {
+      "id": 138,
+      "national": 138,
+      "name": "DREAM_EATER"
+    },
+    {
+      "id": 139,
+      "national": 398,
+      "name": "POISON_JAB"
+    },
+    {
+      "id": 140,
+      "national": 418,
+      "name": "BULLET_PUNCH"
+    },
+    {
+      "id": 141,
+      "national": 141,
+      "name": "LEECH_LIFE"
+    },
+    {
+      "id": 142,
+      "national": 577,
+      "name": "DRAINING_KISS"
+    },
+    {
+      "id": 143,
+      "national": 413,
+      "name": "BRAVE_BIRD"
+    },
+    {
+      "id": 144,
+      "national": 144,
+      "name": "TRANSFORM"
+    },
+    {
+      "id": 145,
+      "national": 352,
+      "name": "WATER_PULSE"
+    },
+    {
+      "id": 146,
+      "national": 146,
+      "name": "DIZZY_PUNCH"
+    },
+    {
+      "id": 147,
+      "national": 147,
+      "name": "SPORE"
+    },
+    {
+      "id": 148,
+      "national": 148,
+      "name": "FLASH"
+    },
+    {
+      "id": 149,
+      "national": 326,
+      "name": "EXTRASENSORY"
+    },
+    {
+      "id": 150,
+      "national": 150,
+      "name": "SPLASH"
+    },
+    {
+      "id": 151,
+      "national": 349,
+      "name": "DRAGON_DANCE"
+    },
+    {
+      "id": 152,
+      "national": 152,
+      "name": "CRABHAMMER"
+    },
+    {
+      "id": 153,
+      "national": 153,
+      "name": "EXPLOSION"
+    },
+    {
+      "id": 155,
+      "national": 155,
+      "name": "BONEMERANG"
+    },
+    {
+      "id": 156,
+      "national": 156,
+      "name": "REST"
+    },
+    {
+      "id": 157,
+      "national": 157,
+      "name": "ROCK_SLIDE"
+    },
+    {
+      "id": 158,
+      "national": 158,
+      "name": "HYPER_FANG"
+    },
+    {
+      "id": 159,
+      "national": 339,
+      "name": "BULK_UP"
+    },
+    {
+      "id": 160,
+      "national": 160,
+      "name": "CONVERSION"
+    },
+    {
+      "id": 161,
+      "national": 161,
+      "name": "TRI_ATTACK"
+    },
+    {
+      "id": 162,
+      "national": 162,
+      "name": "SUPER_FANG"
+    },
+    {
+      "id": 163,
+      "national": 163,
+      "name": "SLASH"
+    },
+    {
+      "id": 164,
+      "national": 164,
+      "name": "SUBSTITUTE"
+    },
+    {
+      "id": 165,
+      "national": 416,
+      "name": "GIGA_IMPACT"
+    },
+    {
+      "id": 166,
+      "national": 166,
+      "name": "SKETCH"
+    },
+    {
+      "id": 167,
+      "national": 409,
+      "name": "DRAIN_PUNCH"
+    },
+    {
+      "id": 168,
+      "national": 168,
+      "name": "THIEF"
+    },
+    {
+      "id": 169,
+      "national": 261,
+      "name": "WILL_O_WISP"
+    },
+    {
+      "id": 170,
+      "national": 428,
+      "name": "ZEN_HEADBUTT"
+    },
+    {
+      "id": 171,
+      "national": 263,
+      "name": "FACADE"
+    },
+    {
+      "id": 172,
+      "national": 488,
+      "name": "FLAME_CHARGE"
+    },
+    {
+      "id": 173,
+      "national": 304,
+      "name": "HYPER_VOICE"
+    },
+    {
+      "id": 174,
+      "national": 174,
+      "name": "CURSE"
+    },
+    {
+      "id": 175,
+      "national": 360,
+      "name": "GYRO_BALL"
+    },
+    {
+      "id": 176,
+      "national": 412,
+      "name": "ENERGY_BALL"
+    },
+    {
+      "id": 177,
+      "national": 177,
+      "name": "AEROBLAST"
+    },
+    {
+      "id": 178,
+      "national": 402,
+      "name": "SEED_BOMB"
+    },
+    {
+      "id": 179,
+      "national": 179,
+      "name": "REVERSAL"
+    },
+    {
+      "id": 180,
+      "national": 310,
+      "name": "ASTONISH"
+    },
+    {
+      "id": 181,
+      "national": 420,
+      "name": "ICE_SHARD"
+    },
+    {
+      "id": 182,
+      "national": 182,
+      "name": "PROTECT"
+    },
+    {
+      "id": 183,
+      "national": 183,
+      "name": "MACH_PUNCH"
+    },
+    {
+      "id": 184,
+      "national": 184,
+      "name": "SCARY_FACE"
+    },
+    {
+      "id": 185,
+      "national": 185,
+      "name": "FEINT_ATTACK"
+    },
+    {
+      "id": 186,
+      "national": 186,
+      "name": "SWEET_KISS"
+    },
+    {
+      "id": 187,
+      "national": 187,
+      "name": "BELLY_DRUM"
+    },
+    {
+      "id": 188,
+      "national": 188,
+      "name": "SLUDGE_BOMB"
+    },
+    {
+      "id": 189,
+      "national": 189,
+      "name": "MUD_SLAP"
+    },
+    {
+      "id": 190,
+      "national": 190,
+      "name": "OCTAZOOKA"
+    },
+    {
+      "id": 191,
+      "national": 191,
+      "name": "SPIKES"
+    },
+    {
+      "id": 192,
+      "national": 192,
+      "name": "ZAP_CANNON"
+    },
+    {
+      "id": 193,
+      "national": 193,
+      "name": "FORESIGHT"
+    },
+    {
+      "id": 194,
+      "national": 194,
+      "name": "DESTINY_BOND"
+    },
+    {
+      "id": 195,
+      "national": 195,
+      "name": "PERISH_SONG"
+    },
+    {
+      "id": 196,
+      "national": 196,
+      "name": "ICY_WIND"
+    },
+    {
+      "id": 197,
+      "national": 408,
+      "name": "POWER_GEM"
+    },
+    {
+      "id": 198,
+      "national": 528,
+      "name": "WILD_CHARGE"
+    },
+    {
+      "id": 199,
+      "national": 438,
+      "name": "POWER_WHIP"
+    },
+    {
+      "id": 200,
+      "national": 200,
+      "name": "OUTRAGE"
+    },
+    {
+      "id": 201,
+      "national": 201,
+      "name": "SANDSTORM"
+    },
+    {
+      "id": 202,
+      "national": 202,
+      "name": "GIGA_DRAIN"
+    },
+    {
+      "id": 203,
+      "national": 203,
+      "name": "ENDURE"
+    },
+    {
+      "id": 204,
+      "national": 204,
+      "name": "CHARM"
+    },
+    {
+      "id": 205,
+      "national": 205,
+      "name": "ROLLOUT"
+    },
+    {
+      "id": 206,
+      "national": 206,
+      "name": "FALSE_SWIPE"
+    },
+    {
+      "id": 207,
+      "national": 207,
+      "name": "SWAGGER"
+    },
+    {
+      "id": 208,
+      "national": 504,
+      "name": "SHELL_SMASH"
+    },
+    {
+      "id": 209,
+      "national": 209,
+      "name": "SPARK"
+    },
+    {
+      "id": 210,
+      "national": 450,
+      "name": "BUG_BITE"
+    },
+    {
+      "id": 211,
+      "national": 211,
+      "name": "STEEL_WING"
+    },
+    {
+      "id": 212,
+      "national": 212,
+      "name": "MEAN_LOOK"
+    },
+    {
+      "id": 213,
+      "national": 213,
+      "name": "ATTRACT"
+    },
+    {
+      "id": 214,
+      "national": 214,
+      "name": "SLEEP_TALK"
+    },
+    {
+      "id": 215,
+      "national": 215,
+      "name": "HEAL_BELL"
+    },
+    {
+      "id": 216,
+      "national": 216,
+      "name": "RETURN"
+    },
+    {
+      "id": 217,
+      "national": 540,
+      "name": "PSYSTRIKE"
+    },
+    {
+      "id": 218,
+      "national": 405,
+      "name": "BUG_BUZZ"
+    },
+    {
+      "id": 219,
+      "national": 219,
+      "name": "SAFEGUARD"
+    },
+    {
+      "id": 220,
+      "national": 220,
+      "name": "PAIN_SPLIT"
+    },
+    {
+      "id": 221,
+      "national": 221,
+      "name": "SACRED_FIRE"
+    },
+    {
+      "id": 222,
+      "national": 222,
+      "name": "MAGNITUDE"
+    },
+    {
+      "id": 223,
+      "national": 223,
+      "name": "DYNAMICPUNCH"
+    },
+    {
+      "id": 224,
+      "national": 224,
+      "name": "MEGAHORN"
+    },
+    {
+      "id": 225,
+      "national": 225,
+      "name": "DRAGONBREATH"
+    },
+    {
+      "id": 226,
+      "national": 226,
+      "name": "BATON_PASS"
+    },
+    {
+      "id": 227,
+      "national": 227,
+      "name": "ENCORE"
+    },
+    {
+      "id": 228,
+      "national": 228,
+      "name": "PURSUIT"
+    },
+    {
+      "id": 229,
+      "national": 229,
+      "name": "RAPID_SPIN"
+    },
+    {
+      "id": 230,
+      "national": 421,
+      "name": "SHADOW_CLAW"
+    },
+    {
+      "id": 231,
+      "national": 231,
+      "name": "IRON_TAIL"
+    },
+    {
+      "id": 232,
+      "national": 232,
+      "name": "METAL_CLAW"
+    },
+    {
+      "id": 233,
+      "national": 396,
+      "name": "AURA_SPHERE"
+    },
+    {
+      "id": 235,
+      "national": 542,
+      "name": "HURRICANE"
+    },
+    {
+      "id": 236,
+      "national": 282,
+      "name": "KNOCK_OFF"
+    },
+    {
+      "id": 237,
+      "national": 237,
+      "name": "HIDDEN_POWER"
+    },
+    {
+      "id": 238,
+      "national": 238,
+      "name": "CROSS_CHOP"
+    },
+    {
+      "id": 239,
+      "national": 453,
+      "name": "AQUA_JET"
+    },
+    {
+      "id": 240,
+      "national": 240,
+      "name": "RAIN_DANCE"
+    },
+    {
+      "id": 241,
+      "national": 241,
+      "name": "SUNNY_DAY"
+    },
+    {
+      "id": 242,
+      "national": 242,
+      "name": "CRUNCH"
+    },
+    {
+      "id": 243,
+      "national": 243,
+      "name": "MIRROR_COAT"
+    },
+    {
+      "id": 244,
+      "national": 417,
+      "name": "NASTY_PLOT"
+    },
+    {
+      "id": 245,
+      "national": 245,
+      "name": "EXTREMESPEED"
+    },
+    {
+      "id": 246,
+      "national": 246,
+      "name": "ANCIENTPOWER"
+    },
+    {
+      "id": 247,
+      "national": 247,
+      "name": "SHADOW_BALL"
+    },
+    {
+      "id": 248,
+      "national": 248,
+      "name": "FUTURE_SIGHT"
+    },
+    {
+      "id": 249,
+      "national": 249,
+      "name": "ROCK_SMASH"
+    },
+    {
+      "id": 250,
+      "national": 250,
+      "name": "WHIRLPOOL"
+    },
+    {
+      "id": 251,
+      "national": 399,
+      "name": "DARK_PULSE"
+    },
+    {
+      "id": 252,
+      "national": 585,
+      "name": "MOONBLAST"
+    },
+    {
+      "id": 253,
+      "national": 583,
+      "name": "PLAY_ROUGH"
+    },
+    {
+      "id": 255,
+      "national": 165,
+      "name": "STRUGGLE"
+    }
+  ],
+  "charmap": {
+    "83": "@",
+    "94": "¯",
+    "111": "◢",
+    "112": "—",
+    "113": "◣",
+    "127": " ",
+    "128": "A",
+    "129": "B",
+    "130": "C",
+    "131": "D",
+    "132": "E",
+    "133": "F",
+    "134": "G",
+    "135": "H",
+    "136": "I",
+    "137": "J",
+    "138": "K",
+    "139": "L",
+    "140": "M",
+    "141": "N",
+    "142": "O",
+    "143": "P",
+    "144": "Q",
+    "145": "R",
+    "146": "S",
+    "147": "T",
+    "148": "U",
+    "149": "V",
+    "150": "W",
+    "151": "X",
+    "152": "Y",
+    "153": "Z",
+    "154": "(",
+    "155": ")",
+    "156": ".",
+    "157": ",",
+    "158": "?",
+    "159": "!",
+    "160": "a",
+    "161": "b",
+    "162": "c",
+    "163": "d",
+    "164": "e",
+    "165": "f",
+    "166": "g",
+    "167": "h",
+    "168": "i",
+    "169": "j",
+    "170": "k",
+    "171": "l",
+    "172": "m",
+    "173": "n",
+    "174": "o",
+    "175": "p",
+    "176": "q",
+    "177": "r",
+    "178": "s",
+    "179": "t",
+    "180": "u",
+    "181": "v",
+    "182": "w",
+    "183": "x",
+    "184": "y",
+    "185": "z",
+    "186": "“",
+    "187": "”",
+    "188": "-",
+    "189": ":",
+    "190": "♂",
+    "191": "♀",
+    "192": "'",
+    "193": "'d",
+    "194": "'l",
+    "195": "'m",
+    "196": "'r",
+    "197": "'s",
+    "198": "'t",
+    "199": "'v",
+    "200": "é",
+    "201": "É",
+    "202": "á",
+    "203": "ê",
+    "204": "í",
+    "205": "ó",
+    "206": "¿",
+    "207": "¡",
+    "213": "№",
+    "216": "&",
+    "217": "♪",
+    "218": "♥",
+    "219": "×",
+    "220": "/",
+    "221": "%",
+    "222": "+",
+    "224": "0",
+    "225": "1",
+    "226": "2",
+    "227": "3",
+    "228": "4",
+    "229": "5",
+    "230": "6",
+    "231": "7",
+    "232": "8",
+    "233": "9",
+    "234": "¥",
+    "235": "…",
+    "236": "★",
+    "237": "▼",
+    "238": "▲",
+    "239": "◀",
+    "240": "▶",
+    "241": "▷",
+    "242": "↑",
+    "243": "↓",
+    "244": "′",
+    "245": "″",
+    "248": "┌",
+    "249": "─",
+    "250": "┐",
+    "251": "│",
+    "252": "┃",
+    "253": "└",
+    "254": "━",
+    "255": "┘",
+    "77": "#",
+    "78": "#mon",
+    "10": "ou",
+    "11": "th",
+    "12": "in",
+    "13": "t ",
+    "14": "er",
+    "15": "s ",
+    "16": "an",
+    "17": "on",
+    "18": "to ",
+    "19": "d ",
+    "20": "ea",
+    "21": "y ",
+    "22": "en",
+    "23": "or",
+    "24": "at",
+    "25": ", ",
+    "26": "ll",
+    "27": "I ",
+    "28": "ar",
+    "29": "it",
+    "30": "st",
+    "31": "ow",
+    "32": "ha",
+    "33": "a ",
+    "34": "om",
+    "35": "le",
+    "36": "of ",
+    "37": "se",
+    "38": "re",
+    "39": "to",
+    "40": "'s ",
+    "41": "Th",
+    "42": "is",
+    "43": "ra",
+    "44": "ch",
+    "45": "I'm ",
+    "46": "o ",
+    "47": "gh",
+    "48": "es",
+    "49": "wa",
+    "50": "e.",
+    "51": "oo",
+    "52": "ck",
+    "53": "r ",
+    "54": "l ",
+    "55": "be",
+    "56": "li",
+    "57": "ed",
+    "58": "us",
+    "59": "ti",
+    "60": " you",
+    "61": "ing ",
+    "62": "the ",
+    "63": "you",
+    "64": "ing",
+    "65": "is ",
+    "66": "the",
+    "67": "You ",
+    "68": "er ",
+    "69": "with",
+    "70": "batt",
+    "71": "for",
+    "72": "ve ",
+    "73": "ed ",
+    "74": "It's ",
+    "75": "that ",
+    "76": "e "
+  }
+}

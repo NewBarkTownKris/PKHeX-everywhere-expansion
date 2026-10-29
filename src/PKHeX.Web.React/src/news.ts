@@ -10,6 +10,25 @@ export const romHacksNewsDate = '2026-10-20'
 
 export const news: NewsEntry[] = [
   {
+    date: '2026-10-29',
+    headline: 'Local preview: classic-hack and save-state Pokémon recovery.',
+    items: [
+      'The older Rijon Adventures revision adds experimental selected battery and exact-ROM mGBA state recovery, checked using a reconstructed save and seeded Pokémon; a game-created battery save remains unverified.',
+      'Polished Crystal 3.2.3 adds experimental real-base-species save and exact normal-ROM mGBA party recovery; PID and IV conversion are approximations.',
+      'Pokémon Petalburg Dynasty 1.10.0 adds real-species-only save and mGBA recovery; its supplied custom species is skipped.',
+      'Pokémon Recharged Yellow 1.9.7 adds experimental save and mGBA party/PC PK6 recovery; the supplied save was checked against the game.',
+      'Pokémon Lazarus 2.0 adds experimental read-only save and mGBA party/PC recovery for recognized real species; two supplied saves were checked against live states.',
+      'Pokémon Citrine supports experimental save and mGBA live-party PK2 export using a seeded test Pokémon; PC tests are synthetic.',
+      'Pokémon Heroes, Resolute 1.17 Fixed, Pokémon Isthmis, Snakewood Fixed (real species only), Old White 1.2, Liquid Ocean Alpha 1.2, Pokémon Shattered Dreams, Pokémon Crono Beta 1, LeafGreen USA (supplied build), Pokémon Marble Beta 2.1, Ruby Destiny: Reign of Legends, Pokémon Topaz, Pokémon Ambar (both supplied revisions), Pokémon Naranja (both supplied Ruby revisions), Ruby Destiny: Rescue Rangers Beta 3.2, Omega Beta 1, Rijon Adventures 2009 Beta, Genesis Fixed Beta 3, Jasper Demo, older Liquid Crystal Beta 1, Orange Generation, Shining Opal Beta 2.13 and Twilight have experimental selected battery and exact-build mGBA recovery, checked with one cross-game seeded Pokémon each; PC checks are synthetic.',
+      'The supplied Liquid Crystal and Dark Rising revisions support experimental VBA 9 party/PC, complete battery-save and exact-build mGBA state Pokémon export to approximate PK6; original records and metadata are retained.',
+      'Recover party records and conditional PK6 exports from selected Rijon Adventures, Pokémon My Ass and Liquid Ocean Beta 1 VBA states. Custom and unrecognized species are skipped.',
+      'Selected My Ass, Thunder Emblem Beta 1, Shiny Gold Beta 5 X, Lightning Yellow Demo, Gary Edition Beta 1, Liquid Ocean Beta 1 and Crystal Shards Beta 1 battery saves and mGBA states support experimental PK6 recovery; party fixtures are game-created and PC checks are synthetic. Select the exact game.',
+      'Shin Pokémon Red 1.24.5 mGBA states support live-party PK1 export; PC state extraction is not yet supported.',
+      'Cobalt Blue US in-game saves and exact-build mGBA live-party states support experimental PK2 export. Portable files omit held items; source records and metadata retain them.',
+      'PK6 conversions use name-based mappings and standard ability and shiny assumptions. Most met locations remain unknown; Shiny Gold New Bark Town and Lightning Yellow/Gary Edition Pallet Town are approximated as the Johto and Kanto regions. Native records and metadata are retained.',
+    ],
+  },
+  {
     date: '2026-10-28',
     headline: 'PKHeX Expansion Web preview: versioned expansion save profiles.',
     items: [

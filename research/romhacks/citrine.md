@@ -1,0 +1,9 @@
+# Pokémon Citrine — experimental read-only recovery
+
+The supplied ROM is SHA-256 `0de8d920ac7eaac2847d3fab0cbbb3cecbaebe8adc824223af4075532a9567f2`, mGBA CRC `A90AC0A3`. A user-selected Gold/Silver-layout battery save can yield party and PC PK2 files, and an exact-build mGBA state yields live party only. Save headers cannot distinguish hacks; selection must match the source. Save editing and VBA states are not supported by this adapter.
+
+A save was created by Citrine before obtaining a Pokémon, then a Pikachu from another game was inserted into a copy. Citrine displayed it, re-saved it and reopened it. `CitrineChecks` compared species, nickname, OT, trainer ID, level and moves across the save, exported PK2 and live mGBA state. The test Pokémon was seeded, not natively caught. Occupied PC records and invalid inputs have synthetic checks only; other catches, mechanics and shiny samples have not been independently checked.
+
+The source species table at `0x1B0B74` has 251 standard-name/original-ID matches; 248 move names matched official IDs. These are candidate mappings, not proof of unchanged effects. Unknown species, eggs and unrecognized moves are skipped. Held items are omitted in portable files and retained with their IDs in native records. DV-derived shininess assumes standard rules. Generation 2 does not consistently store original met location or ball, so none is invented. No legality is implied.
+
+Battery checksums are mandatory. As with the related Cobalt Blue fixture, mGBA startup changed SRAM so that its checksum subsequently failed until another in-game save; the verified file was captured immediately after saving. Inputs remain unmodified. Implementation is `Historic/GbClassic.cs`, `Historic/MgbaShinRed.cs`, and `Historic/gb-citrine.json`. mGBA serialized live party begins at `0x5E22`. No ROM, save, state or player data is distributed in the repository.

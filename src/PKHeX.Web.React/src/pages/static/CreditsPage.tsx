@@ -7,15 +7,23 @@ export default function CreditsPage() {
 
       <h2>PKHeX Everywhere</h2>
       <p>
-        This expansion editor is based on <a href="https://github.com/arleypadua/PKHeX.Everywhere">PKHeX Everywhere</a>
-        {' '}by Arley Padua and contributors. Expansion profiles are derived from the matching
-        pokeemerald-expansion, Heart &amp; Soul and Soulgold source versions.
+        PKHeX Everywhere is the original application, interface, engine, and source of the inherited ROM-hack adapters.
+        It was created by <a href="https://github.com/arleypadua/PKHeX.Everywhere">Arley Padua and contributors</a>.
+        This project is a modified fork that adds versioned expansion profiles and export tools.
+      </p>
+      <h2>Game projects and conversion research</h2>
+      <p>
+        Expansion profiles are derived from matching <a href="https://github.com/rh-hideout/pokeemerald-expansion">pokeemerald-expansion</a>,
+        Heart &amp; Soul and Soulgold source versions. <a href="https://github.com/sofianeelhor/PKForge">PKForge</a> was a
+        design reference for adapters and Pokémon conversion.
       </p>
       <h2>PokeDaisy</h2>
       <p>
         Quetzal save and ROM table research builds on <a href="https://github.com/lidor30/pokedaisy">PokeDaisy</a>,
-        a GPL-3.0 project. Its Quetzal data extraction tools were used with the matching game ROM.
+        a GPL-3.0 project. Its Quetzal tools and documented RAM and table research also informed the Lazarus, Recharged Yellow and Polished Crystal readers.
       </p>
+      <h2>Polished Crystal</h2>
+      <p>Polished Crystal recovery was researched using the public <a href="https://github.com/Rangi42/polishedcrystal">Polished Crystal</a> 3.2.3 source and release symbols, by its project contributors.</p>
       <h2>PKHeX.Core</h2>
       <p>
         This app is built on the foundation of{' '}
@@ -47,6 +55,11 @@ export default function CreditsPage() {
       <p>
         The pixel font is{' '}
         <a href="https://fontstruct.com/fontstructions/show/875033" target="_blank">PKMN RBYGSC</a> by David Fens.
+      </p>
+      <h2>License</h2>
+      <p>
+        The combined project is distributed under GPL-3.0-or-later. The repository includes the full license,
+        retained upstream notices, and the original PKHeX Everywhere project description.
       </p>
     </Typography>
   )

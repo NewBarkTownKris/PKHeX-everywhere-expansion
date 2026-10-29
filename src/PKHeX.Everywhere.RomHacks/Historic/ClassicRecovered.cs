@@ -1,0 +1,62 @@
+using System.Buffers.Binary;
+using System.IO.Compression;
+using System.Text;
+using System.Text.Json;
+using PKHeX.Core;
+using PKHeX.Everywhere.RomHacks.Expansion;
+namespace PKHeX.Everywhere.RomHacks.Historic;
+
+// Read-only recovery for the specific early Liquid Crystal and Dark Rising revisions.
+public static class ClassicRecovered {
+ public static string InspectVba(byte[] input,string profile) {
+  if(input.Length is <16 or >8_000_000)throw new InvalidDataException("Invalid state size.");
+  using var gz=new GZipStream(new MemoryStream(input,false),CompressionMode.Decompress);using var output=new MemoryStream();var chunk=new byte[8192];
+  for(int n;(n=gz.Read(chunk,0,chunk.Length))>0;){if(output.Length+n>750_000)throw new InvalidDataException("State too large.");output.Write(chunk,0,n);}
+  byte[] data=output.ToArray();if(data.Length!=740244||BinaryPrimitives.ReadInt32LittleEndian(data)!=9||Encoding.ASCII.GetString(data,4,16)!="POKEMON FIREBPRE")throw new InvalidDataException("Expected VBA 9 for the selected revision.");
+  const int iw=0x1e5,ew=iw+0x8400;
+  ReadOnlySpan<byte> Ram(uint addr,int len){if(addr<0x02000000||(long)addr-0x02000000+len>0x40000||len<0)throw new InvalidDataException("Invalid EWRAM pointer.");return data.AsSpan(ew+(int)(addr-0x02000000),len);}
+  uint ptr=BinaryPrimitives.ReadUInt32LittleEndian(data.AsSpan(iw+0x5010,4));var storage=Ram(ptr,4+14*30*80);if(BinaryPrimitives.ReadUInt32LittleEndian(storage)>=14)throw new InvalidDataException("Invalid PC box index.");
+  int count=Ram(0x02024029,1)[0];if(count>6)throw new InvalidDataException("Invalid party count.");var records=new List<HistoricGen3.Record>();
+  void Add(string pos,byte[] raw){if((raw[0x13]&2)==0)return;var p=new PK3(raw.ToArray());records.Add(new(pos,raw,p.ChecksumValid,p.SpeciesInternal,p.Nickname,p.OriginalTrainerName,(byte)p.MetLocation));}
+  for(int i=0;i<count;i++)Add($"Party {i+1:D2}",Ram(0x02024284u+(uint)(i*100),100).ToArray());
+  for(int b=0;b<14;b++)for(int s=0;s<30;s++)Add($"Box {b+1:D2} Slot {s+1:D2}",storage.Slice(4+(b*30+s)*80,80).ToArray());
+  if(records.Count(x=>x.Position.StartsWith("Party",StringComparison.Ordinal))!=count)throw new InvalidDataException("Missing party record.");return ConvertRecords(profile,records,"VBA 9 save state");
+ }
+ public static string? InspectMgba(byte[] input){
+  byte[] state=MgbaState.ExtractCore(input); if(BinaryPrimitives.ReadUInt32LittleEndian(state)!=0x01000007)throw new InvalidDataException("Unsupported mGBA state version.");
+  uint crc=BinaryPrimitives.ReadUInt32LittleEndian(state.AsSpan(8));string? profile=crc switch {0x13548284=>"dark-rising",0x96D04AD1=>"liquid-crystal",_=>null};if(profile is null)return null;
+  ReadOnlySpan<byte> Ram(uint addr,int len){long offset=addr switch{>=0x02000000 and <0x02040000=>0x21000L+addr-0x02000000,>=0x03000000 and <0x03008000=>0x19000L+addr-0x03000000,_=>throw new InvalidDataException("Invalid memory pointer.")};long end=addr<0x03000000?0x61000L:0x21000L;if(len<0||offset+len>end)throw new InvalidDataException("Memory pointer crosses RAM boundary.");return state.AsSpan((int)offset,len);}
+  uint Ptr(uint addr)=>BinaryPrimitives.ReadUInt32LittleEndian(Ram(addr,4));string trainer=StringConverter3.GetString(Ram(Ptr(0x0300500C),7),false);if(string.IsNullOrWhiteSpace(trainer))throw new InvalidDataException("No initialized trainer.");int count=Ram(0x02024029,1)[0];if(count>6)throw new InvalidDataException("Invalid party count.");var storage=Ram(Ptr(0x03005010),4+14*30*80);if(BinaryPrimitives.ReadUInt32LittleEndian(storage)>=14)throw new InvalidDataException("Invalid PC box index.");
+  var records=new List<HistoricGen3.Record>();void Add(string pos,byte[] raw){if((raw[0x13]&2)==0)return;var p=new PK3(raw.ToArray());records.Add(new(pos,raw,p.ChecksumValid,p.SpeciesInternal,p.Nickname,p.OriginalTrainerName,(byte)p.MetLocation));}
+  for(int i=0;i<count;i++)Add($"Party {i+1:D2}",Ram(0x02024284u+(uint)(i*100),100).ToArray());for(int b=0;b<14;b++)for(int n=0;n<30;n++)Add($"Box {b+1:D2} Slot {n+1:D2}",storage.Slice(4+(b*30+n)*80,80).ToArray());
+  if(records.Count(x=>x.Position.StartsWith("Party",StringComparison.Ordinal))!=count)throw new InvalidDataException("Missing party record.");return ConvertRecords(profile,records,"mGBA historic state",trainer,crc.ToString("X8"));
+ }
+ public static string InspectBattery(byte[] input,string profile){
+  if(input.Length==0x10000){var slots=new Dictionary<int,byte[]>();uint? index=null;for(int i=0;i<16;i++){var s=input.AsSpan(i*0x1000,0x1000);int id=BinaryPrimitives.ReadUInt16LittleEndian(s[0xff4..]);if(id>=14||BinaryPrimitives.ReadUInt32LittleEndian(s[0xff8..])!=0x08012025)continue;uint c=BinaryPrimitives.ReadUInt32LittleEndian(s[0xffc..]);if(index.HasValue&&index.Value!=c)throw new InvalidDataException("Mixed save generations.");index=c;if(!slots.TryAdd(id,s.ToArray()))throw new InvalidDataException("Duplicate save sector.");}if(slots.Count==13 && !slots.ContainsKey(0) && profile=="liquid-crystal"){
+    // Sector 0 holds trainer/settings; the independently checksummed sectors 1–13
+    // contain party and PC. Build a temporary placeholder only for PKHeX's reader;
+    // never offer this artificial save as a complete or editable game save.
+    var rebuilt=Enumerable.Repeat((byte)0xff,0x20000).ToArray();foreach(var (id,sector) in slots)sector.CopyTo(rebuilt,id*0x1000);
+    var placeholder=rebuilt.AsSpan(0,0x1000);placeholder[..0xf80].Clear();BinaryPrimitives.WriteUInt16LittleEndian(placeholder[0xff4..],0);BinaryPrimitives.WriteUInt16LittleEndian(placeholder[0xff6..],0);BinaryPrimitives.WriteUInt32LittleEndian(placeholder[0xff8..],0x08012025);BinaryPrimitives.WriteUInt32LittleEndian(placeholder[0xffc..],index!.Value);
+    return ConvertRecords(profile,HistoricGen3.InspectFireRedSave(rebuilt).Records,"Partial Liquid Crystal flash: trainer sector missing");
+   }
+   if(slots.Count==14){var rebuilt=Enumerable.Repeat((byte)0xff,0x20000).ToArray();foreach(var (id,sector) in slots)sector.CopyTo(rebuilt,id*0x1000);input=rebuilt;}}
+  return ConvertRecords(profile,HistoricGen3.InspectFireRedSave(input).Records,"GBA battery save");
+ }
+ internal static string ConvertRecords(string profile,IReadOnlyList<HistoricGen3.Record> records,string sourceType,string? trainer=null,string? romCrc=null){
+  if(profile is not ("liquid-crystal" or "dark-rising" or "recharged-yellow"))throw new InvalidOperationException("Unknown revision.");using var ts=typeof(ClassicRecovered).Assembly.GetManifestResourceStream($"historic.{profile}-tables.json")??throw new InvalidOperationException("Missing mappings.");using var tables=JsonDocument.Parse(ts);
+  var species=tables.RootElement.GetProperty("species").EnumerateArray().Where(x=>x.GetProperty("national").ValueKind==JsonValueKind.Number).ToDictionary(x=>x.GetProperty("id").GetInt32(),x=>(Name:x.TryGetProperty("name",out var n)?n.GetString()!:SpeciesName.GetSpeciesNameGeneration(x.GetProperty("national").GetUInt16(),2,3),National:x.GetProperty("national").GetUInt16()));
+  var moves=tables.RootElement.GetProperty("moves").EnumerateArray().Where(x=>x.GetProperty("standardId").ValueKind==JsonValueKind.Number).ToDictionary(x=>x.GetProperty("id").GetInt32(),x=>x.GetProperty("standardId").GetUInt16());
+  if(profile=="liquid-crystal") { species[83] = ("Farfetch'd", 83); moves[185]=185; } // Faint Attack is the Generation III name of Feint Attack.
+  using var ms=new MemoryStream();using(var w=new Utf8JsonWriter(ms)){w.WriteStartObject();w.WriteString("profile",profile);w.WriteString("sourceType",sourceType);if(trainer!=null)w.WriteString("trainer",trainer);if(romCrc!=null)w.WriteString("romCrc",romCrc);w.WriteString("warning",(sourceType.StartsWith("Partial",StringComparison.Ordinal)?"Trainer/settings sector is missing: only party and PC are recovered; each Pokémon retains its own original trainer. ":"")+"Experimental source-name mapping; standard PID shiny and ability assumptions. Held items removed and non-Poké Balls replaced. Party experience may be adjusted to preserve displayed level; box levels may differ. Original fields and bytes retained. Locations are approximate.");w.WriteStartArray("pokemon");int skipped=0;
+   foreach(var r in records){if(!r.ChecksumValid)throw new InvalidDataException($"{r.Position} failed checksum.");var p=new PK3(r.NativeRecord.ToArray());if(p.IsEgg||p.FlagIsBadEgg||!species.TryGetValue(p.SpeciesInternal,out var map)||!PersonalTable.XY.IsPresentInGame(map.National,0)){skipped++;continue;}
+    w.WriteStartObject();w.WriteString("position",r.Position);w.WriteString("nickname",p.Nickname);w.WriteNumber("nativeSpecies",p.SpeciesInternal);w.WriteNumber("nationalSpecies",map.National);w.WriteString("sourceSpecies",map.Name);w.WriteNumber("storedLevel",r.NativeRecord.Length==100?p.Stat_Level:p.CurrentLevel);w.WriteBoolean("levelApproximate",r.NativeRecord.Length!=100);w.WriteString("originalTrainer",p.OriginalTrainerName);w.WriteNumber("trainerId",p.TID16);w.WriteNumber("secretId",p.SID16);w.WriteNumber("nativePid",p.PID);w.WriteNumber("nativeMetLocation",p.MetLocation);w.WriteNumber("nativeMetLevel",p.MetLevel);w.WriteString("nativeOrigin",p.Version.ToString());w.WriteNumber("nativeBall",p.Ball);w.WriteNumber("nativeHeldItem",p.HeldItem);w.WriteNumber("nativeExp",p.EXP);w.WriteBoolean("shinyAssumingStandardPid",p.IsShiny);w.WriteString("nativeFile",r.Position+".bin");w.WriteBase64String("nativeBytes",r.NativeRecord);
+    try{var mapped=p.Moves.Select(x=>x==0?(ushort)0:moves.TryGetValue(x,out ushort m)?m:throw new InvalidOperationException($"Unmapped move {x}.")).ToArray();var pi=PersonalTable.XY.GetFormEntry(map.National,0);
+     var q=new PK6{Species=map.National,Form=map.National==201?p.Form:(byte)0,EncryptionConstant=p.PID,PID=p.PID,ID32=p.ID32,Language=p.Language,OriginalTrainerName=p.OriginalTrainerName,OriginalTrainerGender=p.OriginalTrainerGender,Nickname=p.Nickname,IsNicknamed=!string.Equals(p.Nickname,map.Name,StringComparison.OrdinalIgnoreCase),EXP=p.EXP,Nature=p.Nature,StatAlignment=p.Nature,Gender=EntityGender.GetFromPIDAndRatio(p.PID,pi.Gender),AbilityNumber=p.AbilityNumber,HeldItem=0,OriginalTrainerFriendship=p.OriginalTrainerFriendship,Version=profile=="liquid-crystal"?GameVersion.HG:profile=="recharged-yellow"?GameVersion.FR:GameVersion.OR,MetLevel=p.MetLevel,MetLocation=0,Ball=4,FatefulEncounter=p.FatefulEncounter,PokerusDays=p.PokerusDays,PokerusStrain=p.PokerusStrain,Move1_PP=p.Move1_PP,Move2_PP=p.Move2_PP,Move3_PP=p.Move3_PP,Move4_PP=p.Move4_PP,Move1_PPUps=p.Move1_PPUps,Move2_PPUps=p.Move2_PPUps,Move3_PPUps=p.Move3_PPUps,Move4_PPUps=p.Move4_PPUps};
+     q.RefreshAbility(p.AbilityNumber==2?1:0);q.Moves=mapped;for(int i=0;i<6;i++){q.SetIV(i,p.GetIV(i));q.SetEV(i,p.GetEV(i));}if(r.NativeRecord.Length==100&&p.Stat_Level is >=1 and <=100&&q.CurrentLevel!=p.Stat_Level)q.EXP=Experience.GetEXP(p.Stat_Level,pi.EXPGrowth);if(!p.IsShiny&&q.IsShiny)q.PID^=0x00100000;if(p.IsShiny!=q.IsShiny)throw new InvalidOperationException("Could not preserve assumed shiny status.");
+     if(profile=="liquid-crystal"){var loc=HistoricGen3.LiquidCrystalLocation(p.MetLocation);if(loc?.HgssId is int id){bool kanto=id is >=138 and <=176 or >=197 and <=201 or 203 or 221 or 223 or 224;q.MetLocation=NativeLocations.PortableLocation(new NativeOriginMapping(GameVersion.HG,kanto?"kanto":"johto",(ushort)id),q);}}else if(profile=="recharged-yellow")q.MetLocation=NativeLocations.PortableLocation(new NativeOriginMapping(GameVersion.FR,"kanto",0),q);else q.MetLocation=NativeLocations.PortableLocation(new NativeOriginMapping(GameVersion.OR,"hoenn",0),q);
+     q.ResetPartyStats();q.RefreshChecksum();byte[] bytes=new byte[q.SIZE_STORED];q.WriteDecryptedDataStored(bytes);var check=new PK6(bytes.ToArray());if(!check.ChecksumValid||check.Species!=map.National||check.ID32!=p.ID32)throw new InvalidOperationException("Converted record failed verification.");w.WriteString("file",r.Position+".pk6");w.WriteBase64String("bytes",bytes);w.WriteBoolean("pidAdjusted",q.PID!=p.PID);w.WriteString("portableLocation",NativeLocations.DisplayLocation(q));w.WriteNull("error");
+    }catch(Exception e)when(e is InvalidOperationException or ArgumentException or IndexOutOfRangeException){w.WriteNull("file");w.WriteNull("bytes");w.WriteBoolean("pidAdjusted",false);w.WriteString("error",e.Message);}w.WriteEndObject();
+   }w.WriteEndArray();w.WriteNumber("skippedUnmapped",skipped);w.WriteEndObject();}return Encoding.UTF8.GetString(ms.ToArray());
+ }
+}

@@ -1,0 +1,7 @@
+# PK1 and PK2 Pokémon files
+
+PK1 and PK2 are individual Generation 1 and Generation 2 Pokémon list records, serialized and reopened using PKHeX Core (`PK1.WriteDecryptedDataStored` / `PK2.WriteDecryptedDataStored`). They retain the species, nickname, original trainer, trainer ID, experience, moves and native DVs held in the source Pokémon. They do not create missing modern individual capture-location or ball data. Do not infer retail legality from export.
+
+The exact supplied Shin Pokémon Red 1.24.5 mGBA GB-state reader exports PK1 for the live party only; its six-party real state matched its companion battery save. Gen 2 shininess is inferred by PKHeX from the DVs; a shiny specimen was not independently checked. The exact Cobalt Blue US mGBA state and explicitly selected battery-save readers export PK2 using conservative same-name/same-ID source tables; unsupported species, moves and eggs are skipped. For Cobalt Blue all held items are removed in the portable PK2, with their original item ID and unmodified native PK2 retained in metadata and the archive. This avoids misidentifying custom item IDs as retail items. State export is party only; occupied-PC battery testing is synthetic. Actual user game files and records must remain outside the repository.
+
+See [Shin Red](../romhacks/shin-pokemon-red.md), [Cobalt Blue](../romhacks/cobalt-blue.md), and [mGBA states](mgba-state.md). PKHeX Core is credited to [PKHeX](https://github.com/kwsch/PKHeX); integration derives from [PKHeX Everywhere](https://github.com/arleypadua/PKHeX.Everywhere).
