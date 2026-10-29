@@ -12,13 +12,15 @@ public static class NativePortable
         target.Species = source.Species; target.Form = source.Form; target.EncryptionConstant = source.PID; target.PID = source.PID; target.ID32 = source.ID32;
         target.Language = source.Language; target.OriginalTrainerName = source.OriginalTrainerName; target.OriginalTrainerGender = source.OriginalTrainerGender;
         target.Nickname = source.Nickname; target.IsNicknamed = source.IsNicknamed; target.EXP = source.EXP; target.Nature = source.Nature; target.StatAlignment = source.Nature; target.Gender = source.Gender;
-        target.Ability = source.Ability; target.AbilityNumber = source.AbilityNumber; target.Ball = source.Ball; target.HeldItem = source.HeldItem;
+        target.Ability = source.Ability; target.AbilityNumber = source.AbilityNumber; target.HeldItem = source.HeldItem;
         target.OriginalTrainerFriendship = source.OriginalTrainerFriendship; target.Version = origin ?? mapping.Origin; target.MetLevel = source.MetLevel;
         target.FatefulEncounter = source.FatefulEncounter; target.IsEgg = source.IsEgg; target.PokerusDays = source.PokerusDays; target.PokerusStrain = source.PokerusStrain;
         target.Moves = source.Moves; for (int i = 0; i < 6; i++) { target.SetIV(i, source.GetIV(i)); target.SetEV(i, source.GetEV(i)); }
         target.Move1_PP = source.Move1_PP; target.Move2_PP = source.Move2_PP; target.Move3_PP = source.Move3_PP; target.Move4_PP = source.Move4_PP;
         target.Move1_PPUps = source.Move1_PPUps; target.Move2_PPUps = source.Move2_PPUps; target.Move3_PPUps = source.Move3_PPUps; target.Move4_PPUps = source.Move4_PPUps;
         target.MetLocation = NativeLocations.PortableLocation(mapping, target);
+        target.Ball = source.Ball;
+        if (target is PK4 hgss && hgss.Ball != source.Ball) hgss.BallHGSS = source.Ball;
         uint markings=source.Read("outer.markings");
         if (target is IAppliedMarkings4 marked)
         {

@@ -19,6 +19,7 @@ static class LocationChecks
                 Check(exact.Nature == mon.Nature && exact.AbilityNumber == mon.AbilityNumber && exact.Ability == mon.Ability && exact.IsShiny == mon.IsShiny, "Gen4 identity");
                 var modern = NativePortable.Export(mon, preferModern: true);
                 Check(modern is PK6 && NativeLocations.DisplayLocation(modern) == "the " + region + " region", "modern " + region);
+                mon.Ball=(byte)Ball.Love;Check(mon.ToPortable() is PK4 apricorn&&apricorn.Ball==(byte)Ball.Love,"HGSS Apricorn ball retained");mon.Ball=(byte)Ball.Poke;
                 mon.Move1 = (ushort)Move.Moonblast;
                 var later = mon.ToPortable();Check(later is PK6 && later.Move1 == (ushort)Move.Moonblast && NativeLocations.DisplayLocation(later) == "the " + region + " region", "modern move retained");
                 mon.Move1 = 85;Check(mon.Data.SequenceEqual(original), "export does not mutate native record");
