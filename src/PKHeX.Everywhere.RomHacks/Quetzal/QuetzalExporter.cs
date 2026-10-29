@@ -57,7 +57,10 @@ foreach(var (record,party) in root.GetProperty("party").EnumerateArray().Select(
   var mappedBall=MapBall(ball);
   uint nativePid=party?BinaryPrimitives.ReadUInt32LittleEndian(raw):BinaryPrimitives.ReadUInt32LittleEndian(SHA256.HashData(raw));
   uint trainer=party?BinaryPrimitives.ReadUInt32LittleEndian(raw.AsSpan(4)):root.GetProperty("trainerId").GetUInt32();
-  int nature=party?(int)((nativePid&255)%25):N(record,"nature");bool shiny=party?(raw[0x13]&8)!=0:record.GetProperty("shiny").GetBoolean();
+  int nature=party?(int)((nativePid&255)%25):N(record,"nature");
+  // Quetzal stores shiny and Radiant separately. PK9 cannot retain the Radiant palette.
+  bool radiant=party?(raw[0x13]&0x10)!=0:(raw[5]&0x20)!=0;
+  bool shiny=(party?(raw[0x13]&8)!=0:record.GetProperty("shiny").GetBoolean())||radiant;
   string nickname=StringConverter3.GetString(raw.AsSpan(party?8:21,10),false);string ot=party?StringConverter3.GetString(raw.AsSpan(20,7),false):TrainerName();
   bool otGenderKnown=trainer==root.GetProperty("trainerId").GetUInt32();
   var mon=new PK9{Species=dex,Form=form,Version=GameVersion.SL,Language=2,Nickname=nickname,OriginalTrainerName=ot,ID32=trainer,OriginalTrainerGender=otGenderKnown?(byte)N(root,"trainerGender"):(byte)0,PID=nativePid,EncryptionConstant=nativePid,Nature=(Nature)nature,StatAlignment=(Nature)nature,Ability=ability,AbilityNumber=1<<slot,HeldItem=MapName(items,item,itemNames,"item"),Ball=mappedBall.Value};
@@ -73,18 +76,18 @@ foreach(var (record,party) in root.GetProperty("party").EnumerateArray().Select(
   int level=party?N(record,"level"):LevelFromExp(N(record,"experienceApproximate"));mon.CurrentLevel=(byte)level;mon.ObedienceLevel=(byte)level;mon.MetLevel=(byte)level;mon.MetLocation=Location(mon);mon.Gender=Gender(mon,sp,party,nativePid,record);
   mon.ResetPartyStats();mon.RefreshChecksum();byte[] output=new byte[mon.SIZE_STORED];mon.WriteDecryptedDataStored(output);string filename=position+" - "+string.Concat(nickname.Where(char.IsLetterOrDigit))+".pk9";
   bool needsFormatHint=EntityFormat.GetFromBytes(output.ToArray(),EntityContext.Gen9) is not PK9;
-  report.Add(new Result(position,nickname,filename,Convert.ToBase64String(output),null,native,dex,form,mon.MetLocation==0?null:GameInfo.GetLocationName(false,mon.MetLocation,mon.Format,mon.Generation,mon.Version),ball,mappedBall.Approximate,!party,!otGenderKnown,!party,mon.PID!=nativePid,!party,needsFormatHint,record));
- }catch(Exception e){report.Add(new Result(position,"",null,null,e.Message,0,0,0,null,null,false,!party,false,!party,false,!party,false,record));}
+  report.Add(new Result(position,nickname,filename,Convert.ToBase64String(output),null,native,dex,form,mon.MetLocation==0?null:GameInfo.GetLocationName(false,mon.MetLocation,mon.Format,mon.Generation,mon.Version),ball,mappedBall.Approximate,radiant,!party,!otGenderKnown,!party,mon.PID!=nativePid,!party,needsFormatHint,record));
+ }catch(Exception e){report.Add(new Result(position,"",null,null,e.Message,0,0,0,null,null,false,false,!party,false,!party,false,!party,false,record));}
 }
 using var outputStream = new MemoryStream();
 using(var writer=new Utf8JsonWriter(outputStream)){
  writer.WriteStartArray();foreach(var r in report){writer.WriteStartObject();writer.WriteString("position",r.Position);writer.WriteString("nickname",r.Nickname);
- writer.WriteString("file",r.File);writer.WriteString("bytes",r.Bytes);writer.WriteString("error",r.Error);writer.WriteNumber("sourceSpecies",r.SourceSpecies);writer.WriteNumber("national",r.National);writer.WriteNumber("form",r.Form);writer.WriteString("location",r.Location);writer.WriteBoolean("locationApproximate",true);if(r.NativeBall is int nativeBall)writer.WriteNumber("nativeBallId",nativeBall);else writer.WriteNull("nativeBallId");writer.WriteBoolean("ballApproximate",r.BallApproximate);writer.WriteBoolean("trainerApproximate",r.TrainerApproximate);writer.WriteBoolean("trainerGenderApproximate",r.TrainerGenderApproximate);writer.WriteBoolean("pidApproximate",r.PidApproximate);writer.WriteBoolean("pidAdjusted",r.PidAdjusted);writer.WriteBoolean("experienceApproximate",true);writer.WriteBoolean("friendshipApproximate",r.TrainerApproximate);writer.WriteBoolean("metLevelApproximate",true);writer.WriteBoolean("ppApproximate",r.PpApproximate);writer.WriteBoolean("formatHintRequired",r.FormatHintRequired);writer.WritePropertyName("source");r.Source.WriteTo(writer);writer.WriteEndObject();}writer.WriteEndArray();}
+ writer.WriteString("file",r.File);writer.WriteString("bytes",r.Bytes);writer.WriteString("error",r.Error);writer.WriteNumber("sourceSpecies",r.SourceSpecies);writer.WriteNumber("national",r.National);writer.WriteNumber("form",r.Form);writer.WriteString("location",r.Location);writer.WriteBoolean("locationApproximate",true);if(r.NativeBall is int nativeBall)writer.WriteNumber("nativeBallId",nativeBall);else writer.WriteNull("nativeBallId");writer.WriteBoolean("ballApproximate",r.BallApproximate);writer.WriteBoolean("radiantConvertedToShiny",r.Radiant);writer.WriteBoolean("trainerApproximate",r.TrainerApproximate);writer.WriteBoolean("trainerGenderApproximate",r.TrainerGenderApproximate);writer.WriteBoolean("pidApproximate",r.PidApproximate);writer.WriteBoolean("pidAdjusted",r.PidAdjusted);writer.WriteBoolean("experienceApproximate",true);writer.WriteBoolean("friendshipApproximate",r.TrainerApproximate);writer.WriteBoolean("metLevelApproximate",true);writer.WriteBoolean("ppApproximate",r.PpApproximate);writer.WriteBoolean("formatHintRequired",r.FormatHintRequired);writer.WritePropertyName("source");r.Source.WriteTo(writer);writer.WriteEndObject();}writer.WriteEndArray();}
 return System.Text.Encoding.UTF8.GetString(outputStream.ToArray());
 }
 
 static int LevelFromExp(int exp){int result=1;for(int n=2;n<=100;n++){int value=6*n*n*n/5-15*n*n+100*n-140;if(value>exp)break;result=n;}return result;}
 static byte Gender(PK9 mon,JsonElement info,bool party,uint pid,JsonElement record){int ratio=info.GetProperty("gender").GetInt32();if(ratio==255)return 2;if(ratio==254)return 1;if(ratio==0)return 0;return party?(byte)((pid&255)<ratio?1:0):(byte)record.GetProperty("femaleBit").GetInt32();}
 
-private sealed record Result(string Position,string Nickname,string? File,string? Bytes,string? Error,int SourceSpecies,int National,int Form,string? Location,int? NativeBall,bool BallApproximate,bool TrainerApproximate,bool TrainerGenderApproximate,bool PidApproximate,bool PidAdjusted,bool PpApproximate,bool FormatHintRequired,JsonElement Source);
+private sealed record Result(string Position,string Nickname,string? File,string? Bytes,string? Error,int SourceSpecies,int National,int Form,string? Location,int? NativeBall,bool BallApproximate,bool Radiant,bool TrainerApproximate,bool TrainerGenderApproximate,bool PidApproximate,bool PidAdjusted,bool PpApproximate,bool FormatHintRequired,JsonElement Source);
 }
