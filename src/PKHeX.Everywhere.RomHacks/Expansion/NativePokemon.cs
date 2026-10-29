@@ -1,11 +1,12 @@
 using PKHeX.Core;
 using PKHeX.Facade.Abstractions;
 using PKHeX.Everywhere.RomHacks.Cfru;
+using PKHeX.Everywhere.RomHacks.Expansion.HeartAndSoul;
 using static System.Buffers.Binary.BinaryPrimitives;
 
 namespace PKHeX.Everywhere.RomHacks.Expansion;
 
-public sealed class NativePokemon : PKM, ISpeciesIndex, IHeldItemIndex, IPortablePokemon, IShinyState
+public sealed class NativePokemon : PKM, ISpeciesIndex, IHeldItemIndex, IPortablePokemon, IShinyState, IContextualAbilityChoices
 {
     public SourceProfile Profile { get; }
     public void SetShinyState(bool shiny) => Set("outer.shinyModifier", ((ShinyXor < Profile.At("SHINY_ODDS")) ^ shiny) ? 1u : 0u);
@@ -16,7 +17,16 @@ public sealed class NativePokemon : PKM, ISpeciesIndex, IHeldItemIndex, IPortabl
     private static byte[] Widen(SourceProfile p, Memory<byte> data) { var result = new byte[p.At("sizeof.Pokemon")]; data.Span.CopyTo(result); return result; }
     public bool StatsDirty { get; private set; }
     internal bool NativeRecord { get; private set; } = true;
-    public override NativePokemon Clone() => new(Profile, Data.ToArray()) { StatsDirty = StatsDirty, NativeRecord = NativeRecord };
+    internal Func<(uint Seed, bool Enabled)>? HnsRandomizer { get; set; }
+    internal bool HasRandomizedAbility => HnsRandomizer?.Invoke().Enabled == true;
+    public bool HasContextualAbilityChoices => HasRandomizedAbility;
+    public IReadOnlyList<int> GetContextualAbilityChoices()
+    {
+        if (HnsRandomizer is not { } context) return [];
+        var (seed, enabled) = context();
+        return enabled ? Enumerable.Range(0, 3).Select(i => HnsAbility.Resolve(Profile, SpeciesIndex, i, seed)).Distinct().ToArray() : [];
+    }
+    public override NativePokemon Clone() => new(Profile, Data.ToArray()) { StatsDirty = StatsDirty, NativeRecord = NativeRecord, HnsRandomizer = HnsRandomizer };
     public uint Read(string name)
     {
         if (!Profile.BitFields.TryGetValue(name, out var bits)) return 0;
@@ -62,7 +72,24 @@ public sealed class NativePokemon : PKM, ISpeciesIndex, IHeldItemIndex, IPortabl
     public override int HeldItem { get => Profile.Items.ToModern(HeldItemIndex); set { if (value != HeldItem && Profile.Items.ToIndex((ushort)value) is { } i) HeldItemIndex = i; } }
     public override uint EXP { get => Read("experience"); set => Set("experience", value); }
     public override int AbilityNumber { get => 1 << (int)Math.Min(Read("abilityNum"), 2); set => Set("abilityNum", value switch { 2 => 1u, 4 => 2u, _ => 0u }); }
-    public override int Ability { get => PersonalInfo.GetAbilityAtIndex((int)Math.Min(Read("abilityNum"), 2)); set { int slot = PersonalInfo.GetIndexOfAbility(value); if (slot >= 0) Set("abilityNum", (uint)slot); } }
+    public override int Ability
+    {
+        get { if (HnsRandomizer is { } context) { var (seed, enabled) = context(); if (enabled) return HnsAbility.Resolve(Profile, SpeciesIndex, (int)Read("abilityNum"), seed); } return PersonalInfo.GetAbilityAtIndex((int)Math.Min(Read("abilityNum"), 2)); }
+        set
+        {
+            if (HnsRandomizer is { } context)
+            {
+                var (seed, enabled) = context();
+                if (enabled)
+                {
+                    if (Ability == value) return;
+                    for (int i = 0; i < 3; i++) if (HnsAbility.Resolve(Profile, SpeciesIndex, i, seed) == value) { Set("abilityNum", (uint)i); return; }
+                    throw new InvalidOperationException("That ability is not available in this Pokémon's randomized ability slots.");
+                }
+            }
+            int slot = PersonalInfo.GetIndexOfAbility(value); if (slot >= 0) Set("abilityNum", (uint)slot);
+        }
+    }
     public override byte Ball { get => Read("pokeball") < Profile.Balls.Length ? (byte)Profile.Balls[Read("pokeball")] : (byte)0; set { if (value == Ball) return; var i = Array.IndexOf(Profile.Balls, (Ball)value); if (i >= 0) Set("pokeball", (uint)i); } }
     public override byte OriginalTrainerGender { get => (byte)Read("otGender"); set => Set("otGender", value); }
     public override byte OriginalTrainerFriendship { get => (byte)Read("friendship"); set => Set("friendship", value); }

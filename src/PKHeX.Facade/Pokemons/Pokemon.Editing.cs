@@ -185,7 +185,8 @@ public partial class Pokemon
     {
         Require(id > 0 && id <= Pkm.MaxAbilityID, nameof(PokemonPatch.Ability), $"Ability {id} isn't in this game.");
         var index = Pkm.PersonalInfo.GetIndexOfAbility(id);
-        if (index >= 0) Pkm.RefreshAbility(index);
+        if (Pkm is IContextualAbilityChoices { HasContextualAbilityChoices: true }) Pkm.Ability = id;
+        else if (index >= 0) Pkm.RefreshAbility(index);
         else Pkm.Ability = id;
         Require(Pkm.Ability == id, nameof(PokemonPatch.Ability), $"Ability {AbilityRepository.Instance.Get(id).Name} can't be stored for {Species.Name} in this game.");
     }
@@ -441,6 +442,8 @@ public partial class Pokemon
     private Choice[] AbilityChoices()
     {
         if (Pkm.MaxAbilityID <= 0) return [];
+        if (Pkm is IContextualAbilityChoices { HasContextualAbilityChoices: true } contextual)
+            return contextual.GetContextualAbilityChoices().Where(id => id > 0).Distinct().Select(id => new Choice(id, AbilityRepository.Instance.Get(id).Name)).ToArray();
 
         var personal = Pkm.PersonalInfo;
         IEnumerable<int> others = Game.GameData.StoresAbilitySlot ? [] : Enumerable.Range(1, Pkm.MaxAbilityID).OrderBy(id => AbilityRepository.Instance.Get(id).Name);

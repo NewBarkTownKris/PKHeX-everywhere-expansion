@@ -6,7 +6,7 @@ public static class NativePortable
     public static PKM Export(NativePokemon source, GameVersion? origin = null, bool preferModern = false)
     {
         var mapping = NativeLocations.Resolve(source);
-        PKM target = !preferModern && (mapping.Region is "johto" or "kanto") && mapping.ExactLocation != 0 && Fits(source, new PK4()) ? new PK4() : new PK6();
+        PKM target = !preferModern && !source.HasRandomizedAbility && (mapping.Region is "johto" or "kanto") && mapping.ExactLocation != 0 && Fits(source, new PK4()) ? new PK4() : new PK6();
         if (!Fits(source, target)) target = new PK9();
         if (!Fits(source, target)) throw new InvalidOperationException("A species, form, move, ability, item or name has no supported standard Pokémon file equivalent.");
         target.Species = source.Species; target.Form = source.Form; target.EncryptionConstant = source.PID; target.PID = source.PID; target.ID32 = source.ID32;

@@ -81,6 +81,15 @@ public sealed class SourceProfile
         Balls = new Ball[Symbols["BALL"].Values.Where(v => v < 64).Max() + 1];
         foreach (var (index, id) in EnumMap<Ball>("BALL").Where(p => p.Key < Balls.Length)) Balls[index] = (Ball)id;
         Abilities = EnumMap<Ability>("ABILITY");
+        if (Id == "heart-and-soul-2.0.6")
+        {
+            foreach (var (name, ability) in new[] {
+                ("ABILITY_AS_ONE_ICE_RIDER", Ability.AsOneI), ("ABILITY_AS_ONE_SHADOW_RIDER", Ability.AsOneG),
+                ("ABILITY_EMBODY_ASPECT_TEAL_MASK", Ability.EmbodyAspect0), ("ABILITY_EMBODY_ASPECT_HEARTHFLAME_MASK", Ability.EmbodyAspect1),
+                ("ABILITY_EMBODY_ASPECT_WELLSPRING_MASK", Ability.EmbodyAspect2), ("ABILITY_EMBODY_ASPECT_CORNERSTONE_MASK", Ability.EmbodyAspect3),
+            })
+                if (Symbols["ABILITY"].TryGetValue(name, out int native)) Abilities[native] = (int)ability;
+        }
         foreach (var (index, element) in Personal)
         {
             int N(string key) => element.GetProperty(key).GetInt32();

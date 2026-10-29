@@ -51,6 +51,8 @@ public static class MgbaState
         }
         uint Pointer(uint address) => BinaryPrimitives.ReadUInt32LittleEndian(Ram(address, 4));
         var trainer = StringConverter3.GetString(Ram(Pointer(build.TrainerPtr) + (uint)profile.At("SaveBlock2.playerName"), 7), false);
+        uint hnsSeed = build.Profile == "heart-and-soul-2.0.6" ? BinaryPrimitives.ReadUInt32LittleEndian(Ram(Pointer(build.TrainerPtr) + (uint)profile.At("SaveBlock2.playerTrainerId"), 4)) : 0;
+        bool hnsAbilities = build.Profile == "heart-and-soul-2.0.6" && (Ram(0x0200921C + 20, 1)[0] & 0x80) != 0;
         if (string.IsNullOrWhiteSpace(trainer)) throw new InvalidDataException("The state has no initialized trainer. Open an in-game state.");
         int count = Ram(build.Count, 1)[0];
         if (count > 6) throw new InvalidDataException("The state has an invalid player party count.");
@@ -70,6 +72,7 @@ public static class MgbaState
             byte[] original = raw.ToArray(), decrypted = raw.ToArray();
             if (!profile.Compact) PokeCrypto.Decrypt3(decrypted.AsSpan(0, profile.At("sizeof.BoxPokemon")));
             var mon = new NativePokemon(profile, decrypted);
+            if (build.Profile == "heart-and-soul-2.0.6") mon.HnsRandomizer = () => (hnsSeed, hnsAbilities);
             if (!mon.Valid || mon.SpeciesIndex == 0) throw new InvalidDataException($"{position} failed its native Pokémon checks.");
             members.Add(new(position, original, mon));
         }

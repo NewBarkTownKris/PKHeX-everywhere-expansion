@@ -28,7 +28,7 @@ public static class NativeCollectionArchive
                     {
                         var portable = mon.ToPortable(); var bytes = new byte[portable.SIZE_STORED]; portable.WriteDecryptedDataStored(bytes);
                         var path = "Portable Pokemon/" + stem + "." + portable.Extension; Put(zip, path, bytes);
-                        writer.WriteString("portablePath", path); writer.WriteNumber("portablePid", portable.PID); writer.WriteNumber("portableLocation", portable.MetLocation); writer.WriteNumber("portableOrigin", (int)portable.Version);
+                        writer.WriteString("portablePath", path); writer.WriteNumber("portablePid", portable.PID); writer.WriteNumber("portableLocation", portable.MetLocation); writer.WriteNumber("portableOrigin", (int)portable.Version); writer.WriteBoolean("randomizedAbility", mon.HasRandomizedAbility); writer.WriteNumber("portableAbility", portable.Ability);
                         writer.WriteString("portableOriginName", portable.Version.ToString()); writer.WriteString("portableRegion", NativeLocations.Resolve(mon).Region); writer.WriteString("portableLocationName", NativeLocations.DisplayLocation(portable));
                         writer.WriteString("locationMapping", portable is PK4 ? "exact HG/SS location" : portable.MetLocation >= 30000 ? "regional fallback" : portable.MetLocation != 0 ? "exact OR/AS location" : "unmapped; exact native location retained in metadata");
                         writer.WriteBoolean("originChanged", portable.Version != mon.Version); writer.WriteBoolean("pidChanged", portable.PID != mon.PID);

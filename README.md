@@ -43,7 +43,7 @@ for stock/HnS/Soulgold currently falls back to PKHeX data and is marked approxim
 Rocket Hoenn has completed-save and actual-game verification. Heart & Soul 2.0.6
 and SoulGold 1.2.1 have source-derived adapters and supplied-save edit checks.
 Heart & Soul’s built-in randomizer shares its save format; randomized abilities
-are calculated in-game and are not currently reflected in portable exports.
+are computed from the save settings and preserved in modern portable exports.
 This is a prototype, not a universal hack detector.
 
 Hosted preview: https://newbarktownkris.github.io/PKHeX-everywhere-expansion/

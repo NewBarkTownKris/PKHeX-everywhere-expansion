@@ -96,7 +96,7 @@ public sealed class NativeSave : SaveFile, IBoxDetailName
     public override int Language { get => 2; set { } }
     public override IPersonalTable Personal => Profile.Species.Personal;
     public override Type PKMType => typeof(NativePokemon); public override NativePokemon BlankPKM => new(Profile);
-    protected override NativePokemon GetPKM(Memory<byte> data) => new(Profile, data);
+    protected override NativePokemon GetPKM(Memory<byte> data) => new(Profile, data) { HnsRandomizer = Profile.Id == "heart-and-soul-2.0.6" ? () => (ID32, (Sector(0)[3968 + 20] & 0x80) != 0) : null };
     protected override void DecryptPKM(Span<byte> data) { if (!Profile.Compact) PokeCrypto.Decrypt3(data); }
     public override int PartyCount { get => _block1[Profile.At("SaveBlock1.playerPartyCount")]; protected set => _block1[Profile.At("SaveBlock1.playerPartyCount")] = (byte)value; }
     protected override Span<byte> PartyBuffer => _block1.AsSpan(Profile.At("SaveBlock1.playerParty"), 6 * SIZE_PARTY);

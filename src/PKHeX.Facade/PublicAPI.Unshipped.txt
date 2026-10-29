@@ -729,3 +729,6 @@ PKHeX.Facade.Abstractions.IPortablePokemon
 PKHeX.Facade.Abstractions.IPortablePokemon.ToPortable() -> PKHeX.Core.PKM!
 PKHeX.Facade.Abstractions.IShinyState
 PKHeX.Facade.Abstractions.IShinyState.SetShinyState(bool shiny) -> void
+PKHeX.Facade.Abstractions.IContextualAbilityChoices
+PKHeX.Facade.Abstractions.IContextualAbilityChoices.GetContextualAbilityChoices() -> System.Collections.Generic.IReadOnlyList<int>!
+PKHeX.Facade.Abstractions.IContextualAbilityChoices.HasContextualAbilityChoices.get -> bool

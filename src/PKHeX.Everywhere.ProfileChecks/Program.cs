@@ -59,7 +59,7 @@ if(args.Contains("--write-state-fixtures")){
  }
  return;
 }
-if(args.Contains("--synthetic-only")){RunSyntheticChecks();LocationChecks.Run();QuetzalChecks.Synthetic();StateChecks.Run();VbaChecks.Run();GbStateChecks.Run();PolishedSyntheticChecks.Run();HackRecoveryChecks.Run();return;}
+if(args.Contains("--synthetic-only")){RunSyntheticChecks();HnsAbilityChecks.Run();LocationChecks.Run();QuetzalChecks.Synthetic();StateChecks.Run();VbaChecks.Run();GbStateChecks.Run();PolishedSyntheticChecks.Run();HackRecoveryChecks.Run();return;}
 var path=Path.GetFullPath(args.FirstOrDefault(x=>!x.StartsWith("--"))??"../Pokemon Emerald - Joule.sav");
 var original=File.ReadAllBytes(path);var hash=SHA256.HashData(original);
 Console.WriteLine("Loaded profiles: "+string.Join(", ",SourceProfile.All.Select(x=>x.Id)));

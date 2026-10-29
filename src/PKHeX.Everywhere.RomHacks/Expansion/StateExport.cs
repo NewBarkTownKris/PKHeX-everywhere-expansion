@@ -25,6 +25,7 @@ public static class StateExport
                 w.WriteString("originalTrainer", mon.OriginalTrainerName); w.WriteNumber("trainerId", mon.ID32); w.WriteNumber("pid", mon.PID);
                 w.WriteNumber("nativeMetLocation", mon.MetLocation); w.WriteString("nativeLocation", mon.Profile.Locations.GetValueOrDefault(mon.MetLocation.ToString()));
                 w.WriteString("nativeOrigin", mon.Version.ToString()); w.WriteBoolean("shiny", mon.IsShiny);
+                w.WriteBoolean("randomizedAbility", mon.HasRandomizedAbility);
                 try
                 {
                     if (mon.Species == 0 || Enumerable.Range(1, 4).Any(i => mon.Read("move" + i) != 0 && mon.GetMove(i - 1) == 0) ||
@@ -32,7 +33,7 @@ public static class StateExport
                         throw new InvalidOperationException("A species, move, item or ball has no known standard mapping.");
                     var portable = mon.ToPortable(); byte[] data = new byte[portable.SIZE_STORED]; portable.WriteDecryptedDataStored(data);
                     w.WriteString("file", stem + "." + portable.Extension); w.WriteBase64String("bytes", data);
-                    w.WriteString("portableLocation", NativeLocations.DisplayLocation(portable));
+                    w.WriteString("portableLocation", NativeLocations.DisplayLocation(portable)); w.WriteNumber("portableAbility", portable.Ability);
                     w.WriteBoolean("pidAdjusted", portable.PID != mon.PID); w.WriteNull("error");
                 }
                 catch (Exception e) when (e is InvalidOperationException or ArgumentException or IndexOutOfRangeException)

@@ -17,6 +17,7 @@
 
     <ItemGroup>
         <EmbeddedResource Include="../../profiles/*.json" LogicalName="profiles.%(Filename)%(Extension)" />
+        <EmbeddedResource Include="Expansion/HeartAndSoul/randomizer-abilities.json" LogicalName="hns.randomizer-abilities.json" />
         <EmbeddedResource Include="Quetzal/quetzal-9-v1.json" LogicalName="quetzal.9v1.json" />
         <EmbeddedResource Include="Historic/gb-*.json" LogicalName="historic.%(Filename)%(Extension)" />
         <EmbeddedResource Include="Historic/vba-*.json" LogicalName="historic.%(Filename)%(Extension)" />
