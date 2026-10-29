@@ -11,6 +11,11 @@ export default function CreditsPage() {
         {' '}by Arley Padua and contributors. Expansion profiles are derived from the matching
         pokeemerald-expansion, Heart &amp; Soul and Soulgold source versions.
       </p>
+      <h2>PokeDaisy</h2>
+      <p>
+        Quetzal save and ROM table research builds on <a href="https://github.com/lidor30/pokedaisy">PokeDaisy</a>,
+        a GPL-3.0 project. Its Quetzal data extraction tools were used with the matching game ROM.
+      </p>
       <h2>PKHeX.Core</h2>
       <p>
         This app is built on the foundation of{' '}

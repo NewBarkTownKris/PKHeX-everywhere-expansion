@@ -11,6 +11,7 @@ import { journey } from '../../layout/journey'
 import { routes } from '../../routes'
 import { FormatPickerModal } from './FormatPickerModal'
 import { LoadRomHackModal } from './LoadRomHackModal'
+import { QuetzalModal } from './QuetzalModal'
 import { PkhemuCard } from './PkhemuCard'
 import { SaveFileDrop } from './SaveFileDrop'
 import { cardGeneration } from './pkhemuInvite'
@@ -149,6 +150,7 @@ interface OpenButtonProps {
 
 function OpenButton({ label, type, style, onOpen }: OpenButtonProps) {
   const [loadingRomHack, setLoadingRomHack] = useState(false)
+  const [loadingQuetzal, setLoadingQuetzal] = useState(false)
 
   const buttons = (
     <Space.Compact style={style}>
@@ -161,8 +163,9 @@ function OpenButton({ label, type, style, onOpen }: OpenButtonProps) {
           items: [
             { key: 'open', label: 'Open save file' },
             { key: 'romHack', label: 'Load ROM Hack' },
+            { key: 'quetzal', label: 'Export Quetzal Pokémon' },
           ],
-          onClick: ({ key }) => (key === 'romHack' ? setLoadingRomHack(true) : onOpen()),
+          onClick: ({ key }) => key === 'romHack' ? setLoadingRomHack(true) : key === 'quetzal' ? setLoadingQuetzal(true) : onOpen(),
         }}
       >
         <Button type={type} icon={<EllipsisOutlined />} aria-label="More ways to open" />
@@ -193,6 +196,7 @@ function OpenButton({ label, type, style, onOpen }: OpenButtonProps) {
           <LoadRomHackModal onClose={() => setLoadingRomHack(false)} />
         </Suspense>
       )}
+      {loadingQuetzal && <QuetzalModal onClose={() => setLoadingQuetzal(false)} />}
     </>
   )
 }

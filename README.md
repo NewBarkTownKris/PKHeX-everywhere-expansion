@@ -63,6 +63,30 @@ Private completed-save checks take a separate save path and use the earlier
 native extraction outside this repository. No user save or ROM is included in
 the static build. `.local/` contains ignored tool caches and private QA output.
 
+## Pokémon Quetzal Alpha 9.1
+
+Use **More ways to open → Export Quetzal Pokémon** to open an English Alpha 9.1
+save and download individual PK9 files. This is a read-only export flow. It
+validates both 16-sector slots and uses the newest complete one. The currently
+supported compact box format uses 31-byte records; 21- and 38-byte box formats
+are detected and refused until separately validated.
+
+Box records omit their original trainer and PID. The exporter uses the save
+trainer and a generated PID, clearly identified in the downloadable metadata.
+Experience is adjusted to the retained level, PP is estimated for box records,
+and met levels are approximations. It selects a low-level Scarlet/Violet wild
+location for the same species and form, preferring Paldea; when none exists the
+location is left unknown. These locations are suggestions, not actual encounters.
+Quetzal-only balls are left unset. Some unusual held items can confuse automatic
+file format detection; those entries tell you to select PK9 when importing.
+Unsupported species, forms, moves or items are reported rather than guessed.
+
+The Quetzal mappings use numeric game data extracted from the user's matching
+ROM with [PokeDaisy](https://github.com/lidor30/pokedaisy)’s GPL-3.0 tools. No ROM or save is included. A
+real Alpha 9.1 save was checked against the running game and 54 exported Pokémon
+were checked with PKHeX Core. Other builds and save configurations require their
+own verification.
+
 ## Origin locations
 
 Portable Pokémon exports prioritize useful locations. Johto/Kanto records use
