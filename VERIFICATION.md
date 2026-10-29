@@ -20,3 +20,5 @@ Real-save and in-game stock expansion/HnS/Soulgold validation remains outstandin
 Other expansion releases and save-changing configurations require their own profiles.
 Persistent custom-profile storage and cross-profile imports are not complete.
 GitHub Pages uses the project base path; nested-route redirect and asset loading are checked separately.
+
+Location conversion checks: exact HG/SS Cherrygrove, New Bark, Violet, Route 29, Saffron, Routes 1/26, and Viridian Forest; matching Johto/Kanto regional labels in PK6; hidden abilities/long names/modern moves trigger newer files; forced shininess/nature/ability slot preserved in PK4; ORAS exact Hoenn locations retained with Gen6 and later moves. Completed-save exports verify M4GN1 PK4/PK6 and the other eight ORAS mappings.

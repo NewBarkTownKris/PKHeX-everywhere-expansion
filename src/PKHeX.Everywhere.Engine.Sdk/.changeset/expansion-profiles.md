@@ -4,3 +4,5 @@
 ---
 
 Add versioned expansion save adapters and portable Pokémon export metadata.
+
+Remap portable origins to HG/SS and OR/AS for useful native or regional met locations.

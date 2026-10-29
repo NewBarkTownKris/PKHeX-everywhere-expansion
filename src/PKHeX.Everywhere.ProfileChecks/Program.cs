@@ -4,8 +4,8 @@ using PKHeX.Everywhere.RomHacks.Expansion;
 using System.Text.Json;
 using System.Security.Cryptography;
 
-if(args.Contains("--synthetic-only")){RunSyntheticChecks();return;}
-var path=Path.GetFullPath(args.Length>0?args[0]:"../Pokemon Emerald - Joule.sav");
+if(args.Contains("--synthetic-only")){RunSyntheticChecks();LocationChecks.Run();return;}
+var path=Path.GetFullPath(args.FirstOrDefault(x=>!x.StartsWith("--"))??"../Pokemon Emerald - Joule.sav");
 var original=File.ReadAllBytes(path);var hash=SHA256.HashData(original);
 Console.WriteLine("Loaded profiles: "+string.Join(", ",SourceProfile.All.Select(x=>x.Id)));
 var profile=SourceProfile.Find("rocket-hoenn");
@@ -44,6 +44,7 @@ for(int i=0;i<save.BoxCount*save.BoxSlotCount;i++)Require(reload.GetBoxSlotAtInd
 Require(reload.ChecksumsValid,"edited save checksums");
 Console.WriteLine("PASS edit/reopen with all unrelated Pokémon unchanged");
 RunSyntheticChecks();
+LocationChecks.Run();
 foreach(var m in mons){
  var standard=m.ToPortable();var output=new byte[standard.SIZE_STORED];standard.WriteDecryptedDataStored(output);
  var reopened=EntityFormat.GetFromBytes(output,standard.Context)!;
@@ -51,7 +52,7 @@ foreach(var m in mons){
  Require(reopened.Moves.AsSpan().SequenceEqual(m.Moves),"portable moves");
  var damaged=m.Clone();damaged.Data[48]^=1;Require(!damaged.ChecksumValid,"negative native checksum check");
 }
-var mappedMarks=mons[0].Clone();mappedMarks.Set("outer.markings",5);var marked=(PK6)mappedMarks.ToPortable();
+var mappedMarks=mons[0].Clone();mappedMarks.Set("outer.markings",5);var marked=(IAppliedMarkings4)mappedMarks.ToPortable();
 Require(marked.MarkingCircle&&marked.MarkingTriangle&&!marked.MarkingSquare,"Gen3 marking order converted");
 var customJson=File.ReadAllText("profiles/rocket-hoenn.json").Replace("\"rocket-hoenn\"","\"private-check-profile\"");
 var customProfile=SourceProfile.Parse(customJson);Require(new NativeSave(customProfile,original).Write().Span.SequenceEqual(original),"imported source profile no-op");
@@ -71,8 +72,22 @@ using(var zip=new System.IO.Compression.ZipArchive(new MemoryStream(NativeCollec
  using var json=JsonDocument.Parse(zip.GetEntry("Metadata.json")!.Open());
  Require(json.RootElement.GetProperty("pokemon").GetArrayLength()==9,"archive metadata includes all nine");
  Require(json.RootElement.GetProperty("pokemon")[0].GetProperty("metLocationName").GetString()=="CHERRYGROVE CITY","archive custom location");
+ Require(zip.Entries.Count(e=>e.FullName.EndsWith(".pk4"))==1,"archive includes M4GN1 exact-location PK4");
+ Require(json.RootElement.GetProperty("pokemon")[0].GetProperty("portableLocationName").GetString()=="Cherrygrove City","archive mapped city");
+ Require(json.RootElement.GetProperty("pokemon")[0].GetProperty("modernAlternativeLocationName").GetString()=="the Johto region","archive regional PK6 alternative");
 }
-Console.WriteLine("PASS collection ZIP: 9 standard files, 9 native records, complete metadata");
+Console.WriteLine("PASS collection ZIP: 9 primary files, modern alternative, 9 native records, complete metadata");
+var exact=mons[0].ToPortable();var modern=NativePortable.Export(mons[0],preferModern:true);
+Require(exact is PK4&&exact.Version==GameVersion.SS&&exact.MetLocation==127&&NativeLocations.DisplayLocation(exact)=="Cherrygrove City","M4GN1 exact HGSS export");
+Require(modern is PK6&&modern.Version==GameVersion.SS&&NativeLocations.DisplayLocation(modern)=="the Johto region","M4GN1 regional modern export");
+foreach(var p in new[]{exact,modern})Require(p.PID==mons[0].PID&&p.Nature==mons[0].Nature&&p.Ability==mons[0].Ability&&p.MetLevel==40&&p.CurrentLevel==66,"M4GN1 identity retained");
+foreach(var m in mons.Skip(1))Require(m.ToPortable().Version==GameVersion.OR&&NativeLocations.DisplayLocation(m.ToPortable()).Length>0,"Hoenn ORAS origin and location");
+if(args.Contains("--write-location-exports")){
+ string output=".local/location-exports";Directory.CreateDirectory(output);
+ foreach(var p in new[]{exact,modern}){var data=new byte[p.SIZE_STORED];p.WriteDecryptedDataStored(data);File.WriteAllBytes(Path.Combine(output,"M4GN1 - "+NativeLocations.DisplayLocation(p)+"."+p.Extension),data);}
+ File.WriteAllBytes(Path.Combine(output,"Joule Pokemon - Mapped Origins.zip"),NativeCollectionArchive.Export(game));
+ Console.WriteLine("Wrote corrected M4GN1 files and full collection to "+output);
+}
 Require(hash.AsSpan().SequenceEqual(SHA256.HashData(File.ReadAllBytes(path))),"original save untouched");
 Console.WriteLine("PASS source save unchanged");
 static void Require(bool pass,string what){if(!pass)throw new Exception("FAIL: "+what);}

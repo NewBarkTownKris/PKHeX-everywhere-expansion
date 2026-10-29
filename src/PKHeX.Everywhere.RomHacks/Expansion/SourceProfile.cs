@@ -16,6 +16,7 @@ public sealed class SourceProfile
     public Dictionary<string, long> Layout { get; set; } = [];
     public int[] ChecksumLengths { get; set; } = [];
     public Dictionary<string, string> Locations { get; set; } = [];
+    public Dictionary<string, string> LocationRegions { get; set; } = [];
     public Dictionary<string, Dictionary<string, int>> Symbols { get; set; } = [];
     public Dictionary<string, int[]> BitFields { get; set; } = [];
     public Dictionary<string, JsonElement> Personal { get; set; } = [];

@@ -29,6 +29,15 @@ public static class NativeCollectionArchive
                         var portable = mon.ToPortable(); var bytes = new byte[portable.SIZE_STORED]; portable.WriteDecryptedDataStored(bytes);
                         var path = "Portable Pokemon/" + stem + "." + portable.Extension; Put(zip, path, bytes);
                         writer.WriteString("portablePath", path); writer.WriteNumber("portablePid", portable.PID); writer.WriteNumber("portableLocation", portable.MetLocation); writer.WriteNumber("portableOrigin", (int)portable.Version);
+                        writer.WriteString("portableOriginName", portable.Version.ToString()); writer.WriteString("portableRegion", NativeLocations.Resolve(mon).Region); writer.WriteString("portableLocationName", NativeLocations.DisplayLocation(portable));
+                        writer.WriteString("locationMapping", portable is PK4 ? "exact HG/SS location" : portable.MetLocation >= 30000 ? "regional fallback" : portable.MetLocation != 0 ? "exact OR/AS location" : "unmapped; exact native location retained in metadata");
+                        writer.WriteBoolean("originChanged", portable.Version != mon.Version); writer.WriteBoolean("pidChanged", portable.PID != mon.PID);
+                        if (portable is PK4)
+                        {
+                            var modern = NativePortable.Export(mon, preferModern: true); var modernBytes = new byte[modern.SIZE_STORED]; modern.WriteDecryptedDataStored(modernBytes);
+                            string modernPath = "Modern Regional Alternatives/" + stem + "." + modern.Extension; Put(zip, modernPath, modernBytes);
+                            writer.WriteString("modernAlternativePath", modernPath); writer.WriteString("modernAlternativeLocationName", NativeLocations.DisplayLocation(modern));
+                        }
                     }
                     catch (InvalidOperationException e) { writer.WriteString("portableError", e.Message); }
                     writer.WriteStartObject("fields"); foreach (var field in save.Profile.BitFields.Keys) writer.WriteNumber(field, mon.Read(field)); writer.WriteEndObject(); writer.WriteEndObject();
@@ -36,7 +45,7 @@ public static class NativeCollectionArchive
                 writer.WriteEndArray(); writer.WriteEndObject();
             }
             Put(zip, "Metadata.json", metadata.ToArray());
-            Put(zip, "READ ME.txt", Encoding.UTF8.GetBytes("Portable Pokemon contains standard PK6 or PK9 files. Native Expansion Records and Metadata.json preserve the editor's native records, original PID, location IDs/names and all packed fields. Custom Johto/Kanto locations have no direct PK6 met-location equivalent. Forced shininess may require a different portable PID without changing the original trainer. The save itself was not converted to HG/SS. Native records require the matching source profile and are not standard PK3 files.\n"));
+            Put(zip, "READ ME.txt", Encoding.UTF8.GetBytes("Portable Pokemon remaps exported origins to preserve meaningful locations: Johto/Kanto uses HG/SS and exact city/route names in PK4 when all data fits; newer Pokémon use PK6/PK9 with the Kanto or Johto region. Hoenn uses Omega Ruby origins with exact OR/AS locations in PK6/PK9, or the Hoenn region for unmatched areas. Modern Regional Alternatives provides a newer-format copy of each PK4 export. Metadata.json records original and exported origins, location names/IDs and any PID change needed to preserve nature, ability slot or shininess. These are ROM-hack conversions, not a claim of retail encounter legality. Native Expansion Records retain the matching game's original records; the native save's origins and locations are unchanged.\n"));
         }
         return stream.ToArray();
     }

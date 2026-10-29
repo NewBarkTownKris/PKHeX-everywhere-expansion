@@ -66,6 +66,14 @@ def build(profile_id,label,source,game):
  locations={str(values[x['id']]):x['name'] for x in section_list if x['id'] in values and 'name' in x}
  sizes=[values['sizeof.SaveBlock2']]+[min(3968,max(0,values['sizeof.SaveBlock1']-i*3968)) for i in range(4)]+[min(3968,max(0,values['sizeof.PokemonStorage']-i*3968)) for i in range(9)]
  profile={'id':profile_id,'name':label,'region':'johto-kanto' if game=='POKEMON_HNS' or profile_id.startswith('soulgold') else 'hoenn','source':repo.name,'gameDefine':game,'layout':{k:v for k,v in values.items() if not re.match(r'^(SPECIES|MOVE|ITEM|ABILITY|BALL|MAPSEC)_',k)},'checksumLengths':sizes,'locations':locations,'symbols':{prefix:{k:v for k,v in values.items() if k.startswith(prefix+'_')} for prefix in ['SPECIES','MOVE','ITEM','ABILITY','BALL']},'sourceHashes':{f:hashlib.sha256((repo/'include'/f).read_bytes()).hexdigest() for f in HEADERS},'status':'requires-gameplay-validation' if profile_id!='rocket-hoenn' else 'native-save-available'}
+ profile['locationRegions']={}
+ start=next((i for i,s in enumerate(section_list) if s['id']=='MAPSEC_PALLET_TOWN'),None)
+ if start is not None:
+  end=next((i for i,s in enumerate(section_list) if i>start and s['id'] in ['MAPSEC_SPECIAL_AREA','MAPSEC_NEW_BARK_TOWN']),len(section_list))
+  for section in section_list[start:end]:profile['locationRegions'][str(values[section['id']])]='kanto'
+ for section in section_list:
+  if section['id']=='MAPSEC_ROCKET_HIDEOUT_HNS':profile['locationRegions'][str(values[section['id']])]='johto'
+  if game=='POKEMON_HNS' and section['id'] in ['MAPSEC_VICTORY_ROAD','MAPSEC_SAFARI_ZONE']:profile['locationRegions'][str(values[section['id']])]='hoenn' if section['id']=='MAPSEC_VICTORY_ROAD' else 'johto'
  text=re.sub(r'/\*.*?\*/|//[^\n]*','',(repo/'include/pokemon.h').read_text(),flags=re.S)
  def members_of(body):return re.findall(r'(?:u(?:8|16|32)|enum \w+)\s+(\w+)\s*(?::\s*\d+)?\s*;',body)
  outer=re.search(r'struct BoxPokemon\s*\{(.*?)\n\};',text,re.S)[1].split('    union')[0].split('struct PokemonSecureData secure')[0]

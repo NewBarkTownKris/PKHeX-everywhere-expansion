@@ -1,6 +1,6 @@
 import { Suspense, useEffect, useRef, useState, type ChangeEvent, type CSSProperties } from 'react'
 import { EllipsisOutlined, ExportOutlined, FolderOpenOutlined } from '@ant-design/icons'
-import { App, Badge, Button, Descriptions, Dropdown, Flex, Space, type ButtonProps } from 'antd'
+import { App, Badge, Button, Descriptions, Dropdown, Flex, Space, Typography, type ButtonProps } from 'antd'
 import type { SaveSummary } from '@pkhex-everywhere/engine'
 import { useEngine, useLoadedGame, useQuery } from '@pkhex-everywhere/react'
 import { exportNativeCollection, hasNativeSave } from '../../nativeProfiles'
@@ -91,6 +91,11 @@ function LoadedGame({ game, onOpen }: { game: SaveSummary; onOpen: () => void })
         }}>
           Export Pokémon collection
         </Button>}
+        {native && <Typography.Paragraph type="secondary">
+          Pokémon exports use HG/SS origins for Johto/Kanto and OR/AS origins for Hoenn.
+          Exact locations are kept where the file format supports them; otherwise the region is shown.
+          The archive records the original details and includes modern alternatives for PK4 files.
+        </Typography.Paragraph>}
         {exported && <PkhemuCard generation={cardGeneration(game)} onClose={() => setExported(false)} />}
         <OpenButton label="Open new..." onOpen={onOpen} />
       </Flex>

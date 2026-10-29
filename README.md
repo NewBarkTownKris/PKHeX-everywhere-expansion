@@ -65,12 +65,22 @@ the static build. `.local/` contains ignored tool caches and private QA output.
 
 ## Origin locations
 
-Native place names are shown from the game profile. PK6 can store HG/SS as the
-origin, but its normal met-location namespace does not retain HG/SS city IDs.
-The collection archive preserves the exact native IDs/names and raw records.
-Portable files may need an unknown location or a shiny PID adjustment, recorded
-in the metadata. PK4 can name Cherrygrove for an explicit HG/SS-style conversion
-when its species/moves fit Gen 4; the default does not rewrite origin history.
+Portable Pokémon exports prioritize useful locations. Johto/Kanto records use
+HeartGold (Heart & Soul) or SoulSilver origins. PK4 keeps exact HG/SS city/route
+names when the Pokémon, form, moves, ability, ball and names fit Gen 4. Modern
+data uses PK6/PK9 with “the Johto region” or “the Kanto region” instead. A
+collection archive includes modern regional alternatives for its PK4 files.
+
+Hoenn records use Omega Ruby origins and matching OR/AS location names in PK6
+or PK9. Unmatched Hoenn areas can use “the Hoenn region”. Unknown custom areas
+remain unmapped unless the profile supplies a region; names are not guessed.
+Profiles can supply `locationRegions` overrides for ambiguous native places.
+
+These are deliberate origin conversions for ROM-hack records. The archive
+records both native and exported origins, locations and PID changes. Native
+saves are not rewritten by exporting Pokémon. Nature, ability slot and forced
+shininess can require a portable PID change; the original stays in metadata.
+These exports are not a claim that a hack encounter is legal in a retail game.
 
 ## Credits and license
 
