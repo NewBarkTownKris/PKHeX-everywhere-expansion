@@ -18,7 +18,6 @@ export function Footer() {
         <Link to={routes.termsOfUse}>Terms of Use</Link>
         <Link to={routes.credits}>Credits</Link>
         <Link to={routes.releaseNotes()}>Release Notes</Link>
-        <a href="/blog">Blog</a>
         <a href={sdkDocs} target="_blank">
           SDK
         </a>

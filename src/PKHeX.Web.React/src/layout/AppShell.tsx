@@ -190,7 +190,7 @@ export function AppShell({ autoLoad }: { autoLoad: boolean }) {
       <App component={false}>
         <NotifyingEngineProvider>
           <PlugInsProvider value={plugIns}>
-            <BrowserRouter>
+            <BrowserRouter basename={import.meta.env.BASE_URL}>
               <GameJourney />
               <PlugInOutcomes />
               <PlugInUpdateNotice />

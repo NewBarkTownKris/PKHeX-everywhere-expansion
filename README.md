@@ -12,7 +12,7 @@ Rocket Hoenn has completed-save and actual-game verification. Heart & Soul 2.0.6
 and Soulgold 1.2.1 have source-derived adapters and synthetic tests; real-save
 validation is still required. This is a prototype, not a universal hack detector.
 
-Hosted preview: https://newbarktownkris.github.io
+Hosted preview: https://newbarktownkris.github.io/PKHeX-everywhere-expansion/
 
 ## Try the built site
 
@@ -34,7 +34,8 @@ Install .NET 10, Node 22+, npm and Python 3.12+, then run:
 
 The static site is in `src/PKHeX.Web.React/dist/`. It requires no backend. Serve
 `.wasm` files as `application/wasm` and use an index.html fallback for app routes.
-The first hosting target is an account Pages site or a custom domain at `/`.
+Set `PKHEX_BASE_PATH=/PKHeX-everywhere-expansion/` when building for this
+project’s GitHub Pages site. Local builds default to `/`.
 
 ## Generate a profile
 

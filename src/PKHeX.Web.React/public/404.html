@@ -5,10 +5,10 @@
     <title>Redirecting...</title>
     <script>
         sessionStorage.redirect = location.href;
-        location.replace('/');
+        location.replace('%BASE_URL%');
     </script>
 </head>
 <body>
-    If you are not redirected automatically, follow this <a href="./index.html">link to the homepage</a>.
+    If you are not redirected automatically, follow this <a href="%BASE_URL%">link to the homepage</a>.
 </body>
 </html>

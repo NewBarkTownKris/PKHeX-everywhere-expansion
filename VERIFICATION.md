@@ -18,4 +18,5 @@
 
 Real-save and in-game stock expansion/HnS/Soulgold validation remains outstanding.
 Other expansion releases and save-changing configurations require their own profiles.
-Subdirectory hosting, persistent custom-profile storage, and cross-profile imports are not complete.
+Persistent custom-profile storage and cross-profile imports are not complete.
+GitHub Pages uses the project base path; nested-route redirect and asset loading are checked separately.

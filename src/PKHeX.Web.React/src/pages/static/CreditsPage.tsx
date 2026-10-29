@@ -5,6 +5,12 @@ export default function CreditsPage() {
     <Typography>
       <h1>Credits</h1>
 
+      <h2>PKHeX Everywhere</h2>
+      <p>
+        This expansion editor is based on <a href="https://github.com/arleypadua/PKHeX.Everywhere">PKHeX Everywhere</a>
+        {' '}by Arley Padua and contributors. Expansion profiles are derived from the matching
+        pokeemerald-expansion, Heart &amp; Soul and Soulgold source versions.
+      </p>
       <h2>PKHeX.Core</h2>
       <p>
         This app is built on the foundation of{' '}

@@ -38,7 +38,7 @@ describe('page errors', () => {
 
     const url = new URL(issueLink(error, emerald)!)
 
-    expect(url.origin + url.pathname).toBe('https://github.com/NewBarkTownKris/newbarktownkris.github.io/issues/new')
+    expect(url.origin + url.pathname).toBe('https://github.com/NewBarkTownKris/PKHeX-everywhere-expansion/issues/new')
     expect(url.searchParams.get('title')).toBe('Error on PKHeX Expansion Web: Cannot read properties of undefined')
     expect(url.searchParams.get('labels')).toBe('bug')
     expect(url.searchParams.get('body')).toBe(

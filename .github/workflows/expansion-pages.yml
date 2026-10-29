@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: '22'
       - run: tools/build-web.sh
+        env:
+          PKHEX_BASE_PATH: /PKHeX-everywhere-expansion/
       - run: tools/dotnet.sh build src/PKHeX.Everywhere.ProfileChecks -c Release -m:1 -p:DisableTransitiveFrameworkReferenceDownloads=true
       - run: tools/dotnet.sh run --no-build --project src/PKHeX.Everywhere.ProfileChecks -c Release -- --synthetic-only
       - run: npm --prefix src/PKHeX.Web.React test
