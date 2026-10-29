@@ -14,7 +14,7 @@ export default function SupportedFormatsPage() {
       <li><strong>Pokémon Radical Red:</strong> inherited experimental save editor; format selection may be needed.</li>
       <li><strong>Emerald Imperium:</strong> inherited experimental save editor; its distinct 2.0 layout is refused.</li>
       <li><strong>Pokémon Emerald Legacy:</strong> inherited experimental save editor; format selection may be needed.</li>
-      <li><strong>Pokémon Heart &amp; Soul 2.0.6:</strong> source-profile save editor; synthetic checks, real-save validation pending.</li>
+      <li><strong>Pokémon Heart &amp; Soul 2.0.6:</strong> source-profile save editor for standard and built-in randomizer saves; settings are preserved. Randomized abilities are calculated in-game and may differ from the ordinary abilities shown or exported. Editing the player trainer ID can change the randomizer seed.</li>
       <li><strong>Pokémon SoulGold 1.2.1:</strong> source-profile save editor with 21-box BX21 storage; real-save validation pending.</li>
       <li><strong>pokeemerald-expansion 1.17.1:</strong> source-profile save editor for the untouched release defaults; synthetic checks.</li>
       <li><strong>Rocket Hoenn:</strong> source-profile save editor, checked against a completed save and game data.</li>

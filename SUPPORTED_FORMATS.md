@@ -1,6 +1,6 @@
 # Supported games and file formats
 
-This is the compatibility inventory for the **next local build**. ROM-hack support is experimental and depends on the exact game version, configuration and source layout. A valid filename does not make incompatible data compatible. Keep a backup of your original file and review conversions.
+This is the compatibility inventory for this project. ROM-hack support is experimental and depends on the exact game version, configuration and source layout. A valid filename does not make incompatible data compatible. Keep a backup of your original file and review conversions.
 
 ## Original games and inherited ROM-hack adapters
 
@@ -14,7 +14,7 @@ The upstream [PKHeX Everywhere](https://github.com/arleypadua/PKHeX.Everywhere) 
 | Pokémon Radical Red | Experimental save editor | Inherited adapter; select the format when detection is uncertain. |
 | Emerald Imperium | Experimental save editor | Inherited adapter; the distinct 2.0 layout is detected but deliberately refused. |
 | Pokémon Emerald Legacy | Experimental save editor | Inherited adapter; select the format when detection is uncertain. |
-| Pokémon Heart & Soul 2.0.6 | Experimental source-profile save editor | Source-derived layout; a randomizer-labeled save passed structural and no-op checks, and an edited copy loaded in the standard 2.0.6 build. The actual randomizer ROM/settings are unavailable, so randomized game-data mappings remain unverified. Other versions require a matching profile. |
+| Pokémon Heart & Soul 2.0.6 | Experimental source-profile save editor | Source-derived normal and built-in randomizer save layout. A supplied save passed no-op and isolated in-game edit checks. Randomizer settings are preserved; portable exports use ordinary abilities rather than runtime-randomized abilities. The player trainer ID controls the randomizer seed. Other versions require a matching profile. |
 | Pokémon SoulGold 1.2.1 | Experimental source-profile save editor | Compact BX21 records and 21 boxes. A supplied save passed no-op and nickname-edit checks, and the edited copy was verified in-game; storage past box 14 has synthetic coverage. Other revisions require their own support. |
 | pokeemerald-expansion 1.17.1 | Experimental source-profile save editor | Untouched release defaults; synthetic checks only. Configuration and other versions may change the layout. |
 | Rocket Hoenn | Source-profile save editor | Matching project build; checked against a completed save and native game data. |

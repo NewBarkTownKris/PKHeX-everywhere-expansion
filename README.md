@@ -41,8 +41,10 @@ universal compatibility with every expansion-based build. Native species balance
 for stock/HnS/Soulgold currently falls back to PKHeX data and is marked approximate.
 
 Rocket Hoenn has completed-save and actual-game verification. Heart & Soul 2.0.6
-and Soulgold 1.2.1 have source-derived adapters and synthetic tests; real-save
-validation is still required. This is a prototype, not a universal hack detector.
+and SoulGold 1.2.1 have source-derived adapters and supplied-save edit checks.
+Heart & Soul’s built-in randomizer shares its save format; randomized abilities
+are calculated in-game and are not currently reflected in portable exports.
+This is a prototype, not a universal hack detector.
 
 Hosted preview: https://newbarktownkris.github.io/PKHeX-everywhere-expansion/
 

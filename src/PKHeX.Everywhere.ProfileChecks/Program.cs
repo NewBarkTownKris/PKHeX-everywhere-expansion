@@ -149,12 +149,20 @@ static void Require(bool pass,string what){if(!pass)throw new Exception("FAIL: "
 
 static void RunSyntheticChecks(){
 foreach(var p in SourceProfile.All){
- var fixture=SyntheticSave.Create(p);var loaded=new NativeSave(p,fixture);
+ var fixture=SyntheticSave.Create(p);
+ // Heart & Soul stores challenge and randomizer settings in the 116-byte
+ // SaveBlock3 portion of each sector, outside the ordinary sector checksum.
+ if(p.Id=="heart-and-soul-2.0.6")
+  for(int sector=0;sector<28;sector++) for(int i=0;i<116;i++) fixture[sector*4096+3968+i]=(byte)(sector*37+i*13);
+ var loaded=new NativeSave(p,fixture);
  Require(loaded.BoxCount==p.At("TOTAL_BOXES_COUNT"),"profile box count");Require(loaded.GetPartySlotAtIndex(0).Species==82,"profile party decoded");
  Require(loaded.GetBoxSlotAtIndex(loaded.BoxCount*30-1).Species==82,"last box/last slot decoded");
  Require(fixture.AsSpan().SequenceEqual(loaded.Write().Span),"synthetic profile no-op "+p.Id);
  var mon=(NativePokemon)loaded.GetBoxSlotAtIndex(loaded.BoxCount*30-1);mon.Nickname="LAST-BOX";mon.IV_HP=17;loaded.SetBoxSlotAtIndex(mon,loaded.BoxCount*30-1);
- var updated=new NativeSave(p,loaded.Write().ToArray());var last=updated.GetBoxSlotAtIndex(loaded.BoxCount*30-1);
+ var editedBytes=loaded.Write().ToArray();
+ if(p.Id=="heart-and-soul-2.0.6")
+  for(int sector=0;sector<28;sector++) Require(fixture.AsSpan(sector*4096+3968,116).SequenceEqual(editedBytes.AsSpan(sector*4096+3968,116)),"HnS randomizer settings preserved in sector "+sector);
+ var updated=new NativeSave(p,editedBytes);var last=updated.GetBoxSlotAtIndex(loaded.BoxCount*30-1);
  Require(last.Nickname=="LAST-BOX"&&last.IV_HP==17,"last box edit/reload "+p.Id);
  Require(updated.GetPartySlotAtIndex(0).Nickname=="CHECK","party retained during box edit");
  Console.WriteLine("PASS synthetic no-op and last-box edit: "+p.Id+" ("+loaded.BoxCount+" boxes)");
